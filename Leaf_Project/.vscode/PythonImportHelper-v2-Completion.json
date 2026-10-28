@@ -1,0 +1,1372 @@
+[
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "numpy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "numpy",
+        "description": "numpy",
+        "detail": "numpy",
+        "documentation": {}
+    },
+    {
+        "label": "cv2",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "cv2",
+        "description": "cv2",
+        "detail": "cv2",
+        "documentation": {}
+    },
+    {
+        "label": "joblib",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "joblib",
+        "description": "joblib",
+        "detail": "joblib",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "Image",
+        "importPath": "PIL",
+        "description": "PIL",
+        "isExtraImport": true,
+        "detail": "PIL",
+        "documentation": {}
+    },
+    {
+        "label": "Image",
+        "importPath": "PIL",
+        "description": "PIL",
+        "isExtraImport": true,
+        "detail": "PIL",
+        "documentation": {}
+    },
+    {
+        "label": "Image",
+        "importPath": "PIL",
+        "description": "PIL",
+        "isExtraImport": true,
+        "detail": "PIL",
+        "documentation": {}
+    },
+    {
+        "label": "ImageEnhance",
+        "importPath": "PIL",
+        "description": "PIL",
+        "isExtraImport": true,
+        "detail": "PIL",
+        "documentation": {}
+    },
+    {
+        "label": "ImageFilter",
+        "importPath": "PIL",
+        "description": "PIL",
+        "isExtraImport": true,
+        "detail": "PIL",
+        "documentation": {}
+    },
+    {
+        "label": "Image",
+        "importPath": "PIL",
+        "description": "PIL",
+        "isExtraImport": true,
+        "detail": "PIL",
+        "documentation": {}
+    },
+    {
+        "label": "Image",
+        "importPath": "PIL",
+        "description": "PIL",
+        "isExtraImport": true,
+        "detail": "PIL",
+        "documentation": {}
+    },
+    {
+        "label": "tensorflow",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "tensorflow",
+        "description": "tensorflow",
+        "detail": "tensorflow",
+        "documentation": {}
+    },
+    {
+        "label": "keras",
+        "importPath": "tensorflow",
+        "description": "tensorflow",
+        "isExtraImport": true,
+        "detail": "tensorflow",
+        "documentation": {}
+    },
+    {
+        "label": "keras",
+        "importPath": "tensorflow",
+        "description": "tensorflow",
+        "isExtraImport": true,
+        "detail": "tensorflow",
+        "documentation": {}
+    },
+    {
+        "label": "keras",
+        "importPath": "tensorflow",
+        "description": "tensorflow",
+        "isExtraImport": true,
+        "detail": "tensorflow",
+        "documentation": {}
+    },
+    {
+        "label": "extract_features_traditional_ml",
+        "importPath": "training.utils",
+        "description": "training.utils",
+        "isExtraImport": true,
+        "detail": "training.utils",
+        "documentation": {}
+    },
+    {
+        "label": "CLASS_NAMES",
+        "importPath": "training.utils",
+        "description": "training.utils",
+        "isExtraImport": true,
+        "detail": "training.utils",
+        "documentation": {}
+    },
+    {
+        "label": "streamlit",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "streamlit",
+        "description": "streamlit",
+        "detail": "streamlit",
+        "documentation": {}
+    },
+    {
+        "label": "plotly.graph_objects",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "plotly.graph_objects",
+        "description": "plotly.graph_objects",
+        "detail": "plotly.graph_objects",
+        "documentation": {}
+    },
+    {
+        "label": "plotly.express",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "plotly.express",
+        "description": "plotly.express",
+        "detail": "plotly.express",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "ModelInference",
+        "importPath": "inference",
+        "description": "inference",
+        "isExtraImport": true,
+        "detail": "inference",
+        "documentation": {}
+    },
+    {
+        "label": "load_image_from_bytes",
+        "importPath": "inference",
+        "description": "inference",
+        "isExtraImport": true,
+        "detail": "inference",
+        "documentation": {}
+    },
+    {
+        "label": "ModelInference",
+        "importPath": "inference",
+        "description": "inference",
+        "isExtraImport": true,
+        "detail": "inference",
+        "documentation": {}
+    },
+    {
+        "label": "ModelInference",
+        "importPath": "inference",
+        "description": "inference",
+        "isExtraImport": true,
+        "detail": "inference",
+        "documentation": {}
+    },
+    {
+        "label": "load_dataset",
+        "importPath": "utils",
+        "description": "utils",
+        "isExtraImport": true,
+        "detail": "utils",
+        "documentation": {}
+    },
+    {
+        "label": "split_data",
+        "importPath": "utils",
+        "description": "utils",
+        "isExtraImport": true,
+        "detail": "utils",
+        "documentation": {}
+    },
+    {
+        "label": "extract_features_traditional_ml",
+        "importPath": "utils",
+        "description": "utils",
+        "isExtraImport": true,
+        "detail": "utils",
+        "documentation": {}
+    },
+    {
+        "label": "preprocess_for_cnn",
+        "importPath": "utils",
+        "description": "utils",
+        "isExtraImport": true,
+        "detail": "utils",
+        "documentation": {}
+    },
+    {
+        "label": "augment_image",
+        "importPath": "utils",
+        "description": "utils",
+        "isExtraImport": true,
+        "detail": "utils",
+        "documentation": {}
+    },
+    {
+        "label": "encode_labels",
+        "importPath": "utils",
+        "description": "utils",
+        "isExtraImport": true,
+        "detail": "utils",
+        "documentation": {}
+    },
+    {
+        "label": "CLASS_NAMES",
+        "importPath": "utils",
+        "description": "utils",
+        "isExtraImport": true,
+        "detail": "utils",
+        "documentation": {}
+    },
+    {
+        "label": "load_dataset",
+        "importPath": "utils",
+        "description": "utils",
+        "isExtraImport": true,
+        "detail": "utils",
+        "documentation": {}
+    },
+    {
+        "label": "split_data",
+        "importPath": "utils",
+        "description": "utils",
+        "isExtraImport": true,
+        "detail": "utils",
+        "documentation": {}
+    },
+    {
+        "label": "preprocess_for_cnn",
+        "importPath": "utils",
+        "description": "utils",
+        "isExtraImport": true,
+        "detail": "utils",
+        "documentation": {}
+    },
+    {
+        "label": "encode_labels",
+        "importPath": "utils",
+        "description": "utils",
+        "isExtraImport": true,
+        "detail": "utils",
+        "documentation": {}
+    },
+    {
+        "label": "CLASS_NAMES",
+        "importPath": "utils",
+        "description": "utils",
+        "isExtraImport": true,
+        "detail": "utils",
+        "documentation": {}
+    },
+    {
+        "label": "RANDOM_SEED",
+        "importPath": "utils",
+        "description": "utils",
+        "isExtraImport": true,
+        "detail": "utils",
+        "documentation": {}
+    },
+    {
+        "label": "load_dataset",
+        "importPath": "utils",
+        "description": "utils",
+        "isExtraImport": true,
+        "detail": "utils",
+        "documentation": {}
+    },
+    {
+        "label": "split_data",
+        "importPath": "utils",
+        "description": "utils",
+        "isExtraImport": true,
+        "detail": "utils",
+        "documentation": {}
+    },
+    {
+        "label": "preprocess_for_cnn",
+        "importPath": "utils",
+        "description": "utils",
+        "isExtraImport": true,
+        "detail": "utils",
+        "documentation": {}
+    },
+    {
+        "label": "encode_labels",
+        "importPath": "utils",
+        "description": "utils",
+        "isExtraImport": true,
+        "detail": "utils",
+        "documentation": {}
+    },
+    {
+        "label": "CLASS_NAMES",
+        "importPath": "utils",
+        "description": "utils",
+        "isExtraImport": true,
+        "detail": "utils",
+        "documentation": {}
+    },
+    {
+        "label": "RANDOM_SEED",
+        "importPath": "utils",
+        "description": "utils",
+        "isExtraImport": true,
+        "detail": "utils",
+        "documentation": {}
+    },
+    {
+        "label": "load_dataset",
+        "importPath": "utils",
+        "description": "utils",
+        "isExtraImport": true,
+        "detail": "utils",
+        "documentation": {}
+    },
+    {
+        "label": "split_data",
+        "importPath": "utils",
+        "description": "utils",
+        "isExtraImport": true,
+        "detail": "utils",
+        "documentation": {}
+    },
+    {
+        "label": "extract_features_batch",
+        "importPath": "utils",
+        "description": "utils",
+        "isExtraImport": true,
+        "detail": "utils",
+        "documentation": {}
+    },
+    {
+        "label": "encode_labels",
+        "importPath": "utils",
+        "description": "utils",
+        "isExtraImport": true,
+        "detail": "utils",
+        "documentation": {}
+    },
+    {
+        "label": "CLASS_NAMES",
+        "importPath": "utils",
+        "description": "utils",
+        "isExtraImport": true,
+        "detail": "utils",
+        "documentation": {}
+    },
+    {
+        "label": "RANDOM_SEED",
+        "importPath": "utils",
+        "description": "utils",
+        "isExtraImport": true,
+        "detail": "utils",
+        "documentation": {}
+    },
+    {
+        "label": "time",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "time",
+        "description": "time",
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "layers",
+        "importPath": "tensorflow.keras",
+        "description": "tensorflow.keras",
+        "isExtraImport": true,
+        "detail": "tensorflow.keras",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "tensorflow.keras",
+        "description": "tensorflow.keras",
+        "isExtraImport": true,
+        "detail": "tensorflow.keras",
+        "documentation": {}
+    },
+    {
+        "label": "layers",
+        "importPath": "tensorflow.keras",
+        "description": "tensorflow.keras",
+        "isExtraImport": true,
+        "detail": "tensorflow.keras",
+        "documentation": {}
+    },
+    {
+        "label": "ImageDataGenerator",
+        "importPath": "tensorflow.keras.preprocessing.image",
+        "description": "tensorflow.keras.preprocessing.image",
+        "isExtraImport": true,
+        "detail": "tensorflow.keras.preprocessing.image",
+        "documentation": {}
+    },
+    {
+        "label": "ImageDataGenerator",
+        "importPath": "tensorflow.keras.preprocessing.image",
+        "description": "tensorflow.keras.preprocessing.image",
+        "isExtraImport": true,
+        "detail": "tensorflow.keras.preprocessing.image",
+        "documentation": {}
+    },
+    {
+        "label": "EarlyStopping",
+        "importPath": "tensorflow.keras.callbacks",
+        "description": "tensorflow.keras.callbacks",
+        "isExtraImport": true,
+        "detail": "tensorflow.keras.callbacks",
+        "documentation": {}
+    },
+    {
+        "label": "ReduceLROnPlateau",
+        "importPath": "tensorflow.keras.callbacks",
+        "description": "tensorflow.keras.callbacks",
+        "isExtraImport": true,
+        "detail": "tensorflow.keras.callbacks",
+        "documentation": {}
+    },
+    {
+        "label": "ModelCheckpoint",
+        "importPath": "tensorflow.keras.callbacks",
+        "description": "tensorflow.keras.callbacks",
+        "isExtraImport": true,
+        "detail": "tensorflow.keras.callbacks",
+        "documentation": {}
+    },
+    {
+        "label": "EarlyStopping",
+        "importPath": "tensorflow.keras.callbacks",
+        "description": "tensorflow.keras.callbacks",
+        "isExtraImport": true,
+        "detail": "tensorflow.keras.callbacks",
+        "documentation": {}
+    },
+    {
+        "label": "ReduceLROnPlateau",
+        "importPath": "tensorflow.keras.callbacks",
+        "description": "tensorflow.keras.callbacks",
+        "isExtraImport": true,
+        "detail": "tensorflow.keras.callbacks",
+        "documentation": {}
+    },
+    {
+        "label": "ModelCheckpoint",
+        "importPath": "tensorflow.keras.callbacks",
+        "description": "tensorflow.keras.callbacks",
+        "isExtraImport": true,
+        "detail": "tensorflow.keras.callbacks",
+        "documentation": {}
+    },
+    {
+        "label": "to_categorical",
+        "importPath": "tensorflow.keras.utils",
+        "description": "tensorflow.keras.utils",
+        "isExtraImport": true,
+        "detail": "tensorflow.keras.utils",
+        "documentation": {}
+    },
+    {
+        "label": "to_categorical",
+        "importPath": "tensorflow.keras.utils",
+        "description": "tensorflow.keras.utils",
+        "isExtraImport": true,
+        "detail": "tensorflow.keras.utils",
+        "documentation": {}
+    },
+    {
+        "label": "accuracy_score",
+        "importPath": "sklearn.metrics",
+        "description": "sklearn.metrics",
+        "isExtraImport": true,
+        "detail": "sklearn.metrics",
+        "documentation": {}
+    },
+    {
+        "label": "precision_recall_fscore_support",
+        "importPath": "sklearn.metrics",
+        "description": "sklearn.metrics",
+        "isExtraImport": true,
+        "detail": "sklearn.metrics",
+        "documentation": {}
+    },
+    {
+        "label": "confusion_matrix",
+        "importPath": "sklearn.metrics",
+        "description": "sklearn.metrics",
+        "isExtraImport": true,
+        "detail": "sklearn.metrics",
+        "documentation": {}
+    },
+    {
+        "label": "classification_report",
+        "importPath": "sklearn.metrics",
+        "description": "sklearn.metrics",
+        "isExtraImport": true,
+        "detail": "sklearn.metrics",
+        "documentation": {}
+    },
+    {
+        "label": "accuracy_score",
+        "importPath": "sklearn.metrics",
+        "description": "sklearn.metrics",
+        "isExtraImport": true,
+        "detail": "sklearn.metrics",
+        "documentation": {}
+    },
+    {
+        "label": "precision_recall_fscore_support",
+        "importPath": "sklearn.metrics",
+        "description": "sklearn.metrics",
+        "isExtraImport": true,
+        "detail": "sklearn.metrics",
+        "documentation": {}
+    },
+    {
+        "label": "confusion_matrix",
+        "importPath": "sklearn.metrics",
+        "description": "sklearn.metrics",
+        "isExtraImport": true,
+        "detail": "sklearn.metrics",
+        "documentation": {}
+    },
+    {
+        "label": "classification_report",
+        "importPath": "sklearn.metrics",
+        "description": "sklearn.metrics",
+        "isExtraImport": true,
+        "detail": "sklearn.metrics",
+        "documentation": {}
+    },
+    {
+        "label": "accuracy_score",
+        "importPath": "sklearn.metrics",
+        "description": "sklearn.metrics",
+        "isExtraImport": true,
+        "detail": "sklearn.metrics",
+        "documentation": {}
+    },
+    {
+        "label": "precision_recall_fscore_support",
+        "importPath": "sklearn.metrics",
+        "description": "sklearn.metrics",
+        "isExtraImport": true,
+        "detail": "sklearn.metrics",
+        "documentation": {}
+    },
+    {
+        "label": "confusion_matrix",
+        "importPath": "sklearn.metrics",
+        "description": "sklearn.metrics",
+        "isExtraImport": true,
+        "detail": "sklearn.metrics",
+        "documentation": {}
+    },
+    {
+        "label": "classification_report",
+        "importPath": "sklearn.metrics",
+        "description": "sklearn.metrics",
+        "isExtraImport": true,
+        "detail": "sklearn.metrics",
+        "documentation": {}
+    },
+    {
+        "label": "matplotlib.pyplot",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "matplotlib.pyplot",
+        "description": "matplotlib.pyplot",
+        "detail": "matplotlib.pyplot",
+        "documentation": {}
+    },
+    {
+        "label": "seaborn",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "seaborn",
+        "description": "seaborn",
+        "detail": "seaborn",
+        "documentation": {}
+    },
+    {
+        "label": "MobileNetV2",
+        "importPath": "tensorflow.keras.applications",
+        "description": "tensorflow.keras.applications",
+        "isExtraImport": true,
+        "detail": "tensorflow.keras.applications",
+        "documentation": {}
+    },
+    {
+        "label": "RandomForestClassifier",
+        "importPath": "sklearn.ensemble",
+        "description": "sklearn.ensemble",
+        "isExtraImport": true,
+        "detail": "sklearn.ensemble",
+        "documentation": {}
+    },
+    {
+        "label": "SVC",
+        "importPath": "sklearn.svm",
+        "description": "sklearn.svm",
+        "isExtraImport": true,
+        "detail": "sklearn.svm",
+        "documentation": {}
+    },
+    {
+        "label": "StandardScaler",
+        "importPath": "sklearn.preprocessing",
+        "description": "sklearn.preprocessing",
+        "isExtraImport": true,
+        "detail": "sklearn.preprocessing",
+        "documentation": {}
+    },
+    {
+        "label": "train_test_split",
+        "importPath": "sklearn.model_selection",
+        "description": "sklearn.model_selection",
+        "isExtraImport": true,
+        "detail": "sklearn.model_selection",
+        "documentation": {}
+    },
+    {
+        "label": "graycomatrix",
+        "importPath": "skimage.feature",
+        "description": "skimage.feature",
+        "isExtraImport": true,
+        "detail": "skimage.feature",
+        "documentation": {}
+    },
+    {
+        "label": "graycoprops",
+        "importPath": "skimage.feature",
+        "description": "skimage.feature",
+        "isExtraImport": true,
+        "detail": "skimage.feature",
+        "documentation": {}
+    },
+    {
+        "label": "skew",
+        "importPath": "scipy.stats",
+        "description": "scipy.stats",
+        "isExtraImport": true,
+        "detail": "scipy.stats",
+        "documentation": {}
+    },
+    {
+        "label": "kurtosis",
+        "importPath": "scipy.stats",
+        "description": "scipy.stats",
+        "isExtraImport": true,
+        "detail": "scipy.stats",
+        "documentation": {}
+    },
+    {
+        "label": "random",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "random",
+        "description": "random",
+        "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "argparse",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "argparse",
+        "description": "argparse",
+        "detail": "argparse",
+        "documentation": {}
+    },
+    {
+        "label": "tqdm",
+        "importPath": "tqdm",
+        "description": "tqdm",
+        "isExtraImport": true,
+        "detail": "tqdm",
+        "documentation": {}
+    },
+    {
+        "label": "albumentations",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "albumentations",
+        "description": "albumentations",
+        "detail": "albumentations",
+        "documentation": {}
+    },
+    {
+        "label": "subprocess",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "subprocess",
+        "description": "subprocess",
+        "detail": "subprocess",
+        "documentation": {}
+    },
+    {
+        "label": "ModelInference",
+        "kind": 6,
+        "importPath": "Plant_disease_Project.Dataset.app.inference",
+        "description": "Plant_disease_Project.Dataset.app.inference",
+        "peekOfCode": "class ModelInference:\n    \"\"\"Class for loading models and making predictions.\"\"\"\n    def __init__(self, model_dir='models'):\n        \"\"\"\n        Initialize inference class.\n        Args:\n            model_dir: Base directory containing model folders\n        \"\"\"\n        # Make model_dir absolute to avoid path issues\n        if not os.path.isabs(model_dir):",
+        "detail": "Plant_disease_Project.Dataset.app.inference",
+        "documentation": {}
+    },
+    {
+        "label": "load_image_from_path",
+        "kind": 2,
+        "importPath": "Plant_disease_Project.Dataset.app.inference",
+        "description": "Plant_disease_Project.Dataset.app.inference",
+        "peekOfCode": "def load_image_from_path(image_path):\n    \"\"\"\n    Load image from file path.\n    Args:\n        image_path: Path to image file\n    Returns:\n        PIL Image\n    \"\"\"\n    try:\n        image = Image.open(image_path)",
+        "detail": "Plant_disease_Project.Dataset.app.inference",
+        "documentation": {}
+    },
+    {
+        "label": "load_image_from_bytes",
+        "kind": 2,
+        "importPath": "Plant_disease_Project.Dataset.app.inference",
+        "description": "Plant_disease_Project.Dataset.app.inference",
+        "peekOfCode": "def load_image_from_bytes(image_bytes):\n    \"\"\"\n    Load image from bytes.\n    Args:\n        image_bytes: Image data as bytes\n    Returns:\n        PIL Image\n    \"\"\"\n    try:\n        from io import BytesIO",
+        "detail": "Plant_disease_Project.Dataset.app.inference",
+        "documentation": {}
+    },
+    {
+        "label": "initialize_inference",
+        "kind": 2,
+        "importPath": "Plant_disease_Project.Dataset.app.streamlit_app",
+        "description": "Plant_disease_Project.Dataset.app.streamlit_app",
+        "peekOfCode": "def initialize_inference():\n    \"\"\"Initialize inference module.\"\"\"\n    if st.session_state.inference is None:\n        with st.spinner(\"Loading models...\"):\n            try:\n                st.session_state.inference = ModelInference(model_dir='models')\n                return True\n            except Exception as e:\n                st.error(f\"Error initializing models: {e}\")\n                return False",
+        "detail": "Plant_disease_Project.Dataset.app.streamlit_app",
+        "documentation": {}
+    },
+    {
+        "label": "get_disease_info",
+        "kind": 2,
+        "importPath": "Plant_disease_Project.Dataset.app.streamlit_app",
+        "description": "Plant_disease_Project.Dataset.app.streamlit_app",
+        "peekOfCode": "def get_disease_info(disease_name):\n    \"\"\"Get information about the disease.\"\"\"\n    disease_info = {\n        'FROG_EYE_LEAF_SPOT': {\n            'description': 'Frog Eye Leaf Spot is a fungal disease causing circular spots with dark borders and light centers.',\n            'symptoms': 'Circular lesions with tan centers and dark brown margins',\n            'severity': 'Moderate to High',\n            'color': '#ff6b6b',\n            'precautions': [\n                'Use disease-free seeds and transplants',",
+        "detail": "Plant_disease_Project.Dataset.app.streamlit_app",
+        "documentation": {}
+    },
+    {
+        "label": "plot_probability_chart",
+        "kind": 2,
+        "importPath": "Plant_disease_Project.Dataset.app.streamlit_app",
+        "description": "Plant_disease_Project.Dataset.app.streamlit_app",
+        "peekOfCode": "def plot_probability_chart(probabilities):\n    \"\"\"Create a bar chart for class probabilities.\"\"\"\n    classes = list(probabilities.keys())\n    probs = list(probabilities.values())\n    # Create color map\n    colors = ['#51cf66' if cls == 'HEALTHY_LEAF' else '#ff6b6b' for cls in classes]\n    fig = go.Figure(data=[\n        go.Bar(\n            x=classes,\n            y=probs,",
+        "detail": "Plant_disease_Project.Dataset.app.streamlit_app",
+        "documentation": {}
+    },
+    {
+        "label": "main_page",
+        "kind": 2,
+        "importPath": "Plant_disease_Project.Dataset.app.streamlit_app",
+        "description": "Plant_disease_Project.Dataset.app.streamlit_app",
+        "peekOfCode": "def main_page(model_type):\n    \"\"\"Main page with image upload and prediction.\"\"\"\n    # Map model selection to inference type\n    model_map = {\n        'MobileNetV2 (Recommended)': 'mobilenet',\n        'Traditional ML Ensemble': 'ensemble',\n        'CNN': 'cnn'\n    }\n    # Store selected model in session state\n    st.session_state.selected_model = model_type",
+        "detail": "Plant_disease_Project.Dataset.app.streamlit_app",
+        "documentation": {}
+    },
+    {
+        "label": "get_evaluation_path",
+        "kind": 2,
+        "importPath": "Plant_disease_Project.Dataset.app.streamlit_app",
+        "description": "Plant_disease_Project.Dataset.app.streamlit_app",
+        "peekOfCode": "def get_evaluation_path(relative_path):\n    \"\"\"Get the correct path to evaluation files.\"\"\"\n    current_dir = os.path.dirname(os.path.abspath(__file__))\n    if os.path.basename(current_dir) == 'app':\n        parent_dir = os.path.dirname(current_dir)\n        return os.path.join(parent_dir, relative_path)\n    else:\n        return relative_path\ndef metrics_page():\n    \"\"\"Page showing model performance metrics.\"\"\"",
+        "detail": "Plant_disease_Project.Dataset.app.streamlit_app",
+        "documentation": {}
+    },
+    {
+        "label": "metrics_page",
+        "kind": 2,
+        "importPath": "Plant_disease_Project.Dataset.app.streamlit_app",
+        "description": "Plant_disease_Project.Dataset.app.streamlit_app",
+        "peekOfCode": "def metrics_page():\n    \"\"\"Page showing model performance metrics.\"\"\"\n    st.title(\"📈 Model Performance Metrics\")\n    st.markdown(\"\"\"\n    <div style='text-align: center; padding: 15px; background-color: white; border-radius: 10px; margin-bottom: 20px;'>\n        <p style='font-size: 16px; color: #555;'>\n            View detailed performance metrics and confusion matrices for all trained models.\n        </p>\n    </div>\n    \"\"\", unsafe_allow_html=True)",
+        "detail": "Plant_disease_Project.Dataset.app.streamlit_app",
+        "documentation": {}
+    },
+    {
+        "label": "about_page",
+        "kind": 2,
+        "importPath": "Plant_disease_Project.Dataset.app.streamlit_app",
+        "description": "Plant_disease_Project.Dataset.app.streamlit_app",
+        "peekOfCode": "def about_page():\n    \"\"\"About page with project information.\"\"\"\n    st.title(\"ℹ️ About This Project\")\n    st.markdown(\"\"\"\n    ## Tobacco Leaf Disease Detection System\n    This application uses machine learning to detect diseases in tobacco leaves from images.\n    ### 🎯 Features\n    - **Multiple Models**: Compare Traditional ML ensemble with deep learning models (CNN, MobileNetV2)\n    - **High Accuracy**: Trained on thousands of tobacco leaf images\n    - **Easy to Use**: Simple drag-and-drop interface",
+        "detail": "Plant_disease_Project.Dataset.app.streamlit_app",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "Plant_disease_Project.Dataset.app.streamlit_app",
+        "description": "Plant_disease_Project.Dataset.app.streamlit_app",
+        "peekOfCode": "def main():\n    \"\"\"Main application.\"\"\"\n    # Sidebar navigation\n    st.sidebar.title(\"🌿 Navigation\")\n    page = st.sidebar.radio(\n        \"Go to\",\n        [\"🏠 Home\", \"📈 Metrics\"],\n        label_visibility=\"collapsed\"\n    )\n    # Model selection in sidebar (only show on Home page)",
+        "detail": "Plant_disease_Project.Dataset.app.streamlit_app",
+        "documentation": {}
+    },
+    {
+        "label": "test_data_loading",
+        "kind": 2,
+        "importPath": "Plant_disease_Project.Dataset.training.test_utils",
+        "description": "Plant_disease_Project.Dataset.training.test_utils",
+        "peekOfCode": "def test_data_loading():\n    \"\"\"Test data loading functionality.\"\"\"\n    print(\"\\n\" + \"=\"*60)\n    print(\"TEST 1: Data Loading\")\n    print(\"=\"*60)\n    data_dir = \"../data\"\n    try:\n        images, labels, label_to_idx = load_dataset(data_dir, max_images_per_class=10)\n        assert len(images) > 0, \"No images loaded\"\n        assert len(images) == len(labels), \"Mismatch between images and labels\"",
+        "detail": "Plant_disease_Project.Dataset.training.test_utils",
+        "documentation": {}
+    },
+    {
+        "label": "test_data_splitting",
+        "kind": 2,
+        "importPath": "Plant_disease_Project.Dataset.training.test_utils",
+        "description": "Plant_disease_Project.Dataset.training.test_utils",
+        "peekOfCode": "def test_data_splitting():\n    \"\"\"Test data splitting functionality.\"\"\"\n    print(\"\\n\" + \"=\"*60)\n    print(\"TEST 2: Data Splitting\")\n    print(\"=\"*60)\n    try:\n        # Create dummy data\n        images = np.random.rand(100, 224, 224, 3)\n        labels = np.array([CLASS_NAMES[i % 4] for i in range(100)])\n        X_train, X_val, X_test, y_train, y_val, y_test = split_data(",
+        "detail": "Plant_disease_Project.Dataset.training.test_utils",
+        "documentation": {}
+    },
+    {
+        "label": "test_feature_extraction",
+        "kind": 2,
+        "importPath": "Plant_disease_Project.Dataset.training.test_utils",
+        "description": "Plant_disease_Project.Dataset.training.test_utils",
+        "peekOfCode": "def test_feature_extraction():\n    \"\"\"Test feature extraction for traditional ML.\"\"\"\n    print(\"\\n\" + \"=\"*60)\n    print(\"TEST 3: Feature Extraction\")\n    print(\"=\"*60)\n    try:\n        # Create dummy image\n        image = np.random.randint(0, 255, (224, 224, 3), dtype=np.uint8)\n        features = extract_features_traditional_ml(image)\n        assert len(features) > 0, \"No features extracted\"",
+        "detail": "Plant_disease_Project.Dataset.training.test_utils",
+        "documentation": {}
+    },
+    {
+        "label": "test_cnn_preprocessing",
+        "kind": 2,
+        "importPath": "Plant_disease_Project.Dataset.training.test_utils",
+        "description": "Plant_disease_Project.Dataset.training.test_utils",
+        "peekOfCode": "def test_cnn_preprocessing():\n    \"\"\"Test CNN preprocessing.\"\"\"\n    print(\"\\n\" + \"=\"*60)\n    print(\"TEST 4: CNN Preprocessing\")\n    print(\"=\"*60)\n    try:\n        # Create dummy images\n        images = np.random.randint(0, 255, (10, 224, 224, 3), dtype=np.uint8)\n        processed = preprocess_for_cnn(images, normalize=True)\n        assert processed.shape == images.shape, \"Shape mismatch\"",
+        "detail": "Plant_disease_Project.Dataset.training.test_utils",
+        "documentation": {}
+    },
+    {
+        "label": "test_augmentation",
+        "kind": 2,
+        "importPath": "Plant_disease_Project.Dataset.training.test_utils",
+        "description": "Plant_disease_Project.Dataset.training.test_utils",
+        "peekOfCode": "def test_augmentation():\n    \"\"\"Test image augmentation.\"\"\"\n    print(\"\\n\" + \"=\"*60)\n    print(\"TEST 5: Image Augmentation\")\n    print(\"=\"*60)\n    try:\n        # Create dummy image\n        image = np.random.randint(0, 255, (224, 224, 3), dtype=np.uint8)\n        augmented = augment_image(image)\n        assert augmented.shape == image.shape, \"Shape changed\"",
+        "detail": "Plant_disease_Project.Dataset.training.test_utils",
+        "documentation": {}
+    },
+    {
+        "label": "test_label_encoding",
+        "kind": 2,
+        "importPath": "Plant_disease_Project.Dataset.training.test_utils",
+        "description": "Plant_disease_Project.Dataset.training.test_utils",
+        "peekOfCode": "def test_label_encoding():\n    \"\"\"Test label encoding.\"\"\"\n    print(\"\\n\" + \"=\"*60)\n    print(\"TEST 6: Label Encoding\")\n    print(\"=\"*60)\n    try:\n        labels = np.array(['HEALTHY_LEAF', 'POWDERY_MILDEW', 'HEALTHY_LEAF'])\n        label_to_idx = {name: idx for idx, name in enumerate(CLASS_NAMES)}\n        encoded = encode_labels(labels, label_to_idx)\n        assert len(encoded) == len(labels), \"Length mismatch\"",
+        "detail": "Plant_disease_Project.Dataset.training.test_utils",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "Plant_disease_Project.Dataset.training.test_utils",
+        "description": "Plant_disease_Project.Dataset.training.test_utils",
+        "peekOfCode": "def main():\n    \"\"\"Run all tests.\"\"\"\n    print(\"\\n\" + \"=\"*60)\n    print(\"RUNNING UTILITY TESTS\")\n    print(\"=\"*60)\n    tests = [\n        test_data_loading,\n        test_data_splitting,\n        test_feature_extraction,\n        test_cnn_preprocessing,",
+        "detail": "Plant_disease_Project.Dataset.training.test_utils",
+        "documentation": {}
+    },
+    {
+        "label": "build_cnn_model",
+        "kind": 2,
+        "importPath": "Plant_disease_Project.Dataset.training.train_cnn",
+        "description": "Plant_disease_Project.Dataset.training.train_cnn",
+        "peekOfCode": "def build_cnn_model(input_shape=(224, 224, 3), num_classes=4):\n    \"\"\"\n    Build improved CNN model architecture with data augmentation.\n    Args:\n        input_shape: Shape of input images\n        num_classes: Number of output classes\n    Returns:\n        Compiled Keras model\n    \"\"\"\n    # Data augmentation layers",
+        "detail": "Plant_disease_Project.Dataset.training.train_cnn",
+        "documentation": {}
+    },
+    {
+        "label": "plot_training_history",
+        "kind": 2,
+        "importPath": "Plant_disease_Project.Dataset.training.train_cnn",
+        "description": "Plant_disease_Project.Dataset.training.train_cnn",
+        "peekOfCode": "def plot_training_history(history, save_dir):\n    \"\"\"\n    Plot and save training history (accuracy and loss curves).\n    Args:\n        history: Keras training history object\n        save_dir: Directory to save plots\n    \"\"\"\n    # Plot accuracy\n    plt.figure(figsize=(12, 5))\n    plt.subplot(1, 2, 1)",
+        "detail": "Plant_disease_Project.Dataset.training.train_cnn",
+        "documentation": {}
+    },
+    {
+        "label": "plot_confusion_matrix",
+        "kind": 2,
+        "importPath": "Plant_disease_Project.Dataset.training.train_cnn",
+        "description": "Plant_disease_Project.Dataset.training.train_cnn",
+        "peekOfCode": "def plot_confusion_matrix(cm, class_names, save_path):\n    \"\"\"\n    Plot and save confusion matrix.\n    Args:\n        cm: Confusion matrix array\n        class_names: List of class names\n        save_path: Path to save the plot\n    \"\"\"\n    plt.figure(figsize=(10, 8))\n    sns.heatmap(cm, annot=True, fmt='d', cmap='Blues',",
+        "detail": "Plant_disease_Project.Dataset.training.train_cnn",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "Plant_disease_Project.Dataset.training.train_cnn",
+        "description": "Plant_disease_Project.Dataset.training.train_cnn",
+        "peekOfCode": "def main():\n    \"\"\"Main training pipeline for CNN model.\"\"\"\n    print(\"=\"*60)\n    print(\"CNN TRAINING PIPELINE\")\n    print(\"=\"*60)\n    # Configuration\n    DATA_DIR = \"data\"\n    MODEL_DIR = \"models/cnn\"\n    EVAL_DIR = \"evaluation\"\n    CM_DIR = os.path.join(EVAL_DIR, \"confusion_matrices\")",
+        "detail": "Plant_disease_Project.Dataset.training.train_cnn",
+        "documentation": {}
+    },
+    {
+        "label": "build_mobilenet_model",
+        "kind": 2,
+        "importPath": "Plant_disease_Project.Dataset.training.train_mobilenet",
+        "description": "Plant_disease_Project.Dataset.training.train_mobilenet",
+        "peekOfCode": "def build_mobilenet_model(input_shape=(224, 224, 3), num_classes=4):\n    \"\"\"\n    Build MobileNetV2 model with transfer learning.\n    Args:\n        input_shape: Shape of input images\n        num_classes: Number of output classes\n    Returns:\n        Compiled Keras model\n    \"\"\"\n    # Load pre-trained MobileNetV2 (without top layers)",
+        "detail": "Plant_disease_Project.Dataset.training.train_mobilenet",
+        "documentation": {}
+    },
+    {
+        "label": "plot_training_history",
+        "kind": 2,
+        "importPath": "Plant_disease_Project.Dataset.training.train_mobilenet",
+        "description": "Plant_disease_Project.Dataset.training.train_mobilenet",
+        "peekOfCode": "def plot_training_history(history, save_dir):\n    \"\"\"\n    Plot and save training history.\n    \"\"\"\n    plt.figure(figsize=(12, 5))\n    plt.subplot(1, 2, 1)\n    plt.plot(history.history['accuracy'], label='Training Accuracy', linewidth=2)\n    plt.plot(history.history['val_accuracy'], label='Validation Accuracy', linewidth=2)\n    plt.title('Model Accuracy', fontsize=14, fontweight='bold')\n    plt.xlabel('Epoch', fontsize=12)",
+        "detail": "Plant_disease_Project.Dataset.training.train_mobilenet",
+        "documentation": {}
+    },
+    {
+        "label": "plot_confusion_matrix",
+        "kind": 2,
+        "importPath": "Plant_disease_Project.Dataset.training.train_mobilenet",
+        "description": "Plant_disease_Project.Dataset.training.train_mobilenet",
+        "peekOfCode": "def plot_confusion_matrix(cm, class_names, save_path):\n    \"\"\"\n    Plot and save confusion matrix.\n    \"\"\"\n    plt.figure(figsize=(10, 8))\n    sns.heatmap(cm, annot=True, fmt='d', cmap='Blues',\n                xticklabels=class_names, yticklabels=class_names,\n                cbar_kws={'label': 'Count'})\n    plt.title('Confusion Matrix - MobileNetV2', fontsize=16, fontweight='bold')\n    plt.ylabel('True Label', fontsize=12)",
+        "detail": "Plant_disease_Project.Dataset.training.train_mobilenet",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "Plant_disease_Project.Dataset.training.train_mobilenet",
+        "description": "Plant_disease_Project.Dataset.training.train_mobilenet",
+        "peekOfCode": "def main():\n    \"\"\"Main training pipeline for MobileNetV2.\"\"\"\n    print(\"=\"*60)\n    print(\"MOBILENETV2 TRAINING PIPELINE\")\n    print(\"=\"*60)\n    # Configuration\n    DATA_DIR = \"data\"\n    MODEL_DIR = \"models/mobilenet\"\n    EVAL_DIR = \"evaluation\"\n    CM_DIR = os.path.join(EVAL_DIR, \"confusion_matrices\")",
+        "detail": "Plant_disease_Project.Dataset.training.train_mobilenet",
+        "documentation": {}
+    },
+    {
+        "label": "train_and_evaluate_model",
+        "kind": 2,
+        "importPath": "Plant_disease_Project.Dataset.training.train_traditional_ml",
+        "description": "Plant_disease_Project.Dataset.training.train_traditional_ml",
+        "peekOfCode": "def train_and_evaluate_model(model, model_name, X_train, y_train, X_test, y_test):\n    \"\"\"\n    Train and evaluate a model.\n    Args:\n        model: Sklearn model instance\n        model_name: Name of the model\n        X_train, y_train: Training data\n        X_test, y_test: Test data\n    Returns:\n        Trained model and metrics dictionary",
+        "detail": "Plant_disease_Project.Dataset.training.train_traditional_ml",
+        "documentation": {}
+    },
+    {
+        "label": "plot_confusion_matrix",
+        "kind": 2,
+        "importPath": "Plant_disease_Project.Dataset.training.train_traditional_ml",
+        "description": "Plant_disease_Project.Dataset.training.train_traditional_ml",
+        "peekOfCode": "def plot_confusion_matrix(cm, class_names, model_name, save_path):\n    \"\"\"\n    Plot and save confusion matrix.\n    Args:\n        cm: Confusion matrix array\n        class_names: List of class names\n        model_name: Name of the model\n        save_path: Path to save the plot\n    \"\"\"\n    plt.figure(figsize=(10, 8))",
+        "detail": "Plant_disease_Project.Dataset.training.train_traditional_ml",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "Plant_disease_Project.Dataset.training.train_traditional_ml",
+        "description": "Plant_disease_Project.Dataset.training.train_traditional_ml",
+        "peekOfCode": "def main():\n    \"\"\"Main training pipeline for traditional ML models.\"\"\"\n    print(\"=\"*60)\n    print(\"TRADITIONAL ML TRAINING PIPELINE\")\n    print(\"=\"*60)\n    # Configuration\n    DATA_DIR = \"data\"\n    MODEL_DIR = \"models/traditional_ml\"\n    EVAL_DIR = \"evaluation\"\n    CM_DIR = os.path.join(EVAL_DIR, \"confusion_matrices\")",
+        "detail": "Plant_disease_Project.Dataset.training.train_traditional_ml",
+        "documentation": {}
+    },
+    {
+        "label": "load_dataset",
+        "kind": 2,
+        "importPath": "Plant_disease_Project.Dataset.training.utils",
+        "description": "Plant_disease_Project.Dataset.training.utils",
+        "peekOfCode": "def load_dataset(data_dir, img_size=(224, 224), max_images_per_class=None):\n    \"\"\"\n    Load images from directory structure organized by class folders.\n    Args:\n        data_dir: Path to data directory containing class folders\n        img_size: Target size for images (height, width)\n        max_images_per_class: Optional limit on images per class\n    Returns:\n        images: List of image arrays\n        labels: List of string labels",
+        "detail": "Plant_disease_Project.Dataset.training.utils",
+        "documentation": {}
+    },
+    {
+        "label": "split_data",
+        "kind": 2,
+        "importPath": "Plant_disease_Project.Dataset.training.utils",
+        "description": "Plant_disease_Project.Dataset.training.utils",
+        "peekOfCode": "def split_data(images, labels, train_size=0.7, val_size=0.15, test_size=0.15, random_state=RANDOM_SEED):\n    \"\"\"\n    Split data into train, validation, and test sets with stratification.\n    Args:\n        images: Array of images\n        labels: Array of labels\n        train_size: Proportion for training set\n        val_size: Proportion for validation set\n        test_size: Proportion for test set\n        random_state: Random seed for reproducibility",
+        "detail": "Plant_disease_Project.Dataset.training.utils",
+        "documentation": {}
+    },
+    {
+        "label": "preprocess_for_cnn",
+        "kind": 2,
+        "importPath": "Plant_disease_Project.Dataset.training.utils",
+        "description": "Plant_disease_Project.Dataset.training.utils",
+        "peekOfCode": "def preprocess_for_cnn(images, normalize=True):\n    \"\"\"\n    Preprocess images for CNN model.\n    Args:\n        images: Array of images\n        normalize: Whether to normalize pixel values to [0, 1]\n    Returns:\n        Preprocessed images\n    \"\"\"\n    images = images.astype('float32')",
+        "detail": "Plant_disease_Project.Dataset.training.utils",
+        "documentation": {}
+    },
+    {
+        "label": "extract_color_histogram",
+        "kind": 2,
+        "importPath": "Plant_disease_Project.Dataset.training.utils",
+        "description": "Plant_disease_Project.Dataset.training.utils",
+        "peekOfCode": "def extract_color_histogram(image, bins=32):\n    \"\"\"\n    Extract color histogram features from RGB and HSV color spaces.\n    Args:\n        image: RGB image array\n        bins: Number of bins for histogram\n    Returns:\n        Concatenated histogram features\n    \"\"\"\n    # RGB histograms",
+        "detail": "Plant_disease_Project.Dataset.training.utils",
+        "documentation": {}
+    },
+    {
+        "label": "extract_texture_features",
+        "kind": 2,
+        "importPath": "Plant_disease_Project.Dataset.training.utils",
+        "description": "Plant_disease_Project.Dataset.training.utils",
+        "peekOfCode": "def extract_texture_features(image):\n    \"\"\"\n    Extract GLCM texture features.\n    Args:\n        image: RGB image array\n    Returns:\n        Texture feature vector\n    \"\"\"\n    # Convert to grayscale\n    gray = cv2.cvtColor(image, cv2.COLOR_RGB2GRAY)",
+        "detail": "Plant_disease_Project.Dataset.training.utils",
+        "documentation": {}
+    },
+    {
+        "label": "extract_shape_features",
+        "kind": 2,
+        "importPath": "Plant_disease_Project.Dataset.training.utils",
+        "description": "Plant_disease_Project.Dataset.training.utils",
+        "peekOfCode": "def extract_shape_features(image):\n    \"\"\"\n    Extract Hu moments for shape features.\n    Args:\n        image: RGB image array\n    Returns:\n        Hu moments feature vector\n    \"\"\"\n    # Convert to grayscale\n    gray = cv2.cvtColor(image, cv2.COLOR_RGB2GRAY)",
+        "detail": "Plant_disease_Project.Dataset.training.utils",
+        "documentation": {}
+    },
+    {
+        "label": "extract_statistical_features",
+        "kind": 2,
+        "importPath": "Plant_disease_Project.Dataset.training.utils",
+        "description": "Plant_disease_Project.Dataset.training.utils",
+        "peekOfCode": "def extract_statistical_features(image):\n    \"\"\"\n    Extract statistical features (mean, std, skewness, kurtosis) per channel.\n    Args:\n        image: RGB image array\n    Returns:\n        Statistical feature vector\n    \"\"\"\n    features = []\n    for channel in range(3):",
+        "detail": "Plant_disease_Project.Dataset.training.utils",
+        "documentation": {}
+    },
+    {
+        "label": "extract_features_traditional_ml",
+        "kind": 2,
+        "importPath": "Plant_disease_Project.Dataset.training.utils",
+        "description": "Plant_disease_Project.Dataset.training.utils",
+        "peekOfCode": "def extract_features_traditional_ml(image):\n    \"\"\"\n    Extract all handcrafted features for traditional ML models.\n    Args:\n        image: RGB image array\n    Returns:\n        Combined feature vector\n    \"\"\"\n    color_hist = extract_color_histogram(image)\n    texture = extract_texture_features(image)",
+        "detail": "Plant_disease_Project.Dataset.training.utils",
+        "documentation": {}
+    },
+    {
+        "label": "extract_features_batch",
+        "kind": 2,
+        "importPath": "Plant_disease_Project.Dataset.training.utils",
+        "description": "Plant_disease_Project.Dataset.training.utils",
+        "peekOfCode": "def extract_features_batch(images, verbose=True):\n    \"\"\"\n    Extract features from a batch of images.\n    Args:\n        images: Array of images\n        verbose: Whether to print progress\n    Returns:\n        Array of feature vectors\n    \"\"\"\n    features = []",
+        "detail": "Plant_disease_Project.Dataset.training.utils",
+        "documentation": {}
+    },
+    {
+        "label": "augment_image",
+        "kind": 2,
+        "importPath": "Plant_disease_Project.Dataset.training.utils",
+        "description": "Plant_disease_Project.Dataset.training.utils",
+        "peekOfCode": "def augment_image(image):\n    \"\"\"\n    Apply random augmentation to an image.\n    Args:\n        image: RGB image array\n    Returns:\n        Augmented image\n    \"\"\"\n    img = image.copy()\n    # Random rotation (-20 to 20 degrees)",
+        "detail": "Plant_disease_Project.Dataset.training.utils",
+        "documentation": {}
+    },
+    {
+        "label": "encode_labels",
+        "kind": 2,
+        "importPath": "Plant_disease_Project.Dataset.training.utils",
+        "description": "Plant_disease_Project.Dataset.training.utils",
+        "peekOfCode": "def encode_labels(labels, label_to_idx):\n    \"\"\"\n    Encode string labels to integers.\n    Args:\n        labels: Array of string labels\n        label_to_idx: Dictionary mapping labels to indices\n    Returns:\n        Array of integer labels\n    \"\"\"\n    return np.array([label_to_idx[label] for label in labels])",
+        "detail": "Plant_disease_Project.Dataset.training.utils",
+        "documentation": {}
+    },
+    {
+        "label": "decode_labels",
+        "kind": 2,
+        "importPath": "Plant_disease_Project.Dataset.training.utils",
+        "description": "Plant_disease_Project.Dataset.training.utils",
+        "peekOfCode": "def decode_labels(encoded_labels, label_to_idx):\n    \"\"\"\n    Decode integer labels to strings.\n    Args:\n        encoded_labels: Array of integer labels\n        label_to_idx: Dictionary mapping labels to indices\n    Returns:\n        Array of string labels\n    \"\"\"\n    idx_to_label = {idx: label for label, idx in label_to_idx.items()}",
+        "detail": "Plant_disease_Project.Dataset.training.utils",
+        "documentation": {}
+    },
+    {
+        "label": "RANDOM_SEED",
+        "kind": 5,
+        "importPath": "Plant_disease_Project.Dataset.training.utils",
+        "description": "Plant_disease_Project.Dataset.training.utils",
+        "peekOfCode": "RANDOM_SEED = 42\nnp.random.seed(RANDOM_SEED)\nrandom.seed(RANDOM_SEED)\n# Disease class names\nCLASS_NAMES = ['FROG_EYE_LEAF_SPOT', 'HEALTHY_LEAF', 'POWDERY_MILDEW', 'TOBACCO_MOSAIC_VIRUS']\ndef load_dataset(data_dir, img_size=(224, 224), max_images_per_class=None):\n    \"\"\"\n    Load images from directory structure organized by class folders.\n    Args:\n        data_dir: Path to data directory containing class folders",
+        "detail": "Plant_disease_Project.Dataset.training.utils",
+        "documentation": {}
+    },
+    {
+        "label": "CLASS_NAMES",
+        "kind": 5,
+        "importPath": "Plant_disease_Project.Dataset.training.utils",
+        "description": "Plant_disease_Project.Dataset.training.utils",
+        "peekOfCode": "CLASS_NAMES = ['FROG_EYE_LEAF_SPOT', 'HEALTHY_LEAF', 'POWDERY_MILDEW', 'TOBACCO_MOSAIC_VIRUS']\ndef load_dataset(data_dir, img_size=(224, 224), max_images_per_class=None):\n    \"\"\"\n    Load images from directory structure organized by class folders.\n    Args:\n        data_dir: Path to data directory containing class folders\n        img_size: Target size for images (height, width)\n        max_images_per_class: Optional limit on images per class\n    Returns:\n        images: List of image arrays",
+        "detail": "Plant_disease_Project.Dataset.training.utils",
+        "documentation": {}
+    },
+    {
+        "label": "PlantDiseaseAugmenter",
+        "kind": 6,
+        "importPath": "Plant_disease_Project.Dataset.data_augmentation",
+        "description": "Plant_disease_Project.Dataset.data_augmentation",
+        "peekOfCode": "class PlantDiseaseAugmenter:\n    \"\"\"Advanced data augmentation for plant disease images.\"\"\"\n    def __init__(self, output_dir=\"data_augmented\", target_size=(224, 224)):\n        \"\"\"\n        Initialize the augmenter.\n        Args:\n            output_dir: Directory to save augmented images\n            target_size: Target size for images (height, width)\n        \"\"\"\n        self.output_dir = output_dir",
+        "detail": "Plant_disease_Project.Dataset.data_augmentation",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "Plant_disease_Project.Dataset.data_augmentation",
+        "description": "Plant_disease_Project.Dataset.data_augmentation",
+        "peekOfCode": "def main():\n    \"\"\"Main function for command-line usage.\"\"\"\n    parser = argparse.ArgumentParser(description=\"Plant Disease Dataset Augmentation\")\n    parser.add_argument(\"--input_dir\", type=str, default=\"data\", \n                       help=\"Input directory containing class folders\")\n    parser.add_argument(\"--output_dir\", type=str, default=\"data_augmented\", \n                       help=\"Output directory for augmented dataset\")\n    parser.add_argument(\"--augmentations_per_image\", type=int, default=10, \n                       help=\"Number of augmentations per original image\")\n    parser.add_argument(\"--target_size\", type=int, nargs=2, default=[224, 224], ",
+        "detail": "Plant_disease_Project.Dataset.data_augmentation",
+        "documentation": {}
+    },
+    {
+        "label": "RANDOM_SEED",
+        "kind": 5,
+        "importPath": "Plant_disease_Project.Dataset.data_augmentation",
+        "description": "Plant_disease_Project.Dataset.data_augmentation",
+        "peekOfCode": "RANDOM_SEED = 42\nnp.random.seed(RANDOM_SEED)\nrandom.seed(RANDOM_SEED)\nclass PlantDiseaseAugmenter:\n    \"\"\"Advanced data augmentation for plant disease images.\"\"\"\n    def __init__(self, output_dir=\"data_augmented\", target_size=(224, 224)):\n        \"\"\"\n        Initialize the augmenter.\n        Args:\n            output_dir: Directory to save augmented images",
+        "detail": "Plant_disease_Project.Dataset.data_augmentation",
+        "documentation": {}
+    },
+    {
+        "label": "model_dirs",
+        "kind": 5,
+        "importPath": "Plant_disease_Project.Dataset.debug_app",
+        "description": "Plant_disease_Project.Dataset.debug_app",
+        "peekOfCode": "model_dirs = ['models/cnn', 'models/mobilenet', 'models/traditional_ml']\nfor model_dir in model_dirs:\n    if os.path.exists(model_dir):\n        files = os.listdir(model_dir)\n        st.success(f\"✅ {model_dir}: {len(files)} files found\")\n        st.write(f\"   Files: {', '.join(files[:3])}{'...' if len(files) > 3 else ''}\")\n    else:\n        st.error(f\"❌ {model_dir}: Not found\")\nst.write(\"---\")\n# Initialize inference",
+        "detail": "Plant_disease_Project.Dataset.debug_app",
+        "documentation": {}
+    },
+    {
+        "label": "uploaded_file",
+        "kind": 5,
+        "importPath": "Plant_disease_Project.Dataset.debug_app",
+        "description": "Plant_disease_Project.Dataset.debug_app",
+        "peekOfCode": "uploaded_file = st.file_uploader(\n    \"Upload a test image\",\n    type=['jpg', 'jpeg', 'png', 'webp']\n)\nif uploaded_file is not None:\n    try:\n        # Load image\n        image = Image.open(uploaded_file)\n        st.image(image, caption=\"Uploaded Image\", width=300)\n        # Test each model",
+        "detail": "Plant_disease_Project.Dataset.debug_app",
+        "documentation": {}
+    },
+    {
+        "label": "print_header",
+        "kind": 2,
+        "importPath": "Plant_disease_Project.Dataset.retrain_all_models",
+        "description": "Plant_disease_Project.Dataset.retrain_all_models",
+        "peekOfCode": "def print_header(text):\n    \"\"\"Print a formatted header.\"\"\"\n    print(\"\\n\" + \"=\"*70)\n    print(text.center(70))\n    print(\"=\"*70 + \"\\n\")\ndef run_training(script_name, model_name):\n    \"\"\"Run a training script and handle errors.\"\"\"\n    print_header(f\"Training {model_name}\")\n    print(f\"Running: python {script_name}\")\n    print(f\"Started at: {time.strftime('%Y-%m-%d %H:%M:%S')}\\n\")",
+        "detail": "Plant_disease_Project.Dataset.retrain_all_models",
+        "documentation": {}
+    },
+    {
+        "label": "run_training",
+        "kind": 2,
+        "importPath": "Plant_disease_Project.Dataset.retrain_all_models",
+        "description": "Plant_disease_Project.Dataset.retrain_all_models",
+        "peekOfCode": "def run_training(script_name, model_name):\n    \"\"\"Run a training script and handle errors.\"\"\"\n    print_header(f\"Training {model_name}\")\n    print(f\"Running: python {script_name}\")\n    print(f\"Started at: {time.strftime('%Y-%m-%d %H:%M:%S')}\\n\")\n    start_time = time.time()\n    try:\n        result = subprocess.run(\n            [sys.executable, script_name],\n            check=True,",
+        "detail": "Plant_disease_Project.Dataset.retrain_all_models",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "Plant_disease_Project.Dataset.retrain_all_models",
+        "description": "Plant_disease_Project.Dataset.retrain_all_models",
+        "peekOfCode": "def main():\n    \"\"\"Main function to retrain all models.\"\"\"\n    print_header(\"AUTOMATED MODEL RETRAINING\")\n    print(\"This script will retrain all three models:\")\n    print(\"  1. Traditional ML (Random Forest & SVM)\")\n    print(\"  2. CNN (Convolutional Neural Network)\")\n    print(\"  3. MobileNetV2 (Transfer Learning)\")\n    print(\"\\nThis may take 30-90 minutes depending on your hardware.\")\n    print(\"GPU acceleration will significantly speed up deep learning models.\\n\")\n    overall_start = time.time()",
+        "detail": "Plant_disease_Project.Dataset.retrain_all_models",
+        "documentation": {}
+    },
+    {
+        "label": "print_header",
+        "kind": 2,
+        "importPath": "Plant_disease_Project.Dataset.setup_and_train",
+        "description": "Plant_disease_Project.Dataset.setup_and_train",
+        "peekOfCode": "def print_header(text):\n    \"\"\"Print a formatted header.\"\"\"\n    print(\"\\n\" + \"=\"*60)\n    print(text.center(60))\n    print(\"=\"*60 + \"\\n\")\ndef check_dependencies():\n    \"\"\"Check if required packages are installed.\"\"\"\n    print_header(\"Checking Dependencies\")\n    required_packages = [\n        'tensorflow',",
+        "detail": "Plant_disease_Project.Dataset.setup_and_train",
+        "documentation": {}
+    },
+    {
+        "label": "check_dependencies",
+        "kind": 2,
+        "importPath": "Plant_disease_Project.Dataset.setup_and_train",
+        "description": "Plant_disease_Project.Dataset.setup_and_train",
+        "peekOfCode": "def check_dependencies():\n    \"\"\"Check if required packages are installed.\"\"\"\n    print_header(\"Checking Dependencies\")\n    required_packages = [\n        'tensorflow',\n        'sklearn',\n        'cv2',\n        'streamlit',\n        'numpy',\n        'pandas',",
+        "detail": "Plant_disease_Project.Dataset.setup_and_train",
+        "documentation": {}
+    },
+    {
+        "label": "check_dataset",
+        "kind": 2,
+        "importPath": "Plant_disease_Project.Dataset.setup_and_train",
+        "description": "Plant_disease_Project.Dataset.setup_and_train",
+        "peekOfCode": "def check_dataset():\n    \"\"\"Check if dataset is properly organized.\"\"\"\n    print_header(\"Checking Dataset\")\n    data_dir = \"data\"\n    required_folders = [\n        'FROG_EYE_LEAF_SPOT',\n        'HEALTHY_LEAF',\n        'POWDERY_MILDEW',\n        'TOBACCO_MOSAIC_VIRUS'\n    ]",
+        "detail": "Plant_disease_Project.Dataset.setup_and_train",
+        "documentation": {}
+    },
+    {
+        "label": "train_traditional_ml",
+        "kind": 2,
+        "importPath": "Plant_disease_Project.Dataset.setup_and_train",
+        "description": "Plant_disease_Project.Dataset.setup_and_train",
+        "peekOfCode": "def train_traditional_ml(auto_mode=False):\n    \"\"\"Train traditional ML models.\"\"\"\n    print_header(\"Training Traditional ML Models\")\n    print(\"This will train Random Forest and SVM models.\")\n    print(\"Estimated time: 5-10 minutes\\n\")\n    if auto_mode:\n        response = 'y'\n        print(\"Auto mode: Training traditional ML models automatically...\")\n    else:\n        response = input(\"Do you want to train traditional ML models? (y/n): \")",
+        "detail": "Plant_disease_Project.Dataset.setup_and_train",
+        "documentation": {}
+    },
+    {
+        "label": "train_cnn",
+        "kind": 2,
+        "importPath": "Plant_disease_Project.Dataset.setup_and_train",
+        "description": "Plant_disease_Project.Dataset.setup_and_train",
+        "peekOfCode": "def train_cnn(auto_mode=False):\n    \"\"\"Train CNN model.\"\"\"\n    print_header(\"Training CNN Model\")\n    print(\"This will train the deep learning CNN model.\")\n    print(\"Estimated time: 30-60 minutes (faster with GPU)\\n\")\n    if auto_mode:\n        response = 'y'\n        print(\"Auto mode: Training CNN model automatically...\")\n    else:\n        response = input(\"Do you want to train the CNN model? (y/n): \")",
+        "detail": "Plant_disease_Project.Dataset.setup_and_train",
+        "documentation": {}
+    },
+    {
+        "label": "train_mobilenet",
+        "kind": 2,
+        "importPath": "Plant_disease_Project.Dataset.setup_and_train",
+        "description": "Plant_disease_Project.Dataset.setup_and_train",
+        "peekOfCode": "def train_mobilenet(auto_mode=False):\n    \"\"\"Train MobileNetV2 model.\"\"\"\n    print_header(\"Training MobileNetV2 Model\")\n    print(\"This will train the MobileNetV2 model with transfer learning.\")\n    print(\"Estimated time: 20-40 minutes (faster with GPU)\\n\")\n    if auto_mode:\n        response = 'y'\n        print(\"Auto mode: Training MobileNetV2 model automatically...\")\n    else:\n        response = input(\"Do you want to train the MobileNetV2 model? (y/n): \")",
+        "detail": "Plant_disease_Project.Dataset.setup_and_train",
+        "documentation": {}
+    },
+    {
+        "label": "launch_app",
+        "kind": 2,
+        "importPath": "Plant_disease_Project.Dataset.setup_and_train",
+        "description": "Plant_disease_Project.Dataset.setup_and_train",
+        "peekOfCode": "def launch_app(auto_mode=False):\n    \"\"\"Launch the Streamlit app.\"\"\"\n    print_header(\"Launch Web Application\")\n    print(\"The web application will open in your browser.\")\n    print(\"You can upload images and make predictions.\\n\")\n    if auto_mode:\n        print(\"Auto mode: Skipping app launch. You can launch it later with:\")\n        print(\"  streamlit run app/streamlit_app.py\")\n        return\n    response = input(\"Do you want to launch the app now? (y/n): \")",
+        "detail": "Plant_disease_Project.Dataset.setup_and_train",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "Plant_disease_Project.Dataset.setup_and_train",
+        "description": "Plant_disease_Project.Dataset.setup_and_train",
+        "peekOfCode": "def main():\n    \"\"\"Main setup and training workflow.\"\"\"\n    # Parse command line arguments\n    parser = argparse.ArgumentParser(\n        description='Setup and train tobacco disease detection models',\n        formatter_class=argparse.RawDescriptionHelpFormatter,\n        epilog=\"\"\"\nExamples:\n  python setup_and_train.py          # Interactive mode with prompts\n  python setup_and_train.py --auto   # Automatic mode without prompts",
+        "detail": "Plant_disease_Project.Dataset.setup_and_train",
+        "documentation": {}
+    },
+    {
+        "label": "SimpleAugmenter",
+        "kind": 6,
+        "importPath": "Plant_disease_Project.Dataset.simple_augmentation",
+        "description": "Plant_disease_Project.Dataset.simple_augmentation",
+        "peekOfCode": "class SimpleAugmenter:\n    \"\"\"Simple data augmentation using OpenCV and NumPy.\"\"\"\n    def __init__(self, output_dir=\"data_augmented\", target_size=(224, 224)):\n        \"\"\"\n        Initialize the augmenter.\n        Args:\n            output_dir: Directory to save augmented images\n            target_size: Target size for images (height, width)\n        \"\"\"\n        self.output_dir = output_dir",
+        "detail": "Plant_disease_Project.Dataset.simple_augmentation",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "Plant_disease_Project.Dataset.simple_augmentation",
+        "description": "Plant_disease_Project.Dataset.simple_augmentation",
+        "peekOfCode": "def main():\n    \"\"\"Main function for command-line usage.\"\"\"\n    parser = argparse.ArgumentParser(description=\"Simple Plant Disease Dataset Augmentation\")\n    parser.add_argument(\"--input_dir\", type=str, default=\"data\", \n                       help=\"Input directory containing class folders\")\n    parser.add_argument(\"--output_dir\", type=str, default=\"data_augmented\", \n                       help=\"Output directory for augmented dataset\")\n    parser.add_argument(\"--augmentations_per_image\", type=int, default=10, \n                       help=\"Number of augmentations per original image\")\n    parser.add_argument(\"--target_size\", type=int, nargs=2, default=[224, 224], ",
+        "detail": "Plant_disease_Project.Dataset.simple_augmentation",
+        "documentation": {}
+    },
+    {
+        "label": "RANDOM_SEED",
+        "kind": 5,
+        "importPath": "Plant_disease_Project.Dataset.simple_augmentation",
+        "description": "Plant_disease_Project.Dataset.simple_augmentation",
+        "peekOfCode": "RANDOM_SEED = 42\nnp.random.seed(RANDOM_SEED)\nrandom.seed(RANDOM_SEED)\nclass SimpleAugmenter:\n    \"\"\"Simple data augmentation using OpenCV and NumPy.\"\"\"\n    def __init__(self, output_dir=\"data_augmented\", target_size=(224, 224)):\n        \"\"\"\n        Initialize the augmenter.\n        Args:\n            output_dir: Directory to save augmented images",
+        "detail": "Plant_disease_Project.Dataset.simple_augmentation",
+        "documentation": {}
+    },
+    {
+        "label": "test_metrics_files",
+        "kind": 2,
+        "importPath": "Plant_disease_Project.Dataset.test_metrics",
+        "description": "Plant_disease_Project.Dataset.test_metrics",
+        "peekOfCode": "def test_metrics_files():\n    \"\"\"Test if all metrics files are accessible.\"\"\"\n    print(\"🧪 Testing Metrics Files Access\")\n    print(\"=\" * 50)\n    # Define evaluation files to check\n    files_to_check = [\n        'evaluation/traditional_ml_metrics.json',\n        'evaluation/cnn_metrics.json', \n        'evaluation/mobilenet_metrics.json',\n        'evaluation/confusion_matrices/random_forest_cm.png',",
+        "detail": "Plant_disease_Project.Dataset.test_metrics",
+        "documentation": {}
+    },
+    {
+        "label": "test_models",
+        "kind": 2,
+        "importPath": "Plant_disease_Project.Dataset.test_models",
+        "description": "Plant_disease_Project.Dataset.test_models",
+        "peekOfCode": "def test_models():\n    \"\"\"Test all models with a sample image.\"\"\"\n    print(\"🧪 Testing Plant Disease Detection Models\")\n    print(\"=\" * 50)\n    # Initialize inference\n    try:\n        print(\"📁 Initializing ModelInference...\")\n        inference = ModelInference(model_dir='models')\n        print(\"✅ ModelInference initialized successfully!\")\n    except Exception as e:",
+        "detail": "Plant_disease_Project.Dataset.test_models",
+        "documentation": {}
+    },
+    {
+        "label": "verify_metrics",
+        "kind": 2,
+        "importPath": "Plant_disease_Project.Dataset.verify_metrics",
+        "description": "Plant_disease_Project.Dataset.verify_metrics",
+        "peekOfCode": "def verify_metrics():\n    \"\"\"Verify all metrics files exist and are readable.\"\"\"\n    print(\"🔍 Verifying Metrics Files\")\n    print(\"=\" * 50)\n    # Check from app directory perspective (where Streamlit runs)\n    os.chdir('app')\n    files_to_check = [\n        '../evaluation/traditional_ml_metrics.json',\n        '../evaluation/cnn_metrics.json', \n        '../evaluation/mobilenet_metrics.json',",
+        "detail": "Plant_disease_Project.Dataset.verify_metrics",
+        "documentation": {}
+    }
+]

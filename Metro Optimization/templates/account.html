@@ -1,0 +1,149 @@
+{% extends "base.html" %}
+
+{% block title %}Account Settings - Metro Optimization{% endblock %}
+{% block page_title %}Account Settings{% endblock %}
+{% block page_description %}Manage your profile and preferences{% endblock %}
+
+{% block content %}
+<div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
+    <!-- Account Settings Form -->
+    <div class="lg:col-span-2 bg-white rounded-xl shadow-lg">
+        <div class="bg-gradient-to-r from-blue-600 to-purple-600 text-white p-6">
+            <h3 class="text-2xl font-bold">Personal Information</h3>
+            <p class="text-blue-50">Update your profile details</p>
+        </div>
+
+        <form onsubmit="updateAccount(event)" class="p-6 space-y-6">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <div>
+                    <label class="block text-sm font-semibold text-gray-700 mb-2">First Name</label>
+                    <input type="text" placeholder="Enter first name" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-600 focus:border-transparent" value="{{ current_user.name.split()[0] if current_user.name else '' }}">
+                </div>
+                <div>
+                    <label class="block text-sm font-semibold text-gray-700 mb-2">Last Name</label>
+                    <input type="text" placeholder="Enter last name" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-600 focus:border-transparent" value="{{ current_user.name.split()[1] if current_user.name and len(current_user.name.split()) > 1 else '' }}">
+                </div>
+            </div>
+
+            <div>
+                <label class="block text-sm font-semibold text-gray-700 mb-2">Email Address</label>
+                <input type="email" disabled class="w-full px-4 py-2 border border-gray-300 rounded-lg bg-gray-100 text-gray-600" value="{{ current_user.email }}">
+                <p class="text-xs text-gray-500 mt-1">Email cannot be changed</p>
+            </div>
+
+            <div>
+                <label class="block text-sm font-semibold text-gray-700 mb-2">Phone Number</label>
+                <input type="tel" placeholder="Enter phone number" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-600 focus:border-transparent" value="{{ current_user.phone or '' }}">
+            </div>
+
+            <div class="border-t pt-6">
+                <h4 class="font-bold text-gray-800 mb-4">Change Password</h4>
+                <div class="space-y-4">
+                    <div>
+                        <label class="block text-sm font-semibold text-gray-700 mb-2">Current Password</label>
+                        <input type="password" placeholder="Enter current password" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-600 focus:border-transparent">
+                    </div>
+                    <div>
+                        <label class="block text-sm font-semibold text-gray-700 mb-2">New Password</label>
+                        <input type="password" placeholder="Enter new password" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-600 focus:border-transparent">
+                    </div>
+                    <div>
+                        <label class="block text-sm font-semibold text-gray-700 mb-2">Confirm Password</label>
+                        <input type="password" placeholder="Confirm new password" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-600 focus:border-transparent">
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex gap-3 pt-4">
+                <button type="submit" class="flex-1 px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white font-semibold rounded-lg transition">
+                    Save Changes
+                </button>
+                <button type="button" onclick="location.reload()" class="flex-1 px-6 py-3 bg-gray-300 hover:bg-gray-400 text-gray-800 font-semibold rounded-lg transition">
+                    Cancel
+                </button>
+            </div>
+        </form>
+    </div>
+
+    <!-- Info Panel -->
+    <div class="space-y-6">
+        <!-- Account Summary -->
+        <div class="bg-white rounded-xl shadow-lg p-6">
+            <h4 class="font-bold text-gray-800 mb-4">Account Summary</h4>
+            <div class="space-y-3">
+                <div class="p-3 bg-blue-50 rounded-lg">
+                    <p class="text-xs text-gray-600">Member Since</p>
+                    <p class="font-bold text-gray-800">Jan 2024</p>
+                </div>
+                <div class="p-3 bg-green-50 rounded-lg">
+                    <p class="text-xs text-gray-600">Active Cards</p>
+                    <p class="font-bold text-gray-800">2 Cards</p>
+                </div>
+                <div class="p-3 bg-purple-50 rounded-lg">
+                    <p class="text-xs text-gray-600">Total Journeys</p>
+                    <p class="font-bold text-gray-800">156</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Preferences -->
+        <div class="bg-white rounded-xl shadow-lg p-6">
+            <h4 class="font-bold text-gray-800 mb-4">⚙️ Preferences</h4>
+            <div class="space-y-3">
+                <label class="flex items-center cursor-pointer">
+                    <input type="checkbox" class="w-4 h-4" checked>
+                    <span class="ml-2 text-sm text-gray-700">Dark mode</span>
+                </label>
+                <label class="flex items-center cursor-pointer">
+                    <input type="checkbox" class="w-4 h-4" checked>
+                    <span class="ml-2 text-sm text-gray-700">Email notifications</span>
+                </label>
+                <label class="flex items-center cursor-pointer">
+                    <input type="checkbox" class="w-4 h-4">
+                    <span class="ml-2 text-sm text-gray-700">Marketing emails</span>
+                </label>
+            </div>
+        </div>
+
+        <!-- Security -->
+        <div class="bg-gradient-to-br from-red-50 to-pink-50 rounded-xl shadow-lg p-6 border border-red-200">
+            <h4 class="font-bold text-gray-800 mb-4">🔒 Security</h4>
+            <button class="w-full px-4 py-2 bg-red-600 hover:bg-red-700 text-white rounded-lg text-sm font-semibold transition mb-3">
+                Sign Out All Devices
+            </button>
+            <button class="w-full px-4 py-2 bg-red-100 hover:bg-red-200 text-red-700 rounded-lg text-sm font-semibold transition">
+                Delete Account
+            </button>
+        </div>
+    </div>
+</div>
+
+<script>
+async function updateAccount(event) {
+    event.preventDefault();
+    
+    const formData = new FormData(event.target);
+    const updates = {
+        name: document.querySelector('input[placeholder="Enter first name"]').value + ' ' + document.querySelector('input[placeholder="Enter last name"]').value,
+        phone: document.querySelector('input[placeholder="Enter phone number"]').value
+    };
+
+    try {
+        const response = await fetch('/api/account/update', {
+            method: 'POST',
+            headers: {'Content-Type': 'application/json'},
+            body: JSON.stringify(updates)
+        });
+        
+        const data = await response.json();
+        if (data.success) {
+            alert('Account updated successfully!');
+            location.reload();
+        }
+    } catch(error) {
+        alert('Error updating account');
+        console.error(error);
+    }
+}
+</script>
+{% endblock %}

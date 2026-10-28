@@ -1,0 +1,108 @@
+{% extends "base.html" %}
+
+{% block title %}Recommendations - Metro Optimization{% endblock %}
+{% block page_title %}Smart Route Recommendations{% endblock %}
+{% block page_description %}Personalized metro route suggestions{% endblock %}
+
+{% block content %}
+<div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
+    <div class="lg:col-span-2 space-y-6">
+        <div class="bg-white rounded-xl shadow-lg p-6">
+            <h3 class="text-2xl font-bold text-gray-800 mb-4">Your Frequent Routes</h3>
+            
+            {% if frequent_routes %}
+                <div class="space-y-3">
+                    {% for route in frequent_routes %}
+                        <div class="p-4 bg-gradient-to-r from-blue-50 to-purple-50 rounded-lg border border-blue-200 hover:shadow-md transition">
+                            <div class="flex justify-between items-start mb-2">
+                                <div>
+                                    <p class="font-bold text-gray-800">{{ route.from }} → {{ route.to }}</p>
+                                    <p class="text-sm text-gray-600">Used {{ route.frequency }} times</p>
+                                </div>
+                                <span class="px-3 py-1 bg-blue-600 text-white rounded-full text-sm font-bold">⭐ Frequent</span>
+                            </div>
+                            <p class="text-xs text-gray-500">Last used: {{ route.last_used }}</p>
+                        </div>
+                    {% endfor %}
+                </div>
+            {% else %}
+                <div class="text-center p-8 bg-gray-50 rounded-lg">
+                    <i class="fas fa-route text-4xl text-gray-300 mb-2"></i>
+                    <p class="text-gray-600">No journey history yet. Start using metro to get recommendations!</p>
+                    <a href="{{ url_for('routes_page') }}" class="inline-block mt-4 bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg transition">
+                        Find a Route
+                    </a>
+                </div>
+            {% endif %}
+        </div>
+
+        <div class="bg-white rounded-xl shadow-lg p-6">
+            <h3 class="text-xl font-bold text-gray-800 mb-4">Smart Suggestions</h3>
+            <div class="space-y-3">
+                <div class="p-4 bg-green-50 border-l-4 border-green-600 rounded-lg">
+                    <p class="font-semibold text-gray-800">💚 Best Time to Travel</p>
+                    <p class="text-sm text-gray-600">10 AM - 2 PM have the least crowds</p>
+                </div>
+                <div class="p-4 bg-orange-50 border-l-4 border-orange-600 rounded-lg">
+                    <p class="font-semibold text-gray-800">🎫 Savings Opportunity</p>
+                    <p class="text-sm text-gray-600">Switch to monthly pass to save 20%</p>
+                </div>
+                <div class="p-4 bg-purple-50 border-l-4 border-purple-600 rounded-lg">
+                    <p class="font-semibold text-gray-800">🚇 Alternative Route</p>
+                    <p class="text-sm text-gray-600">Try Purple Line for faster commute</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Sidebar -->
+    <div class="space-y-6">
+        <div class="bg-white rounded-xl shadow-lg overflow-hidden">
+            <div class="bg-gradient-to-r from-blue-600 to-purple-600 text-white p-4">
+                <h4 class="font-bold">Journey Statistics</h4>
+            </div>
+            <div id="statsContainer" class="p-4 space-y-4">
+                <div>
+                    <p class="text-sm text-gray-600">Total Journeys</p>
+                    <p id="totalJourneys" class="text-3xl font-bold  text-blue-600">0</p>
+                </div>
+                <div>
+                    <p class="text-sm text-gray-600">Total Distance</p>
+                    <p id="totalDistance" class="text-3xl font-bold text-green-600">0 km</p>
+                </div>
+                <div>
+                    <p class="text-sm text-gray-600">Total Spent</p>
+                    <p id="totalSpent" class="text-3xl font-bold text-purple-600">₹0</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="bg-gradient-to-br from-purple-50 to-pink-50 rounded-xl shadow-lg p-6 border border-purple-200">
+            <h4 class="font-bold text-gray-800 mb-3">🎯 Pro Tips</h4>
+            <ul class="space-y-2 text-sm text-gray-700">
+                <li>✓ Set travel alerts</li>
+                <li>✓ Use quick routes</li>
+                <li>✓ Plan ahead</li>
+                <li>✓ Stay updated</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<script>
+async function loadStats() {
+    try {
+        const response = await fetch('/api/stats/user');
+        const data = await response.json();
+        
+        document.getElementById('totalJourneys').textContent = data.total_journeys;
+        document.getElementById('totalDistance').textContent = data.total_distance_km + ' km';
+        document.getElementById('totalSpent').textContent = '₹' + data.total_fare_paid.toFixed(0);
+    } catch(error) {
+        console.error('Error loading stats:', error);
+    }
+}
+
+loadStats();
+</script>
+{% endblock %}

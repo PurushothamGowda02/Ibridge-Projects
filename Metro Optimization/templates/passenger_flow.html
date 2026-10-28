@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+{% block content %}
+<header class="top-header">
+    <div class="header-title">
+        <h1>Passenger Flow Analysis</h1>
+        <p>Detailed breakdown of station entries and exits.</p>
+    </div>
+</header>
+<section class="charts-section">
+    <div class="card chart-card" style="grid-column: 1 / -1; height: 500px;">
+        <div class="card-header">
+            <h2>System-Wide Demand Forecast</h2>
+            <span class="badge ai-badge">AI Powered</span>
+        </div>
+        <div class="chart-container" style="height: 400px;">
+            <canvas id="demandChart"></canvas>
+        </div>
+    </div>
+</section>
+{% endblock %}

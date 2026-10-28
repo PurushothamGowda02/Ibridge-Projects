@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RFM Analysis Dashboard</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.js"></script>
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <h1>RFM Analysis Dashboard</h1>
+            <p>Customer Segmentation by Recency, Frequency, and Monetary Value</p>
+        </header>
+
+        <!-- Error Banner -->
+        <div id="error-banner" class="error-banner">
+            <span id="error-message"></span>
+        </div>
+
+        <!-- Tab Navigation -->
+        <div class="tabs">
+            <button class="tab-button active" data-tab="training">Training Data</button>
+            <button class="tab-button" data-tab="unseen">Unseen Data Upload</button>
+        </div>
+
+        <!-- Training Data Tab -->
+        <div id="training-tab" class="tab-content active">
+            <!-- Summary Cards -->
+            <section class="summary-cards">
+                <div class="card">
+                    <h3>Total Customers</h3>
+                    <p id="total-customers" class="card-value">—</p>
+                </div>
+                <div class="card">
+                    <h3>Top Segment</h3>
+                    <p id="top-segment" class="card-value">—</p>
+                </div>
+                <div class="card">
+                    <h3>Average Spend</h3>
+                    <p id="avg-monetary" class="card-value">—</p>
+                </div>
+            </section>
+
+            <!-- Charts Section -->
+            <section class="charts-section">
+                <!-- Bar Chart: Segment Distribution -->
+                <div class="chart-container">
+                    <h2>Segment Distribution</h2>
+                    <canvas id="bar-chart"></canvas>
+                </div>
+
+                <!-- Scatter Plot: Recency vs Monetary -->
+                <div class="chart-container">
+                    <h2>Recency vs Monetary Value</h2>
+                    <canvas id="scatter-plot"></canvas>
+                </div>
+            </section>
+
+            <!-- Data Table Section -->
+            <section class="table-section">
+                <h2>Customer RFM Data</h2>
+                <div class="table-wrapper">
+                    <table id="rfm-table">
+                        <thead>
+                            <tr>
+                                <th>Customer ID</th>
+                                <th>Recency (days)</th>
+                                <th>Frequency</th>
+                                <th>Monetary (£)</th>
+                                <th>RFM Score</th>
+                                <th>Segment</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <!-- Populated by dataTable.js -->
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+        </div>
+
+        <!-- Unseen Data Tab -->
+        <div id="unseen-tab" class="tab-content">
+            <section class="upload-section">
+                <h2>Upload Unseen Dataset</h2>
+                <p>Upload a CSV file with the same format as the training data to analyze new customers.</p>
+                
+                <div class="upload-container">
+                    <input type="file" id="file-input" accept=".csv" />
+                    <button id="upload-button" class="btn-primary">Analyze Dataset</button>
+                </div>
+
+                <div id="upload-status" class="upload-status"></div>
+
+                <!-- Unseen Data Results -->
+                <div id="unseen-results" class="unseen-results" style="display: none;">
+                    <!-- Summary Cards for Unseen Data -->
+                    <section class="summary-cards">
+                        <div class="card">
+                            <h3>Total Customers</h3>
+                            <p id="unseen-total-customers" class="card-value">—</p>
+                        </div>
+                        <div class="card">
+                            <h3>Top Segment</h3>
+                            <p id="unseen-top-segment" class="card-value">—</p>
+                        </div>
+                        <div class="card">
+                            <h3>Average Spend</h3>
+                            <p id="unseen-avg-monetary" class="card-value">—</p>
+                        </div>
+                    </section>
+
+                    <!-- Charts for Unseen Data -->
+                    <section class="charts-section">
+                        <div class="chart-container">
+                            <h2>Segment Distribution (Unseen)</h2>
+                            <canvas id="unseen-bar-chart"></canvas>
+                        </div>
+
+                        <div class="chart-container">
+                            <h2>Recency vs Monetary (Unseen)</h2>
+                            <canvas id="unseen-scatter-plot"></canvas>
+                        </div>
+                    </section>
+
+                    <!-- Data Table for Unseen Data -->
+                    <section class="table-section">
+                        <h2>Unseen Customer RFM Data</h2>
+                        <div class="table-wrapper">
+                            <table id="unseen-rfm-table">
+                                <thead>
+                                    <tr>
+                                        <th>Customer ID</th>
+                                        <th>Recency (days)</th>
+                                        <th>Frequency</th>
+                                        <th>Monetary (£)</th>
+                                        <th>RFM Score</th>
+                                        <th>Segment</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <!-- Populated by unseen data handler -->
+                                </tbody>
+                            </table>
+                        </div>
+                    </section>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <!-- JavaScript Modules -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.js"></script>
+    <script src="js/barChart.js"></script>
+    <script src="js/scatterPlot.js"></script>
+    <script src="js/dataTable.js"></script>
+    <script src="js/summaryCards.js"></script>
+    <script src="js/unseenDataHandler.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Plagiarism Detection System</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="hero">
+    <h1>Plagiarism Detection System</h1>
+    <p>BCA Final Year Project</p>
+  </header>
+
+  <main class="container">
+    <section class="card">
+      <h2>Submit Document</h2>
+      
+      <!-- Tab Navigation -->
+      <div class="tab-nav">
+        <button class="tab-button active" data-tab="text">Text Input</button>
+        <button class="tab-button" data-tab="file">Upload File</button>
+        <button class="tab-button" data-tab="database">View Database</button>
+      </div>
+
+      <!-- Text Input Tab -->
+      <form id="checkForm" class="tab-pane active" data-pane="text">
+        <label for="title">Document Title</label>
+        <input id="title" name="title" placeholder="e.g., AI in Education" required />
+
+        <label for="author">Author Name</label>
+        <input id="author" name="author" placeholder="e.g., Student A" />
+
+        <label for="raw_text">Document Text</label>
+        <textarea id="raw_text" name="raw_text" rows="10" placeholder="Paste the assignment/report content here..." required></textarea>
+
+        <div class="checkbox-group">
+          <label class="checkbox-label">
+            <input type="checkbox" id="check_online" name="check_online" />
+            <span>🌐 Check against online sources (20-30 seconds)</span>
+          </label>
+          <p class="checkbox-hint">
+            ⚡ Leave unchecked for fast checking (database only)<br>
+            <span id="api_status" style="font-size: 11px; color: #666;">Checking API status...</span>
+          </p>
+        </div>
+
+        <button type="submit">Check Plagiarism</button>
+      </form>
+
+      <!-- File Upload Tab -->
+      <div class="tab-pane" data-pane="file">
+        <form id="fileForm">
+          <label for="file_title">Document Title</label>
+          <input id="file_title" name="file_title" placeholder="e.g., AI in Education" required />
+
+          <label for="file_author">Author Name</label>
+          <input id="file_author" name="file_author" placeholder="e.g., Student A" />
+
+          <label for="file_upload">Upload Document</label>
+          <div class="file-upload-wrapper">
+            <input type="file" id="file_upload" name="file_upload" accept=".txt,.pdf,.doc,.docx" required />
+            <div class="file-upload-display">
+              <span class="file-placeholder">Choose a file (.txt, .pdf, .doc, .docx)</span>
+              <span class="file-name"></span>
+            </div>
+          </div>
+
+          <div class="checkbox-group">
+            <label class="checkbox-label">
+              <input type="checkbox" id="check_online_file" name="check_online_file" />
+              <span>🌐 Check against online sources (20-30 seconds)</span>
+            </label>
+            <p class="checkbox-hint">
+              ⚡ Leave unchecked for fast checking (database only)
+            </p>
+          </div>
+
+          <button type="submit">Check Plagiarism</button>
+        </form>
+      </div>
+
+      <!-- Database View Tab -->
+      <div class="tab-pane" data-pane="database">
+        <div class="database-info">
+          <h3>📚 Documents in Database</h3>
+          <p class="info-text">The system compares your submissions against these documents.</p>
+          <button id="refreshDb" class="btn-secondary">🔄 Refresh</button>
+        </div>
+        <div id="databaseList">
+          <p class="loading">Loading documents...</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>Latest Report</h2>
+      <div id="summary"></div>
+      <div id="results"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Built with Flask + SQLite + JavaScript</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+

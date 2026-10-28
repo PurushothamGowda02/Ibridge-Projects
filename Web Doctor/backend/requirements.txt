@@ -1,0 +1,31 @@
+﻿# Web Doctor Backend Dependencies
+
+# Web Framework
+fastapi>=0.100.0
+uvicorn[standard]>=0.23.0
+
+# Database
+sqlalchemy>=2.0.0
+
+# Data Validation
+pydantic>=2.0.0
+email-validator>=2.0.0
+
+# Authentication & Security
+python-jose[cryptography]>=3.3.0
+passlib[bcrypt]>=1.7.4
+python-multipart>=0.0.6
+
+# Machine Learning & NLP
+scikit-learn>=1.3.0
+joblib>=1.3.0
+numpy>=1.24.0
+pandas>=2.0.0
+transformers>=4.30.0
+datasets>=2.14.0
+accelerate>=0.20.0
+torch>=2.0.0
+
+# Optional: For better performance
+# uvloop>=0.17.0  # Unix only
+# httptools>=0.6.0

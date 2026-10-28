@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+
+{% block content %}
+<header class="top-header">
+    <div class="header-title">
+        <h1>Train Schedules</h1>
+        <p>Manage and view optimized train frequencies.</p>
+    </div>
+</header>
+<section class="charts-section">
+    <div class="card table-card" style="grid-column: 1 / -1;">
+        <div class="card-header">
+            <h2>Current Optimized Schedules</h2>
+        </div>
+        <div class="table-container">
+            <table class="schedule-table">
+                <thead>
+                    <tr>
+                        <th>Time</th>
+                        <th>Predicted Peak</th>
+                        <th>Scheduled Trains</th>
+                        <th>Frequency (mins)</th>
+                    </tr>
+                </thead>
+                <tbody id="schedule-body">
+                    <!-- Data populated by JS -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+</section>
+{% endblock %}

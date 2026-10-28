@@ -1,0 +1,199 @@
+# Virtual Brain Assistant Configuration
+
+# LLM Configuration
+llm:
+  provider: groq  # Options: openai, huggingface, groq, local
+  model: llama-3.3-70b-versatile  # Fast free model via Groq
+  temperature: 0.7
+  max_tokens: 512
+  timeout: 60  # Increased timeout for API calls
+
+# Memory System Configuration
+memory:
+  vector_store: faiss  # Options: faiss, chromadb
+  embedding_model: sentence-transformers/all-MiniLM-L6-v2
+  persist_directory: ./data/memory
+  max_conversation_history: 50
+  similarity_threshold: 0.7
+  top_k_results: 5
+
+# Voice Configuration
+voice:
+  input_enabled: true
+  output_enabled: true
+  language: en-US
+  speech_recognition_timeout: 5
+  tts_rate: 150
+  tts_volume: 1.0
+
+# Task Executor Configuration
+tasks:
+  calculation_timeout: 5
+  app_launch_timeout: 10
+  allowed_apps:
+    # System Apps
+    - notepad
+    - calculator
+    - calc
+    - explorer
+    - paint
+    - cmd
+    - command prompt
+    - powershell
+    - task manager
+    - taskmgr
+    - control panel
+    - control
+    - settings
+    - snipping tool
+    - screenshot
+    - wordpad
+    - character map
+    - registry editor
+    - regedit
+    # Browsers
+    - chrome
+    - google chrome
+    - firefox
+    - edge
+    - microsoft edge
+    - brave
+    - opera
+    - opera gx
+    - tor
+    - tor browser
+    - vivaldi
+    # Microsoft Office
+    - word
+    - microsoft word
+    - excel
+    - microsoft excel
+    - powerpoint
+    - microsoft powerpoint
+    - outlook
+    - microsoft outlook
+    - onenote
+    - microsoft onenote
+    - access
+    - microsoft access
+    - publisher
+    - microsoft publisher
+    # Development Tools
+    - code
+    - vscode
+    - visual studio code
+    - visual studio
+    - pycharm
+    - intellij
+    - android studio
+    - sublime
+    - sublime text
+    - atom
+    - notepad++
+    - git bash
+    - github desktop
+    - postman
+    # Communication Apps
+    - whatsapp
+    - telegram
+    - discord
+    - slack
+    - teams
+    - microsoft teams
+    - zoom
+    - skype
+    - messenger
+    - signal
+    # Media & Entertainment
+    - spotify
+    - vlc
+    - vlc media player
+    - windows media player
+    - media player
+    - itunes
+    - netflix
+    - youtube music
+    - audacity
+    - obs
+    - obs studio
+    # Graphics & Design
+    - photoshop
+    - adobe photoshop
+    - illustrator
+    - adobe illustrator
+    - premiere
+    - premiere pro
+    - after effects
+    - gimp
+    - inkscape
+    - blender
+    - figma
+    - canva
+    # Productivity
+    - notion
+    - evernote
+    - trello
+    - todoist
+    - obsidian
+    - anki
+    # File Management
+    - 7zip
+    - 7-zip
+    - winrar
+    - total commander
+    - filezilla
+    # Gaming
+    - steam
+    - epic games
+    - epic
+    - origin
+    - uplay
+    - battle.net
+    - battlenet
+    - xbox
+    - minecraft
+    # Utilities
+    - ccleaner
+    - malwarebytes
+    - teamviewer
+    - anydesk
+    - virtualbox
+    - vmware
+    - docker
+    - putty
+    - winscp
+    # Social Media
+    - twitter
+    - instagram
+    - facebook
+    - tiktok
+    # Reading & Documents
+    - adobe reader
+    - acrobat
+    - kindle
+    - calibre
+    # Database
+    - mysql workbench
+    - mongodb compass
+    - pgadmin
+
+# UI Configuration
+ui:
+  framework: streamlit
+  title: Virtual Brain Assistant
+  theme: light
+  max_display_messages: 100
+
+# Logging Configuration
+logging:
+  level: INFO
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+  file: ./logs/vba.log
+  console_output: true
+
+# System Configuration
+system:
+  session_timeout: 3600  # seconds
+  auto_save_interval: 300  # seconds
+  max_retries: 3
+  retry_delay: 1  # seconds

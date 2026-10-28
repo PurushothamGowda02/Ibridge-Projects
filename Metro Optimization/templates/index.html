@@ -1,0 +1,97 @@
+{% extends "base.html" %}
+
+{% block title %}Dashboard - Metro Optimization{% endblock %}
+{% block page_title %}Welcome to Metro Optima{% endblock %}
+{% block page_description %}Your unified access to Bangalore Metro services{% endblock %}
+
+{% block content %}
+<!-- Quick Stats -->
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-8">
+    <div class="bg-gradient-to-br from-blue-500 to-blue-600 text-white rounded-xl shadow-lg p-6">
+        <div class="flex justify-between items-start">
+            <div>
+                <p class="text-blue-100 text-sm">Total Journeys</p>
+                <p class="text-3xl font-bold">{{ total_journeys }}</p>
+            </div>
+            <i class="fas fa-train text-3xl opacity-30"></i>
+        </div>
+    </div>
+
+    <div class="bg-gradient-to-br from-green-500 to-green-600 text-white rounded-xl shadow-lg p-6">
+        <div class="flex justify-between items-start">
+            <div>
+                <p class="text-green-100 text-sm">Card Balance</p>
+                <p class="text-3xl font-bold">₹{{ "%.0f"|format(total_balance) }}</p>
+            </div>
+            <i class="fas fa-wallet text-3xl opacity-30"></i>
+        </div>
+    </div>
+
+    <div class="bg-gradient-to-br from-purple-500 to-purple-600 text-white rounded-xl shadow-lg p-6">
+        <div class="flex justify-between items-start">
+            <div>
+                <p class="text-purple-100 text-sm">Active Cards</p>
+                <p class="text-3xl font-bold">{{ cards | length }}</p>
+            </div>
+            <i class="fas fa-credit-card text-3xl opacity-30"></i>
+        </div>
+    </div>
+
+    <div class="bg-gradient-to-br from-orange-500 to-orange-600 text-white rounded-xl shadow-lg p-6">
+        <div class="flex justify-between items-start">
+            <div>
+                <p class="text-orange-100 text-sm">System Status</p>
+                <p class="text-3xl font-bold">✓ Online</p>
+            </div>
+            <i class="fas fa-check-circle text-3xl opacity-30"></i>
+        </div>
+    </div>
+</div>
+
+<div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
+    <!-- Recent Journeys -->
+    <div class="lg:col-span-2 bg-white rounded-xl shadow-lg p-6">
+        <h3 class="text-2xl font-bold text-gray-800 mb-4">Recent Journeys</h3>
+        <div class="space-y-3">
+            {% for journey in recent_journeys %}
+                <div class="flex justify-between items-center p-4 bg-gray-50 rounded-lg border-l-4 border-blue-500">
+                    <div>
+                        <p class="font-semibold text-gray-800">{{ journey.from_station.name if journey.from_station else 'Unknown' }} → {{ journey.to_station.name if journey.to_station else 'Unknown' }}</p>
+                        <p class="text-xs text-gray-500">{{ journey.journey_date.strftime('%Y-%m-%d %H:%M') }}</p>
+                    </div>
+                    <p class="text-lg font-bold text-blue-600">₹{{ journey.fare_paid }}</p>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+
+    <!-- Quick Access -->
+    <div class="space-y-6">
+        <div class="bg-white rounded-xl shadow-lg overflow-hidden">
+            <div class="bg-gradient-to-r from-blue-600 to-purple-600 text-white p-4">
+                <h4 class="font-bold">Quick Actions</h4>
+            </div>
+            <div class="p-4 space-y-2">
+                <a href="{{ url_for('routes_page') }}" class="block p-3 hover:bg-blue-50 rounded-lg transition text-gray-800 font-semibold">
+                    <i class="fas fa-route text-blue-600 mr-2"></i> Find Route
+                </a>
+                <a href="{{ url_for('cards_page') }}" class="block p-3 hover:bg-blue-50 rounded-lg transition text-gray-800 font-semibold">
+                    <i class="fas fa-plus-circle text-green-600 mr-2"></i> Recharge Card
+                </a>
+                <a href="{{ url_for('chatbot_page') }}" class="block p-3 hover:bg-blue-50 rounded-lg transition text-gray-800 font-semibold">
+                    <i class="fas fa-comments text-purple-600 mr-2"></i> Chat Support
+                </a>
+            </div>
+        </div>
+
+        <div class="bg-gradient-to-br from-green-50 to-emerald-50 rounded-xl shadow-lg p-6 border border-green-200">
+            <h4 class="font-bold text-gray-800 mb-3">💡 Today's Tip</h4>
+            <p class="text-sm text-gray-700 mb-3">Travel during off-peak hours (10 AM - 4 PM) to avoid crowds and enjoy a comfortable journey.</p>
+        </div>
+    </div>
+</div>
+
+<!-- Toast Notification Container -->
+<div id="toast-container" class="toast-container"></div>
+
+{% endblock %}

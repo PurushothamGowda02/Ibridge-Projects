@@ -1,0 +1,32 @@
+# Core AI and LLM dependencies
+langchain
+langchain-openai
+langchain-community
+langchain-huggingface
+openai
+transformers
+
+# Speech recognition and synthesis
+SpeechRecognition
+pyttsx3
+pyaudio
+
+# Vector stores and embeddings
+faiss-cpu
+chromadb
+sentence-transformers
+
+# UI framework
+streamlit
+
+# Configuration and utilities
+python-dotenv
+pyyaml
+
+# Testing framework
+hypothesis
+pytest
+
+# Optional: Local LLM support (LLaMA)
+# Uncomment the line below to enable local LLaMA model support
+# llama-cpp-python

@@ -1,0 +1,98 @@
+{% extends "base.html" %}
+
+{% block title %}Admin Dashboard - Metro Optimization{% endblock %}
+{% block page_title %}Administrative Command Center{% endblock %}
+{% block page_description %}Manage system users and view network metrics{% endblock %}
+
+{% block content %}
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
+    <div class="bg-white rounded-xl shadow-lg p-6 border-l-4 border-blue-500">
+        <div class="flex items-center justify-between">
+            <div>
+                <p class="text-sm text-gray-600 font-semibold uppercase">Total Users</p>
+                <p class="text-3xl font-bold text-gray-800">{{ users | length }}</p>
+            </div>
+            <div class="bg-blue-100 p-3 rounded-lg text-blue-600">
+                <i class="fas fa-users fa-2x"></i>
+            </div>
+        </div>
+    </div>
+    <div class="bg-white rounded-xl shadow-lg p-6 border-l-4 border-purple-500">
+        <div class="flex items-center justify-between">
+            <div>
+                <p class="text-sm text-gray-600 font-semibold uppercase">Total Stations</p>
+                <p class="text-3xl font-bold text-gray-800">{{ stations_count }}</p>
+            </div>
+            <div class="bg-purple-100 p-3 rounded-lg text-purple-600">
+                <i class="fas fa-map-marker-alt fa-2x"></i>
+            </div>
+        </div>
+    </div>
+    <div class="bg-white rounded-xl shadow-lg p-6 border-l-4 border-green-500">
+        <div class="flex items-center justify-between">
+            <div>
+                <p class="text-sm text-gray-600 font-semibold uppercase">Metro Lines</p>
+                <p class="text-3xl font-bold text-gray-800">{{ lines_count }}</p>
+            </div>
+            <div class="bg-green-100 p-3 rounded-lg text-green-600">
+                <i class="fas fa-route fa-2x"></i>
+            </div>
+        </div>
+    </div>
+    <div class="bg-white rounded-xl shadow-lg p-6 border-l-4 border-red-500">
+        <div class="flex items-center justify-between">
+            <div>
+                <p class="text-sm text-gray-600 font-semibold uppercase">Total Journeys</p>
+                <p class="text-3xl font-bold text-gray-800">{{ journeys_count }}</p>
+            </div>
+            <div class="bg-red-100 p-3 rounded-lg text-red-600">
+                <i class="fas fa-history fa-2x"></i>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="bg-white rounded-xl shadow-lg overflow-hidden border border-gray-100">
+    <div class="bg-gray-50 px-6 py-4 border-b border-gray-100 flex items-center justify-between">
+        <h3 class="text-lg font-bold text-gray-800">User Management</h3>
+        <span class="bg-blue-100 text-blue-800 text-xs font-semibold px-2.5 py-0.5 rounded">All Registered Users</span>
+    </div>
+    <div class="overflow-x-auto">
+        <table class="w-full text-left">
+            <thead class="bg-gray-50 text-gray-600 text-xs uppercase font-semibold">
+                <tr>
+                    <th class="px-6 py-4">User</th>
+                    <th class="px-6 py-4">Email</th>
+                    <th class="px-6 py-4">Role</th>
+                    <th class="px-6 py-4">Phone</th>
+                    <th class="px-6 py-4">Actions</th>
+                </tr>
+            </thead>
+            <tbody class="divide-y divide-gray-100">
+                {% for user in users %}
+                <tr class="hover:bg-gray-50 transition duration-150">
+                    <td class="px-6 py-4 whitespace-nowrap">
+                        <div class="flex items-center gap-3">
+                            <div class="w-8 h-8 rounded-full bg-gradient-to-br from-blue-400 to-purple-500 flex items-center justify-center text-white text-xs font-bold uppercase">
+                                {{ user.first_name[0] if user.first_name else user.email[0] }}
+                            </div>
+                            <span class="font-medium text-gray-700">{{ user.first_name }} {{ user.last_name }}</span>
+                        </div>
+                    </td>
+                    <td class="px-6 py-4 text-sm text-gray-600">{{ user.email }}</td>
+                    <td class="px-6 py-4">
+                        <span class="px-2 py-1 rounded text-xs font-bold uppercase {% if user.role == 'admin' %}bg-red-100 text-red-700{% else %}bg-green-100 text-green-700{% endif %}">
+                            {{ user.role }}
+                        </span>
+                    </td>
+                    <td class="px-6 py-4 text-sm text-gray-600">{{ user.phone or 'N/A' }}</td>
+                    <td class="px-6 py-4">
+                        <button class="text-blue-600 hover:text-blue-800 text-sm font-medium">Edit</button>
+                    </td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,1197 @@
+[
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "random",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "random",
+        "description": "random",
+        "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "Flask",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "jsonify",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "render_template",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "request",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "redirect",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "url_for",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "flash",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "LoginManager",
+        "importPath": "flask_login",
+        "description": "flask_login",
+        "isExtraImport": true,
+        "detail": "flask_login",
+        "documentation": {}
+    },
+    {
+        "label": "login_user",
+        "importPath": "flask_login",
+        "description": "flask_login",
+        "isExtraImport": true,
+        "detail": "flask_login",
+        "documentation": {}
+    },
+    {
+        "label": "logout_user",
+        "importPath": "flask_login",
+        "description": "flask_login",
+        "isExtraImport": true,
+        "detail": "flask_login",
+        "documentation": {}
+    },
+    {
+        "label": "login_required",
+        "importPath": "flask_login",
+        "description": "flask_login",
+        "isExtraImport": true,
+        "detail": "flask_login",
+        "documentation": {}
+    },
+    {
+        "label": "current_user",
+        "importPath": "flask_login",
+        "description": "flask_login",
+        "isExtraImport": true,
+        "detail": "flask_login",
+        "documentation": {}
+    },
+    {
+        "label": "generate_password_hash",
+        "importPath": "werkzeug.security",
+        "description": "werkzeug.security",
+        "isExtraImport": true,
+        "detail": "werkzeug.security",
+        "documentation": {}
+    },
+    {
+        "label": "check_password_hash",
+        "importPath": "werkzeug.security",
+        "description": "werkzeug.security",
+        "isExtraImport": true,
+        "detail": "werkzeug.security",
+        "documentation": {}
+    },
+    {
+        "label": "wraps",
+        "importPath": "functools",
+        "description": "functools",
+        "isExtraImport": true,
+        "detail": "functools",
+        "documentation": {}
+    },
+    {
+        "label": "joblib",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "joblib",
+        "description": "joblib",
+        "detail": "joblib",
+        "documentation": {}
+    },
+    {
+        "label": "pandas",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pandas",
+        "description": "pandas",
+        "detail": "pandas",
+        "documentation": {}
+    },
+    {
+        "label": "db",
+        "importPath": "database",
+        "description": "database",
+        "isExtraImport": true,
+        "detail": "database",
+        "documentation": {}
+    },
+    {
+        "label": "init_db",
+        "importPath": "database",
+        "description": "database",
+        "isExtraImport": true,
+        "detail": "database",
+        "documentation": {}
+    },
+    {
+        "label": "PassengerData",
+        "importPath": "database",
+        "description": "database",
+        "isExtraImport": true,
+        "detail": "database",
+        "documentation": {}
+    },
+    {
+        "label": "TrainSchedule",
+        "importPath": "database",
+        "description": "database",
+        "isExtraImport": true,
+        "detail": "database",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "database",
+        "description": "database",
+        "isExtraImport": true,
+        "detail": "database",
+        "documentation": {}
+    },
+    {
+        "label": "MetroCard",
+        "importPath": "database",
+        "description": "database",
+        "isExtraImport": true,
+        "detail": "database",
+        "documentation": {}
+    },
+    {
+        "label": "Station",
+        "importPath": "database",
+        "description": "database",
+        "isExtraImport": true,
+        "detail": "database",
+        "documentation": {}
+    },
+    {
+        "label": "MetroLine",
+        "importPath": "database",
+        "description": "database",
+        "isExtraImport": true,
+        "detail": "database",
+        "documentation": {}
+    },
+    {
+        "label": "Fare",
+        "importPath": "database",
+        "description": "database",
+        "isExtraImport": true,
+        "detail": "database",
+        "documentation": {}
+    },
+    {
+        "label": "Journey",
+        "importPath": "database",
+        "description": "database",
+        "isExtraImport": true,
+        "detail": "database",
+        "documentation": {}
+    },
+    {
+        "label": "CardTransaction",
+        "importPath": "database",
+        "description": "database",
+        "isExtraImport": true,
+        "detail": "database",
+        "documentation": {}
+    },
+    {
+        "label": "ChatMessage",
+        "importPath": "database",
+        "description": "database",
+        "isExtraImport": true,
+        "detail": "database",
+        "documentation": {}
+    },
+    {
+        "label": "DemandForecast",
+        "importPath": "database",
+        "description": "database",
+        "isExtraImport": true,
+        "detail": "database",
+        "documentation": {}
+    },
+    {
+        "label": "db",
+        "importPath": "database",
+        "description": "database",
+        "isExtraImport": true,
+        "detail": "database",
+        "documentation": {}
+    },
+    {
+        "label": "ChatMessage",
+        "importPath": "database",
+        "description": "database",
+        "isExtraImport": true,
+        "detail": "database",
+        "documentation": {}
+    },
+    {
+        "label": "db",
+        "importPath": "database",
+        "description": "database",
+        "isExtraImport": true,
+        "detail": "database",
+        "documentation": {}
+    },
+    {
+        "label": "Station",
+        "importPath": "database",
+        "description": "database",
+        "isExtraImport": true,
+        "detail": "database",
+        "documentation": {}
+    },
+    {
+        "label": "Fare",
+        "importPath": "database",
+        "description": "database",
+        "isExtraImport": true,
+        "detail": "database",
+        "documentation": {}
+    },
+    {
+        "label": "MetroLine",
+        "importPath": "database",
+        "description": "database",
+        "isExtraImport": true,
+        "detail": "database",
+        "documentation": {}
+    },
+    {
+        "label": "TrainSchedule",
+        "importPath": "database",
+        "description": "database",
+        "isExtraImport": true,
+        "detail": "database",
+        "documentation": {}
+    },
+    {
+        "label": "Journey",
+        "importPath": "database",
+        "description": "database",
+        "isExtraImport": true,
+        "detail": "database",
+        "documentation": {}
+    },
+    {
+        "label": "MetroChatbot",
+        "importPath": "chatbot",
+        "description": "chatbot",
+        "isExtraImport": true,
+        "detail": "chatbot",
+        "documentation": {}
+    },
+    {
+        "label": "EmailService",
+        "importPath": "email_service",
+        "description": "email_service",
+        "isExtraImport": true,
+        "detail": "email_service",
+        "documentation": {}
+    },
+    {
+        "label": "RouteRecommender",
+        "importPath": "route_recommender",
+        "description": "route_recommender",
+        "isExtraImport": true,
+        "detail": "route_recommender",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "logging",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "logging",
+        "description": "logging",
+        "detail": "logging",
+        "documentation": {}
+    },
+    {
+        "label": "SQLAlchemy",
+        "importPath": "flask_sqlalchemy",
+        "description": "flask_sqlalchemy",
+        "isExtraImport": true,
+        "detail": "flask_sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "numpy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "numpy",
+        "description": "numpy",
+        "detail": "numpy",
+        "documentation": {}
+    },
+    {
+        "label": "smtplib",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "smtplib",
+        "description": "smtplib",
+        "detail": "smtplib",
+        "documentation": {}
+    },
+    {
+        "label": "MIMEText",
+        "importPath": "email.mime.text",
+        "description": "email.mime.text",
+        "isExtraImport": true,
+        "detail": "email.mime.text",
+        "documentation": {}
+    },
+    {
+        "label": "MIMEMultipart",
+        "importPath": "email.mime.multipart",
+        "description": "email.mime.multipart",
+        "isExtraImport": true,
+        "detail": "email.mime.multipart",
+        "documentation": {}
+    },
+    {
+        "label": "train_test_split",
+        "importPath": "sklearn.model_selection",
+        "description": "sklearn.model_selection",
+        "isExtraImport": true,
+        "detail": "sklearn.model_selection",
+        "documentation": {}
+    },
+    {
+        "label": "RandomForestRegressor",
+        "importPath": "sklearn.ensemble",
+        "description": "sklearn.ensemble",
+        "isExtraImport": true,
+        "detail": "sklearn.ensemble",
+        "documentation": {}
+    },
+    {
+        "label": "mean_absolute_error",
+        "importPath": "sklearn.metrics",
+        "description": "sklearn.metrics",
+        "isExtraImport": true,
+        "detail": "sklearn.metrics",
+        "documentation": {}
+    },
+    {
+        "label": "mean_squared_error",
+        "importPath": "sklearn.metrics",
+        "description": "sklearn.metrics",
+        "isExtraImport": true,
+        "detail": "sklearn.metrics",
+        "documentation": {}
+    },
+    {
+        "label": "math",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "math",
+        "description": "math",
+        "detail": "math",
+        "documentation": {}
+    },
+    {
+        "label": "load_user",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def load_user(user_id):\n    return User.query.get(int(user_id))\ndef admin_required(f):\n    @wraps(f)\n    def decorated_function(*args, **kwargs):\n        if not current_user.is_authenticated or current_user.role != 'admin':\n            flash('Access denied. Administrator privileges required.', 'danger')\n            return redirect(url_for('index'))\n        return f(*args, **kwargs)\n    return decorated_function",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "admin_required",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def admin_required(f):\n    @wraps(f)\n    def decorated_function(*args, **kwargs):\n        if not current_user.is_authenticated or current_user.role != 'admin':\n            flash('Access denied. Administrator privileges required.', 'danger')\n            return redirect(url_for('index'))\n        return f(*args, **kwargs)\n    return decorated_function\n# Initialize services\nchatbot = MetroChatbot()",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "inject_global_stats",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def inject_global_stats():\n    \"\"\"Inject live stats for the sidebar across all pages\"\"\"\n    if current_user.is_authenticated:\n        try:\n            user_cards = MetroCard.query.filter_by(user_id=current_user.id).all()\n            total_balance = sum([card.balance for card in user_cards])\n            # Count journeys started today\n            today_start = datetime.now().replace(hour=0, minute=0, second=0, microsecond=0)\n            today_j_count = Journey.query.filter(\n                Journey.user_id == current_user.id,",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "login",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def login():\n    if current_user.is_authenticated:\n        return redirect(url_for('index'))\n    if request.method == 'POST':\n        email = request.form.get('email')\n        password = request.form.get('password')\n        user = User.query.filter_by(email=email).first()\n        if user and check_password_hash(user.password_hash, password):\n            login_user(user)\n            flash('Welcome back!', 'success')",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "register",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def register():\n    if current_user.is_authenticated:\n        return redirect(url_for('index'))\n    if request.method == 'POST':\n        try:\n            email = request.form.get('email')\n            password = request.form.get('password')\n            first_name = request.form.get('first_name', '')\n            last_name = request.form.get('last_name', '')\n            role = request.form.get('role', 'user')",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "logout",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def logout():\n    logout_user()\n    flash('Logged out successfully.', 'info')\n    return redirect(url_for('login'))\n# ==================== MAIN PAGES ====================\n@app.route('/')\n@login_required\ndef index():\n    total_journeys = Journey.query.filter_by(user_id=current_user.id).count()\n    cards = MetroCard.query.filter_by(user_id=current_user.id).all()",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "index",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def index():\n    total_journeys = Journey.query.filter_by(user_id=current_user.id).count()\n    cards = MetroCard.query.filter_by(user_id=current_user.id).all()\n    total_balance = sum([card.balance for card in cards])\n    # Get recent journeys\n    recent_journeys = Journey.query.filter_by(user_id=current_user.id).order_by(\n        Journey.journey_date.desc()\n    ).limit(5).all()\n    return render_template('index.html',\n                         active_page='dashboard',",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "chatbot_page",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def chatbot_page():\n    chat_history = chatbot.get_chat_history(current_user.id)\n    return render_template('chatbot.html', active_page='chatbot', chat_history=chat_history)\n@app.route('/api/chat', methods=['POST'])\n@login_required\ndef send_message():\n    data = request.json\n    user_message = data.get('message', '')\n    if not user_message:\n        return jsonify({'error': 'Empty message'}), 400",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "send_message",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def send_message():\n    data = request.json\n    user_message = data.get('message', '')\n    if not user_message:\n        return jsonify({'error': 'Empty message'}), 400\n    # Save user message\n    chatbot.save_message(current_user.id, 'user', user_message)\n    # Get bot response\n    bot_response = chatbot.get_response(user_message, current_user.id)\n    # Save bot message",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "cards_page",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def cards_page():\n    user_cards = MetroCard.query.filter_by(user_id=current_user.id).all()\n    transactions = CardTransaction.query.filter_by(user_id=current_user.id).order_by(\n        CardTransaction.transaction_date.desc()\n    ).limit(10).all()\n    return render_template('cards.html',\n                         active_page='cards',\n                         cards=user_cards,\n                         transactions=transactions)\n@app.route('/api/card/link', methods=['POST'])",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "link_card",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def link_card():\n    data = request.json\n    card_number = data.get('card_number')\n    card_type = data.get('card_type')  # NCMC or CMC\n    if not card_number or not card_type:\n        return jsonify({'error': 'Missing data'}), 400\n    if MetroCard.query.filter_by(card_number=card_number).first():\n        return jsonify({'error': 'Card already linked'}), 400\n    try:\n        new_card = MetroCard(",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "recharge_card",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def recharge_card():\n    data = request.json\n    card_id = data.get('card_id')\n    amount = float(data.get('amount', 0))\n    if amount <= 0:\n        return jsonify({'error': 'Invalid amount'}), 400\n    card = MetroCard.query.get(card_id)\n    if not card or card.user_id != current_user.id:\n        return jsonify({'error': 'Card not found'}), 404\n    try:",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "kyc_verification",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def kyc_verification():\n    user_cards = MetroCard.query.filter_by(user_id=current_user.id).all()\n    return render_template('kyc.html', active_page='kyc', cards=user_cards)\n@app.route('/api/kyc/upload', methods=['POST'])\n@login_required\ndef upload_kyc():\n    data = request.json\n    card_id = data.get('card_id')\n    doc_type = data.get('doc_type')  # Aadhar, PAN, Passport, etc.\n    doc_number = data.get('doc_number')",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "upload_kyc",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def upload_kyc():\n    data = request.json\n    card_id = data.get('card_id')\n    doc_type = data.get('doc_type')  # Aadhar, PAN, Passport, etc.\n    doc_number = data.get('doc_number')\n    card = MetroCard.query.get(card_id)\n    if not card or card.user_id != current_user.id:\n        return jsonify({'error': 'Card not found'}), 404\n    try:\n        # In production, validate and store document",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "routes_page",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def routes_page():\n    stations = Station.query.all()\n    return render_template('routes.html', active_page='routes', stations=stations)\n@app.route('/api/route/find', methods=['POST'])\n@login_required\ndef find_route():\n    data = request.json\n    from_station_id = int(data.get('from_station'))\n    to_station_id = int(data.get('to_station'))\n    route = RouteRecommender.find_shortest_route(from_station_id, to_station_id)",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "find_route",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def find_route():\n    data = request.json\n    from_station_id = int(data.get('from_station'))\n    to_station_id = int(data.get('to_station'))\n    route = RouteRecommender.find_shortest_route(from_station_id, to_station_id)\n    if not route:\n        return jsonify({'error': 'Route not found'}), 404\n    schedules = RouteRecommender.get_available_schedules(from_station_id, to_station_id)\n    return jsonify({\n        'route': route,",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "get_timetable",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def get_timetable(line_id):\n    \"\"\"Get timetable for a specific metro line\"\"\"\n    line = MetroLine.query.get(line_id)\n    if not line:\n        return jsonify({'error': 'Line not found'}), 404\n    schedules = TrainSchedule.query.filter_by(line_id=line_id).order_by(\n        TrainSchedule.departure_time\n    ).all()\n    return jsonify({\n        'line': {",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "lines_page",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def lines_page():\n    \"\"\"View all metro lines and their status\"\"\"\n    lines = MetroLine.query.all()\n    return render_template('lines.html', active_page='lines', lines=lines)\n@app.route('/api/lines')\ndef get_lines():\n    \"\"\"API endpoint for metro lines data\"\"\"\n    lines = MetroLine.query.all()\n    return jsonify([{\n        'id': line.id,",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "get_lines",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def get_lines():\n    \"\"\"API endpoint for metro lines data\"\"\"\n    lines = MetroLine.query.all()\n    return jsonify([{\n        'id': line.id,\n        'name': line.name,\n        'color': line.color,\n        'status': line.status,\n        'stations': [{\n            'id': s.id,",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "line_status",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def line_status(line_id):\n    \"\"\"Get detailed status of a metro line\"\"\"\n    line = MetroLine.query.get(line_id)\n    if not line:\n        return jsonify({'error': 'Line not found'}), 404\n    # Get all stations on this line\n    stations = Station.query.filter_by(line_id=line_id).all()\n    # Get passenger data for each station\n    station_data = []\n    for station in stations:",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "pricing_page",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def pricing_page():\n    \"\"\"View pricing information\"\"\"\n    stations = Station.query.all()\n    return render_template('pricing.html', active_page='pricing', stations=stations)\n@app.route('/api/fare/calculate', methods=['POST'])\n@login_required\ndef calculate_fare():\n    \"\"\"Calculate station-count-based fare between two stations\"\"\"\n    data = request.json\n    from_station_id = int(data.get('from_station'))",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "calculate_fare",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def calculate_fare():\n    \"\"\"Calculate station-count-based fare between two stations\"\"\"\n    data = request.json\n    from_station_id = int(data.get('from_station'))\n    to_station_id = int(data.get('to_station'))\n    from_station = Station.query.get(from_station_id)\n    to_station = Station.query.get(to_station_id)\n    if not from_station or not to_station:\n        return jsonify({'error': 'Station not found'}), 404\n    # ---- Station-count based fare (Bangalore Metro slab) ----",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "metro_map",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def metro_map():\n    \"\"\"Interactive metro map visualization\"\"\"\n    lines = MetroLine.query.all()\n    return render_template('map.html', active_page='map', lines=lines)\n@app.route('/api/map/data')\ndef map_data():\n    \"\"\"Get metro map data for visualization\"\"\"\n    lines = MetroLine.query.all()\n    lines_data = []\n    for line in lines:",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "map_data",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def map_data():\n    \"\"\"Get metro map data for visualization\"\"\"\n    lines = MetroLine.query.all()\n    lines_data = []\n    for line in lines:\n        stations_list = Station.query.filter_by(line_id=line.id).order_by(\n            Station.order_on_line\n        ).all()\n        if stations_list:  # Only add line if it has stations\n            lines_data.append({",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "demand_forecast",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def demand_forecast():\n    \"\"\"AI-based demand forecast page\"\"\"\n    lines = MetroLine.query.all()\n    return render_template('forecast.html', active_page='forecast', lines=lines)\n@app.route('/api/forecast/demand', methods=['GET', 'POST'])\ndef predict_demand_api():\n    \"\"\"Predict passenger demand using ML model\"\"\"\n    data = request.json or {}\n    station_id = int(data.get('station_id', 1))\n    predictions = []",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "predict_demand_api",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def predict_demand_api():\n    \"\"\"Predict passenger demand using ML model\"\"\"\n    data = request.json or {}\n    station_id = int(data.get('station_id', 1))\n    predictions = []\n    for i in range(1, 25):  # 24-hour forecast\n        future_time = datetime.now() + timedelta(hours=i)\n        is_weekend = int(future_time.weekday() >= 5)\n        hour = future_time.hour\n        if demand_model is not None:",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "route_recommendations",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def route_recommendations():\n    \"\"\"Get smart route recommendations for user\"\"\"\n    frequent_routes = RouteRecommender.get_personalized_routes(current_user.id)\n    return render_template('recommendations.html',\n                         active_page='recommendations',\n                         frequent_routes=frequent_routes)\n@app.route('/api/recommendations/frequent')\n@login_required\ndef get_frequent_routes():\n    \"\"\"API for frequently used routes\"\"\"",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "get_frequent_routes",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def get_frequent_routes():\n    \"\"\"API for frequently used routes\"\"\"\n    routes = RouteRecommender.get_personalized_routes(current_user.id)\n    return jsonify({'routes': routes})\n# ==================== EMAIL ALERTS ====================\n@app.route('/alerts')\n@login_required\ndef alerts_page():\n    \"\"\"Manage email alerts and notifications\"\"\"\n    return render_template('alerts.html',",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "alerts_page",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def alerts_page():\n    \"\"\"Manage email alerts and notifications\"\"\"\n    return render_template('alerts.html',\n                         active_page='alerts',\n                         alerts_enabled=current_user.email_alerts_enabled)\n@app.route('/api/alerts/toggle', methods=['POST'])\n@login_required\ndef toggle_alerts():\n    \"\"\"Toggle email alerts for user\"\"\"\n    current_user.email_alerts_enabled = not current_user.email_alerts_enabled",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "toggle_alerts",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def toggle_alerts():\n    \"\"\"Toggle email alerts for user\"\"\"\n    current_user.email_alerts_enabled = not current_user.email_alerts_enabled\n    db.session.commit()\n    return jsonify({\n        'success': True,\n        'alerts_enabled': current_user.email_alerts_enabled\n    })\n@app.route('/api/alert/send-line-status', methods=['POST'])\n@login_required",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "send_line_alert",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def send_line_alert():\n    \"\"\"Send line status alert email\"\"\"\n    if not current_user.email_alerts_enabled:\n        return jsonify({'error': 'Alerts disabled'}), 400\n    data = request.json\n    line_id = int(data.get('line_id'))\n    line = MetroLine.query.get(line_id)\n    if not line:\n        return jsonify({'error': 'Line not found'}), 404\n    alert_data = {",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "account_settings",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def account_settings():\n    \"\"\"User account settings page\"\"\"\n    return render_template('account.html',\n                         active_page='account',\n                         user=current_user)\n@app.route('/api/account/update', methods=['POST'])\n@login_required\ndef update_account():\n    \"\"\"Update user account information\"\"\"\n    data = request.json",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "update_account",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def update_account():\n    \"\"\"Update user account information\"\"\"\n    data = request.json\n    if 'first_name' in data:\n        current_user.first_name = data['first_name']\n    if 'last_name' in data:\n        current_user.last_name = data['last_name']\n    if 'phone' in data:\n        current_user.phone = data['phone']\n    db.session.commit()",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "user_stats",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def user_stats():\n    \"\"\"Get user journey statistics\"\"\"\n    journeys = Journey.query.filter_by(user_id=current_user.id).all()\n    total_journeys = len(journeys)\n    total_distance = sum([j.duration_minutes or 0 for j in journeys])\n    total_fare = sum([j.fare_paid for j in journeys])\n    # Most used stations\n    from_counts = {}\n    for journey in journeys:\n        from_station = Station.query.get(journey.from_station_id)",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "realtime_stats",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def realtime_stats():\n    \"\"\"Get real-time system statistics\"\"\"\n    lines = MetroLine.query.all()\n    line_data = []\n    total_passengers = 0\n    for line in lines:\n        line_stations = Station.query.filter_by(line_id=line.id).all()\n        passengers = 0\n        for station in line_stations:\n            passenger_data = PassengerData.query.filter_by(station_id=station.id).order_by(",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "get_settings",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def get_settings():\n    \"\"\"Return current global optimization settings\"\"\"\n    return jsonify(GLOBAL_SETTINGS)\n@app.route('/api/settings', methods=['POST'])\n@login_required\n@admin_required\ndef save_settings():\n    \"\"\"Update global optimization settings\"\"\"\n    data = request.json\n    try:",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "save_settings",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def save_settings():\n    \"\"\"Update global optimization settings\"\"\"\n    data = request.json\n    try:\n        GLOBAL_SETTINGS['base_trains'] = int(data.get('base_trains', GLOBAL_SETTINGS['base_trains']))\n        GLOBAL_SETTINGS['max_capacity'] = int(data.get('max_capacity', GLOBAL_SETTINGS['max_capacity']))\n        return jsonify({'success': True, 'settings': GLOBAL_SETTINGS})\n    except (ValueError, TypeError) as e:\n        return jsonify({'error': f'Invalid value: {e}'}), 400\n# ==================== MISSING PAGE ROUTES ====================",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "schedules_page",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def schedules_page():\n    \"\"\"Train schedules view\"\"\"\n    lines = MetroLine.query.all()\n    return render_template('schedules.html', active_page='schedules', lines=lines)\n@app.route('/passenger-flow')\n@login_required\ndef passenger_flow_page():\n    \"\"\"Passenger flow analysis\"\"\"\n    return render_template('passenger_flow.html', active_page='passenger_flow')\n@app.route('/settings')",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "passenger_flow_page",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def passenger_flow_page():\n    \"\"\"Passenger flow analysis\"\"\"\n    return render_template('passenger_flow.html', active_page='passenger_flow')\n@app.route('/settings')\n@login_required\n@admin_required\ndef settings_page():\n    \"\"\"System settings page\"\"\"\n    return render_template('settings.html', active_page='settings')\n@app.route('/admin')",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "settings_page",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def settings_page():\n    \"\"\"System settings page\"\"\"\n    return render_template('settings.html', active_page='settings')\n@app.route('/admin')\n@login_required\n@admin_required\ndef admin_dashboard():\n    \"\"\"Administrative command center\"\"\"\n    users = User.query.all()\n    stations_count = Station.query.count()",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "admin_dashboard",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def admin_dashboard():\n    \"\"\"Administrative command center\"\"\"\n    users = User.query.all()\n    stations_count = Station.query.count()\n    lines_count = MetroLine.query.count()\n    journeys_count = Journey.query.count()\n    return render_template('admin.html', \n                         active_page='admin', \n                         users=users,\n                         stations_count=stations_count,",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "app = Flask(__name__)\napp.config['SECRET_KEY'] = 'dev-secret-key-for-metro-optimized'\nbasedir = os.path.abspath(os.path.dirname(__file__))\napp.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///' + os.path.join(basedir, 'metro_db.sqlite')\napp.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False\ninit_db(app)\nlogin_manager = LoginManager()\nlogin_manager.login_view = 'login'\nlogin_manager.init_app(app)\n@login_manager.user_loader",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "app.config['SECRET_KEY']",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "app.config['SECRET_KEY'] = 'dev-secret-key-for-metro-optimized'\nbasedir = os.path.abspath(os.path.dirname(__file__))\napp.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///' + os.path.join(basedir, 'metro_db.sqlite')\napp.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False\ninit_db(app)\nlogin_manager = LoginManager()\nlogin_manager.login_view = 'login'\nlogin_manager.init_app(app)\n@login_manager.user_loader\ndef load_user(user_id):",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "basedir",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "basedir = os.path.abspath(os.path.dirname(__file__))\napp.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///' + os.path.join(basedir, 'metro_db.sqlite')\napp.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False\ninit_db(app)\nlogin_manager = LoginManager()\nlogin_manager.login_view = 'login'\nlogin_manager.init_app(app)\n@login_manager.user_loader\ndef load_user(user_id):\n    return User.query.get(int(user_id))",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "app.config['SQLALCHEMY_DATABASE_URI']",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///' + os.path.join(basedir, 'metro_db.sqlite')\napp.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False\ninit_db(app)\nlogin_manager = LoginManager()\nlogin_manager.login_view = 'login'\nlogin_manager.init_app(app)\n@login_manager.user_loader\ndef load_user(user_id):\n    return User.query.get(int(user_id))\ndef admin_required(f):",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "app.config['SQLALCHEMY_TRACK_MODIFICATIONS']",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False\ninit_db(app)\nlogin_manager = LoginManager()\nlogin_manager.login_view = 'login'\nlogin_manager.init_app(app)\n@login_manager.user_loader\ndef load_user(user_id):\n    return User.query.get(int(user_id))\ndef admin_required(f):\n    @wraps(f)",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "login_manager",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "login_manager = LoginManager()\nlogin_manager.login_view = 'login'\nlogin_manager.init_app(app)\n@login_manager.user_loader\ndef load_user(user_id):\n    return User.query.get(int(user_id))\ndef admin_required(f):\n    @wraps(f)\n    def decorated_function(*args, **kwargs):\n        if not current_user.is_authenticated or current_user.role != 'admin':",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "login_manager.login_view",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "login_manager.login_view = 'login'\nlogin_manager.init_app(app)\n@login_manager.user_loader\ndef load_user(user_id):\n    return User.query.get(int(user_id))\ndef admin_required(f):\n    @wraps(f)\n    def decorated_function(*args, **kwargs):\n        if not current_user.is_authenticated or current_user.role != 'admin':\n            flash('Access denied. Administrator privileges required.', 'danger')",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "chatbot",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "chatbot = MetroChatbot()\nemail_service = EmailService()\n# Load ML Model\nMODEL_PATH = os.path.join(basedir, 'models', 'demand_model.pkl')\ndemand_model = None\ntry:\n    demand_model = joblib.load(MODEL_PATH)\nexcept FileNotFoundError:\n    print(\"Warning: ML model not found.\")\n# Global settings",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "email_service",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "email_service = EmailService()\n# Load ML Model\nMODEL_PATH = os.path.join(basedir, 'models', 'demand_model.pkl')\ndemand_model = None\ntry:\n    demand_model = joblib.load(MODEL_PATH)\nexcept FileNotFoundError:\n    print(\"Warning: ML model not found.\")\n# Global settings\nGLOBAL_SETTINGS = {'base_trains': 4, 'max_capacity': 200}",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "MODEL_PATH",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "MODEL_PATH = os.path.join(basedir, 'models', 'demand_model.pkl')\ndemand_model = None\ntry:\n    demand_model = joblib.load(MODEL_PATH)\nexcept FileNotFoundError:\n    print(\"Warning: ML model not found.\")\n# Global settings\nGLOBAL_SETTINGS = {'base_trains': 4, 'max_capacity': 200}\n@app.context_processor\ndef inject_global_stats():",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "demand_model",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "demand_model = None\ntry:\n    demand_model = joblib.load(MODEL_PATH)\nexcept FileNotFoundError:\n    print(\"Warning: ML model not found.\")\n# Global settings\nGLOBAL_SETTINGS = {'base_trains': 4, 'max_capacity': 200}\n@app.context_processor\ndef inject_global_stats():\n    \"\"\"Inject live stats for the sidebar across all pages\"\"\"",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "GLOBAL_SETTINGS",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "GLOBAL_SETTINGS = {'base_trains': 4, 'max_capacity': 200}\n@app.context_processor\ndef inject_global_stats():\n    \"\"\"Inject live stats for the sidebar across all pages\"\"\"\n    if current_user.is_authenticated:\n        try:\n            user_cards = MetroCard.query.filter_by(user_id=current_user.id).all()\n            total_balance = sum([card.balance for card in user_cards])\n            # Count journeys started today\n            today_start = datetime.now().replace(hour=0, minute=0, second=0, microsecond=0)",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "MetroChatbot",
+        "kind": 6,
+        "importPath": "chatbot",
+        "description": "chatbot",
+        "peekOfCode": "class MetroChatbot:\n    \"\"\"AI-powered chatbot for metro passenger assistance using Groq and LangChain\"\"\"\n    def __init__(self):\n        # Initialize Groq LLM chain if package and API key are available\n        self.api_key = os.environ.get(\"GROQ_API_KEY\")\n        self.chain = None\n        if LANGCHAIN_GROQ_AVAILABLE and self.api_key:\n            try:\n                llm = ChatGroq(\n                    temperature=0.5, ",
+        "detail": "chatbot",
+        "documentation": {}
+    },
+    {
+        "label": "user_site",
+        "kind": 5,
+        "importPath": "chatbot",
+        "description": "chatbot",
+        "peekOfCode": "user_site = os.path.join(os.getenv('APPDATA', ''), 'Python', 'Python314', 'site-packages')\nif user_site not in sys.path:\n    sys.path.append(user_site)\nfrom database import db, ChatMessage\ntry:\n    from langchain_groq import ChatGroq\n    from langchain_core.prompts import ChatPromptTemplate\n    from langchain_core.output_parsers import StrOutputParser\n    LANGCHAIN_GROQ_AVAILABLE = True\nexcept ImportError:",
+        "detail": "chatbot",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "kind": 6,
+        "importPath": "database",
+        "description": "database",
+        "peekOfCode": "class User(db.Model):\n    id = db.Column(db.Integer, primary_key=True)\n    email = db.Column(db.String(120), unique=True, nullable=False)\n    password_hash = db.Column(db.String(256), nullable=False)\n    phone = db.Column(db.String(20), nullable=True)\n    first_name = db.Column(db.String(100), nullable=True)\n    last_name = db.Column(db.String(100), nullable=True)\n    role = db.Column(db.String(20), default='user')\n    email_alerts_enabled = db.Column(db.Boolean, default=True)\n    created_at = db.Column(db.DateTime, default=datetime.utcnow)",
+        "detail": "database",
+        "documentation": {}
+    },
+    {
+        "label": "MetroCard",
+        "kind": 6,
+        "importPath": "database",
+        "description": "database",
+        "peekOfCode": "class MetroCard(db.Model):\n    id = db.Column(db.Integer, primary_key=True)\n    user_id = db.Column(db.Integer, db.ForeignKey('user.id'), nullable=False)\n    card_number = db.Column(db.String(20), unique=True, nullable=False)\n    card_type = db.Column(db.String(10), nullable=False) # NCMC or CMC\n    balance = db.Column(db.Float, default=0.0)\n    kyc_status = db.Column(db.String(20), default='Pending') # Pending, Verified, Rejected\n    kyc_document = db.Column(db.String(256), nullable=True)\n    linked_date = db.Column(db.DateTime, default=datetime.utcnow)\n    is_active = db.Column(db.Boolean, default=True)",
+        "detail": "database",
+        "documentation": {}
+    },
+    {
+        "label": "CardTransaction",
+        "kind": 6,
+        "importPath": "database",
+        "description": "database",
+        "peekOfCode": "class CardTransaction(db.Model):\n    id = db.Column(db.Integer, primary_key=True)\n    user_id = db.Column(db.Integer, db.ForeignKey('user.id'), nullable=False)\n    card_id = db.Column(db.Integer, db.ForeignKey('metro_card.id'), nullable=False)\n    transaction_type = db.Column(db.String(20), nullable=False) # Recharge, Journey, Refund\n    amount = db.Column(db.Float, nullable=False)\n    transaction_date = db.Column(db.DateTime, default=datetime.utcnow)\n    description = db.Column(db.String(256), nullable=True)\nclass MetroLine(db.Model):\n    id = db.Column(db.Integer, primary_key=True)",
+        "detail": "database",
+        "documentation": {}
+    },
+    {
+        "label": "MetroLine",
+        "kind": 6,
+        "importPath": "database",
+        "description": "database",
+        "peekOfCode": "class MetroLine(db.Model):\n    id = db.Column(db.Integer, primary_key=True)\n    name = db.Column(db.String(50), unique=True, nullable=False)\n    color = db.Column(db.String(20), nullable=False)\n    status = db.Column(db.String(20), default='Operational') # Operational, Delayed, Closed\n    stations = db.relationship('Station', backref='line', lazy=True, cascade='all, delete-orphan')\nclass Station(db.Model):\n    id = db.Column(db.Integer, primary_key=True)\n    name = db.Column(db.String(100), nullable=False)\n    line_id = db.Column(db.Integer, db.ForeignKey('metro_line.id'), nullable=False)",
+        "detail": "database",
+        "documentation": {}
+    },
+    {
+        "label": "Station",
+        "kind": 6,
+        "importPath": "database",
+        "description": "database",
+        "peekOfCode": "class Station(db.Model):\n    id = db.Column(db.Integer, primary_key=True)\n    name = db.Column(db.String(100), nullable=False)\n    line_id = db.Column(db.Integer, db.ForeignKey('metro_line.id'), nullable=False)\n    latitude = db.Column(db.Float, nullable=False)\n    longitude = db.Column(db.Float, nullable=False)\n    distance_from_first = db.Column(db.Float, default=0.0) # km\n    order_on_line = db.Column(db.Integer, nullable=False)\nclass Fare(db.Model):\n    id = db.Column(db.Integer, primary_key=True)",
+        "detail": "database",
+        "documentation": {}
+    },
+    {
+        "label": "Fare",
+        "kind": 6,
+        "importPath": "database",
+        "description": "database",
+        "peekOfCode": "class Fare(db.Model):\n    id = db.Column(db.Integer, primary_key=True)\n    from_station_id = db.Column(db.Integer, db.ForeignKey('station.id'), nullable=False)\n    to_station_id = db.Column(db.Integer, db.ForeignKey('station.id'), nullable=False)\n    distance_km = db.Column(db.Float, nullable=False)\n    fare_amount = db.Column(db.Float, nullable=False)\nclass Journey(db.Model):\n    id = db.Column(db.Integer, primary_key=True)\n    user_id = db.Column(db.Integer, db.ForeignKey('user.id'), nullable=False)\n    from_station_id = db.Column(db.Integer, db.ForeignKey('station.id'), nullable=False)",
+        "detail": "database",
+        "documentation": {}
+    },
+    {
+        "label": "Journey",
+        "kind": 6,
+        "importPath": "database",
+        "description": "database",
+        "peekOfCode": "class Journey(db.Model):\n    id = db.Column(db.Integer, primary_key=True)\n    user_id = db.Column(db.Integer, db.ForeignKey('user.id'), nullable=False)\n    from_station_id = db.Column(db.Integer, db.ForeignKey('station.id'), nullable=False)\n    to_station_id = db.Column(db.Integer, db.ForeignKey('station.id'), nullable=False)\n    journey_date = db.Column(db.DateTime, default=datetime.utcnow)\n    fare_paid = db.Column(db.Float, nullable=False)\n    duration_minutes = db.Column(db.Integer, nullable=True)\n    # Relationships to Station for template access\n    from_station = db.relationship('Station', foreign_keys=[from_station_id], lazy=True)",
+        "detail": "database",
+        "documentation": {}
+    },
+    {
+        "label": "DemandForecast",
+        "kind": 6,
+        "importPath": "database",
+        "description": "database",
+        "peekOfCode": "class DemandForecast(db.Model):\n    id = db.Column(db.Integer, primary_key=True)\n    station_id = db.Column(db.Integer, db.ForeignKey('station.id'), nullable=False)\n    forecast_date = db.Column(db.DateTime, nullable=False)\n    predicted_passengers = db.Column(db.Integer, nullable=False)\n    prediction_time = db.Column(db.DateTime, default=datetime.utcnow)\nclass PassengerData(db.Model):\n    id = db.Column(db.Integer, primary_key=True)\n    station_id = db.Column(db.Integer, db.ForeignKey('station.id'), nullable=False)\n    timestamp = db.Column(db.DateTime, default=datetime.utcnow)",
+        "detail": "database",
+        "documentation": {}
+    },
+    {
+        "label": "PassengerData",
+        "kind": 6,
+        "importPath": "database",
+        "description": "database",
+        "peekOfCode": "class PassengerData(db.Model):\n    id = db.Column(db.Integer, primary_key=True)\n    station_id = db.Column(db.Integer, db.ForeignKey('station.id'), nullable=False)\n    timestamp = db.Column(db.DateTime, default=datetime.utcnow)\n    entries = db.Column(db.Integer, nullable=False)\n    exits = db.Column(db.Integer, nullable=False)\nclass TrainSchedule(db.Model):\n    id = db.Column(db.Integer, primary_key=True)\n    line_id = db.Column(db.Integer, db.ForeignKey('metro_line.id'), nullable=False)\n    from_station_id = db.Column(db.Integer, db.ForeignKey('station.id'), nullable=False)",
+        "detail": "database",
+        "documentation": {}
+    },
+    {
+        "label": "TrainSchedule",
+        "kind": 6,
+        "importPath": "database",
+        "description": "database",
+        "peekOfCode": "class TrainSchedule(db.Model):\n    id = db.Column(db.Integer, primary_key=True)\n    line_id = db.Column(db.Integer, db.ForeignKey('metro_line.id'), nullable=False)\n    from_station_id = db.Column(db.Integer, db.ForeignKey('station.id'), nullable=False)\n    to_station_id = db.Column(db.Integer, db.ForeignKey('station.id'), nullable=False)\n    departure_time = db.Column(db.DateTime, nullable=False)\n    arrival_time = db.Column(db.DateTime, nullable=False)\n    train_capacity = db.Column(db.Integer, nullable=False)\n    current_passengers = db.Column(db.Integer, default=0)\nclass ChatMessage(db.Model):",
+        "detail": "database",
+        "documentation": {}
+    },
+    {
+        "label": "ChatMessage",
+        "kind": 6,
+        "importPath": "database",
+        "description": "database",
+        "peekOfCode": "class ChatMessage(db.Model):\n    id = db.Column(db.Integer, primary_key=True)\n    user_id = db.Column(db.Integer, db.ForeignKey('user.id'), nullable=False)\n    message_type = db.Column(db.String(20), nullable=False) # user, bot\n    content = db.Column(db.Text, nullable=False)\n    timestamp = db.Column(db.DateTime, default=datetime.utcnow)\ndef init_db(app):\n    db.init_app(app)\n    with app.app_context():\n        db.create_all()",
+        "detail": "database",
+        "documentation": {}
+    },
+    {
+        "label": "init_db",
+        "kind": 2,
+        "importPath": "database",
+        "description": "database",
+        "peekOfCode": "def init_db(app):\n    db.init_app(app)\n    with app.app_context():\n        db.create_all()\n        # ── Seed real Namma Metro data only on first run ──────────────────────\n        if MetroLine.query.first() is None:\n            # ── Real Bangalore Namma Metro Lines ─────────────────────────────\n            lines_seed = [\n                {'name': 'Purple Line', 'color': '#9333ea'},   # East-West operational\n                {'name': 'Green Line',  'color': '#16a34a'},   # North-South operational",
+        "detail": "database",
+        "documentation": {}
+    },
+    {
+        "label": "db",
+        "kind": 5,
+        "importPath": "database",
+        "description": "database",
+        "peekOfCode": "db = SQLAlchemy()\nclass User(db.Model):\n    id = db.Column(db.Integer, primary_key=True)\n    email = db.Column(db.String(120), unique=True, nullable=False)\n    password_hash = db.Column(db.String(256), nullable=False)\n    phone = db.Column(db.String(20), nullable=True)\n    first_name = db.Column(db.String(100), nullable=True)\n    last_name = db.Column(db.String(100), nullable=True)\n    role = db.Column(db.String(20), default='user')\n    email_alerts_enabled = db.Column(db.Boolean, default=True)",
+        "detail": "database",
+        "documentation": {}
+    },
+    {
+        "label": "generate_synthetic_data",
+        "kind": 2,
+        "importPath": "data_generation",
+        "description": "data_generation",
+        "peekOfCode": "def generate_synthetic_data(num_days=30, output_dir='data'):\n    if not os.path.exists(output_dir):\n        os.makedirs(output_dir)\n    start_date = datetime.now() - timedelta(days=num_days)\n    data = []\n    # Simulate 5 stations\n    stations = [1, 2, 3, 4, 5]\n    for day in range(num_days):\n        current_date = start_date + timedelta(days=day)\n        is_weekend = current_date.weekday() >= 5",
+        "detail": "data_generation",
+        "documentation": {}
+    },
+    {
+        "label": "EmailService",
+        "kind": 6,
+        "importPath": "email_service",
+        "description": "email_service",
+        "peekOfCode": "class EmailService:\n    \"\"\"Service to send email alerts to passengers\"\"\"\n    def __init__(self):\n        self.sender_email = os.getenv('EMAIL_ADDRESS', 'metro.optimized@gmail.com')\n        self.sender_password = os.getenv('EMAIL_PASSWORD', 'your_app_password_here')\n        self.smtp_server = 'smtp.gmail.com'\n        self.smtp_port = 587\n    def send_journey_summary(self, recipient_email, journey_data):\n        \"\"\"Send journey summary email\"\"\"\n        subject = \"Your Metro Journey Summary\"",
+        "detail": "email_service",
+        "documentation": {}
+    },
+    {
+        "label": "train_demand_model",
+        "kind": 2,
+        "importPath": "ml_training",
+        "description": "ml_training",
+        "peekOfCode": "def train_demand_model(data_path='data/passenger_data.csv', models_dir='models'):\n    if not os.path.exists(models_dir):\n        os.makedirs(models_dir)\n    print(f\"Loading data from {data_path}...\")\n    df = pd.read_csv(data_path)\n    # Feature engineering for prediction\n    # Predict 'total_traffic' using 'station_id', 'is_weekend', and 'hour'\n    X = df[['station_id', 'is_weekend', 'hour']]\n    y = df['total_traffic']\n    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)",
+        "detail": "ml_training",
+        "documentation": {}
+    },
+    {
+        "label": "optimize_schedule",
+        "kind": 2,
+        "importPath": "ml_training",
+        "description": "ml_training",
+        "peekOfCode": "def optimize_schedule(predictions, base_trains=4, max_capacity=200):\n    \"\"\"\n    Very basic rule-based schedule optimization:\n    If predicted passengers > total capacity of base trains, add more trains.\n    \"\"\"\n    optimized_schedules = []\n    for pred in predictions:\n        needed_capacity = pred\n        trains_needed = (needed_capacity // max_capacity) + (1 if needed_capacity % max_capacity > 0 else 0)\n        # Ensure at least base trains run",
+        "detail": "ml_training",
+        "documentation": {}
+    },
+    {
+        "label": "RouteRecommender",
+        "kind": 6,
+        "importPath": "route_recommender",
+        "description": "route_recommender",
+        "peekOfCode": "class RouteRecommender:\n    \"\"\"Smart route recommendation engine for passengers\"\"\"\n    @staticmethod\n    def calculate_distance(lat1, lon1, lat2, lon2):\n        \"\"\"Calculate distance between two coordinates using Haversine formula\"\"\"\n        R = 6371  # Earth's radius in kilometers\n        lat1, lon1, lat2, lon2 = map(math.radians, [lat1, lon1, lat2, lon2])\n        dlat = lat2 - lat1\n        dlon = lon2 - lon1\n        a = math.sin(dlat/2)**2 + math.cos(lat1) * math.cos(lat2) * math.sin(dlon/2)**2",
+        "detail": "route_recommender",
+        "documentation": {}
+    }
+]

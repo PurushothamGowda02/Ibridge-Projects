@@ -1,0 +1,43 @@
+data:
+  raw_data_path: "data/raw/insurance_data.csv"
+  processed_data_path: "data/processed/"
+  test_size: 0.2
+  random_state: 42
+
+features:
+  categorical_features:
+    - gender
+    - vehicle_make
+    - vehicle_model
+    - region
+    - education_level
+    - marital_status
+  numerical_features:
+    - age
+    - driving_experience
+    - vehicle_age
+    - engine_size
+    - annual_mileage
+    - credit_score
+    - previous_claims
+  target: premium_amount
+
+models:
+  linear_regression: {}
+  random_forest:
+    n_estimators: 100
+    max_depth: 10
+    random_state: 42
+  xgboost:
+    n_estimators: 100
+    max_depth: 6
+    learning_rate: 0.1
+    random_state: 42
+
+evaluation:
+  metrics:
+    - mae
+    - mse
+    - rmse
+    - r2_score
+  cross_validation_folds: 5

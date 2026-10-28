@@ -1,0 +1,229 @@
+{% extends "base.html" %}
+
+{% block title %}Manage Cards - Metro Optimization{% endblock %}
+{% block page_title %}Manage Your Metro Cards{% endblock %}
+{% block page_description %}Link, recharge, and manage your metro travel cards{% endblock %}
+
+{% block content %}
+<div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
+    <!-- Cards Section -->
+    <div class="lg:col-span-2">
+        <div class="bg-white rounded-xl shadow-lg p-6 mb-6">
+            <div class="flex justify-between items-center mb-6">
+                <h3 class="text-2xl font-bold text-gray-800">My Cards</h3>
+                <button onclick="showLinkCardForm()" class="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg transition">
+                    <i class="fas fa-plus mr-2"></i> Add New Card
+                </button>
+            </div>
+
+            <!-- Link Card Form -->
+            <div id="linkCardForm" class="hidden mb-6 p-4 bg-blue-50 border border-blue-200 rounded-lg">
+                <h4 class="font-bold text-gray-800 mb-4">Link New Card</h4>
+                <div class="space-y-4">
+                    <input type="text" id="cardNumber" placeholder="Card Number (16 digits)" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500">
+                    <select id="cardType" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500">
+                        <option value="NCMC">NCMC (National Common Mobility Card)</option>
+                        <option value="CMC">CMC (Bangalore Metro Card)</option>
+                    </select>
+                    <div class="flex gap-2">
+                        <button onclick="linkCard()" class="flex-1 bg-green-600 hover:bg-green-700 text-white py-2 rounded-lg transition">Link Card</button>
+                        <button onclick="hideLinkCardForm()" class="flex-1 bg-gray-400 hover:bg-gray-500 text-white py-2 rounded-lg transition">Cancel</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Cards Grid -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                {% for card in cards %}
+                    <div class="relative bg-gradient-to-br from-blue-600 to-purple-600 text-white rounded-xl p-6 shadow-lg">
+                        <div class="flex justify-between items-start mb-8">
+                            <div>
+                                <p class="text-sm opacity-75">{{ card.card_type }}</p>
+                                <p class="text-2xl font-bold">•••• {{ card.card_number[-4:] }}</p>
+                            </div>
+                            <i class="fas fa-credit-card text-3xl opacity-20"></i>
+                        </div>
+
+                        <div class="mb-6">
+                            <p class="text-sm opacity-75">Balance</p>
+                            <p class="text-3xl font-bold">₹{{ "%.2f"|format(card.balance) }}</p>
+                        </div>
+
+                        <div class="flex justify-between items-center">
+                            <div>
+                                <p class="text-xs opacity-75">KYC Status</p>
+                                {% if card.kyc_status == 'Verified' %}
+                                    <span class="inline-block px-2 py-1 bg-green-400 text-green-900 rounded text-xs font-bold">✓ Verified</span>
+                                {% else %}
+                                    <span class="inline-block px-2 py-1 bg-yellow-400 text-yellow-900 rounded text-xs font-bold">Pending</span>
+                                {% endif %}
+                            </div>
+                            <button onclick="rechargeCard('{{ card.id }}')" class="w-24 bg-white text-blue-600 hover:bg-blue-50 px-3 py-1 rounded text-xs font-bold transition">Recharge</button>
+                        </div>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+
+        <!-- Recharge Section -->
+        <div id="rechargeSection" class="hidden bg-white rounded-xl shadow-xl p-8 mb-6 border-l-4 border-blue-600">
+            <h3 class="text-2xl font-bold text-gray-800 mb-2">Recharge Your Card</h3>
+            <p class="text-gray-600 text-sm mb-6 font-medium">Fast, secure, and instant balance top-up</p>
+            <div class="space-y-6">
+                <div>
+                    <label class="block text-sm font-semibold text-gray-700 mb-3 uppercase tracking-wider">Select Quick Amount</label>
+                    <div class="grid grid-cols-2 sm:grid-cols-4 gap-3 mb-4">
+                        <button onclick="document.getElementById('rechargeAmount').value = 100; updateDisplay();" class="px-4 py-3 bg-gradient-to-br from-blue-50 to-blue-100 text-blue-700 font-bold rounded-lg hover:from-blue-100 hover:to-blue-200 border-2 border-blue-300 transition duration-200 text-sm">₹100</button>
+                        <button onclick="document.getElementById('rechargeAmount').value = 200; updateDisplay();" class="px-4 py-3 bg-gradient-to-br from-green-50 to-green-100 text-green-700 font-bold rounded-lg hover:from-green-100 hover:to-green-200 border-2 border-green-300 transition duration-200 text-sm">₹200</button>
+                        <button onclick="document.getElementById('rechargeAmount').value = 500; updateDisplay();" class="px-4 py-3 bg-gradient-to-br from-purple-50 to-purple-100 text-purple-700 font-bold rounded-lg hover:from-purple-100 hover:to-purple-200 border-2 border-purple-300 transition duration-200 text-sm">₹500</button>
+                        <button onclick="document.getElementById('rechargeAmount').value = 1000; updateDisplay();" class="px-4 py-3 bg-gradient-to-br from-orange-50 to-orange-100 text-orange-700 font-bold rounded-lg hover:from-orange-100 hover:to-orange-200 border-2 border-orange-300 transition duration-200 text-sm">₹1000</button>
+                    </div>
+                    <div class="relative">
+                        <label class="text-xs font-semibold text-gray-600 uppercase tracking-wider">Or Enter Custom Amount</label>
+                        <input type="number" id="rechargeAmount" placeholder="Enter custom amount (min: ₹10)" min="10" step="10" class="w-full px-4 py-3 mt-2 rounded-lg font-semibold text-gray-800 bg-white transition" onchange="updateDisplay();">
+                    </div>
+                </div>
+                <div class="bg-blue-50 border-l-4 border-blue-500 p-4 rounded-lg">
+                    <p class="text-sm text-gray-700"><span class="font-bold text-blue-600">Total Amount:</span> <span id="totalDisplay" class="font-bold text-2xl text-blue-600">₹10</span></p>
+                </div>
+                <div class="flex gap-3 pt-4">
+                    <button onclick="processRecharge()" class="flex-1 bg-gradient-to-r from-green-600 to-emerald-600 hover:from-green-700 hover:to-emerald-700 text-white font-bold py-3 px-4 rounded-lg transition duration-200 shadow-lg hover:shadow-xl flex items-center justify-center gap-2">
+                        <i class="fas fa-check"></i> Complete Recharge
+                    </button>
+                    <button onclick="document.getElementById('rechargeSection').classList.add('hidden')" class="px-6 bg-gray-200 hover:bg-gray-300 text-gray-800 font-bold py-3 rounded-lg transition duration-200">Cancel</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Transaction History -->
+        <div class="bg-white rounded-xl shadow-lg p-6">
+            <h3 class="text-xl font-bold text-gray-800 mb-4">Recent Transactions</h3>
+            <div class="space-y-2">
+                {% for transaction in transactions %}
+                    <div class="flex justify-between items-center p-3 bg-gray-50 rounded-lg {% if transaction.transaction_type == 'Recharge' %}border-l-4 border-green-400{% else %}border-l-4 border-red-400{% endif %}">
+                        <div>
+                            <p class="font-semibold text-gray-800">{{ transaction.description }}</p>
+                            <p class="text-xs text-gray-500">{{ transaction.transaction_date.strftime('%Y-%m-%d %H:%M') }}</p>
+                        </div>
+                        <p class="text-lg font-bold {% if transaction.transaction_type == 'Recharge' %}text-green-600{% else %}text-red-600{% endif %}">{{ '+' if transaction.transaction_type == 'Recharge' else '-' }}₹{{ "%.2f"|format(transaction.amount) }}</p>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+
+    <!-- Info Panel -->
+    <div class="space-y-6">
+        <div class="bg-white rounded-xl shadow-lg overflow-hidden">
+            <div class="bg-gradient-to-r from-green-500 to-emerald-600 text-white p-4">
+                <h4 class="font-bold">Card Benefits</h4>
+            </div>
+            <div class="p-4 space-y-3">
+                <div class="flex gap-3">
+                    <i class="fas fa-percent text-blue-600 text-lg"></i>
+                    <div>
+                        <p class="font-semibold text-gray-800">Discounts</p>
+                        <p class="text-sm text-gray-600">Up to 10% off on fares</p>
+                    </div>
+                </div>
+                <div class="flex gap-3">
+                    <i class="fas fa-bolt text-orange-600 text-lg"></i>
+                    <div>
+                        <p class="font-semibold text-gray-800">Fast Boarding</p>
+                        <p class="text-sm text-gray-600">Quick gate access</p>
+                    </div>
+                </div>
+                <div class="flex gap-3">
+                    <i class="fas fa-shield-alt text-purple-600 text-lg"></i>
+                    <div>
+                        <p class="font-semibold text-gray-800">Safe & Secure</p>
+                        <p class="text-sm text-gray-600">Protected transactions</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="bg-gradient-to-br from-purple-50 to-pink-50 rounded-xl shadow-lg p-6 border border-purple-200">
+            <h4 class="font-bold text-gray-800 mb-3">🎯 Quick Actions</h4>
+            <ul class="space-y-2 text-sm">
+                <li><a href="{{ url_for('kyc_verification') }}" class="text-blue-600 hover:underline">➜ Complete KYC</a></li>
+                <li><a href="{{ url_for('pricing_page') }}" class="text-blue-600 hover:underline">➜ View pricing</a></li>
+                <li><a href="{{ url_for('alerts_page') }}" class="text-blue-600 hover:underline">➜ Set up alerts</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<script>
+let currentCardId = null;
+
+function updateDisplay() {
+    const amount = document.getElementById('rechargeAmount').value;
+    document.getElementById('totalDisplay').textContent = amount ? '₹' + amount : '₹10';
+}
+
+function showLinkCardForm() {
+    document.getElementById('linkCardForm').classList.remove('hidden');
+}
+
+function hideLinkCardForm() {
+    document.getElementById('linkCardForm').classList.add('hidden');
+}
+
+async function linkCard() {
+    const cardNumber = document.getElementById('cardNumber').value;
+    const cardType = document.getElementById('cardType').value;
+    
+    if (!cardNumber || cardNumber.length < 10) {
+        alert('Please enter a valid card number');
+        return;
+    }
+    
+    try {
+        const response = await fetch('/api/card/link', {
+            method: 'POST',
+            headers: {'Content-Type': 'application/json'},
+            body: JSON.stringify({card_number: cardNumber, card_type: cardType})
+        });
+        
+        const data = await response.json();
+        if (data.success) {
+            alert('Card linked successfully!');
+            location.reload();
+        }
+    } catch(error) {
+        alert('Error linking card');
+    }
+}
+
+function rechargeCard(cardId) {
+    currentCardId = cardId;
+    document.getElementById('rechargeSection').classList.remove('hidden');
+}
+
+async function processRecharge() {
+    const amount = parseFloat(document.getElementById('rechargeAmount').value);
+    
+    if (!amount || amount <= 0) {
+        alert('Please enter a valid amount');
+        return;
+    }
+    
+    try {
+        const response = await fetch('/api/card/recharge', {
+            method: 'POST',
+            headers: {'Content-Type': 'application/json'},
+            body: JSON.stringify({card_id: currentCardId, amount: amount})
+        });
+        
+        const data = await response.json();
+        if (data.success) {
+            alert('Recharge successful!');
+            location.reload();
+        }
+    } catch(error) {
+        alert('Error processing recharge');
+    }
+}
+</script>
+{% endblock %}

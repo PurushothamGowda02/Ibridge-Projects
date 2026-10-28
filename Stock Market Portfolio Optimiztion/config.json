@@ -1,0 +1,7 @@
+﻿{
+  "tickers": ["RELIANCE.NS", "TCS.NS", "INFY.NS", "HDFCBANK.NS", "ITC.NS"],
+  "start_date": "2020-01-01",
+  "end_date": "2025-12-31",
+  "risk_free_rate": 0.06,
+  "allow_short_selling": false
+}

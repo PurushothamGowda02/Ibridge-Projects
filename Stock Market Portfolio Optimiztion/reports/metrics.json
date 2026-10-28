@@ -1,0 +1,17 @@
+{
+  "Equal Weight": {
+    "annual_return": 0.15625796986618398,
+    "annual_volatility": 0.1814294014235517,
+    "sharpe_ratio": 0.530553312257627
+  },
+  "Min Variance": {
+    "annual_return": 0.14331125026898756,
+    "annual_volatility": 0.17509576397871932,
+    "sharpe_ratio": 0.47580391653057347
+  },
+  "Max Sharpe": {
+    "annual_return": 0.18256972523576986,
+    "annual_volatility": 0.19402934643323505,
+    "sharpe_ratio": 0.6317071488871183
+  }
+}

@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RFM Upload Test</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+        }
+        .upload-section {
+            border: 2px solid #4CAF50;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+        input[type="file"] {
+            margin: 10px 0;
+            padding: 10px;
+        }
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+        button:disabled {
+            background-color: #cccccc;
+            cursor: not-allowed;
+        }
+        .result {
+            margin-top: 20px;
+            padding: 15px;
+            border-radius: 4px;
+        }
+        .success {
+            background-color: #d4edda;
+            border: 1px solid #c3e6cb;
+            color: #155724;
+        }
+        .error {
+            background-color: #f8d7da;
+            border: 1px solid #f5c6cb;
+            color: #721c24;
+        }
+        .info {
+            background-color: #d1ecf1;
+            border: 1px solid #bee5eb;
+            color: #0c5460;
+        }
+        pre {
+            background-color: #f4f4f4;
+            padding: 10px;
+            border-radius: 4px;
+            overflow-x: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>🧪 RFM Analysis Upload Test</h1>
+    
+    <div class="upload-section">
+        <h2>Upload CSV File</h2>
+        <p>Select a CSV file with the required columns to test the upload functionality.</p>
+        
+        <input type="file" id="fileInput" accept=".csv">
+        <br>
+        <button id="uploadBtn" onclick="uploadFile()">Upload & Analyze</button>
+        <button onclick="testWithSample()">Test with Sample Data</button>
+    </div>
+
+    <div id="result"></div>
+
+    <div class="info" style="margin-top: 20px;">
+        <h3>Required CSV Columns:</h3>
+        <ul>
+            <li>InvoiceNo</li>
+            <li>StockCode</li>
+            <li>Description</li>
+            <li>Quantity</li>
+            <li>InvoiceDate</li>
+            <li>UnitPrice</li>
+            <li>CustomerID</li>
+            <li>Country</li>
+        </ul>
+    </div>
+
+    <script>
+        const API_URL = 'http://localhost:8000/api/rfm/analyze-unseen';
+
+        async function uploadFile() {
+            const fileInput = document.getElementById('fileInput');
+            const resultDiv = document.getElementById('result');
+            const uploadBtn = document.getElementById('uploadBtn');
+
+            if (!fileInput.files || fileInput.files.length === 0) {
+                resultDiv.innerHTML = '<div class="error">❌ Please select a CSV file first!</div>';
+                return;
+            }
+
+            const file = fileInput.files[0];
+            
+            if (!file.name.endsWith('.csv')) {
+                resultDiv.innerHTML = '<div class="error">❌ Please select a CSV file (must end with .csv)</div>';
+                return;
+            }
+
+            uploadBtn.disabled = true;
+            resultDiv.innerHTML = '<div class="info">⏳ Uploading and analyzing...</div>';
+
+            const formData = new FormData();
+            formData.append('file', file);
+
+            try {
+                const response = await fetch(API_URL, {
+                    method: 'POST',
+                    body: formData
+                });
+
+                const data = await response.json();
+
+                if (response.ok) {
+                    resultDiv.innerHTML = `
+                        <div class="success">
+                            <h3>✅ ${data.message}</h3>
+                            <h4>Statistics:</h4>
+                            <ul>
+                                <li>Total Customers: ${data.stats.total_customers}</li>
+                                <li>Total Transactions: ${data.stats.total_transactions}</li>
+                                <li>Average Recency: ${data.stats.avg_recency} days</li>
+                                <li>Average Frequency: ${data.stats.avg_frequency} purchases</li>
+                                <li>Average Monetary: $${data.stats.avg_monetary}</li>
+                                <li>Rows Cleaned: ${data.stats.rows_cleaned}</li>
+                            </ul>
+                            <h4>Segment Distribution:</h4>
+                            <ul>
+                                ${data.segments_summary.map(s => 
+                                    `<li>${s.segment}: ${s.count} customers (${s.percentage}%)</li>`
+                                ).join('')}
+                            </ul>
+                            <details>
+                                <summary>View Full Response (click to expand)</summary>
+                                <pre>${JSON.stringify(data, null, 2)}</pre>
+                            </details>
+                        </div>
+                    `;
+                } else {
+                    resultDiv.innerHTML = `
+                        <div class="error">
+                            <h3>❌ Upload Failed</h3>
+                            <p><strong>Error:</strong> ${data.detail || 'Unknown error'}</p>
+                            <pre>${JSON.stringify(data, null, 2)}</pre>
+                        </div>
+                    `;
+                }
+            } catch (error) {
+                resultDiv.innerHTML = `
+                    <div class="error">
+                        <h3>❌ Network Error</h3>
+                        <p><strong>Error:</strong> ${error.message}</p>
+                        <p>Make sure the backend is running on http://localhost:8000</p>
+                    </div>
+                `;
+            } finally {
+                uploadBtn.disabled = false;
+            }
+        }
+
+        async function testWithSample() {
+            const resultDiv = document.getElementById('result');
+            resultDiv.innerHTML = '<div class="info">⏳ Testing with backend/data/test_dataset.csv...</div>';
+
+            try {
+                const response = await fetch('backend/data/test_dataset.csv');
+                const csvText = await response.text();
+                const blob = new Blob([csvText], { type: 'text/csv' });
+                const file = new File([blob], 'test_dataset.csv', { type: 'text/csv' });
+
+                const formData = new FormData();
+                formData.append('file', file);
+
+                const uploadResponse = await fetch(API_URL, {
+                    method: 'POST',
+                    body: formData
+                });
+
+                const data = await uploadResponse.json();
+
+                if (uploadResponse.ok) {
+                    resultDiv.innerHTML = `
+                        <div class="success">
+                            <h3>✅ ${data.message}</h3>
+                            <h4>Statistics:</h4>
+                            <ul>
+                                <li>Total Customers: ${data.stats.total_customers}</li>
+                                <li>Total Transactions: ${data.stats.total_transactions}</li>
+                                <li>Average Recency: ${data.stats.avg_recency} days</li>
+                                <li>Average Frequency: ${data.stats.avg_frequency} purchases</li>
+                                <li>Average Monetary: $${data.stats.avg_monetary}</li>
+                            </ul>
+                        </div>
+                    `;
+                } else {
+                    resultDiv.innerHTML = `<div class="error">❌ ${data.detail}</div>`;
+                }
+            } catch (error) {
+                resultDiv.innerHTML = `<div class="error">❌ Error: ${error.message}</div>`;
+            }
+        }
+
+        // Check backend connection on load
+        window.addEventListener('load', async () => {
+            try {
+                const response = await fetch('http://localhost:8000/api/health');
+                const data = await response.json();
+                if (data.status === 'ok') {
+                    console.log('✅ Backend is connected');
+                }
+            } catch (error) {
+                document.getElementById('result').innerHTML = `
+                    <div class="error">
+                        <h3>⚠️ Backend Not Connected</h3>
+                        <p>Cannot connect to http://localhost:8000</p>
+                        <p>Please make sure the backend server is running:</p>
+                        <pre>cd backend
+python -m uvicorn main:app --reload</pre>
+                    </div>
+                `;
+            }
+        });
+    </script>
+</body>
+</html>

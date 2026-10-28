@@ -1,0 +1,8 @@
+﻿{"note": "Patient reports fever, dry cough, sore throat, and body ache for two days.", "symptoms": "fever cough sore throat body ache", "label": "Upper Respiratory Viral Infection", "severity": "Moderate", "language": "en"}
+{"note": "Pt with chest pain radiating to left arm, sweating and shortness of breath.", "symptoms": "chest pain left arm pain breathlessness sweating", "label": "Possible Cardiac Emergency", "severity": "Emergency", "language": "en"}
+{"note": "Nausea, vomiting and loose stool after outside food.", "symptoms": "vomiting diarrhea stomach pain", "label": "Acute Gastrointestinal Illness", "severity": "Moderate", "language": "en"}
+{"note": "Itchy red rash after cosmetic product exposure.", "symptoms": "itching rash skin redness", "label": "Skin Allergy or Irritation", "severity": "Low", "language": "en"}
+{"note": "bukhar aur khansi 3 din se hai, gale mein dard bhi hai.", "symptoms": "bukhar khansi gale mein dard", "label": "Upper Respiratory Viral Infection", "severity": "Moderate", "language": "hi"}
+{"note": "सीने में दर्द और सांस लेने में दिक्कत", "symptoms": "सीने में दर्द सांस लेने में दिक्कत", "label": "Possible Cardiac Emergency", "severity": "Emergency", "language": "hi"}
+{"note": "Sprained ankle with swelling after fall during walk.", "symptoms": "ankle twist swelling pain", "label": "Musculoskeletal Injury (Sprain or Strain)", "severity": "Moderate", "language": "en"}
+{"note": "Headache with light sensitivity and nausea.", "symptoms": "headache sensitivity to light nausea", "label": "Tension Headache or Migraine", "severity": "Low", "language": "en"}

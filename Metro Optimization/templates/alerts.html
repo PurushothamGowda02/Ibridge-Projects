@@ -1,0 +1,132 @@
+{% extends "base.html" %}
+
+{% block title %}Alerts &amp; Notifications - Metro Optimization{% endblock %}
+{% block page_title %}Email Alerts &amp; Notifications{% endblock %}
+{% block page_description %}Manage your email notification preferences{% endblock %}
+
+{% block content %}
+<div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
+    <div class="lg:col-span-2 bg-white rounded-xl shadow-lg p-6">
+        <h3 class="text-2xl font-bold text-gray-800 mb-6">Alert Settings</h3>
+        
+        <!-- Master Toggle -->
+        <div class="mb-8 p-4 bg-blue-50 rounded-lg border border-blue-200">
+            <div class="flex justify-between items-center">
+                <div>
+                    <p class="font-bold text-gray-800">Email Alerts</p>
+                    <p class="text-sm text-gray-600">Receive notifications about line status and journey info</p>
+                </div>
+                <button onclick="toggleAlerts()" class="px-6 py-2 bg-{{ 'red' if not alerts_enabled else 'green' }}-600 hover:bg-{{ 'red' if not alerts_enabled else 'green' }}-700 text-white rounded-lg transition">
+                    {% if alerts_enabled %}✓ Enabled{% else %}Disabled{% endif %}
+                </button>
+            </div>
+        </div>
+
+        <!-- Alert Types -->
+        <div class="space-y-4">
+            <h4 class="font-bold text-gray-800">Alert Types</h4>
+            
+            <div class="p-4 bg-gray-50 rounded-lg border border-gray-200">
+                <label class="flex items-center cursor-pointer">
+                    <input type="checkbox" class="w-4 h-4" checked>
+                    <span class="ml-3">
+                        <p class="font-semibold text-gray-800">🚨 Line Status Changes</p>
+                        <p class="text-sm text-gray-600">Get notified when there are delays or service changes</p>
+                    </span>
+                </label>
+            </div>
+
+            <div class="p-4 bg-gray-50 rounded-lg border border-gray-200">
+                <label class="flex items-center cursor-pointer">
+                    <input type="checkbox" class="w-4 h-4" checked>
+                    <span class="ml-3">
+                        <p class="font-semibold text-gray-800">🎫 Journey Summaries</p>
+                        <p class="text-sm text-gray-600">Receive summary of your daily journeys</p>
+                    </span>
+                </label>
+            </div>
+
+            <div class="p-4 bg-gray-50 rounded-lg border border-gray-200">
+                <label class="flex items-center cursor-pointer">
+                    <input type="checkbox" class="w-4 h-4">
+                    <span class="ml-3">
+                        <p class="font-semibold text-gray-800">💰 Promotional Offers</p>
+                        <p class="text-sm text-gray-600">Special discounts and offers</p>
+                    </span>
+                </label>
+            </div>
+
+            <div class="p-4 bg-gray-50 rounded-lg border border-gray-200">
+                <label class="flex items-center cursor-pointer">
+                    <input type="checkbox" class="w-4 h-4" checked>
+                    <span class="ml-3">
+                        <p class="font-semibold text-gray-800">⏰ Card Balance Low</p>
+                        <p class="text-sm text-gray-600">Reminder when balance goes below ₹100</p>
+                    </span>
+                </label>
+            </div>
+
+            <div class="p-4 bg-gray-50 rounded-lg border border-gray-200">
+                <label class="flex items-center cursor-pointer">
+                    <input type="checkbox" class="w-4 h-4" checked>
+                    <span class="ml-3">
+                        <p class="font-semibold text-gray-800">📱 KYC Reminders</p>
+                        <p class="text-sm text-gray-600">Complete KYC verification reminders</p>
+                    </span>
+                </label>
+            </div>
+        </div>
+    </div>
+
+    <!-- Info Panel -->
+    <div class="space-y-6">
+        <div class="bg-white rounded-xl shadow-lg overflow-hidden">
+            <div class="bg-gradient-to-r from-blue-600 to-purple-600 text-white p-4">
+                <h4 class="font-bold">Notification History</h4>
+            </div>
+            <div class="p-4 space-y-3">
+                <div class="p-3 bg-gray-50 rounded-lg border-l-4 border-green-500">
+                    <p class="font-semibold text-gray-800 text-sm">Recharge Confirmation</p>
+                    <p class="text-xs text-gray-500">Today 10:30 AM</p>
+                </div>
+                <div class="p-3 bg-gray-50 rounded-lg border-l-4 border-orange-500">
+                    <p class="font-semibold text-gray-800 text-sm">Green Line - Minor Delay</p>
+                    <p class="text-xs text-gray-500">Today 9:15 AM</p>
+                </div>
+                <div class="p-3 bg-gray-50 rounded-lg border-l-4 border-purple-500">
+                    <p class="font-semibold text-gray-800 text-sm">Journey Summary</p>
+                    <p class="text-xs text-gray-500">Yesterday 11:59 PM</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="bg-gradient-to-br from-purple-50 to-pink-50 rounded-xl shadow-lg p-6 border border-purple-200">
+            <h4 class="font-bold text-gray-800 mb-3">📧 Email Preferences</h4>
+            <ul class="space-y-2 text-sm text-gray-700">
+                <li>✓ Notifications daily</li>
+                <li>✓ Digest emails</li>
+                <li>✓ Unsubscribe anytime</li>
+                <li>✓ No spam policy</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<script>
+async function toggleAlerts() {
+    try {
+        const response = await fetch('/api/alerts/toggle', {
+            method: 'POST',
+            headers: {'Content-Type': 'application/json'}
+        });
+        
+        const data = await response.json();
+        if (data.success) {
+            location.reload();
+        }
+    } catch(error) {
+        alert('Error updating alerts');
+    }
+}
+</script>
+{% endblock %}

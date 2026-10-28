@@ -1,0 +1,851 @@
+[
+    {
+        "label": "logging",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "logging",
+        "description": "logging",
+        "detail": "logging",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "io",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "io",
+        "description": "io",
+        "detail": "io",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Query",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Request",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "UploadFile",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "File",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "FastAPI",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "pandas",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pandas",
+        "description": "pandas",
+        "detail": "pandas",
+        "documentation": {}
+    },
+    {
+        "label": "csv",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "csv",
+        "description": "csv",
+        "detail": "csv",
+        "documentation": {}
+    },
+    {
+        "label": "random",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "random",
+        "description": "random",
+        "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "pytest",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pytest",
+        "description": "pytest",
+        "detail": "pytest",
+        "documentation": {}
+    },
+    {
+        "label": "clean_dataset",
+        "importPath": "data.ingestion",
+        "description": "data.ingestion",
+        "isExtraImport": true,
+        "detail": "data.ingestion",
+        "documentation": {}
+    },
+    {
+        "label": "clean_dataset",
+        "importPath": "data.ingestion",
+        "description": "data.ingestion",
+        "isExtraImport": true,
+        "detail": "data.ingestion",
+        "documentation": {}
+    },
+    {
+        "label": "load_dataset",
+        "importPath": "data.ingestion",
+        "description": "data.ingestion",
+        "isExtraImport": true,
+        "detail": "data.ingestion",
+        "documentation": {}
+    },
+    {
+        "label": "load_dataset",
+        "importPath": "data.ingestion",
+        "description": "data.ingestion",
+        "isExtraImport": true,
+        "detail": "data.ingestion",
+        "documentation": {}
+    },
+    {
+        "label": "clean_dataset",
+        "importPath": "data.ingestion",
+        "description": "data.ingestion",
+        "isExtraImport": true,
+        "detail": "data.ingestion",
+        "documentation": {}
+    },
+    {
+        "label": "assign_scores",
+        "importPath": "rfm.computation",
+        "description": "rfm.computation",
+        "isExtraImport": true,
+        "detail": "rfm.computation",
+        "documentation": {}
+    },
+    {
+        "label": "assign_segments",
+        "importPath": "rfm.computation",
+        "description": "rfm.computation",
+        "isExtraImport": true,
+        "detail": "rfm.computation",
+        "documentation": {}
+    },
+    {
+        "label": "compute_rfm",
+        "importPath": "rfm.computation",
+        "description": "rfm.computation",
+        "isExtraImport": true,
+        "detail": "rfm.computation",
+        "documentation": {}
+    },
+    {
+        "label": "assign_scores",
+        "importPath": "rfm.computation",
+        "description": "rfm.computation",
+        "isExtraImport": true,
+        "detail": "rfm.computation",
+        "documentation": {}
+    },
+    {
+        "label": "assign_segments",
+        "importPath": "rfm.computation",
+        "description": "rfm.computation",
+        "isExtraImport": true,
+        "detail": "rfm.computation",
+        "documentation": {}
+    },
+    {
+        "label": "compute_rfm",
+        "importPath": "rfm.computation",
+        "description": "rfm.computation",
+        "isExtraImport": true,
+        "detail": "rfm.computation",
+        "documentation": {}
+    },
+    {
+        "label": "compute_rfm",
+        "importPath": "rfm.computation",
+        "description": "rfm.computation",
+        "isExtraImport": true,
+        "detail": "rfm.computation",
+        "documentation": {}
+    },
+    {
+        "label": "assign_scores",
+        "importPath": "rfm.computation",
+        "description": "rfm.computation",
+        "isExtraImport": true,
+        "detail": "rfm.computation",
+        "documentation": {}
+    },
+    {
+        "label": "assign_segments",
+        "importPath": "rfm.computation",
+        "description": "rfm.computation",
+        "isExtraImport": true,
+        "detail": "rfm.computation",
+        "documentation": {}
+    },
+    {
+        "label": "asynccontextmanager",
+        "importPath": "contextlib",
+        "description": "contextlib",
+        "isExtraImport": true,
+        "detail": "contextlib",
+        "documentation": {}
+    },
+    {
+        "label": "uvicorn",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "uvicorn",
+        "description": "uvicorn",
+        "detail": "uvicorn",
+        "documentation": {}
+    },
+    {
+        "label": "CORSMiddleware",
+        "importPath": "fastapi.middleware.cors",
+        "description": "fastapi.middleware.cors",
+        "isExtraImport": true,
+        "detail": "fastapi.middleware.cors",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "importPath": "api.router",
+        "description": "api.router",
+        "isExtraImport": true,
+        "detail": "api.router",
+        "documentation": {}
+    },
+    {
+        "label": "CORS_ORIGINS",
+        "importPath": "config",
+        "description": "config",
+        "isExtraImport": true,
+        "detail": "config",
+        "documentation": {}
+    },
+    {
+        "label": "DATASET_PATH",
+        "importPath": "config",
+        "description": "config",
+        "isExtraImport": true,
+        "detail": "config",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "health",
+        "kind": 2,
+        "importPath": "backend.api.router",
+        "description": "backend.api.router",
+        "peekOfCode": "def health() -> dict[str, str]:\n    \"\"\"\n    Health check endpoint.\n    Returns\n    -------\n    dict\n        ``{\"status\": \"ok\"}``\n    \"\"\"\n    return {\"status\": \"ok\"}\n@router.get(\"/api/rfm\", summary=\"Full RFM records\")",
+        "detail": "backend.api.router",
+        "documentation": {}
+    },
+    {
+        "label": "get_rfm",
+        "kind": 2,
+        "importPath": "backend.api.router",
+        "description": "backend.api.router",
+        "peekOfCode": "def get_rfm(request: Request) -> list[dict[str, Any]]:\n    \"\"\"\n    Return the full RFM dataset as a JSON array.\n    Each record contains: CustomerID, Recency, Frequency, Monetary,\n    R_Score, F_Score, M_Score, RFM_Score, Customer_Segment.\n    Returns\n    -------\n    list[dict]\n        Array of RFM records; one element per customer.\n    \"\"\"",
+        "detail": "backend.api.router",
+        "documentation": {}
+    },
+    {
+        "label": "get_segments_summary",
+        "kind": 2,
+        "importPath": "backend.api.router",
+        "description": "backend.api.router",
+        "peekOfCode": "def get_segments_summary(request: Request) -> list[dict[str, Any]]:\n    \"\"\"\n    Return the segment distribution as a JSON array.\n    Each element: segment (str), count (int), percentage (float).\n    Percentages sum to 100 within floating-point tolerance.\n    Returns\n    -------\n    list[dict]\n        Array of segment summary records.\n    \"\"\"",
+        "detail": "backend.api.router",
+        "documentation": {}
+    },
+    {
+        "label": "get_rfm_top",
+        "kind": 2,
+        "importPath": "backend.api.router",
+        "description": "backend.api.router",
+        "peekOfCode": "def get_rfm_top(\n    request: Request,\n    n: Any = Query(default=10, description=\"Number of top customers to return\"),\n) -> list[dict[str, Any]]:\n    \"\"\"\n    Return the top-n customers ranked by RFM_Score descending.\n    Parameters\n    ----------\n    n : int\n        Must be a positive integer. Defaults to 10.",
+        "detail": "backend.api.router",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "backend.api.router",
+        "description": "backend.api.router",
+        "peekOfCode": "logger = logging.getLogger(__name__)\nrouter = APIRouter()\n@router.get(\"/api/health\", summary=\"Health check\")\ndef health() -> dict[str, str]:\n    \"\"\"\n    Health check endpoint.\n    Returns\n    -------\n    dict\n        ``{\"status\": \"ok\"}``",
+        "detail": "backend.api.router",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "backend.api.router",
+        "description": "backend.api.router",
+        "peekOfCode": "router = APIRouter()\n@router.get(\"/api/health\", summary=\"Health check\")\ndef health() -> dict[str, str]:\n    \"\"\"\n    Health check endpoint.\n    Returns\n    -------\n    dict\n        ``{\"status\": \"ok\"}``\n    \"\"\"",
+        "detail": "backend.api.router",
+        "documentation": {}
+    },
+    {
+        "label": "random_date",
+        "kind": 2,
+        "importPath": "backend.data.generate_dataset",
+        "description": "backend.data.generate_dataset",
+        "peekOfCode": "def random_date() -> str:\n    \"\"\"Return a random datetime string within 2023 in MM/DD/YYYY HH:MM format.\"\"\"\n    offset = random.randint(0, DATE_RANGE_SECONDS)\n    dt = START_DATE + timedelta(seconds=offset)\n    return dt.strftime(\"%m/%d/%Y %H:%M\")\ndef main():\n    # ── Build customer pool (~4 000 unique customers) ─────────────────────────\n    customer_ids = [f\"C{i}\" for i in range(1001, 5001)]  # C1001 – C5000\n    # Assign each customer a country (stays consistent per customer)\n    customer_country = {",
+        "detail": "backend.data.generate_dataset",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "backend.data.generate_dataset",
+        "description": "backend.data.generate_dataset",
+        "peekOfCode": "def main():\n    # ── Build customer pool (~4 000 unique customers) ─────────────────────────\n    customer_ids = [f\"C{i}\" for i in range(1001, 5001)]  # C1001 – C5000\n    # Assign each customer a country (stays consistent per customer)\n    customer_country = {\n        cid: random.choices(COUNTRIES, weights=COUNTRY_WEIGHTS, k=1)[0]\n        for cid in customer_ids\n    }\n    # ── Build invoice pool (~2 000 unique invoices) ───────────────────────────\n    # Each invoice belongs to one customer; customers can have multiple invoices",
+        "detail": "backend.data.generate_dataset",
+        "documentation": {}
+    },
+    {
+        "label": "PRODUCTS",
+        "kind": 5,
+        "importPath": "backend.data.generate_dataset",
+        "description": "backend.data.generate_dataset",
+        "peekOfCode": "PRODUCTS = [\n    (\"P001\", \"Ceramic Mug\"),\n    (\"P002\", \"Wooden Frame\"),\n    (\"P003\", \"Scented Candle\"),\n    (\"P004\", \"Cotton Tote Bag\"),\n    (\"P005\", \"Leather Wallet\"),\n    (\"P006\", \"Glass Vase\"),\n    (\"P007\", \"Bamboo Cutting Board\"),\n    (\"P008\", \"Stainless Steel Bottle\"),\n    (\"P009\", \"Knitted Throw Blanket\"),",
+        "detail": "backend.data.generate_dataset",
+        "documentation": {}
+    },
+    {
+        "label": "COUNTRIES",
+        "kind": 5,
+        "importPath": "backend.data.generate_dataset",
+        "description": "backend.data.generate_dataset",
+        "peekOfCode": "COUNTRIES = [\"United Kingdom\", \"Germany\", \"France\", \"USA\", \"Australia\", \"Canada\", \"India\"]\nCOUNTRY_WEIGHTS = [0.50, 0.12, 0.12, 0.10, 0.06, 0.05, 0.05]\n# ── Unit prices per product (fixed, realistic) ────────────────────────────────\nUNIT_PRICES = {code: round(random.uniform(1.99, 99.99), 2) for code, _ in PRODUCTS}\n# ── Date range: Jan 2023 – Dec 2023 ──────────────────────────────────────────\nSTART_DATE = datetime(2023, 1, 1)\nEND_DATE = datetime(2023, 12, 31, 23, 59)\nDATE_RANGE_SECONDS = int((END_DATE - START_DATE).total_seconds())\ndef random_date() -> str:\n    \"\"\"Return a random datetime string within 2023 in MM/DD/YYYY HH:MM format.\"\"\"",
+        "detail": "backend.data.generate_dataset",
+        "documentation": {}
+    },
+    {
+        "label": "COUNTRY_WEIGHTS",
+        "kind": 5,
+        "importPath": "backend.data.generate_dataset",
+        "description": "backend.data.generate_dataset",
+        "peekOfCode": "COUNTRY_WEIGHTS = [0.50, 0.12, 0.12, 0.10, 0.06, 0.05, 0.05]\n# ── Unit prices per product (fixed, realistic) ────────────────────────────────\nUNIT_PRICES = {code: round(random.uniform(1.99, 99.99), 2) for code, _ in PRODUCTS}\n# ── Date range: Jan 2023 – Dec 2023 ──────────────────────────────────────────\nSTART_DATE = datetime(2023, 1, 1)\nEND_DATE = datetime(2023, 12, 31, 23, 59)\nDATE_RANGE_SECONDS = int((END_DATE - START_DATE).total_seconds())\ndef random_date() -> str:\n    \"\"\"Return a random datetime string within 2023 in MM/DD/YYYY HH:MM format.\"\"\"\n    offset = random.randint(0, DATE_RANGE_SECONDS)",
+        "detail": "backend.data.generate_dataset",
+        "documentation": {}
+    },
+    {
+        "label": "UNIT_PRICES",
+        "kind": 5,
+        "importPath": "backend.data.generate_dataset",
+        "description": "backend.data.generate_dataset",
+        "peekOfCode": "UNIT_PRICES = {code: round(random.uniform(1.99, 99.99), 2) for code, _ in PRODUCTS}\n# ── Date range: Jan 2023 – Dec 2023 ──────────────────────────────────────────\nSTART_DATE = datetime(2023, 1, 1)\nEND_DATE = datetime(2023, 12, 31, 23, 59)\nDATE_RANGE_SECONDS = int((END_DATE - START_DATE).total_seconds())\ndef random_date() -> str:\n    \"\"\"Return a random datetime string within 2023 in MM/DD/YYYY HH:MM format.\"\"\"\n    offset = random.randint(0, DATE_RANGE_SECONDS)\n    dt = START_DATE + timedelta(seconds=offset)\n    return dt.strftime(\"%m/%d/%Y %H:%M\")",
+        "detail": "backend.data.generate_dataset",
+        "documentation": {}
+    },
+    {
+        "label": "START_DATE",
+        "kind": 5,
+        "importPath": "backend.data.generate_dataset",
+        "description": "backend.data.generate_dataset",
+        "peekOfCode": "START_DATE = datetime(2023, 1, 1)\nEND_DATE = datetime(2023, 12, 31, 23, 59)\nDATE_RANGE_SECONDS = int((END_DATE - START_DATE).total_seconds())\ndef random_date() -> str:\n    \"\"\"Return a random datetime string within 2023 in MM/DD/YYYY HH:MM format.\"\"\"\n    offset = random.randint(0, DATE_RANGE_SECONDS)\n    dt = START_DATE + timedelta(seconds=offset)\n    return dt.strftime(\"%m/%d/%Y %H:%M\")\ndef main():\n    # ── Build customer pool (~4 000 unique customers) ─────────────────────────",
+        "detail": "backend.data.generate_dataset",
+        "documentation": {}
+    },
+    {
+        "label": "END_DATE",
+        "kind": 5,
+        "importPath": "backend.data.generate_dataset",
+        "description": "backend.data.generate_dataset",
+        "peekOfCode": "END_DATE = datetime(2023, 12, 31, 23, 59)\nDATE_RANGE_SECONDS = int((END_DATE - START_DATE).total_seconds())\ndef random_date() -> str:\n    \"\"\"Return a random datetime string within 2023 in MM/DD/YYYY HH:MM format.\"\"\"\n    offset = random.randint(0, DATE_RANGE_SECONDS)\n    dt = START_DATE + timedelta(seconds=offset)\n    return dt.strftime(\"%m/%d/%Y %H:%M\")\ndef main():\n    # ── Build customer pool (~4 000 unique customers) ─────────────────────────\n    customer_ids = [f\"C{i}\" for i in range(1001, 5001)]  # C1001 – C5000",
+        "detail": "backend.data.generate_dataset",
+        "documentation": {}
+    },
+    {
+        "label": "DATE_RANGE_SECONDS",
+        "kind": 5,
+        "importPath": "backend.data.generate_dataset",
+        "description": "backend.data.generate_dataset",
+        "peekOfCode": "DATE_RANGE_SECONDS = int((END_DATE - START_DATE).total_seconds())\ndef random_date() -> str:\n    \"\"\"Return a random datetime string within 2023 in MM/DD/YYYY HH:MM format.\"\"\"\n    offset = random.randint(0, DATE_RANGE_SECONDS)\n    dt = START_DATE + timedelta(seconds=offset)\n    return dt.strftime(\"%m/%d/%Y %H:%M\")\ndef main():\n    # ── Build customer pool (~4 000 unique customers) ─────────────────────────\n    customer_ids = [f\"C{i}\" for i in range(1001, 5001)]  # C1001 – C5000\n    # Assign each customer a country (stays consistent per customer)",
+        "detail": "backend.data.generate_dataset",
+        "documentation": {}
+    },
+    {
+        "label": "random_date",
+        "kind": 2,
+        "importPath": "backend.data.generate_large_dataset",
+        "description": "backend.data.generate_large_dataset",
+        "peekOfCode": "def random_date(start, end):\n    \"\"\"Generate a random datetime between start and end.\"\"\"\n    delta = end - start\n    random_days = random.randint(0, delta.days)\n    random_seconds = random.randint(0, 86400)\n    return start + timedelta(days=random_days, seconds=random_seconds)\ndef generate_dataset():\n    \"\"\"Generate a large dataset with many customers.\"\"\"\n    records = []\n    invoice_counter = 1",
+        "detail": "backend.data.generate_large_dataset",
+        "documentation": {}
+    },
+    {
+        "label": "generate_dataset",
+        "kind": 2,
+        "importPath": "backend.data.generate_large_dataset",
+        "description": "backend.data.generate_large_dataset",
+        "peekOfCode": "def generate_dataset():\n    \"\"\"Generate a large dataset with many customers.\"\"\"\n    records = []\n    invoice_counter = 1\n    for customer_num in range(1, NUM_CUSTOMERS + 1):\n        customer_id = f\"C{customer_num:05d}\"  # C00001, C00002, etc.\n        country = random.choice(COUNTRIES)\n        # Random number of transactions for this customer\n        num_transactions = random.randint(MIN_TRANSACTIONS, MAX_TRANSACTIONS)\n        # Generate transactions for this customer",
+        "detail": "backend.data.generate_large_dataset",
+        "documentation": {}
+    },
+    {
+        "label": "NUM_CUSTOMERS",
+        "kind": 5,
+        "importPath": "backend.data.generate_large_dataset",
+        "description": "backend.data.generate_large_dataset",
+        "peekOfCode": "NUM_CUSTOMERS = 500  # Number of unique customers\nMIN_TRANSACTIONS = 1  # Minimum transactions per customer\nMAX_TRANSACTIONS = 20  # Maximum transactions per customer\nSTART_DATE = datetime(2023, 1, 1)\nEND_DATE = datetime(2024, 4, 30)\n# Product catalog\nPRODUCTS = [\n    (\"SKU001\", \"Ceramic Coffee Mug\", 12.99),\n    (\"SKU002\", \"Stainless Steel Bottle\", 24.99),\n    (\"SKU003\", \"Organic Cotton T-Shirt\", 18.50),",
+        "detail": "backend.data.generate_large_dataset",
+        "documentation": {}
+    },
+    {
+        "label": "MIN_TRANSACTIONS",
+        "kind": 5,
+        "importPath": "backend.data.generate_large_dataset",
+        "description": "backend.data.generate_large_dataset",
+        "peekOfCode": "MIN_TRANSACTIONS = 1  # Minimum transactions per customer\nMAX_TRANSACTIONS = 20  # Maximum transactions per customer\nSTART_DATE = datetime(2023, 1, 1)\nEND_DATE = datetime(2024, 4, 30)\n# Product catalog\nPRODUCTS = [\n    (\"SKU001\", \"Ceramic Coffee Mug\", 12.99),\n    (\"SKU002\", \"Stainless Steel Bottle\", 24.99),\n    (\"SKU003\", \"Organic Cotton T-Shirt\", 18.50),\n    (\"SKU004\", \"Bamboo Cutting Board\", 32.99),",
+        "detail": "backend.data.generate_large_dataset",
+        "documentation": {}
+    },
+    {
+        "label": "MAX_TRANSACTIONS",
+        "kind": 5,
+        "importPath": "backend.data.generate_large_dataset",
+        "description": "backend.data.generate_large_dataset",
+        "peekOfCode": "MAX_TRANSACTIONS = 20  # Maximum transactions per customer\nSTART_DATE = datetime(2023, 1, 1)\nEND_DATE = datetime(2024, 4, 30)\n# Product catalog\nPRODUCTS = [\n    (\"SKU001\", \"Ceramic Coffee Mug\", 12.99),\n    (\"SKU002\", \"Stainless Steel Bottle\", 24.99),\n    (\"SKU003\", \"Organic Cotton T-Shirt\", 18.50),\n    (\"SKU004\", \"Bamboo Cutting Board\", 32.99),\n    (\"SKU005\", \"Leather Wallet\", 45.00),",
+        "detail": "backend.data.generate_large_dataset",
+        "documentation": {}
+    },
+    {
+        "label": "START_DATE",
+        "kind": 5,
+        "importPath": "backend.data.generate_large_dataset",
+        "description": "backend.data.generate_large_dataset",
+        "peekOfCode": "START_DATE = datetime(2023, 1, 1)\nEND_DATE = datetime(2024, 4, 30)\n# Product catalog\nPRODUCTS = [\n    (\"SKU001\", \"Ceramic Coffee Mug\", 12.99),\n    (\"SKU002\", \"Stainless Steel Bottle\", 24.99),\n    (\"SKU003\", \"Organic Cotton T-Shirt\", 18.50),\n    (\"SKU004\", \"Bamboo Cutting Board\", 32.99),\n    (\"SKU005\", \"Leather Wallet\", 45.00),\n    (\"SKU006\", \"Glass Vase Set\", 28.75),",
+        "detail": "backend.data.generate_large_dataset",
+        "documentation": {}
+    },
+    {
+        "label": "END_DATE",
+        "kind": 5,
+        "importPath": "backend.data.generate_large_dataset",
+        "description": "backend.data.generate_large_dataset",
+        "peekOfCode": "END_DATE = datetime(2024, 4, 30)\n# Product catalog\nPRODUCTS = [\n    (\"SKU001\", \"Ceramic Coffee Mug\", 12.99),\n    (\"SKU002\", \"Stainless Steel Bottle\", 24.99),\n    (\"SKU003\", \"Organic Cotton T-Shirt\", 18.50),\n    (\"SKU004\", \"Bamboo Cutting Board\", 32.99),\n    (\"SKU005\", \"Leather Wallet\", 45.00),\n    (\"SKU006\", \"Glass Vase Set\", 28.75),\n    (\"SKU007\", \"Wooden Spoon Set\", 15.99),",
+        "detail": "backend.data.generate_large_dataset",
+        "documentation": {}
+    },
+    {
+        "label": "PRODUCTS",
+        "kind": 5,
+        "importPath": "backend.data.generate_large_dataset",
+        "description": "backend.data.generate_large_dataset",
+        "peekOfCode": "PRODUCTS = [\n    (\"SKU001\", \"Ceramic Coffee Mug\", 12.99),\n    (\"SKU002\", \"Stainless Steel Bottle\", 24.99),\n    (\"SKU003\", \"Organic Cotton T-Shirt\", 18.50),\n    (\"SKU004\", \"Bamboo Cutting Board\", 32.99),\n    (\"SKU005\", \"Leather Wallet\", 45.00),\n    (\"SKU006\", \"Glass Vase Set\", 28.75),\n    (\"SKU007\", \"Wooden Spoon Set\", 15.99),\n    (\"SKU008\", \"Scented Candle\", 9.99),\n    (\"SKU009\", \"Knitted Throw Blanket\", 49.99),",
+        "detail": "backend.data.generate_large_dataset",
+        "documentation": {}
+    },
+    {
+        "label": "COUNTRIES",
+        "kind": 5,
+        "importPath": "backend.data.generate_large_dataset",
+        "description": "backend.data.generate_large_dataset",
+        "peekOfCode": "COUNTRIES = [\n    \"United Kingdom\", \"United States\", \"Canada\", \"Germany\", \"France\",\n    \"Spain\", \"Italy\", \"Netherlands\", \"Belgium\", \"Australia\",\n    \"Sweden\", \"Norway\", \"Poland\", \"Denmark\", \"Finland\"\n]\ndef random_date(start, end):\n    \"\"\"Generate a random datetime between start and end.\"\"\"\n    delta = end - start\n    random_days = random.randint(0, delta.days)\n    random_seconds = random.randint(0, 86400)",
+        "detail": "backend.data.generate_large_dataset",
+        "documentation": {}
+    },
+    {
+        "label": "NUM_CUSTOMERS",
+        "kind": 5,
+        "importPath": "backend.data.generate_test_dataset",
+        "description": "backend.data.generate_test_dataset",
+        "peekOfCode": "NUM_CUSTOMERS = 200\nPRODUCTS = [\n    ('SKU001', 'Ceramic Coffee Mug', 12.99),\n    ('SKU002', 'Stainless Steel Bottle', 24.99),\n    ('SKU003', 'Organic Cotton T-Shirt', 18.50),\n    ('SKU004', 'Bamboo Cutting Board', 32.99),\n    ('SKU005', 'Leather Wallet', 45.00),\n    ('SKU006', 'Glass Vase Set', 28.75),\n    ('SKU007', 'Wooden Spoon Set', 15.99),\n]",
+        "detail": "backend.data.generate_test_dataset",
+        "documentation": {}
+    },
+    {
+        "label": "PRODUCTS",
+        "kind": 5,
+        "importPath": "backend.data.generate_test_dataset",
+        "description": "backend.data.generate_test_dataset",
+        "peekOfCode": "PRODUCTS = [\n    ('SKU001', 'Ceramic Coffee Mug', 12.99),\n    ('SKU002', 'Stainless Steel Bottle', 24.99),\n    ('SKU003', 'Organic Cotton T-Shirt', 18.50),\n    ('SKU004', 'Bamboo Cutting Board', 32.99),\n    ('SKU005', 'Leather Wallet', 45.00),\n    ('SKU006', 'Glass Vase Set', 28.75),\n    ('SKU007', 'Wooden Spoon Set', 15.99),\n]\nCOUNTRIES = ['United Kingdom', 'United States', 'Canada', 'Germany', 'France', 'Spain', 'Italy']",
+        "detail": "backend.data.generate_test_dataset",
+        "documentation": {}
+    },
+    {
+        "label": "COUNTRIES",
+        "kind": 5,
+        "importPath": "backend.data.generate_test_dataset",
+        "description": "backend.data.generate_test_dataset",
+        "peekOfCode": "COUNTRIES = ['United Kingdom', 'United States', 'Canada', 'Germany', 'France', 'Spain', 'Italy']\nrecords = []\ninvoice_counter = 1\nSTART_DATE = datetime(2024, 5, 1)\nEND_DATE = datetime(2024, 8, 31)\nfor customer_num in range(1, NUM_CUSTOMERS + 1):\n    customer_id = f'C{customer_num+20000:05d}'\n    country = random.choice(COUNTRIES)\n    num_transactions = random.randint(1, 10)\n    for _ in range(num_transactions):",
+        "detail": "backend.data.generate_test_dataset",
+        "documentation": {}
+    },
+    {
+        "label": "records",
+        "kind": 5,
+        "importPath": "backend.data.generate_test_dataset",
+        "description": "backend.data.generate_test_dataset",
+        "peekOfCode": "records = []\ninvoice_counter = 1\nSTART_DATE = datetime(2024, 5, 1)\nEND_DATE = datetime(2024, 8, 31)\nfor customer_num in range(1, NUM_CUSTOMERS + 1):\n    customer_id = f'C{customer_num+20000:05d}'\n    country = random.choice(COUNTRIES)\n    num_transactions = random.randint(1, 10)\n    for _ in range(num_transactions):\n        invoice_no = f'TEST{invoice_counter:05d}'",
+        "detail": "backend.data.generate_test_dataset",
+        "documentation": {}
+    },
+    {
+        "label": "invoice_counter",
+        "kind": 5,
+        "importPath": "backend.data.generate_test_dataset",
+        "description": "backend.data.generate_test_dataset",
+        "peekOfCode": "invoice_counter = 1\nSTART_DATE = datetime(2024, 5, 1)\nEND_DATE = datetime(2024, 8, 31)\nfor customer_num in range(1, NUM_CUSTOMERS + 1):\n    customer_id = f'C{customer_num+20000:05d}'\n    country = random.choice(COUNTRIES)\n    num_transactions = random.randint(1, 10)\n    for _ in range(num_transactions):\n        invoice_no = f'TEST{invoice_counter:05d}'\n        delta = END_DATE - START_DATE",
+        "detail": "backend.data.generate_test_dataset",
+        "documentation": {}
+    },
+    {
+        "label": "START_DATE",
+        "kind": 5,
+        "importPath": "backend.data.generate_test_dataset",
+        "description": "backend.data.generate_test_dataset",
+        "peekOfCode": "START_DATE = datetime(2024, 5, 1)\nEND_DATE = datetime(2024, 8, 31)\nfor customer_num in range(1, NUM_CUSTOMERS + 1):\n    customer_id = f'C{customer_num+20000:05d}'\n    country = random.choice(COUNTRIES)\n    num_transactions = random.randint(1, 10)\n    for _ in range(num_transactions):\n        invoice_no = f'TEST{invoice_counter:05d}'\n        delta = END_DATE - START_DATE\n        random_days = random.randint(0, delta.days)",
+        "detail": "backend.data.generate_test_dataset",
+        "documentation": {}
+    },
+    {
+        "label": "END_DATE",
+        "kind": 5,
+        "importPath": "backend.data.generate_test_dataset",
+        "description": "backend.data.generate_test_dataset",
+        "peekOfCode": "END_DATE = datetime(2024, 8, 31)\nfor customer_num in range(1, NUM_CUSTOMERS + 1):\n    customer_id = f'C{customer_num+20000:05d}'\n    country = random.choice(COUNTRIES)\n    num_transactions = random.randint(1, 10)\n    for _ in range(num_transactions):\n        invoice_no = f'TEST{invoice_counter:05d}'\n        delta = END_DATE - START_DATE\n        random_days = random.randint(0, delta.days)\n        random_seconds = random.randint(0, 86400)",
+        "detail": "backend.data.generate_test_dataset",
+        "documentation": {}
+    },
+    {
+        "label": "df",
+        "kind": 5,
+        "importPath": "backend.data.generate_test_dataset",
+        "description": "backend.data.generate_test_dataset",
+        "peekOfCode": "df = pd.DataFrame(records)\ndf.to_csv('test_dataset.csv', index=False)\nprint(f'Test dataset: {len(df)} rows, {df[\"CustomerID\"].nunique()} customers')",
+        "detail": "backend.data.generate_test_dataset",
+        "documentation": {}
+    },
+    {
+        "label": "load_dataset",
+        "kind": 2,
+        "importPath": "backend.data.ingestion",
+        "description": "backend.data.ingestion",
+        "peekOfCode": "def load_dataset(filepath: str) -> pd.DataFrame:\n    \"\"\"\n    Load the raw CSV dataset from the given filepath.\n    Reads the file with ``pd.read_csv``, parsing the ``InvoiceDate`` column\n    as a datetime.  Logs the filepath and the number of rows loaded at INFO\n    level.\n    Parameters\n    ----------\n    filepath : str\n        Absolute or relative path to the CSV file.",
+        "detail": "backend.data.ingestion",
+        "documentation": {}
+    },
+    {
+        "label": "clean_dataset",
+        "kind": 2,
+        "importPath": "backend.data.ingestion",
+        "description": "backend.data.ingestion",
+        "peekOfCode": "def clean_dataset(df: pd.DataFrame) -> pd.DataFrame:\n    \"\"\"\n    Clean the raw dataset by removing invalid rows and deriving Amount.\n    Rules applied in order:\n    1. Drop rows where any of ``CustomerID``, ``InvoiceDate``, ``Quantity``,\n       or ``UnitPrice`` is null.  The count of dropped rows is logged at\n       WARNING level.\n    2. Derive ``Amount = Quantity × UnitPrice`` and add it as a new column.\n    3. Drop rows where ``Amount <= 0`` (returns, cancellations, free items).\n       The count of dropped rows is logged at WARNING level.",
+        "detail": "backend.data.ingestion",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "backend.data.ingestion",
+        "description": "backend.data.ingestion",
+        "peekOfCode": "logger = logging.getLogger(__name__)\ndef load_dataset(filepath: str) -> pd.DataFrame:\n    \"\"\"\n    Load the raw CSV dataset from the given filepath.\n    Reads the file with ``pd.read_csv``, parsing the ``InvoiceDate`` column\n    as a datetime.  Logs the filepath and the number of rows loaded at INFO\n    level.\n    Parameters\n    ----------\n    filepath : str",
+        "detail": "backend.data.ingestion",
+        "documentation": {}
+    },
+    {
+        "label": "compute_rfm",
+        "kind": 2,
+        "importPath": "backend.rfm.computation",
+        "description": "backend.rfm.computation",
+        "peekOfCode": "def compute_rfm(df: pd.DataFrame, reference_date: pd.Timestamp) -> pd.DataFrame:\n    \"\"\"\n    Aggregate cleaned line-item data into per-customer RFM metrics.\n    For each unique ``CustomerID`` the function computes:\n    * **Recency** – number of days between the customer's most recent\n      ``InvoiceDate`` and *reference_date*.  Lower values indicate more\n      recent activity.\n    * **Frequency** – count of distinct ``InvoiceNo`` values, representing\n      the number of separate purchase transactions.\n    * **Monetary** – total spend, calculated as the sum of the ``Amount``",
+        "detail": "backend.rfm.computation",
+        "documentation": {}
+    },
+    {
+        "label": "assign_scores",
+        "kind": 2,
+        "importPath": "backend.rfm.computation",
+        "description": "backend.rfm.computation",
+        "peekOfCode": "def assign_scores(rfm: pd.DataFrame) -> pd.DataFrame:\n    \"\"\"\n    Assign R_Score, F_Score, and M_Score (each in range [1, 5]) using\n    quantile binning, then derive a composite RFM_Score string.\n    Scoring convention (5 = most favourable):\n    * **R_Score** – *inverted*: a customer with lower Recency (purchased more\n      recently) receives a higher score.  Achieved by negating Recency before\n      binning.\n    * **F_Score** – higher Frequency → higher score.\n    * **M_Score** – higher Monetary → higher score.",
+        "detail": "backend.rfm.computation",
+        "documentation": {}
+    },
+    {
+        "label": "assign_segments",
+        "kind": 2,
+        "importPath": "backend.rfm.computation",
+        "description": "backend.rfm.computation",
+        "peekOfCode": "def assign_segments(rfm: pd.DataFrame) -> pd.DataFrame:\n    \"\"\"\n    Map each customer's R_Score and F_Score to a human-readable segment label.\n    Segments are assigned using a priority-ordered rule list.  The first rule\n    whose condition is satisfied by a customer's scores determines that\n    customer's segment.  The final rule (``\"Others\"``) is a catch-all that\n    matches every remaining customer, guaranteeing that no customer is left\n    without a segment.\n    Priority order and rules\n    ------------------------",
+        "detail": "backend.rfm.computation",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "backend.rfm.computation",
+        "description": "backend.rfm.computation",
+        "peekOfCode": "logger = logging.getLogger(__name__)\n# ---------------------------------------------------------------------------\n# Segment rules: evaluated in priority order; first match wins.\n# Each rule is a tuple of (label, condition_callable).\n# The callable receives the rfm DataFrame and returns a boolean Series.\n# ---------------------------------------------------------------------------\n_SEGMENT_RULES = [\n    (\"Champions\",           lambda df: (df[\"R_Score\"] >= 4) & (df[\"F_Score\"] >= 4)),\n    (\"Loyal Customers\",     lambda df: (df[\"F_Score\"] >= 4) & (df[\"R_Score\"] >= 2)),\n    (\"Potential Loyalists\", lambda df: (df[\"R_Score\"] >= 3) & (df[\"F_Score\"] >= 2)),",
+        "detail": "backend.rfm.computation",
+        "documentation": {}
+    },
+    {
+        "label": "_SEGMENT_RULES",
+        "kind": 5,
+        "importPath": "backend.rfm.computation",
+        "description": "backend.rfm.computation",
+        "peekOfCode": "_SEGMENT_RULES = [\n    (\"Champions\",           lambda df: (df[\"R_Score\"] >= 4) & (df[\"F_Score\"] >= 4)),\n    (\"Loyal Customers\",     lambda df: (df[\"F_Score\"] >= 4) & (df[\"R_Score\"] >= 2)),\n    (\"Potential Loyalists\", lambda df: (df[\"R_Score\"] >= 3) & (df[\"F_Score\"] >= 2)),\n    (\"New Customers\",       lambda df: (df[\"R_Score\"] >= 4) & (df[\"F_Score\"] == 1)),\n    (\"At Risk\",             lambda df: (df[\"R_Score\"] <= 2) & (df[\"F_Score\"] >= 3)),\n    (\"Lost\",                lambda df: (df[\"R_Score\"] <= 2) & (df[\"F_Score\"] <= 2)),\n    (\"Others\",              lambda df: pd.Series(True, index=df.index)),  # catch-all\n]\n_VALID_SEGMENTS = frozenset(label for label, _ in _SEGMENT_RULES)",
+        "detail": "backend.rfm.computation",
+        "documentation": {}
+    },
+    {
+        "label": "_VALID_SEGMENTS",
+        "kind": 5,
+        "importPath": "backend.rfm.computation",
+        "description": "backend.rfm.computation",
+        "peekOfCode": "_VALID_SEGMENTS = frozenset(label for label, _ in _SEGMENT_RULES)\ndef compute_rfm(df: pd.DataFrame, reference_date: pd.Timestamp) -> pd.DataFrame:\n    \"\"\"\n    Aggregate cleaned line-item data into per-customer RFM metrics.\n    For each unique ``CustomerID`` the function computes:\n    * **Recency** – number of days between the customer's most recent\n      ``InvoiceDate`` and *reference_date*.  Lower values indicate more\n      recent activity.\n    * **Frequency** – count of distinct ``InvoiceNo`` values, representing\n      the number of separate purchase transactions.",
+        "detail": "backend.rfm.computation",
+        "documentation": {}
+    },
+    {
+        "label": "sample_raw_df",
+        "kind": 2,
+        "importPath": "backend.tests.conftest",
+        "description": "backend.tests.conftest",
+        "peekOfCode": "def sample_raw_df() -> pd.DataFrame:\n    \"\"\"\n    Small in-memory DataFrame matching the raw CSV schema.\n    Includes:\n    - Some rows with null CustomerID (should be dropped by clean_dataset)\n    - Some rows with negative Quantity (will produce Amount <= 0, dropped)\n    - Multiple invoices per customer for realistic RFM variation\n    \"\"\"\n    data = {\n        \"InvoiceNo\": [",
+        "detail": "backend.tests.conftest",
+        "documentation": {}
+    },
+    {
+        "label": "sample_clean_df",
+        "kind": 2,
+        "importPath": "backend.tests.conftest",
+        "description": "backend.tests.conftest",
+        "peekOfCode": "def sample_clean_df(sample_raw_df: pd.DataFrame) -> pd.DataFrame:\n    \"\"\"Cleaned version of sample_raw_df (null and negative rows removed, Amount derived).\"\"\"\n    return clean_dataset(sample_raw_df)\n@pytest.fixture\ndef sample_rfm_df(sample_clean_df: pd.DataFrame) -> pd.DataFrame:\n    \"\"\"\n    Pre-computed RFM DataFrame with R_Score, F_Score, M_Score, RFM_Score,\n    and Customer_Segment columns, produced by running the full pipeline on\n    sample_clean_df.\n    \"\"\"",
+        "detail": "backend.tests.conftest",
+        "documentation": {}
+    },
+    {
+        "label": "sample_rfm_df",
+        "kind": 2,
+        "importPath": "backend.tests.conftest",
+        "description": "backend.tests.conftest",
+        "peekOfCode": "def sample_rfm_df(sample_clean_df: pd.DataFrame) -> pd.DataFrame:\n    \"\"\"\n    Pre-computed RFM DataFrame with R_Score, F_Score, M_Score, RFM_Score,\n    and Customer_Segment columns, produced by running the full pipeline on\n    sample_clean_df.\n    \"\"\"\n    reference_date = sample_clean_df[\"InvoiceDate\"].max() + pd.Timedelta(days=1)\n    rfm = compute_rfm(sample_clean_df, reference_date)\n    rfm = assign_scores(rfm)\n    rfm = assign_segments(rfm)",
+        "detail": "backend.tests.conftest",
+        "documentation": {}
+    },
+    {
+        "label": "test_app",
+        "kind": 2,
+        "importPath": "backend.tests.conftest",
+        "description": "backend.tests.conftest",
+        "peekOfCode": "def test_app(sample_rfm_df: pd.DataFrame):\n    \"\"\"\n    FastAPI TestClient wrapping the app with sample_rfm_df injected into\n    app.state.rfm_df.\n    If create_app is not yet implemented in backend/main.py, this fixture\n    is skipped gracefully.\n    \"\"\"\n    try:\n        from main import create_app  # noqa: PLC0415\n    except (ImportError, AttributeError):",
+        "detail": "backend.tests.conftest",
+        "documentation": {}
+    },
+    {
+        "label": "create_app",
+        "kind": 2,
+        "importPath": "backend.main",
+        "description": "backend.main",
+        "peekOfCode": "def create_app() -> FastAPI:\n    \"\"\"\n    Application factory.\n    Creates and configures the FastAPI application:\n    - Registers the API router (all /api/* endpoints).\n    - Adds CORSMiddleware using CORS_ORIGINS from config.py.\n    - Attaches the lifespan handler for startup data loading.\n    Returns\n    -------\n    FastAPI",
+        "detail": "backend.main",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "backend.main",
+        "description": "backend.main",
+        "peekOfCode": "logger = logging.getLogger(__name__)\n@asynccontextmanager\nasync def lifespan(app: FastAPI):\n    \"\"\"\n    Application lifespan handler.\n    On startup:\n    1. Load the raw CSV dataset from DATASET_PATH.\n    2. Clean the dataset (drop nulls, derive Amount, drop Amount <= 0).\n    3. Compute per-customer RFM metrics (Recency, Frequency, Monetary).\n    4. Assign quantile-based R/F/M scores and composite RFM_Score.",
+        "detail": "backend.main",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "backend.main",
+        "description": "backend.main",
+        "peekOfCode": "app = create_app()\nif __name__ == \"__main__\":\n    uvicorn.run(\"main:app\", host=\"0.0.0.0\", port=8000, reload=True)",
+        "detail": "backend.main",
+        "documentation": {}
+    },
+    {
+        "label": "analyze_dataset",
+        "kind": 2,
+        "importPath": "backend.test_both_datasets",
+        "description": "backend.test_both_datasets",
+        "peekOfCode": "def analyze_dataset(filepath, dataset_name):\n    \"\"\"Load, clean, and analyze a dataset.\"\"\"\n    print(f\"\\n{'='*70}\")\n    print(f\"Analyzing: {dataset_name}\")\n    print(f\"{'='*70}\")\n    try:\n        # Load raw data\n        df = load_dataset(filepath)\n        print(f\"✓ Loaded: {len(df)} rows\")\n        # Clean data",
+        "detail": "backend.test_both_datasets",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "backend.test_both_datasets",
+        "description": "backend.test_both_datasets",
+        "peekOfCode": "def main():\n    print(\"\\n\" + \"=\"*70)\n    print(\"RFM ANALYSIS: TRAINING vs TEST DATASET COMPARISON\")\n    print(\"=\"*70)\n    # Analyze training dataset\n    training_rfm = analyze_dataset(\n        'data/online_retail.csv',\n        'TRAINING DATASET (online_retail.csv)'\n    )\n    # Analyze test dataset",
+        "detail": "backend.test_both_datasets",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "backend.test_startup",
+        "description": "backend.test_startup",
+        "peekOfCode": "logger = logging.getLogger(__name__)\ntry:\n    logger.info(\"Step 1: Importing modules...\")\n    from config import DATASET_PATH, CORS_ORIGINS\n    logger.info(f\"  ✓ Config loaded: DATASET_PATH={DATASET_PATH}, CORS_ORIGINS={CORS_ORIGINS}\")\n    logger.info(\"Step 2: Loading dataset...\")\n    from data.ingestion import load_dataset, clean_dataset\n    df = load_dataset(DATASET_PATH)\n    logger.info(f\"  ✓ Dataset loaded: {len(df)} rows\")\n    logger.info(\"Step 3: Cleaning dataset...\")",
+        "detail": "backend.test_startup",
+        "documentation": {}
+    },
+    {
+        "label": "_Known",
+        "kind": 6,
+        "importPath": "frontend.node_modules.flatted.python.flatted",
+        "description": "frontend.node_modules.flatted.python.flatted",
+        "peekOfCode": "class _Known:\n    def __init__(self):\n        self.key = []\n        self.value = []\nclass _String:\n    def __init__(self, value):\n        self.value = value\ndef _array_keys(value):\n    for i in range(len(value)):\n        yield i",
+        "detail": "frontend.node_modules.flatted.python.flatted",
+        "documentation": {}
+    },
+    {
+        "label": "_String",
+        "kind": 6,
+        "importPath": "frontend.node_modules.flatted.python.flatted",
+        "description": "frontend.node_modules.flatted.python.flatted",
+        "peekOfCode": "class _String:\n    def __init__(self, value):\n        self.value = value\ndef _array_keys(value):\n    for i in range(len(value)):\n        yield i\ndef _object_keys(value):\n    for key in value:\n        yield key\ndef _is_array(value):",
+        "detail": "frontend.node_modules.flatted.python.flatted",
+        "documentation": {}
+    },
+    {
+        "label": "parse",
+        "kind": 2,
+        "importPath": "frontend.node_modules.flatted.python.flatted",
+        "description": "frontend.node_modules.flatted.python.flatted",
+        "peekOfCode": "def parse(value, *args, **kwargs):\n    json = _json.loads(value, *args, **kwargs)\n    wrapped = []\n    for value in json:\n        wrapped.append(_wrap(value))\n    input = []\n    for value in wrapped:\n        if isinstance(value, _String):\n            input.append(value.value)\n        else:",
+        "detail": "frontend.node_modules.flatted.python.flatted",
+        "documentation": {}
+    },
+    {
+        "label": "stringify",
+        "kind": 2,
+        "importPath": "frontend.node_modules.flatted.python.flatted",
+        "description": "frontend.node_modules.flatted.python.flatted",
+        "peekOfCode": "def stringify(value, *args, **kwargs):\n    known = _Known()\n    input = []\n    output = []\n    i = int(_index(known, input, value))\n    while i < len(input):\n        output.append(_transform(known, input, input[i]))\n        i += 1\n    return _json.dumps(output, *args, **kwargs)",
+        "detail": "frontend.node_modules.flatted.python.flatted",
+        "documentation": {}
+    }
+]

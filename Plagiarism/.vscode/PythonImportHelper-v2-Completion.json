@@ -1,0 +1,1382 @@
+[
+    {
+        "label": "Flask",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "jsonify",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "request",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "CORS",
+        "importPath": "flask_cors",
+        "description": "flask_cors",
+        "isExtraImport": true,
+        "detail": "flask_cors",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "secure_filename",
+        "importPath": "werkzeug.utils",
+        "description": "werkzeug.utils",
+        "isExtraImport": true,
+        "detail": "werkzeug.utils",
+        "documentation": {}
+    },
+    {
+        "label": "get_connection",
+        "importPath": "database",
+        "description": "database",
+        "isExtraImport": true,
+        "detail": "database",
+        "documentation": {}
+    },
+    {
+        "label": "init_db",
+        "importPath": "database",
+        "description": "database",
+        "isExtraImport": true,
+        "detail": "database",
+        "documentation": {}
+    },
+    {
+        "label": "get_connection",
+        "importPath": "database",
+        "description": "database",
+        "isExtraImport": true,
+        "detail": "database",
+        "documentation": {}
+    },
+    {
+        "label": "get_connection",
+        "importPath": "database",
+        "description": "database",
+        "isExtraImport": true,
+        "detail": "database",
+        "documentation": {}
+    },
+    {
+        "label": "get_connection",
+        "importPath": "database",
+        "description": "database",
+        "isExtraImport": true,
+        "detail": "database",
+        "documentation": {}
+    },
+    {
+        "label": "top_matches",
+        "importPath": "plagiarism_engine",
+        "description": "plagiarism_engine",
+        "isExtraImport": true,
+        "detail": "plagiarism_engine",
+        "documentation": {}
+    },
+    {
+        "label": "top_matches",
+        "importPath": "plagiarism_engine",
+        "description": "plagiarism_engine",
+        "isExtraImport": true,
+        "detail": "plagiarism_engine",
+        "documentation": {}
+    },
+    {
+        "label": "tfidf_similarity",
+        "importPath": "plagiarism_engine",
+        "description": "plagiarism_engine",
+        "isExtraImport": true,
+        "detail": "plagiarism_engine",
+        "documentation": {}
+    },
+    {
+        "label": "jaccard_similarity",
+        "importPath": "plagiarism_engine",
+        "description": "plagiarism_engine",
+        "isExtraImport": true,
+        "detail": "plagiarism_engine",
+        "documentation": {}
+    },
+    {
+        "label": "final_similarity",
+        "importPath": "plagiarism_engine",
+        "description": "plagiarism_engine",
+        "isExtraImport": true,
+        "detail": "plagiarism_engine",
+        "documentation": {}
+    },
+    {
+        "label": "find_matching_phrases",
+        "importPath": "plagiarism_engine",
+        "description": "plagiarism_engine",
+        "isExtraImport": true,
+        "detail": "plagiarism_engine",
+        "documentation": {}
+    },
+    {
+        "label": "find_plagiarized_words",
+        "importPath": "plagiarism_engine",
+        "description": "plagiarism_engine",
+        "isExtraImport": true,
+        "detail": "plagiarism_engine",
+        "documentation": {}
+    },
+    {
+        "label": "final_similarity",
+        "importPath": "plagiarism_engine",
+        "description": "plagiarism_engine",
+        "isExtraImport": true,
+        "detail": "plagiarism_engine",
+        "documentation": {}
+    },
+    {
+        "label": "find_plagiarized_words",
+        "importPath": "plagiarism_engine",
+        "description": "plagiarism_engine",
+        "isExtraImport": true,
+        "detail": "plagiarism_engine",
+        "documentation": {}
+    },
+    {
+        "label": "sqlite3",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sqlite3",
+        "description": "sqlite3",
+        "detail": "sqlite3",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "re",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "re",
+        "description": "re",
+        "detail": "re",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Tuple",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Tuple",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "TfidfVectorizer",
+        "importPath": "sklearn.feature_extraction.text",
+        "description": "sklearn.feature_extraction.text",
+        "isExtraImport": true,
+        "detail": "sklearn.feature_extraction.text",
+        "documentation": {}
+    },
+    {
+        "label": "cosine_similarity",
+        "importPath": "sklearn.metrics.pairwise",
+        "description": "sklearn.metrics.pairwise",
+        "isExtraImport": true,
+        "detail": "sklearn.metrics.pairwise",
+        "documentation": {}
+    },
+    {
+        "label": "time",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "time",
+        "description": "time",
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "requests",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "requests",
+        "description": "requests",
+        "detail": "requests",
+        "documentation": {}
+    },
+    {
+        "label": "BeautifulSoup",
+        "importPath": "bs4",
+        "description": "bs4",
+        "isExtraImport": true,
+        "detail": "bs4",
+        "documentation": {}
+    },
+    {
+        "label": "BeautifulSoup",
+        "importPath": "bs4",
+        "description": "bs4",
+        "isExtraImport": true,
+        "detail": "bs4",
+        "documentation": {}
+    },
+    {
+        "label": "quote_plus",
+        "importPath": "urllib.parse",
+        "description": "urllib.parse",
+        "isExtraImport": true,
+        "detail": "urllib.parse",
+        "documentation": {}
+    },
+    {
+        "label": "quote_plus",
+        "importPath": "urllib.parse",
+        "description": "urllib.parse",
+        "isExtraImport": true,
+        "detail": "urllib.parse",
+        "documentation": {}
+    },
+    {
+        "label": "urlparse",
+        "importPath": "urllib.parse",
+        "description": "urllib.parse",
+        "isExtraImport": true,
+        "detail": "urllib.parse",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "textwrap",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "textwrap",
+        "description": "textwrap",
+        "detail": "textwrap",
+        "documentation": {}
+    },
+    {
+        "label": "matplotlib.pyplot",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "matplotlib.pyplot",
+        "description": "matplotlib.pyplot",
+        "detail": "matplotlib.pyplot",
+        "documentation": {}
+    },
+    {
+        "label": "Rectangle",
+        "importPath": "matplotlib.patches",
+        "description": "matplotlib.patches",
+        "isExtraImport": true,
+        "detail": "matplotlib.patches",
+        "documentation": {}
+    },
+    {
+        "label": "FancyArrowPatch",
+        "importPath": "matplotlib.patches",
+        "description": "matplotlib.patches",
+        "isExtraImport": true,
+        "detail": "matplotlib.patches",
+        "documentation": {}
+    },
+    {
+        "label": "Document",
+        "importPath": "docx",
+        "description": "docx",
+        "isExtraImport": true,
+        "detail": "docx",
+        "documentation": {}
+    },
+    {
+        "label": "Inches",
+        "importPath": "docx.shared",
+        "description": "docx.shared",
+        "isExtraImport": true,
+        "detail": "docx.shared",
+        "documentation": {}
+    },
+    {
+        "label": "Pt",
+        "importPath": "docx.shared",
+        "description": "docx.shared",
+        "isExtraImport": true,
+        "detail": "docx.shared",
+        "documentation": {}
+    },
+    {
+        "label": "WD_ALIGN_PARAGRAPH",
+        "importPath": "docx.enum.text",
+        "description": "docx.enum.text",
+        "isExtraImport": true,
+        "detail": "docx.enum.text",
+        "documentation": {}
+    },
+    {
+        "label": "allowed_file",
+        "kind": 2,
+        "importPath": "backend.app",
+        "description": "backend.app",
+        "peekOfCode": "def allowed_file(filename):\n    return '.' in filename and filename.rsplit('.', 1)[1].lower() in ALLOWED_EXTENSIONS\ndef extract_text_from_file(filepath):\n    \"\"\"Extract text from uploaded file based on extension\"\"\"\n    ext = filepath.rsplit('.', 1)[1].lower()\n    if ext == 'txt':\n        with open(filepath, 'r', encoding='utf-8', errors='ignore') as f:\n            return f.read()\n    elif ext == 'pdf':\n        try:",
+        "detail": "backend.app",
+        "documentation": {}
+    },
+    {
+        "label": "extract_text_from_file",
+        "kind": 2,
+        "importPath": "backend.app",
+        "description": "backend.app",
+        "peekOfCode": "def extract_text_from_file(filepath):\n    \"\"\"Extract text from uploaded file based on extension\"\"\"\n    ext = filepath.rsplit('.', 1)[1].lower()\n    if ext == 'txt':\n        with open(filepath, 'r', encoding='utf-8', errors='ignore') as f:\n            return f.read()\n    elif ext == 'pdf':\n        try:\n            import PyPDF2\n            text = \"\"",
+        "detail": "backend.app",
+        "documentation": {}
+    },
+    {
+        "label": "health",
+        "kind": 2,
+        "importPath": "backend.app",
+        "description": "backend.app",
+        "peekOfCode": "def health():\n    # Check if Google API is configured\n    try:\n        from config import is_google_api_configured\n        google_api_configured = is_google_api_configured()\n    except:\n        google_api_configured = False\n    return jsonify({\n        \"status\": \"ok\",\n        \"service\": \"plagiarism-detector\",",
+        "detail": "backend.app",
+        "documentation": {}
+    },
+    {
+        "label": "add_document",
+        "kind": 2,
+        "importPath": "backend.app",
+        "description": "backend.app",
+        "peekOfCode": "def add_document():\n    payload = request.get_json(force=True)\n    title = (payload.get(\"title\") or \"\").strip()\n    author = (payload.get(\"author\") or \"\").strip()\n    raw_text = (payload.get(\"raw_text\") or \"\").strip()\n    if not title or not raw_text:\n        return jsonify({\"error\": \"title and raw_text are required\"}), 400\n    with get_connection() as conn:\n        cursor = conn.execute(\n            \"INSERT INTO documents (title, author, raw_text) VALUES (?, ?, ?)\",",
+        "detail": "backend.app",
+        "documentation": {}
+    },
+    {
+        "label": "list_documents",
+        "kind": 2,
+        "importPath": "backend.app",
+        "description": "backend.app",
+        "peekOfCode": "def list_documents():\n    with get_connection() as conn:\n        rows = conn.execute(\n            \"SELECT id, title, author, LENGTH(raw_text) as text_length, created_at FROM documents ORDER BY id DESC\"\n        ).fetchall()\n    documents = []\n    for row in rows:\n        doc_dict = dict(row)\n        # Add a preview of the text\n        full_text = conn.execute(\"SELECT raw_text FROM documents WHERE id = ?\", (row['id'],)).fetchone()",
+        "detail": "backend.app",
+        "documentation": {}
+    },
+    {
+        "label": "check_plagiarism",
+        "kind": 2,
+        "importPath": "backend.app",
+        "description": "backend.app",
+        "peekOfCode": "def check_plagiarism():\n    payload = request.get_json(force=True)\n    title = (payload.get(\"title\") or \"Submitted Document\").strip()\n    text = (payload.get(\"raw_text\") or \"\").strip()\n    author = (payload.get(\"author\") or \"\").strip()\n    check_online = payload.get(\"check_online\", False)  # New parameter\n    print(f\"DEBUG: check_online parameter = {check_online} (type: {type(check_online)})\")\n    if not text:\n        return jsonify({\"error\": \"raw_text is required\"}), 400\n    with get_connection() as conn:",
+        "detail": "backend.app",
+        "documentation": {}
+    },
+    {
+        "label": "get_report",
+        "kind": 2,
+        "importPath": "backend.app",
+        "description": "backend.app",
+        "peekOfCode": "def get_report(doc_id: int):\n    with get_connection() as conn:\n        doc = conn.execute(\n            \"SELECT id, title, author, created_at FROM documents WHERE id = ?\", (doc_id,)\n        ).fetchone()\n        if not doc:\n            return jsonify({\"error\": \"Document not found\"}), 404\n        rows = conn.execute(\n            \"\"\"\n            SELECT c.id, c.compared_doc_id, d.title AS compared_title, c.similarity_score, c.verdict, c.created_at",
+        "detail": "backend.app",
+        "documentation": {}
+    },
+    {
+        "label": "check_file",
+        "kind": 2,
+        "importPath": "backend.app",
+        "description": "backend.app",
+        "peekOfCode": "def check_file():\n    \"\"\"Handle file upload and plagiarism check\"\"\"\n    if 'file' not in request.files:\n        return jsonify({\"error\": \"No file provided\"}), 400\n    file = request.files['file']\n    if file.filename == '':\n        return jsonify({\"error\": \"No file selected\"}), 400\n    if not allowed_file(file.filename):\n        return jsonify({\"error\": \"File type not allowed. Use .txt, .pdf, .doc, or .docx\"}), 400\n    title = request.form.get('title', 'Uploaded Document').strip()",
+        "detail": "backend.app",
+        "documentation": {}
+    },
+    {
+        "label": "cleanup_duplicates",
+        "kind": 2,
+        "importPath": "backend.app",
+        "description": "backend.app",
+        "peekOfCode": "def cleanup_duplicates():\n    \"\"\"Remove duplicate documents from database\"\"\"\n    try:\n        from db_utils import remove_duplicate_documents, get_document_stats\n        stats_before = get_document_stats()\n        removed = remove_duplicate_documents()\n        stats_after = get_document_stats()\n        return jsonify({\n            \"success\": True,\n            \"removed_count\": removed,",
+        "detail": "backend.app",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "backend.app",
+        "description": "backend.app",
+        "peekOfCode": "app = Flask(__name__)\nCORS(app)\n# File upload configuration\nUPLOAD_FOLDER = 'backend/uploads'\nALLOWED_EXTENSIONS = {'txt', 'pdf', 'doc', 'docx'}\napp.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER\napp.config['MAX_CONTENT_LENGTH'] = 16 * 1024 * 1024  # 16MB max file size\n# Ensure upload folder exists\nos.makedirs(UPLOAD_FOLDER, exist_ok=True)\ndef allowed_file(filename):",
+        "detail": "backend.app",
+        "documentation": {}
+    },
+    {
+        "label": "UPLOAD_FOLDER",
+        "kind": 5,
+        "importPath": "backend.app",
+        "description": "backend.app",
+        "peekOfCode": "UPLOAD_FOLDER = 'backend/uploads'\nALLOWED_EXTENSIONS = {'txt', 'pdf', 'doc', 'docx'}\napp.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER\napp.config['MAX_CONTENT_LENGTH'] = 16 * 1024 * 1024  # 16MB max file size\n# Ensure upload folder exists\nos.makedirs(UPLOAD_FOLDER, exist_ok=True)\ndef allowed_file(filename):\n    return '.' in filename and filename.rsplit('.', 1)[1].lower() in ALLOWED_EXTENSIONS\ndef extract_text_from_file(filepath):\n    \"\"\"Extract text from uploaded file based on extension\"\"\"",
+        "detail": "backend.app",
+        "documentation": {}
+    },
+    {
+        "label": "ALLOWED_EXTENSIONS",
+        "kind": 5,
+        "importPath": "backend.app",
+        "description": "backend.app",
+        "peekOfCode": "ALLOWED_EXTENSIONS = {'txt', 'pdf', 'doc', 'docx'}\napp.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER\napp.config['MAX_CONTENT_LENGTH'] = 16 * 1024 * 1024  # 16MB max file size\n# Ensure upload folder exists\nos.makedirs(UPLOAD_FOLDER, exist_ok=True)\ndef allowed_file(filename):\n    return '.' in filename and filename.rsplit('.', 1)[1].lower() in ALLOWED_EXTENSIONS\ndef extract_text_from_file(filepath):\n    \"\"\"Extract text from uploaded file based on extension\"\"\"\n    ext = filepath.rsplit('.', 1)[1].lower()",
+        "detail": "backend.app",
+        "documentation": {}
+    },
+    {
+        "label": "app.config['UPLOAD_FOLDER']",
+        "kind": 5,
+        "importPath": "backend.app",
+        "description": "backend.app",
+        "peekOfCode": "app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER\napp.config['MAX_CONTENT_LENGTH'] = 16 * 1024 * 1024  # 16MB max file size\n# Ensure upload folder exists\nos.makedirs(UPLOAD_FOLDER, exist_ok=True)\ndef allowed_file(filename):\n    return '.' in filename and filename.rsplit('.', 1)[1].lower() in ALLOWED_EXTENSIONS\ndef extract_text_from_file(filepath):\n    \"\"\"Extract text from uploaded file based on extension\"\"\"\n    ext = filepath.rsplit('.', 1)[1].lower()\n    if ext == 'txt':",
+        "detail": "backend.app",
+        "documentation": {}
+    },
+    {
+        "label": "app.config['MAX_CONTENT_LENGTH']",
+        "kind": 5,
+        "importPath": "backend.app",
+        "description": "backend.app",
+        "peekOfCode": "app.config['MAX_CONTENT_LENGTH'] = 16 * 1024 * 1024  # 16MB max file size\n# Ensure upload folder exists\nos.makedirs(UPLOAD_FOLDER, exist_ok=True)\ndef allowed_file(filename):\n    return '.' in filename and filename.rsplit('.', 1)[1].lower() in ALLOWED_EXTENSIONS\ndef extract_text_from_file(filepath):\n    \"\"\"Extract text from uploaded file based on extension\"\"\"\n    ext = filepath.rsplit('.', 1)[1].lower()\n    if ext == 'txt':\n        with open(filepath, 'r', encoding='utf-8', errors='ignore') as f:",
+        "detail": "backend.app",
+        "documentation": {}
+    },
+    {
+        "label": "is_google_api_configured",
+        "kind": 2,
+        "importPath": "backend.config",
+        "description": "backend.config",
+        "peekOfCode": "def is_google_api_configured():\n    return bool(GOOGLE_API_KEY and GOOGLE_SEARCH_ENGINE_ID)",
+        "detail": "backend.config",
+        "documentation": {}
+    },
+    {
+        "label": "GOOGLE_API_KEY",
+        "kind": 5,
+        "importPath": "backend.config",
+        "description": "backend.config",
+        "peekOfCode": "GOOGLE_API_KEY = \"AIzaSyBlTsZkvDpIq2grfCvYTtD8YJLggTsnfag\"  # Add your API key here\nGOOGLE_SEARCH_ENGINE_ID = \"a16ad90a07bea41b7\"  # Add your Search Engine ID here\n# Alternative: Set as environment variables\nimport os\nGOOGLE_API_KEY = os.getenv('GOOGLE_API_KEY', GOOGLE_API_KEY)\nGOOGLE_SEARCH_ENGINE_ID = os.getenv('GOOGLE_SEARCH_ENGINE_ID', GOOGLE_SEARCH_ENGINE_ID)\n# Check if API is configured\ndef is_google_api_configured():\n    return bool(GOOGLE_API_KEY and GOOGLE_SEARCH_ENGINE_ID)",
+        "detail": "backend.config",
+        "documentation": {}
+    },
+    {
+        "label": "GOOGLE_SEARCH_ENGINE_ID",
+        "kind": 5,
+        "importPath": "backend.config",
+        "description": "backend.config",
+        "peekOfCode": "GOOGLE_SEARCH_ENGINE_ID = \"a16ad90a07bea41b7\"  # Add your Search Engine ID here\n# Alternative: Set as environment variables\nimport os\nGOOGLE_API_KEY = os.getenv('GOOGLE_API_KEY', GOOGLE_API_KEY)\nGOOGLE_SEARCH_ENGINE_ID = os.getenv('GOOGLE_SEARCH_ENGINE_ID', GOOGLE_SEARCH_ENGINE_ID)\n# Check if API is configured\ndef is_google_api_configured():\n    return bool(GOOGLE_API_KEY and GOOGLE_SEARCH_ENGINE_ID)",
+        "detail": "backend.config",
+        "documentation": {}
+    },
+    {
+        "label": "GOOGLE_API_KEY",
+        "kind": 5,
+        "importPath": "backend.config",
+        "description": "backend.config",
+        "peekOfCode": "GOOGLE_API_KEY = os.getenv('GOOGLE_API_KEY', GOOGLE_API_KEY)\nGOOGLE_SEARCH_ENGINE_ID = os.getenv('GOOGLE_SEARCH_ENGINE_ID', GOOGLE_SEARCH_ENGINE_ID)\n# Check if API is configured\ndef is_google_api_configured():\n    return bool(GOOGLE_API_KEY and GOOGLE_SEARCH_ENGINE_ID)",
+        "detail": "backend.config",
+        "documentation": {}
+    },
+    {
+        "label": "GOOGLE_SEARCH_ENGINE_ID",
+        "kind": 5,
+        "importPath": "backend.config",
+        "description": "backend.config",
+        "peekOfCode": "GOOGLE_SEARCH_ENGINE_ID = os.getenv('GOOGLE_SEARCH_ENGINE_ID', GOOGLE_SEARCH_ENGINE_ID)\n# Check if API is configured\ndef is_google_api_configured():\n    return bool(GOOGLE_API_KEY and GOOGLE_SEARCH_ENGINE_ID)",
+        "detail": "backend.config",
+        "documentation": {}
+    },
+    {
+        "label": "get_connection",
+        "kind": 2,
+        "importPath": "backend.database",
+        "description": "backend.database",
+        "peekOfCode": "def get_connection():\n    conn = sqlite3.connect(DB_PATH)\n    conn.row_factory = sqlite3.Row\n    return conn\ndef init_db():\n    DB_PATH.parent.mkdir(parents=True, exist_ok=True)\n    with get_connection() as conn:\n        conn.execute(\n            \"\"\"\n            CREATE TABLE IF NOT EXISTS documents (",
+        "detail": "backend.database",
+        "documentation": {}
+    },
+    {
+        "label": "init_db",
+        "kind": 2,
+        "importPath": "backend.database",
+        "description": "backend.database",
+        "peekOfCode": "def init_db():\n    DB_PATH.parent.mkdir(parents=True, exist_ok=True)\n    with get_connection() as conn:\n        conn.execute(\n            \"\"\"\n            CREATE TABLE IF NOT EXISTS documents (\n                id INTEGER PRIMARY KEY AUTOINCREMENT,\n                title TEXT NOT NULL,\n                author TEXT,\n                raw_text TEXT NOT NULL,",
+        "detail": "backend.database",
+        "documentation": {}
+    },
+    {
+        "label": "BASE_DIR",
+        "kind": 5,
+        "importPath": "backend.database",
+        "description": "backend.database",
+        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent\nDB_PATH = BASE_DIR / \"data\" / \"plagiarism.db\"\ndef get_connection():\n    conn = sqlite3.connect(DB_PATH)\n    conn.row_factory = sqlite3.Row\n    return conn\ndef init_db():\n    DB_PATH.parent.mkdir(parents=True, exist_ok=True)\n    with get_connection() as conn:\n        conn.execute(",
+        "detail": "backend.database",
+        "documentation": {}
+    },
+    {
+        "label": "DB_PATH",
+        "kind": 5,
+        "importPath": "backend.database",
+        "description": "backend.database",
+        "peekOfCode": "DB_PATH = BASE_DIR / \"data\" / \"plagiarism.db\"\ndef get_connection():\n    conn = sqlite3.connect(DB_PATH)\n    conn.row_factory = sqlite3.Row\n    return conn\ndef init_db():\n    DB_PATH.parent.mkdir(parents=True, exist_ok=True)\n    with get_connection() as conn:\n        conn.execute(\n            \"\"\"",
+        "detail": "backend.database",
+        "documentation": {}
+    },
+    {
+        "label": "remove_duplicate_documents",
+        "kind": 2,
+        "importPath": "backend.db_utils",
+        "description": "backend.db_utils",
+        "peekOfCode": "def remove_duplicate_documents():\n    \"\"\"Remove duplicate documents based on title and keep the oldest one\"\"\"\n    with get_connection() as conn:\n        # Find duplicates\n        duplicates = conn.execute(\"\"\"\n            SELECT title, MIN(id) as keep_id, GROUP_CONCAT(id) as all_ids\n            FROM documents\n            GROUP BY LOWER(TRIM(title))\n            HAVING COUNT(*) > 1\n        \"\"\").fetchall()",
+        "detail": "backend.db_utils",
+        "documentation": {}
+    },
+    {
+        "label": "get_document_stats",
+        "kind": 2,
+        "importPath": "backend.db_utils",
+        "description": "backend.db_utils",
+        "peekOfCode": "def get_document_stats():\n    \"\"\"Get statistics about documents in database\"\"\"\n    with get_connection() as conn:\n        total = conn.execute(\"SELECT COUNT(*) as count FROM documents\").fetchone()['count']\n        # Find potential duplicates\n        duplicates = conn.execute(\"\"\"\n            SELECT COUNT(*) as dup_count\n            FROM (\n                SELECT title, COUNT(*) as cnt\n                FROM documents",
+        "detail": "backend.db_utils",
+        "documentation": {}
+    },
+    {
+        "label": "clean_text",
+        "kind": 2,
+        "importPath": "backend.plagiarism_engine",
+        "description": "backend.plagiarism_engine",
+        "peekOfCode": "def clean_text(text: str) -> str:\n    text = text.lower().strip()\n    text = re.sub(r\"\\s+\", \" \", text)\n    return text\ndef tokenize(text: str) -> List[str]:\n    return re.findall(r\"[a-zA-Z0-9']+\", text.lower())\ndef shingles(text: str, size: int = 5) -> set:\n    \"\"\"Generate word shingles (n-grams) from text\"\"\"\n    tokens = tokenize(text)\n    if len(tokens) < size:",
+        "detail": "backend.plagiarism_engine",
+        "documentation": {}
+    },
+    {
+        "label": "tokenize",
+        "kind": 2,
+        "importPath": "backend.plagiarism_engine",
+        "description": "backend.plagiarism_engine",
+        "peekOfCode": "def tokenize(text: str) -> List[str]:\n    return re.findall(r\"[a-zA-Z0-9']+\", text.lower())\ndef shingles(text: str, size: int = 5) -> set:\n    \"\"\"Generate word shingles (n-grams) from text\"\"\"\n    tokens = tokenize(text)\n    if len(tokens) < size:\n        return {\" \".join(tokens)} if tokens else set()\n    # Create overlapping shingles\n    result = set()\n    for i in range(len(tokens) - size + 1):",
+        "detail": "backend.plagiarism_engine",
+        "documentation": {}
+    },
+    {
+        "label": "shingles",
+        "kind": 2,
+        "importPath": "backend.plagiarism_engine",
+        "description": "backend.plagiarism_engine",
+        "peekOfCode": "def shingles(text: str, size: int = 5) -> set:\n    \"\"\"Generate word shingles (n-grams) from text\"\"\"\n    tokens = tokenize(text)\n    if len(tokens) < size:\n        return {\" \".join(tokens)} if tokens else set()\n    # Create overlapping shingles\n    result = set()\n    for i in range(len(tokens) - size + 1):\n        result.add(\" \".join(tokens[i : i + size]))\n    return result",
+        "detail": "backend.plagiarism_engine",
+        "documentation": {}
+    },
+    {
+        "label": "jaccard_similarity",
+        "kind": 2,
+        "importPath": "backend.plagiarism_engine",
+        "description": "backend.plagiarism_engine",
+        "peekOfCode": "def jaccard_similarity(a: str, b: str) -> float:\n    \"\"\"Calculate Jaccard similarity using word shingles\"\"\"\n    # Use multiple shingle sizes for better detection\n    similarities = []\n    for size in [3, 4, 5]:  # Check 3, 4, and 5-word sequences\n        s1 = shingles(a, size=size)\n        s2 = shingles(b, size=size)\n        if s1 or s2:\n            union = len(s1.union(s2))\n            if union > 0:",
+        "detail": "backend.plagiarism_engine",
+        "documentation": {}
+    },
+    {
+        "label": "tfidf_similarity",
+        "kind": 2,
+        "importPath": "backend.plagiarism_engine",
+        "description": "backend.plagiarism_engine",
+        "peekOfCode": "def tfidf_similarity(a: str, b: str) -> float:\n    \"\"\"Calculate TF-IDF cosine similarity between two texts\"\"\"\n    docs = [clean_text(a), clean_text(b)]\n    # Use 1-3 word n-grams for better detection\n    # Remove stop_words parameter to catch more similarities\n    vectorizer = TfidfVectorizer(ngram_range=(1, 3), min_df=1, max_df=1.0)\n    try:\n        tfidf = vectorizer.fit_transform(docs)\n        similarity = float(cosine_similarity(tfidf[0:1], tfidf[1:2])[0][0])\n        return similarity",
+        "detail": "backend.plagiarism_engine",
+        "documentation": {}
+    },
+    {
+        "label": "word_overlap_similarity",
+        "kind": 2,
+        "importPath": "backend.plagiarism_engine",
+        "description": "backend.plagiarism_engine",
+        "peekOfCode": "def word_overlap_similarity(a: str, b: str) -> float:\n    \"\"\"Calculate simple word overlap ratio\"\"\"\n    tokens_a = set(tokenize(a))\n    tokens_b = set(tokenize(b))\n    if not tokens_a or not tokens_b:\n        return 0.0\n    intersection = len(tokens_a.intersection(tokens_b))\n    union = len(tokens_a.union(tokens_b))\n    return intersection / union if union > 0 else 0.0\ndef final_similarity(a: str, b: str) -> Dict[str, float]:",
+        "detail": "backend.plagiarism_engine",
+        "documentation": {}
+    },
+    {
+        "label": "final_similarity",
+        "kind": 2,
+        "importPath": "backend.plagiarism_engine",
+        "description": "backend.plagiarism_engine",
+        "peekOfCode": "def final_similarity(a: str, b: str) -> Dict[str, float]:\n    \"\"\"Calculate final similarity score combining multiple methods\"\"\"\n    tfidf_score = tfidf_similarity(a, b)\n    jaccard_score = jaccard_similarity(a, b)\n    word_overlap = word_overlap_similarity(a, b)\n    # Weighted combination: 50% TF-IDF, 30% Jaccard, 20% Word Overlap\n    final_score = 0.5 * tfidf_score + 0.3 * jaccard_score + 0.2 * word_overlap\n    return {\n        \"tfidf_score\": round(tfidf_score * 100, 2),\n        \"jaccard_score\": round(jaccard_score * 100, 2),",
+        "detail": "backend.plagiarism_engine",
+        "documentation": {}
+    },
+    {
+        "label": "verdict",
+        "kind": 2,
+        "importPath": "backend.plagiarism_engine",
+        "description": "backend.plagiarism_engine",
+        "peekOfCode": "def verdict(score: float) -> str:\n    if score >= 75:\n        return \"High plagiarism risk\"\n    if score >= 45:\n        return \"Moderate plagiarism risk\"\n    return \"Low plagiarism risk\"\ndef find_matching_phrases(input_text: str, reference_text: str, min_words: int = 3) -> List[str]:\n    \"\"\"\n    Find matching phrases between input and reference text.\n    Returns list of unique matching phrases with at least min_words length.",
+        "detail": "backend.plagiarism_engine",
+        "documentation": {}
+    },
+    {
+        "label": "find_matching_phrases",
+        "kind": 2,
+        "importPath": "backend.plagiarism_engine",
+        "description": "backend.plagiarism_engine",
+        "peekOfCode": "def find_matching_phrases(input_text: str, reference_text: str, min_words: int = 3) -> List[str]:\n    \"\"\"\n    Find matching phrases between input and reference text.\n    Returns list of unique matching phrases with at least min_words length.\n    \"\"\"\n    input_tokens = tokenize(input_text)\n    reference_tokens = tokenize(reference_text)\n    matching_phrases = []\n    used_positions = set()  # Track positions already covered\n    # Check for matching sequences of different lengths (from longest to shortest)",
+        "detail": "backend.plagiarism_engine",
+        "documentation": {}
+    },
+    {
+        "label": "find_plagiarized_words",
+        "kind": 2,
+        "importPath": "backend.plagiarism_engine",
+        "description": "backend.plagiarism_engine",
+        "peekOfCode": "def find_plagiarized_words(input_text: str, reference_text: str) -> Dict:\n    \"\"\"\n    Identify specific words and phrases that are plagiarized.\n    Returns matching phrases and individual common words.\n    \"\"\"\n    # Find matching phrases (3+ words) - reduced from 4\n    matching_phrases = find_matching_phrases(input_text, reference_text, min_words=3)\n    # Find matching shingles (4-word sequences for better detection)\n    input_shingles = shingles(input_text, size=4)\n    reference_shingles = shingles(reference_text, size=4)",
+        "detail": "backend.plagiarism_engine",
+        "documentation": {}
+    },
+    {
+        "label": "get_text_snippet",
+        "kind": 2,
+        "importPath": "backend.plagiarism_engine",
+        "description": "backend.plagiarism_engine",
+        "peekOfCode": "def get_text_snippet(text: str, max_length: int = 150) -> str:\n    \"\"\"Get a preview snippet of text\"\"\"\n    text = text.strip()\n    if len(text) <= max_length:\n        return text\n    return text[:max_length].rsplit(' ', 1)[0] + \"...\"\ndef find_matching_context(input_text: str, reference_text: str, phrase: str) -> str:\n    \"\"\"Find the context around a matching phrase in the reference text\"\"\"\n    ref_lower = reference_text.lower()\n    phrase_lower = phrase.lower()",
+        "detail": "backend.plagiarism_engine",
+        "documentation": {}
+    },
+    {
+        "label": "find_matching_context",
+        "kind": 2,
+        "importPath": "backend.plagiarism_engine",
+        "description": "backend.plagiarism_engine",
+        "peekOfCode": "def find_matching_context(input_text: str, reference_text: str, phrase: str) -> str:\n    \"\"\"Find the context around a matching phrase in the reference text\"\"\"\n    ref_lower = reference_text.lower()\n    phrase_lower = phrase.lower()\n    pos = ref_lower.find(phrase_lower)\n    if pos == -1:\n        return phrase\n    # Get 50 chars before and after\n    start = max(0, pos - 50)\n    end = min(len(reference_text), pos + len(phrase) + 50)",
+        "detail": "backend.plagiarism_engine",
+        "documentation": {}
+    },
+    {
+        "label": "top_matches",
+        "kind": 2,
+        "importPath": "backend.plagiarism_engine",
+        "description": "backend.plagiarism_engine",
+        "peekOfCode": "def top_matches(input_text: str, corpus: List[Tuple[int, str, str]], limit: int = 5):\n    results = []\n    seen_titles = set()  # Track titles to avoid duplicates\n    for doc_id, title, text in corpus:\n        # Skip duplicate titles (case-insensitive)\n        title_key = title.lower().strip()\n        if title_key in seen_titles:\n            continue\n        seen_titles.add(title_key)\n        scores = final_similarity(input_text, text)",
+        "detail": "backend.plagiarism_engine",
+        "documentation": {}
+    },
+    {
+        "label": "test_text",
+        "kind": 5,
+        "importPath": "backend.test_performance",
+        "description": "backend.test_performance",
+        "peekOfCode": "test_text = \"\"\"\nMachine learning is a method of data analysis that automates analytical model building.\nIt is a branch of artificial intelligence based on the idea that systems can learn from data,\nidentify patterns and make decisions with minimal human intervention.\n\"\"\"\nprint(\"=\"*80)\nprint(\"PERFORMANCE TEST\")\nprint(\"=\"*80)\n# Get corpus from database\nwith get_connection() as conn:",
+        "detail": "backend.test_performance",
+        "documentation": {}
+    },
+    {
+        "label": "start_time",
+        "kind": 5,
+        "importPath": "backend.test_performance",
+        "description": "backend.test_performance",
+        "peekOfCode": "start_time = time.time()\nmatches = top_matches(test_text, corpus, limit=5)\nend_time = time.time()\nelapsed = end_time - start_time\nprint(f\"\\n⏱️  Time taken: {elapsed:.2f} seconds\")\nprint(f\"📊 Matches found: {len(matches)}\")\nif elapsed > 5:\n    print(\"\\n⚠️  WARNING: Detection is slow (>5 seconds)\")\n    print(\"   This could be due to:\")\n    print(\"   - Large documents in database\")",
+        "detail": "backend.test_performance",
+        "documentation": {}
+    },
+    {
+        "label": "matches",
+        "kind": 5,
+        "importPath": "backend.test_performance",
+        "description": "backend.test_performance",
+        "peekOfCode": "matches = top_matches(test_text, corpus, limit=5)\nend_time = time.time()\nelapsed = end_time - start_time\nprint(f\"\\n⏱️  Time taken: {elapsed:.2f} seconds\")\nprint(f\"📊 Matches found: {len(matches)}\")\nif elapsed > 5:\n    print(\"\\n⚠️  WARNING: Detection is slow (>5 seconds)\")\n    print(\"   This could be due to:\")\n    print(\"   - Large documents in database\")\n    print(\"   - Too many documents\")",
+        "detail": "backend.test_performance",
+        "documentation": {}
+    },
+    {
+        "label": "end_time",
+        "kind": 5,
+        "importPath": "backend.test_performance",
+        "description": "backend.test_performance",
+        "peekOfCode": "end_time = time.time()\nelapsed = end_time - start_time\nprint(f\"\\n⏱️  Time taken: {elapsed:.2f} seconds\")\nprint(f\"📊 Matches found: {len(matches)}\")\nif elapsed > 5:\n    print(\"\\n⚠️  WARNING: Detection is slow (>5 seconds)\")\n    print(\"   This could be due to:\")\n    print(\"   - Large documents in database\")\n    print(\"   - Too many documents\")\n    print(\"   - Slow computer\")",
+        "detail": "backend.test_performance",
+        "documentation": {}
+    },
+    {
+        "label": "elapsed",
+        "kind": 5,
+        "importPath": "backend.test_performance",
+        "description": "backend.test_performance",
+        "peekOfCode": "elapsed = end_time - start_time\nprint(f\"\\n⏱️  Time taken: {elapsed:.2f} seconds\")\nprint(f\"📊 Matches found: {len(matches)}\")\nif elapsed > 5:\n    print(\"\\n⚠️  WARNING: Detection is slow (>5 seconds)\")\n    print(\"   This could be due to:\")\n    print(\"   - Large documents in database\")\n    print(\"   - Too many documents\")\n    print(\"   - Slow computer\")\nelif elapsed > 2:",
+        "detail": "backend.test_performance",
+        "documentation": {}
+    },
+    {
+        "label": "text1",
+        "kind": 5,
+        "importPath": "backend.test_plagiarism",
+        "description": "backend.test_plagiarism",
+        "peekOfCode": "text1 = \"This is a test document about machine learning and artificial intelligence.\"\ntext2 = \"This is a test document about machine learning and artificial intelligence.\"\nprint(\"\\n1. EXACT COPY TEST\")\nprint(f\"Text 1: {text1}\")\nprint(f\"Text 2: {text2}\")\nscores = final_similarity(text1, text2)\nprint(f\"TF-IDF: {scores['tfidf_score']}%\")\nprint(f\"Jaccard: {scores['jaccard_score']}%\")\nprint(f\"Final: {scores['final_score']}%\")\nprint(f\"Expected: ~100%\")",
+        "detail": "backend.test_plagiarism",
+        "documentation": {}
+    },
+    {
+        "label": "text2",
+        "kind": 5,
+        "importPath": "backend.test_plagiarism",
+        "description": "backend.test_plagiarism",
+        "peekOfCode": "text2 = \"This is a test document about machine learning and artificial intelligence.\"\nprint(\"\\n1. EXACT COPY TEST\")\nprint(f\"Text 1: {text1}\")\nprint(f\"Text 2: {text2}\")\nscores = final_similarity(text1, text2)\nprint(f\"TF-IDF: {scores['tfidf_score']}%\")\nprint(f\"Jaccard: {scores['jaccard_score']}%\")\nprint(f\"Final: {scores['final_score']}%\")\nprint(f\"Expected: ~100%\")\n# Test 2: High plagiarism (80% same)",
+        "detail": "backend.test_plagiarism",
+        "documentation": {}
+    },
+    {
+        "label": "scores",
+        "kind": 5,
+        "importPath": "backend.test_plagiarism",
+        "description": "backend.test_plagiarism",
+        "peekOfCode": "scores = final_similarity(text1, text2)\nprint(f\"TF-IDF: {scores['tfidf_score']}%\")\nprint(f\"Jaccard: {scores['jaccard_score']}%\")\nprint(f\"Final: {scores['final_score']}%\")\nprint(f\"Expected: ~100%\")\n# Test 2: High plagiarism (80% same)\ntext3 = \"Machine learning is a subset of artificial intelligence that enables computers to learn from data.\"\ntext4 = \"Machine learning is a subset of artificial intelligence that allows systems to learn from information.\"\nprint(\"\\n2. HIGH PLAGIARISM TEST (80% similar)\")\nprint(f\"Text 1: {text3}\")",
+        "detail": "backend.test_plagiarism",
+        "documentation": {}
+    },
+    {
+        "label": "text3",
+        "kind": 5,
+        "importPath": "backend.test_plagiarism",
+        "description": "backend.test_plagiarism",
+        "peekOfCode": "text3 = \"Machine learning is a subset of artificial intelligence that enables computers to learn from data.\"\ntext4 = \"Machine learning is a subset of artificial intelligence that allows systems to learn from information.\"\nprint(\"\\n2. HIGH PLAGIARISM TEST (80% similar)\")\nprint(f\"Text 1: {text3}\")\nprint(f\"Text 2: {text4}\")\nscores = final_similarity(text3, text4)\nphrases = find_matching_phrases(text3, text4, min_words=3)\nprint(f\"TF-IDF: {scores['tfidf_score']}%\")\nprint(f\"Jaccard: {scores['jaccard_score']}%\")\nprint(f\"Final: {scores['final_score']}%\")",
+        "detail": "backend.test_plagiarism",
+        "documentation": {}
+    },
+    {
+        "label": "text4",
+        "kind": 5,
+        "importPath": "backend.test_plagiarism",
+        "description": "backend.test_plagiarism",
+        "peekOfCode": "text4 = \"Machine learning is a subset of artificial intelligence that allows systems to learn from information.\"\nprint(\"\\n2. HIGH PLAGIARISM TEST (80% similar)\")\nprint(f\"Text 1: {text3}\")\nprint(f\"Text 2: {text4}\")\nscores = final_similarity(text3, text4)\nphrases = find_matching_phrases(text3, text4, min_words=3)\nprint(f\"TF-IDF: {scores['tfidf_score']}%\")\nprint(f\"Jaccard: {scores['jaccard_score']}%\")\nprint(f\"Final: {scores['final_score']}%\")\nprint(f\"Matching phrases: {phrases}\")",
+        "detail": "backend.test_plagiarism",
+        "documentation": {}
+    },
+    {
+        "label": "scores",
+        "kind": 5,
+        "importPath": "backend.test_plagiarism",
+        "description": "backend.test_plagiarism",
+        "peekOfCode": "scores = final_similarity(text3, text4)\nphrases = find_matching_phrases(text3, text4, min_words=3)\nprint(f\"TF-IDF: {scores['tfidf_score']}%\")\nprint(f\"Jaccard: {scores['jaccard_score']}%\")\nprint(f\"Final: {scores['final_score']}%\")\nprint(f\"Matching phrases: {phrases}\")\nprint(f\"Expected: 70-90%\")\n# Test 3: Moderate plagiarism (50% same)\ntext5 = \"Python is a popular programming language used for data science and web development.\"\ntext6 = \"Python is widely used in data science. It is also popular for creating web applications.\"",
+        "detail": "backend.test_plagiarism",
+        "documentation": {}
+    },
+    {
+        "label": "phrases",
+        "kind": 5,
+        "importPath": "backend.test_plagiarism",
+        "description": "backend.test_plagiarism",
+        "peekOfCode": "phrases = find_matching_phrases(text3, text4, min_words=3)\nprint(f\"TF-IDF: {scores['tfidf_score']}%\")\nprint(f\"Jaccard: {scores['jaccard_score']}%\")\nprint(f\"Final: {scores['final_score']}%\")\nprint(f\"Matching phrases: {phrases}\")\nprint(f\"Expected: 70-90%\")\n# Test 3: Moderate plagiarism (50% same)\ntext5 = \"Python is a popular programming language used for data science and web development.\"\ntext6 = \"Python is widely used in data science. It is also popular for creating web applications.\"\nprint(\"\\n3. MODERATE PLAGIARISM TEST (50% similar)\")",
+        "detail": "backend.test_plagiarism",
+        "documentation": {}
+    },
+    {
+        "label": "text5",
+        "kind": 5,
+        "importPath": "backend.test_plagiarism",
+        "description": "backend.test_plagiarism",
+        "peekOfCode": "text5 = \"Python is a popular programming language used for data science and web development.\"\ntext6 = \"Python is widely used in data science. It is also popular for creating web applications.\"\nprint(\"\\n3. MODERATE PLAGIARISM TEST (50% similar)\")\nprint(f\"Text 1: {text5}\")\nprint(f\"Text 2: {text6}\")\nscores = final_similarity(text5, text6)\nphrases = find_matching_phrases(text5, text6, min_words=3)\nprint(f\"TF-IDF: {scores['tfidf_score']}%\")\nprint(f\"Jaccard: {scores['jaccard_score']}%\")\nprint(f\"Final: {scores['final_score']}%\")",
+        "detail": "backend.test_plagiarism",
+        "documentation": {}
+    },
+    {
+        "label": "text6",
+        "kind": 5,
+        "importPath": "backend.test_plagiarism",
+        "description": "backend.test_plagiarism",
+        "peekOfCode": "text6 = \"Python is widely used in data science. It is also popular for creating web applications.\"\nprint(\"\\n3. MODERATE PLAGIARISM TEST (50% similar)\")\nprint(f\"Text 1: {text5}\")\nprint(f\"Text 2: {text6}\")\nscores = final_similarity(text5, text6)\nphrases = find_matching_phrases(text5, text6, min_words=3)\nprint(f\"TF-IDF: {scores['tfidf_score']}%\")\nprint(f\"Jaccard: {scores['jaccard_score']}%\")\nprint(f\"Final: {scores['final_score']}%\")\nprint(f\"Matching phrases: {phrases}\")",
+        "detail": "backend.test_plagiarism",
+        "documentation": {}
+    },
+    {
+        "label": "scores",
+        "kind": 5,
+        "importPath": "backend.test_plagiarism",
+        "description": "backend.test_plagiarism",
+        "peekOfCode": "scores = final_similarity(text5, text6)\nphrases = find_matching_phrases(text5, text6, min_words=3)\nprint(f\"TF-IDF: {scores['tfidf_score']}%\")\nprint(f\"Jaccard: {scores['jaccard_score']}%\")\nprint(f\"Final: {scores['final_score']}%\")\nprint(f\"Matching phrases: {phrases}\")\nprint(f\"Expected: 40-60%\")\n# Test 4: Low plagiarism (different content, same topic)\ntext7 = \"Deep learning uses neural networks with multiple layers to process complex patterns.\"\ntext8 = \"Artificial intelligence helps computers make decisions based on data analysis.\"",
+        "detail": "backend.test_plagiarism",
+        "documentation": {}
+    },
+    {
+        "label": "phrases",
+        "kind": 5,
+        "importPath": "backend.test_plagiarism",
+        "description": "backend.test_plagiarism",
+        "peekOfCode": "phrases = find_matching_phrases(text5, text6, min_words=3)\nprint(f\"TF-IDF: {scores['tfidf_score']}%\")\nprint(f\"Jaccard: {scores['jaccard_score']}%\")\nprint(f\"Final: {scores['final_score']}%\")\nprint(f\"Matching phrases: {phrases}\")\nprint(f\"Expected: 40-60%\")\n# Test 4: Low plagiarism (different content, same topic)\ntext7 = \"Deep learning uses neural networks with multiple layers to process complex patterns.\"\ntext8 = \"Artificial intelligence helps computers make decisions based on data analysis.\"\nprint(\"\\n4. LOW PLAGIARISM TEST (same topic, different content)\")",
+        "detail": "backend.test_plagiarism",
+        "documentation": {}
+    },
+    {
+        "label": "text7",
+        "kind": 5,
+        "importPath": "backend.test_plagiarism",
+        "description": "backend.test_plagiarism",
+        "peekOfCode": "text7 = \"Deep learning uses neural networks with multiple layers to process complex patterns.\"\ntext8 = \"Artificial intelligence helps computers make decisions based on data analysis.\"\nprint(\"\\n4. LOW PLAGIARISM TEST (same topic, different content)\")\nprint(f\"Text 1: {text7}\")\nprint(f\"Text 2: {text8}\")\nscores = final_similarity(text7, text8)\nphrases = find_matching_phrases(text7, text8, min_words=3)\nprint(f\"TF-IDF: {scores['tfidf_score']}%\")\nprint(f\"Jaccard: {scores['jaccard_score']}%\")\nprint(f\"Final: {scores['final_score']}%\")",
+        "detail": "backend.test_plagiarism",
+        "documentation": {}
+    },
+    {
+        "label": "text8",
+        "kind": 5,
+        "importPath": "backend.test_plagiarism",
+        "description": "backend.test_plagiarism",
+        "peekOfCode": "text8 = \"Artificial intelligence helps computers make decisions based on data analysis.\"\nprint(\"\\n4. LOW PLAGIARISM TEST (same topic, different content)\")\nprint(f\"Text 1: {text7}\")\nprint(f\"Text 2: {text8}\")\nscores = final_similarity(text7, text8)\nphrases = find_matching_phrases(text7, text8, min_words=3)\nprint(f\"TF-IDF: {scores['tfidf_score']}%\")\nprint(f\"Jaccard: {scores['jaccard_score']}%\")\nprint(f\"Final: {scores['final_score']}%\")\nprint(f\"Matching phrases: {phrases}\")",
+        "detail": "backend.test_plagiarism",
+        "documentation": {}
+    },
+    {
+        "label": "scores",
+        "kind": 5,
+        "importPath": "backend.test_plagiarism",
+        "description": "backend.test_plagiarism",
+        "peekOfCode": "scores = final_similarity(text7, text8)\nphrases = find_matching_phrases(text7, text8, min_words=3)\nprint(f\"TF-IDF: {scores['tfidf_score']}%\")\nprint(f\"Jaccard: {scores['jaccard_score']}%\")\nprint(f\"Final: {scores['final_score']}%\")\nprint(f\"Matching phrases: {phrases}\")\nprint(f\"Expected: 10-30%\")\n# Test 5: No plagiarism (completely different)\ntext9 = \"The weather today is sunny and warm with clear blue skies.\"\ntext10 = \"Machine learning algorithms require large datasets for training purposes.\"",
+        "detail": "backend.test_plagiarism",
+        "documentation": {}
+    },
+    {
+        "label": "phrases",
+        "kind": 5,
+        "importPath": "backend.test_plagiarism",
+        "description": "backend.test_plagiarism",
+        "peekOfCode": "phrases = find_matching_phrases(text7, text8, min_words=3)\nprint(f\"TF-IDF: {scores['tfidf_score']}%\")\nprint(f\"Jaccard: {scores['jaccard_score']}%\")\nprint(f\"Final: {scores['final_score']}%\")\nprint(f\"Matching phrases: {phrases}\")\nprint(f\"Expected: 10-30%\")\n# Test 5: No plagiarism (completely different)\ntext9 = \"The weather today is sunny and warm with clear blue skies.\"\ntext10 = \"Machine learning algorithms require large datasets for training purposes.\"\nprint(\"\\n5. NO PLAGIARISM TEST (completely different)\")",
+        "detail": "backend.test_plagiarism",
+        "documentation": {}
+    },
+    {
+        "label": "text9",
+        "kind": 5,
+        "importPath": "backend.test_plagiarism",
+        "description": "backend.test_plagiarism",
+        "peekOfCode": "text9 = \"The weather today is sunny and warm with clear blue skies.\"\ntext10 = \"Machine learning algorithms require large datasets for training purposes.\"\nprint(\"\\n5. NO PLAGIARISM TEST (completely different)\")\nprint(f\"Text 1: {text9}\")\nprint(f\"Text 2: {text10}\")\nscores = final_similarity(text9, text10)\nphrases = find_matching_phrases(text9, text10, min_words=3)\nprint(f\"TF-IDF: {scores['tfidf_score']}%\")\nprint(f\"Jaccard: {scores['jaccard_score']}%\")\nprint(f\"Final: {scores['final_score']}%\")",
+        "detail": "backend.test_plagiarism",
+        "documentation": {}
+    },
+    {
+        "label": "text10",
+        "kind": 5,
+        "importPath": "backend.test_plagiarism",
+        "description": "backend.test_plagiarism",
+        "peekOfCode": "text10 = \"Machine learning algorithms require large datasets for training purposes.\"\nprint(\"\\n5. NO PLAGIARISM TEST (completely different)\")\nprint(f\"Text 1: {text9}\")\nprint(f\"Text 2: {text10}\")\nscores = final_similarity(text9, text10)\nphrases = find_matching_phrases(text9, text10, min_words=3)\nprint(f\"TF-IDF: {scores['tfidf_score']}%\")\nprint(f\"Jaccard: {scores['jaccard_score']}%\")\nprint(f\"Final: {scores['final_score']}%\")\nprint(f\"Matching phrases: {phrases}\")",
+        "detail": "backend.test_plagiarism",
+        "documentation": {}
+    },
+    {
+        "label": "scores",
+        "kind": 5,
+        "importPath": "backend.test_plagiarism",
+        "description": "backend.test_plagiarism",
+        "peekOfCode": "scores = final_similarity(text9, text10)\nphrases = find_matching_phrases(text9, text10, min_words=3)\nprint(f\"TF-IDF: {scores['tfidf_score']}%\")\nprint(f\"Jaccard: {scores['jaccard_score']}%\")\nprint(f\"Final: {scores['final_score']}%\")\nprint(f\"Matching phrases: {phrases}\")\nprint(f\"Expected: 0-10%\")\n# Test 6: Paraphrased content\ntext11 = \"Students often struggle with understanding complex mathematical concepts in their coursework.\"\ntext12 = \"Many learners find it difficult to grasp complicated math ideas during their studies.\"",
+        "detail": "backend.test_plagiarism",
+        "documentation": {}
+    },
+    {
+        "label": "phrases",
+        "kind": 5,
+        "importPath": "backend.test_plagiarism",
+        "description": "backend.test_plagiarism",
+        "peekOfCode": "phrases = find_matching_phrases(text9, text10, min_words=3)\nprint(f\"TF-IDF: {scores['tfidf_score']}%\")\nprint(f\"Jaccard: {scores['jaccard_score']}%\")\nprint(f\"Final: {scores['final_score']}%\")\nprint(f\"Matching phrases: {phrases}\")\nprint(f\"Expected: 0-10%\")\n# Test 6: Paraphrased content\ntext11 = \"Students often struggle with understanding complex mathematical concepts in their coursework.\"\ntext12 = \"Many learners find it difficult to grasp complicated math ideas during their studies.\"\nprint(\"\\n6. PARAPHRASED CONTENT TEST\")",
+        "detail": "backend.test_plagiarism",
+        "documentation": {}
+    },
+    {
+        "label": "text11",
+        "kind": 5,
+        "importPath": "backend.test_plagiarism",
+        "description": "backend.test_plagiarism",
+        "peekOfCode": "text11 = \"Students often struggle with understanding complex mathematical concepts in their coursework.\"\ntext12 = \"Many learners find it difficult to grasp complicated math ideas during their studies.\"\nprint(\"\\n6. PARAPHRASED CONTENT TEST\")\nprint(f\"Text 1: {text11}\")\nprint(f\"Text 2: {text12}\")\nscores = final_similarity(text11, text12)\nphrases = find_matching_phrases(text11, text12, min_words=3)\nplagiarized = find_plagiarized_words(text11, text12)\nprint(f\"TF-IDF: {scores['tfidf_score']}%\")\nprint(f\"Jaccard: {scores['jaccard_score']}%\")",
+        "detail": "backend.test_plagiarism",
+        "documentation": {}
+    },
+    {
+        "label": "text12",
+        "kind": 5,
+        "importPath": "backend.test_plagiarism",
+        "description": "backend.test_plagiarism",
+        "peekOfCode": "text12 = \"Many learners find it difficult to grasp complicated math ideas during their studies.\"\nprint(\"\\n6. PARAPHRASED CONTENT TEST\")\nprint(f\"Text 1: {text11}\")\nprint(f\"Text 2: {text12}\")\nscores = final_similarity(text11, text12)\nphrases = find_matching_phrases(text11, text12, min_words=3)\nplagiarized = find_plagiarized_words(text11, text12)\nprint(f\"TF-IDF: {scores['tfidf_score']}%\")\nprint(f\"Jaccard: {scores['jaccard_score']}%\")\nprint(f\"Final: {scores['final_score']}%\")",
+        "detail": "backend.test_plagiarism",
+        "documentation": {}
+    },
+    {
+        "label": "scores",
+        "kind": 5,
+        "importPath": "backend.test_plagiarism",
+        "description": "backend.test_plagiarism",
+        "peekOfCode": "scores = final_similarity(text11, text12)\nphrases = find_matching_phrases(text11, text12, min_words=3)\nplagiarized = find_plagiarized_words(text11, text12)\nprint(f\"TF-IDF: {scores['tfidf_score']}%\")\nprint(f\"Jaccard: {scores['jaccard_score']}%\")\nprint(f\"Final: {scores['final_score']}%\")\nprint(f\"Matching phrases: {phrases}\")\nprint(f\"Common words: {plagiarized['common_words']}\")\nprint(f\"Expected: 20-40%\")\nprint(\"\\n\" + \"=\" * 80)",
+        "detail": "backend.test_plagiarism",
+        "documentation": {}
+    },
+    {
+        "label": "phrases",
+        "kind": 5,
+        "importPath": "backend.test_plagiarism",
+        "description": "backend.test_plagiarism",
+        "peekOfCode": "phrases = find_matching_phrases(text11, text12, min_words=3)\nplagiarized = find_plagiarized_words(text11, text12)\nprint(f\"TF-IDF: {scores['tfidf_score']}%\")\nprint(f\"Jaccard: {scores['jaccard_score']}%\")\nprint(f\"Final: {scores['final_score']}%\")\nprint(f\"Matching phrases: {phrases}\")\nprint(f\"Common words: {plagiarized['common_words']}\")\nprint(f\"Expected: 20-40%\")\nprint(\"\\n\" + \"=\" * 80)\nprint(\"TEST COMPLETE\")",
+        "detail": "backend.test_plagiarism",
+        "documentation": {}
+    },
+    {
+        "label": "plagiarized",
+        "kind": 5,
+        "importPath": "backend.test_plagiarism",
+        "description": "backend.test_plagiarism",
+        "peekOfCode": "plagiarized = find_plagiarized_words(text11, text12)\nprint(f\"TF-IDF: {scores['tfidf_score']}%\")\nprint(f\"Jaccard: {scores['jaccard_score']}%\")\nprint(f\"Final: {scores['final_score']}%\")\nprint(f\"Matching phrases: {phrases}\")\nprint(f\"Common words: {plagiarized['common_words']}\")\nprint(f\"Expected: 20-40%\")\nprint(\"\\n\" + \"=\" * 80)\nprint(\"TEST COMPLETE\")\nprint(\"=\" * 80)",
+        "detail": "backend.test_plagiarism",
+        "documentation": {}
+    },
+    {
+        "label": "original",
+        "kind": 5,
+        "importPath": "backend.test_real_plagiarism",
+        "description": "backend.test_real_plagiarism",
+        "peekOfCode": "original = \"\"\"\nMachine learning is a method of data analysis that automates analytical model building. \nIt is a branch of artificial intelligence based on the idea that systems can learn from data, \nidentify patterns and make decisions with minimal human intervention. Machine learning algorithms \nare trained using large amounts of data and they learn how to perform the task from the data.\n\"\"\"\n# Test 1: Exact copy\ncopied_exact = \"\"\"\nMachine learning is a method of data analysis that automates analytical model building. \nIt is a branch of artificial intelligence based on the idea that systems can learn from data, ",
+        "detail": "backend.test_real_plagiarism",
+        "documentation": {}
+    },
+    {
+        "label": "copied_exact",
+        "kind": 5,
+        "importPath": "backend.test_real_plagiarism",
+        "description": "backend.test_real_plagiarism",
+        "peekOfCode": "copied_exact = \"\"\"\nMachine learning is a method of data analysis that automates analytical model building. \nIt is a branch of artificial intelligence based on the idea that systems can learn from data, \nidentify patterns and make decisions with minimal human intervention. Machine learning algorithms \nare trained using large amounts of data and they learn how to perform the task from the data.\n\"\"\"\nprint(\"\\n1. EXACT COPY (100% plagiarism)\")\nprint(\"-\" * 80)\nscores = final_similarity(original, copied_exact)\nplagiarized = find_plagiarized_words(original, copied_exact)",
+        "detail": "backend.test_real_plagiarism",
+        "documentation": {}
+    },
+    {
+        "label": "scores",
+        "kind": 5,
+        "importPath": "backend.test_real_plagiarism",
+        "description": "backend.test_real_plagiarism",
+        "peekOfCode": "scores = final_similarity(original, copied_exact)\nplagiarized = find_plagiarized_words(original, copied_exact)\nprint(f\"Final Score: {scores['final_score']}%\")\nprint(f\"TF-IDF: {scores['tfidf_score']}%\")\nprint(f\"Jaccard: {scores['jaccard_score']}%\")\nprint(f\"Matching Phrases: {len(plagiarized['matching_phrases'])}\")\nif plagiarized['matching_phrases']:\n    print(\"Top phrases:\")\n    for phrase in plagiarized['matching_phrases'][:3]:\n        print(f\"  - '{phrase}'\")",
+        "detail": "backend.test_real_plagiarism",
+        "documentation": {}
+    },
+    {
+        "label": "plagiarized",
+        "kind": 5,
+        "importPath": "backend.test_real_plagiarism",
+        "description": "backend.test_real_plagiarism",
+        "peekOfCode": "plagiarized = find_plagiarized_words(original, copied_exact)\nprint(f\"Final Score: {scores['final_score']}%\")\nprint(f\"TF-IDF: {scores['tfidf_score']}%\")\nprint(f\"Jaccard: {scores['jaccard_score']}%\")\nprint(f\"Matching Phrases: {len(plagiarized['matching_phrases'])}\")\nif plagiarized['matching_phrases']:\n    print(\"Top phrases:\")\n    for phrase in plagiarized['matching_phrases'][:3]:\n        print(f\"  - '{phrase}'\")\n# Test 2: Minor changes (changing a few words)",
+        "detail": "backend.test_real_plagiarism",
+        "documentation": {}
+    },
+    {
+        "label": "copied_minor",
+        "kind": 5,
+        "importPath": "backend.test_real_plagiarism",
+        "description": "backend.test_real_plagiarism",
+        "peekOfCode": "copied_minor = \"\"\"\nMachine learning is a technique of data analysis that automates analytical model building. \nIt is a branch of artificial intelligence based on the concept that systems can learn from data, \nidentify patterns and make decisions with minimal human intervention. Machine learning algorithms \nare trained using large amounts of information and they learn how to perform the task from the data.\n\"\"\"\nprint(\"\\n2. MINOR CHANGES (90% plagiarism - few words changed)\")\nprint(\"-\" * 80)\nscores = final_similarity(original, copied_minor)\nplagiarized = find_plagiarized_words(original, copied_minor)",
+        "detail": "backend.test_real_plagiarism",
+        "documentation": {}
+    },
+    {
+        "label": "scores",
+        "kind": 5,
+        "importPath": "backend.test_real_plagiarism",
+        "description": "backend.test_real_plagiarism",
+        "peekOfCode": "scores = final_similarity(original, copied_minor)\nplagiarized = find_plagiarized_words(original, copied_minor)\nprint(f\"Final Score: {scores['final_score']}%\")\nprint(f\"TF-IDF: {scores['tfidf_score']}%\")\nprint(f\"Jaccard: {scores['jaccard_score']}%\")\nprint(f\"Matching Phrases: {len(plagiarized['matching_phrases'])}\")\nif plagiarized['matching_phrases']:\n    print(\"Top phrases:\")\n    for phrase in plagiarized['matching_phrases'][:3]:\n        print(f\"  - '{phrase}'\")",
+        "detail": "backend.test_real_plagiarism",
+        "documentation": {}
+    },
+    {
+        "label": "plagiarized",
+        "kind": 5,
+        "importPath": "backend.test_real_plagiarism",
+        "description": "backend.test_real_plagiarism",
+        "peekOfCode": "plagiarized = find_plagiarized_words(original, copied_minor)\nprint(f\"Final Score: {scores['final_score']}%\")\nprint(f\"TF-IDF: {scores['tfidf_score']}%\")\nprint(f\"Jaccard: {scores['jaccard_score']}%\")\nprint(f\"Matching Phrases: {len(plagiarized['matching_phrases'])}\")\nif plagiarized['matching_phrases']:\n    print(\"Top phrases:\")\n    for phrase in plagiarized['matching_phrases'][:3]:\n        print(f\"  - '{phrase}'\")\n# Test 3: Sentence reordering",
+        "detail": "backend.test_real_plagiarism",
+        "documentation": {}
+    },
+    {
+        "label": "copied_reorder",
+        "kind": 5,
+        "importPath": "backend.test_real_plagiarism",
+        "description": "backend.test_real_plagiarism",
+        "peekOfCode": "copied_reorder = \"\"\"\nIt is a branch of artificial intelligence based on the idea that systems can learn from data, \nidentify patterns and make decisions with minimal human intervention. Machine learning is a method \nof data analysis that automates analytical model building. Machine learning algorithms are trained \nusing large amounts of data and they learn how to perform the task from the data.\n\"\"\"\nprint(\"\\n3. SENTENCE REORDERING (80% plagiarism)\")\nprint(\"-\" * 80)\nscores = final_similarity(original, copied_reorder)\nplagiarized = find_plagiarized_words(original, copied_reorder)",
+        "detail": "backend.test_real_plagiarism",
+        "documentation": {}
+    },
+    {
+        "label": "scores",
+        "kind": 5,
+        "importPath": "backend.test_real_plagiarism",
+        "description": "backend.test_real_plagiarism",
+        "peekOfCode": "scores = final_similarity(original, copied_reorder)\nplagiarized = find_plagiarized_words(original, copied_reorder)\nprint(f\"Final Score: {scores['final_score']}%\")\nprint(f\"TF-IDF: {scores['tfidf_score']}%\")\nprint(f\"Jaccard: {scores['jaccard_score']}%\")\nprint(f\"Matching Phrases: {len(plagiarized['matching_phrases'])}\")\nif plagiarized['matching_phrases']:\n    print(\"Top phrases:\")\n    for phrase in plagiarized['matching_phrases'][:3]:\n        print(f\"  - '{phrase}'\")",
+        "detail": "backend.test_real_plagiarism",
+        "documentation": {}
+    },
+    {
+        "label": "plagiarized",
+        "kind": 5,
+        "importPath": "backend.test_real_plagiarism",
+        "description": "backend.test_real_plagiarism",
+        "peekOfCode": "plagiarized = find_plagiarized_words(original, copied_reorder)\nprint(f\"Final Score: {scores['final_score']}%\")\nprint(f\"TF-IDF: {scores['tfidf_score']}%\")\nprint(f\"Jaccard: {scores['jaccard_score']}%\")\nprint(f\"Matching Phrases: {len(plagiarized['matching_phrases'])}\")\nif plagiarized['matching_phrases']:\n    print(\"Top phrases:\")\n    for phrase in plagiarized['matching_phrases'][:3]:\n        print(f\"  - '{phrase}'\")\n# Test 4: Partial copy (50% copied)",
+        "detail": "backend.test_real_plagiarism",
+        "documentation": {}
+    },
+    {
+        "label": "copied_partial",
+        "kind": 5,
+        "importPath": "backend.test_real_plagiarism",
+        "description": "backend.test_real_plagiarism",
+        "peekOfCode": "copied_partial = \"\"\"\nMachine learning is a method of data analysis that automates analytical model building. \nIt is a branch of artificial intelligence. Modern AI systems use various techniques including \nneural networks and deep learning to solve complex problems in computer vision and natural language.\n\"\"\"\nprint(\"\\n4. PARTIAL COPY (50% plagiarism)\")\nprint(\"-\" * 80)\nscores = final_similarity(original, copied_partial)\nplagiarized = find_plagiarized_words(original, copied_partial)\nprint(f\"Final Score: {scores['final_score']}%\")",
+        "detail": "backend.test_real_plagiarism",
+        "documentation": {}
+    },
+    {
+        "label": "scores",
+        "kind": 5,
+        "importPath": "backend.test_real_plagiarism",
+        "description": "backend.test_real_plagiarism",
+        "peekOfCode": "scores = final_similarity(original, copied_partial)\nplagiarized = find_plagiarized_words(original, copied_partial)\nprint(f\"Final Score: {scores['final_score']}%\")\nprint(f\"TF-IDF: {scores['tfidf_score']}%\")\nprint(f\"Jaccard: {scores['jaccard_score']}%\")\nprint(f\"Matching Phrases: {len(plagiarized['matching_phrases'])}\")\nif plagiarized['matching_phrases']:\n    print(\"Top phrases:\")\n    for phrase in plagiarized['matching_phrases'][:3]:\n        print(f\"  - '{phrase}'\")",
+        "detail": "backend.test_real_plagiarism",
+        "documentation": {}
+    },
+    {
+        "label": "plagiarized",
+        "kind": 5,
+        "importPath": "backend.test_real_plagiarism",
+        "description": "backend.test_real_plagiarism",
+        "peekOfCode": "plagiarized = find_plagiarized_words(original, copied_partial)\nprint(f\"Final Score: {scores['final_score']}%\")\nprint(f\"TF-IDF: {scores['tfidf_score']}%\")\nprint(f\"Jaccard: {scores['jaccard_score']}%\")\nprint(f\"Matching Phrases: {len(plagiarized['matching_phrases'])}\")\nif plagiarized['matching_phrases']:\n    print(\"Top phrases:\")\n    for phrase in plagiarized['matching_phrases'][:3]:\n        print(f\"  - '{phrase}'\")\nprint(\"\\n\" + \"=\"*80)",
+        "detail": "backend.test_real_plagiarism",
+        "documentation": {}
+    },
+    {
+        "label": "query",
+        "kind": 5,
+        "importPath": "backend.test_web_search",
+        "description": "backend.test_web_search",
+        "peekOfCode": "query = \"machine learning artificial intelligence\"\nsearch_url = f\"https://html.duckduckgo.com/html/?q={quote_plus(query)}\"\nprint(\"Testing DuckDuckGo search...\")\nprint(f\"URL: {search_url}\")\nheaders = {\n    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'\n}\ntry:\n    response = requests.get(search_url, headers=headers, timeout=10)\n    print(f\"Status Code: {response.status_code}\")",
+        "detail": "backend.test_web_search",
+        "documentation": {}
+    },
+    {
+        "label": "search_url",
+        "kind": 5,
+        "importPath": "backend.test_web_search",
+        "description": "backend.test_web_search",
+        "peekOfCode": "search_url = f\"https://html.duckduckgo.com/html/?q={quote_plus(query)}\"\nprint(\"Testing DuckDuckGo search...\")\nprint(f\"URL: {search_url}\")\nheaders = {\n    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'\n}\ntry:\n    response = requests.get(search_url, headers=headers, timeout=10)\n    print(f\"Status Code: {response.status_code}\")\n    print(f\"Response Length: {len(response.text)}\")",
+        "detail": "backend.test_web_search",
+        "documentation": {}
+    },
+    {
+        "label": "headers",
+        "kind": 5,
+        "importPath": "backend.test_web_search",
+        "description": "backend.test_web_search",
+        "peekOfCode": "headers = {\n    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'\n}\ntry:\n    response = requests.get(search_url, headers=headers, timeout=10)\n    print(f\"Status Code: {response.status_code}\")\n    print(f\"Response Length: {len(response.text)}\")\n    if response.status_code == 200:\n        soup = BeautifulSoup(response.text, 'html.parser')\n        # Try different selectors",
+        "detail": "backend.test_web_search",
+        "documentation": {}
+    },
+    {
+        "label": "extract_key_phrases",
+        "kind": 2,
+        "importPath": "backend.web_search",
+        "description": "backend.web_search",
+        "peekOfCode": "def extract_key_phrases(text: str, num_phrases: int = 5) -> List[str]:\n    \"\"\"Extract key phrases from text for searching\"\"\"\n    # Split into sentences\n    sentences = re.split(r'[.!?]+', text)\n    # Get longest sentences (likely to be unique)\n    sentences = [s.strip() for s in sentences if len(s.strip()) > 50]\n    sentences.sort(key=len, reverse=True)\n    # Take top phrases\n    phrases = []\n    for sentence in sentences[:num_phrases]:",
+        "detail": "backend.web_search",
+        "documentation": {}
+    },
+    {
+        "label": "search_google_api",
+        "kind": 2,
+        "importPath": "backend.web_search",
+        "description": "backend.web_search",
+        "peekOfCode": "def search_google_api(query: str, api_key: str, search_engine_id: str, num_results: int = 3) -> List[Dict]:\n    \"\"\"\n    Search using Google Custom Search API (Reliable and Fast)\n    Get API key from: https://console.cloud.google.com/\n    Get Search Engine ID from: https://programmablesearchengine.google.com/\n    \"\"\"\n    results = []\n    try:\n        url = \"https://www.googleapis.com/customsearch/v1\"\n        params = {",
+        "detail": "backend.web_search",
+        "documentation": {}
+    },
+    {
+        "label": "search_bing",
+        "kind": 2,
+        "importPath": "backend.web_search",
+        "description": "backend.web_search",
+        "peekOfCode": "def search_bing(query: str, num_results: int = 3) -> List[Dict]:\n    \"\"\"\n    Fallback: Search using Bing (Less reliable, may be blocked)\n    \"\"\"\n    results = []\n    try:\n        search_url = f\"https://www.bing.com/search?q={quote_plus(query)}\"\n        headers = {\n            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'\n        }",
+        "detail": "backend.web_search",
+        "documentation": {}
+    },
+    {
+        "label": "fetch_webpage_content",
+        "kind": 2,
+        "importPath": "backend.web_search",
+        "description": "backend.web_search",
+        "peekOfCode": "def fetch_webpage_content(url: str, max_length: int = 3000) -> str:\n    \"\"\"Fetch and extract text content from a webpage\"\"\"\n    try:\n        headers = {\n            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'\n        }\n        response = requests.get(url, headers=headers, timeout=3)\n        if response.status_code == 200:\n            soup = BeautifulSoup(response.text, 'html.parser')\n            # Remove script and style elements",
+        "detail": "backend.web_search",
+        "documentation": {}
+    },
+    {
+        "label": "check_online_plagiarism",
+        "kind": 2,
+        "importPath": "backend.web_search",
+        "description": "backend.web_search",
+        "peekOfCode": "def check_online_plagiarism(text: str, num_searches: int = 2) -> List[Dict]:\n    \"\"\"\n    Check if text appears online by searching key phrases\n    Returns list of potential sources with similarity scores\n    \"\"\"\n    from plagiarism_engine import final_similarity, find_plagiarized_words\n    # Check if Google API is configured\n    try:\n        from config import GOOGLE_API_KEY, GOOGLE_SEARCH_ENGINE_ID, is_google_api_configured\n        use_google_api = is_google_api_configured()",
+        "detail": "backend.web_search",
+        "documentation": {}
+    },
+    {
+        "label": "get_verdict",
+        "kind": 2,
+        "importPath": "backend.web_search",
+        "description": "backend.web_search",
+        "peekOfCode": "def get_verdict(score: float) -> str:\n    \"\"\"Get plagiarism verdict based on score\"\"\"\n    if score >= 75:\n        return \"High plagiarism risk\"\n    if score >= 45:\n        return \"Moderate plagiarism risk\"\n    return \"Low plagiarism risk\"\nif __name__ == \"__main__\":\n    # Test\n    test_text = \"\"\"",
+        "detail": "backend.web_search",
+        "documentation": {}
+    },
+    {
+        "label": "read_file",
+        "kind": 2,
+        "importPath": "docs.generate_report",
+        "description": "docs.generate_report",
+        "peekOfCode": "def read_file(rel_path: str) -> str:\n    return (ROOT / rel_path).read_text(encoding=\"utf-8\")\ndef setup_dirs() -> None:\n    IMG_DIR.mkdir(parents=True, exist_ok=True)\ndef add_box(ax, xy, w, h, label, fs=18, fc=\"#eaf2ff\"):\n    rect = Rectangle(xy, w, h, linewidth=2.2, edgecolor=\"#1f3b6d\", facecolor=fc)\n    ax.add_patch(rect)\n    ax.text(xy[0] + w / 2, xy[1] + h / 2, label, ha=\"center\", va=\"center\", fontsize=fs, weight=\"bold\", wrap=True)\ndef add_arrow(ax, p1, p2):\n    arr = FancyArrowPatch(p1, p2, arrowstyle=\"-|>\", mutation_scale=20, linewidth=2.2, color=\"#1f3b6d\")",
+        "detail": "docs.generate_report",
+        "documentation": {}
+    },
+    {
+        "label": "setup_dirs",
+        "kind": 2,
+        "importPath": "docs.generate_report",
+        "description": "docs.generate_report",
+        "peekOfCode": "def setup_dirs() -> None:\n    IMG_DIR.mkdir(parents=True, exist_ok=True)\ndef add_box(ax, xy, w, h, label, fs=18, fc=\"#eaf2ff\"):\n    rect = Rectangle(xy, w, h, linewidth=2.2, edgecolor=\"#1f3b6d\", facecolor=fc)\n    ax.add_patch(rect)\n    ax.text(xy[0] + w / 2, xy[1] + h / 2, label, ha=\"center\", va=\"center\", fontsize=fs, weight=\"bold\", wrap=True)\ndef add_arrow(ax, p1, p2):\n    arr = FancyArrowPatch(p1, p2, arrowstyle=\"-|>\", mutation_scale=20, linewidth=2.2, color=\"#1f3b6d\")\n    ax.add_patch(arr)\ndef save_architecture():",
+        "detail": "docs.generate_report",
+        "documentation": {}
+    },
+    {
+        "label": "add_box",
+        "kind": 2,
+        "importPath": "docs.generate_report",
+        "description": "docs.generate_report",
+        "peekOfCode": "def add_box(ax, xy, w, h, label, fs=18, fc=\"#eaf2ff\"):\n    rect = Rectangle(xy, w, h, linewidth=2.2, edgecolor=\"#1f3b6d\", facecolor=fc)\n    ax.add_patch(rect)\n    ax.text(xy[0] + w / 2, xy[1] + h / 2, label, ha=\"center\", va=\"center\", fontsize=fs, weight=\"bold\", wrap=True)\ndef add_arrow(ax, p1, p2):\n    arr = FancyArrowPatch(p1, p2, arrowstyle=\"-|>\", mutation_scale=20, linewidth=2.2, color=\"#1f3b6d\")\n    ax.add_patch(arr)\ndef save_architecture():\n    fig, ax = plt.subplots(figsize=(16, 10))\n    ax.set_xlim(0, 16)",
+        "detail": "docs.generate_report",
+        "documentation": {}
+    },
+    {
+        "label": "add_arrow",
+        "kind": 2,
+        "importPath": "docs.generate_report",
+        "description": "docs.generate_report",
+        "peekOfCode": "def add_arrow(ax, p1, p2):\n    arr = FancyArrowPatch(p1, p2, arrowstyle=\"-|>\", mutation_scale=20, linewidth=2.2, color=\"#1f3b6d\")\n    ax.add_patch(arr)\ndef save_architecture():\n    fig, ax = plt.subplots(figsize=(16, 10))\n    ax.set_xlim(0, 16)\n    ax.set_ylim(0, 10)\n    ax.axis(\"off\")\n    add_box(ax, (0.8, 6.5), 3.4, 2, \"Student / Faculty\\nWeb Browser\", 20, \"#f6fbff\")\n    add_box(ax, (5.0, 6.3), 4.0, 2.4, \"Frontend Layer\\nHTML + CSS + JS\\n(User Interface)\", 19, \"#edf7ff\")",
+        "detail": "docs.generate_report",
+        "documentation": {}
+    },
+    {
+        "label": "save_architecture",
+        "kind": 2,
+        "importPath": "docs.generate_report",
+        "description": "docs.generate_report",
+        "peekOfCode": "def save_architecture():\n    fig, ax = plt.subplots(figsize=(16, 10))\n    ax.set_xlim(0, 16)\n    ax.set_ylim(0, 10)\n    ax.axis(\"off\")\n    add_box(ax, (0.8, 6.5), 3.4, 2, \"Student / Faculty\\nWeb Browser\", 20, \"#f6fbff\")\n    add_box(ax, (5.0, 6.3), 4.0, 2.4, \"Frontend Layer\\nHTML + CSS + JS\\n(User Interface)\", 19, \"#edf7ff\")\n    add_box(ax, (10.0, 6.2), 4.8, 2.6, \"Backend Layer\\nFlask REST API\\nValidation + Business Logic\", 19, \"#eef8f0\")\n    add_box(ax, (10.2, 2.4), 4.4, 2.6, \"Plagiarism Engine\\nTF-IDF + Jaccard\\nScoring + Verdict\", 19, \"#fff6e8\")\n    add_box(ax, (4.8, 2.2), 4.0, 2.8, \"SQLite Database\\nDocuments\\nComparisons\\nReports\", 19, \"#fff1f1\")",
+        "detail": "docs.generate_report",
+        "documentation": {}
+    },
+    {
+        "label": "save_flowchart",
+        "kind": 2,
+        "importPath": "docs.generate_report",
+        "description": "docs.generate_report",
+        "peekOfCode": "def save_flowchart():\n    fig, ax = plt.subplots(figsize=(14, 16))\n    ax.set_xlim(0, 14)\n    ax.set_ylim(0, 16)\n    ax.axis(\"off\")\n    ys = [14.2, 12.2, 10.2, 8.2, 6.2, 4.2, 2.2]\n    labels = [\n        \"Start\",\n        \"User enters title,\\nauthor, and text\",\n        \"Frontend sends\\nPOST /api/check\",",
+        "detail": "docs.generate_report",
+        "documentation": {}
+    },
+    {
+        "label": "save_er",
+        "kind": 2,
+        "importPath": "docs.generate_report",
+        "description": "docs.generate_report",
+        "peekOfCode": "def save_er():\n    fig, ax = plt.subplots(figsize=(16, 10))\n    ax.set_xlim(0, 16)\n    ax.set_ylim(0, 10)\n    ax.axis(\"off\")\n    add_box(ax, (1.0, 3.2), 6.0, 4.8, \"DOCUMENTS\\nPK id\\n title\\n author\\n raw_text\\n created_at\", 18, \"#eef7ff\")\n    add_box(ax, (9.0, 3.2), 6.0, 4.8, \"COMPARISONS\\nPK id\\n FK source_doc_id\\n FK compared_doc_id\\n similarity_score\\n verdict\\n created_at\", 18, \"#fff3f0\")\n    add_arrow(ax, (7.0, 6.0), (9.0, 6.0))\n    ax.text(8.0, 6.3, \"1 to many\", fontsize=16, weight=\"bold\", ha=\"center\")\n    ax.text(8.0, 5.5, \"source_doc_id -> documents.id\", fontsize=14, ha=\"center\")",
+        "detail": "docs.generate_report",
+        "documentation": {}
+    },
+    {
+        "label": "save_usecase",
+        "kind": 2,
+        "importPath": "docs.generate_report",
+        "description": "docs.generate_report",
+        "peekOfCode": "def save_usecase():\n    fig, ax = plt.subplots(figsize=(15, 10))\n    ax.set_xlim(0, 15)\n    ax.set_ylim(0, 10)\n    ax.axis(\"off\")\n    ax.text(1.3, 5.0, \"Student\", fontsize=22, weight=\"bold\")\n    ax.text(1.3, 2.3, \"Faculty\", fontsize=22, weight=\"bold\")\n    add_box(ax, (4.4, 6.8), 6.4, 1.3, \"Submit Document\", 17, \"#f2fbff\")\n    add_box(ax, (4.4, 5.0), 6.4, 1.3, \"Run Plagiarism Check\", 17, \"#f2fbff\")\n    add_box(ax, (4.4, 3.2), 6.4, 1.3, \"View Similarity Report\", 17, \"#f2fbff\")",
+        "detail": "docs.generate_report",
+        "documentation": {}
+    },
+    {
+        "label": "save_sequence",
+        "kind": 2,
+        "importPath": "docs.generate_report",
+        "description": "docs.generate_report",
+        "peekOfCode": "def save_sequence():\n    fig, ax = plt.subplots(figsize=(16, 10))\n    ax.set_xlim(0, 16)\n    ax.set_ylim(0, 10)\n    ax.axis(\"off\")\n    lanes = [2, 6, 10, 14]\n    names = [\"User\", \"Frontend\", \"Backend API\", \"Database/Engine\"]\n    for x, n in zip(lanes, names):\n        ax.plot([x, x], [1, 9], linestyle=\"--\", linewidth=1.8, color=\"#2f4f7f\")\n        ax.text(x, 9.3, n, fontsize=16, weight=\"bold\", ha=\"center\")",
+        "detail": "docs.generate_report",
+        "documentation": {}
+    },
+    {
+        "label": "save_charts",
+        "kind": 2,
+        "importPath": "docs.generate_report",
+        "description": "docs.generate_report",
+        "peekOfCode": "def save_charts():\n    fig, ax = plt.subplots(figsize=(14, 8))\n    metrics = [\"Precision\", \"Recall\", \"F1-Score\", \"Accuracy\"]\n    vals = [0.88, 0.83, 0.85, 0.87]\n    bars = ax.bar(metrics, vals, color=[\"#2d6cdf\", \"#00a38a\", \"#f39c12\", \"#d64545\"])\n    ax.set_ylim(0, 1)\n    ax.set_title(\"Model Evaluation Snapshot (Demonstration)\", fontsize=22, weight=\"bold\")\n    ax.set_ylabel(\"Score\", fontsize=16)\n    ax.tick_params(axis=\"x\", labelsize=16)\n    ax.tick_params(axis=\"y\", labelsize=14)",
+        "detail": "docs.generate_report",
+        "documentation": {}
+    },
+    {
+        "label": "create_images",
+        "kind": 2,
+        "importPath": "docs.generate_report",
+        "description": "docs.generate_report",
+        "peekOfCode": "def create_images():\n    save_architecture()\n    save_flowchart()\n    save_er()\n    save_usecase()\n    save_sequence()\n    save_charts()\ndef add_para(doc: Document, text: str, size: int = 12, bold: bool = False):\n    p = doc.add_paragraph()\n    r = p.add_run(text)",
+        "detail": "docs.generate_report",
+        "documentation": {}
+    },
+    {
+        "label": "add_para",
+        "kind": 2,
+        "importPath": "docs.generate_report",
+        "description": "docs.generate_report",
+        "peekOfCode": "def add_para(doc: Document, text: str, size: int = 12, bold: bool = False):\n    p = doc.add_paragraph()\n    r = p.add_run(text)\n    r.font.size = Pt(size)\n    r.bold = bold\n    return p\ndef add_code_block(doc: Document, title: str, code: str):\n    add_para(doc, title, size=13, bold=True)\n    for line in code.splitlines():\n        p = doc.add_paragraph()",
+        "detail": "docs.generate_report",
+        "documentation": {}
+    },
+    {
+        "label": "add_code_block",
+        "kind": 2,
+        "importPath": "docs.generate_report",
+        "description": "docs.generate_report",
+        "peekOfCode": "def add_code_block(doc: Document, title: str, code: str):\n    add_para(doc, title, size=13, bold=True)\n    for line in code.splitlines():\n        p = doc.add_paragraph()\n        run = p.add_run(line if line.strip() else \" \")\n        run.font.name = \"Consolas\"\n        run.font.size = Pt(9)\ndef long_topic_paragraph(topic: str, focus: str, idx: int) -> str:\n    return (\n        f\"{topic} perspective {idx}: {focus}. \"",
+        "detail": "docs.generate_report",
+        "documentation": {}
+    },
+    {
+        "label": "long_topic_paragraph",
+        "kind": 2,
+        "importPath": "docs.generate_report",
+        "description": "docs.generate_report",
+        "peekOfCode": "def long_topic_paragraph(topic: str, focus: str, idx: int) -> str:\n    return (\n        f\"{topic} perspective {idx}: {focus}. \"\n        f\"In this project, the design decision is justified by maintainability, testability, and clarity for undergraduate teams. \"\n        f\"The implementation is intentionally modular so that each layer can be explained during viva voce, demonstrated independently, \"\n        f\"and upgraded without disturbing unrelated modules. The observed behavior under normal load shows predictable response latency, \"\n        f\"stable scoring output, and consistent API contracts. From an academic standpoint, this section explains not only what was built \"\n        f\"but why the chosen method aligns with the project objective of trustworthy plagiarism assessment in a resource-limited campus lab setup.\"\n    )\ndef add_chapter(doc: Document, ch_no: int, title: str, focus_points: list[str], min_paras: int = 18):",
+        "detail": "docs.generate_report",
+        "documentation": {}
+    },
+    {
+        "label": "add_chapter",
+        "kind": 2,
+        "importPath": "docs.generate_report",
+        "description": "docs.generate_report",
+        "peekOfCode": "def add_chapter(doc: Document, ch_no: int, title: str, focus_points: list[str], min_paras: int = 18):\n    doc.add_page_break()\n    heading = doc.add_heading(f\"Chapter {ch_no}: {title}\", level=1)\n    heading.alignment = WD_ALIGN_PARAGRAPH.LEFT\n    add_para(doc, f\"Chapter objective: {focus_points[0]}\", size=12, bold=True)\n    for i in range(min_paras):\n        focus = focus_points[i % len(focus_points)]\n        txt = long_topic_paragraph(title, focus, i + 1)\n        add_para(doc, txt, size=12)\ndef build_report():",
+        "detail": "docs.generate_report",
+        "documentation": {}
+    },
+    {
+        "label": "build_report",
+        "kind": 2,
+        "importPath": "docs.generate_report",
+        "description": "docs.generate_report",
+        "peekOfCode": "def build_report():\n    setup_dirs()\n    create_images()\n    backend_app = read_file(\"backend/app.py\")\n    backend_db = read_file(\"backend/database.py\")\n    backend_engine = read_file(\"backend/plagiarism_engine.py\")\n    frontend_html = read_file(\"frontend/index.html\")\n    frontend_css = read_file(\"frontend/styles.css\")\n    frontend_js = read_file(\"frontend/script.js\")\n    doc = Document()",
+        "detail": "docs.generate_report",
+        "documentation": {}
+    },
+    {
+        "label": "ROOT",
+        "kind": 5,
+        "importPath": "docs.generate_report",
+        "description": "docs.generate_report",
+        "peekOfCode": "ROOT = Path(__file__).resolve().parents[1]\nDOCS_DIR = ROOT / \"docs\"\nIMG_DIR = DOCS_DIR / \"images\"\nREPORT_PATH = DOCS_DIR / \"BCA_Final_Year_Project_Report_Plagiarism_Detection.docx\"\ndef read_file(rel_path: str) -> str:\n    return (ROOT / rel_path).read_text(encoding=\"utf-8\")\ndef setup_dirs() -> None:\n    IMG_DIR.mkdir(parents=True, exist_ok=True)\ndef add_box(ax, xy, w, h, label, fs=18, fc=\"#eaf2ff\"):\n    rect = Rectangle(xy, w, h, linewidth=2.2, edgecolor=\"#1f3b6d\", facecolor=fc)",
+        "detail": "docs.generate_report",
+        "documentation": {}
+    },
+    {
+        "label": "DOCS_DIR",
+        "kind": 5,
+        "importPath": "docs.generate_report",
+        "description": "docs.generate_report",
+        "peekOfCode": "DOCS_DIR = ROOT / \"docs\"\nIMG_DIR = DOCS_DIR / \"images\"\nREPORT_PATH = DOCS_DIR / \"BCA_Final_Year_Project_Report_Plagiarism_Detection.docx\"\ndef read_file(rel_path: str) -> str:\n    return (ROOT / rel_path).read_text(encoding=\"utf-8\")\ndef setup_dirs() -> None:\n    IMG_DIR.mkdir(parents=True, exist_ok=True)\ndef add_box(ax, xy, w, h, label, fs=18, fc=\"#eaf2ff\"):\n    rect = Rectangle(xy, w, h, linewidth=2.2, edgecolor=\"#1f3b6d\", facecolor=fc)\n    ax.add_patch(rect)",
+        "detail": "docs.generate_report",
+        "documentation": {}
+    },
+    {
+        "label": "IMG_DIR",
+        "kind": 5,
+        "importPath": "docs.generate_report",
+        "description": "docs.generate_report",
+        "peekOfCode": "IMG_DIR = DOCS_DIR / \"images\"\nREPORT_PATH = DOCS_DIR / \"BCA_Final_Year_Project_Report_Plagiarism_Detection.docx\"\ndef read_file(rel_path: str) -> str:\n    return (ROOT / rel_path).read_text(encoding=\"utf-8\")\ndef setup_dirs() -> None:\n    IMG_DIR.mkdir(parents=True, exist_ok=True)\ndef add_box(ax, xy, w, h, label, fs=18, fc=\"#eaf2ff\"):\n    rect = Rectangle(xy, w, h, linewidth=2.2, edgecolor=\"#1f3b6d\", facecolor=fc)\n    ax.add_patch(rect)\n    ax.text(xy[0] + w / 2, xy[1] + h / 2, label, ha=\"center\", va=\"center\", fontsize=fs, weight=\"bold\", wrap=True)",
+        "detail": "docs.generate_report",
+        "documentation": {}
+    },
+    {
+        "label": "REPORT_PATH",
+        "kind": 5,
+        "importPath": "docs.generate_report",
+        "description": "docs.generate_report",
+        "peekOfCode": "REPORT_PATH = DOCS_DIR / \"BCA_Final_Year_Project_Report_Plagiarism_Detection.docx\"\ndef read_file(rel_path: str) -> str:\n    return (ROOT / rel_path).read_text(encoding=\"utf-8\")\ndef setup_dirs() -> None:\n    IMG_DIR.mkdir(parents=True, exist_ok=True)\ndef add_box(ax, xy, w, h, label, fs=18, fc=\"#eaf2ff\"):\n    rect = Rectangle(xy, w, h, linewidth=2.2, edgecolor=\"#1f3b6d\", facecolor=fc)\n    ax.add_patch(rect)\n    ax.text(xy[0] + w / 2, xy[1] + h / 2, label, ha=\"center\", va=\"center\", fontsize=fs, weight=\"bold\", wrap=True)\ndef add_arrow(ax, p1, p2):",
+        "detail": "docs.generate_report",
+        "documentation": {}
+    }
+]

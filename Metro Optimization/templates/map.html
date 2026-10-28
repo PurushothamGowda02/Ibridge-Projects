@@ -1,0 +1,153 @@
+{% extends "base.html" %}
+
+{% block title %}Metro Map - Metro Optimization{% endblock %}
+
+{% block scripts %}
+<!-- Leaflet CSS -->
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
+<!-- Leaflet JS -->
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+
+<style>
+    #map { height: 500px; width: 100%; border-radius: 0.75rem; z-index: 10; }
+    .station-tooltip { background: white; border: 1px solid #ccc; padding: 5px; border-radius: 4px; font-weight: bold; }
+</style>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    // Initialize map centered on Bangalore
+    const map = L.map('map').setView([12.9716, 77.5946], 12);
+
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        attribution: '&copy; OpenStreetMap contributors'
+    }).addTo(map);
+
+    // Fetch metro data
+    fetch('/api/map/data')
+        .then(response => response.json())
+        .then(data => {
+            const lines = data.lines;
+            lines.forEach(line => {
+                const latlngs = line.stations.map(s => [s.lat, s.lng]);
+                
+                // Draw line
+                L.polyline(latlngs, {
+                    color: line.color,
+                    weight: 5,
+                    opacity: 0.7
+                }).addTo(map);
+
+                // Add station markers
+                line.stations.forEach(station => {
+                    const marker = L.circleMarker([station.lat, station.lng], {
+                        radius: 6,
+                        fillColor: 'white',
+                        color: line.color,
+                        weight: 2,
+                        opacity: 1,
+                        fillOpacity: 1
+                    }).addTo(map);
+
+                    marker.bindTooltip(station.name, {
+                        permanent: false,
+                        direction: 'top',
+                        className: 'station-tooltip'
+                    });
+
+                    marker.on('click', () => {
+                        alert(`Station: ${station.name}\nLine: ${line.name}\nDistance: ${station.distance}km`);
+                    });
+                });
+            });
+            
+            // Auto zoom to fit all lines
+            const allLatLngs = lines.flatMap(line => line.stations.map(s => [s.lat, s.lng]));
+            if (allLatLngs.length > 0) {
+                map.fitBounds(L.latLngBounds(allLatLngs));
+            }
+        })
+        .catch(error => console.error('Error loading map data:', error));
+});
+</script>
+{% endblock %}
+
+{% block page_title %}Interactive Metro Map{% endblock %}
+{% block page_description %}Explore the Bangalore metro network{% endblock %}
+
+{% block content %}
+<div class="grid grid-cols-1 lg:grid-cols-4 gap-6">
+    <div class="lg:col-span-3 bg-white rounded-xl shadow-lg p-6">
+        <h3 class="text-2xl font-bold text-gray-800 mb-4">Bangalore Metro Network</h3>
+        
+        <!-- Map Container -->
+        <div id="map" class="bg-gray-100 rounded-lg mb-6">
+            <!-- Leaflet map will render here -->
+        </div>
+
+        <!-- Line Summary -->
+        <div class="grid grid-cols-2 sm:grid-cols-3 gap-3">
+            {% for line in lines %}
+                <div class="p-3 rounded-lg text-white {% if line.color == '#10b981' %}bg-green-500{% elif line.color == '#a855f7' %}bg-purple-500{% elif line.color == '#fbbf24' %}bg-yellow-500{% elif line.color == '#ef4444' %}bg-red-500{% else %}bg-blue-500{% endif %} cursor-pointer hover:shadow-lg transition">
+                    <p class="font-bold text-sm">{{ line.name }}</p>
+                    <p class="text-xs opacity-90">{{ line.stations | length }} stations</p>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+
+    <!-- Sidebar -->
+    <div class="space-y-6">
+        <div class="bg-white rounded-xl shadow-lg overflow-hidden">
+            <div class="bg-gradient-to-r from-blue-600 to-purple-600 text-white p-4">
+                <h4 class="font-bold">Station Information</h4>
+            </div>
+            <div class="p-4 space-y-4">
+                <div>
+                    <p class="text-sm text-gray-600">Total Lines</p>
+                    <p class="text-3xl font-bold text-blue-600">{{ lines | length }}</p>
+                </div>
+                <div>
+                    <p class="text-sm text-gray-600">Total Stations</p>
+                    <p class="text-3xl font-bold text-purple-600">
+                        {% set total_stations = namespace(count=0) %}
+                        {% for line in lines %}
+                            {% set total_stations.count = total_stations.count + (line.stations | length) %}
+                        {% endfor %}
+                        {{ total_stations.count }}
+                    </p>
+                </div>
+                <div>
+                    <p class="text-sm text-gray-600">Network Span</p>
+                    <p class="text-3xl font-bold text-green-600">~100 km</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="bg-gradient-to-br from-purple-50 to-pink-50 rounded-xl shadow-lg p-6 border border-purple-200">
+            <h4 class="font-bold text-gray-800 mb-3">🗺️ Line Colors Key</h4>
+            <div class="space-y-3 text-sm font-semibold text-gray-800">
+                <div class="flex items-center gap-3">
+                    <div class="w-4 h-4 bg-green-500 rounded-md shadow-sm"></div>
+                    <span>Green Line</span>
+                </div>
+                <div class="flex items-center gap-3">
+                    <div class="w-4 h-4 bg-purple-500 rounded-md shadow-sm"></div>
+                    <span>Purple Line</span>
+                </div>
+                <div class="flex items-center gap-3">
+                    <div class="w-4 h-4 bg-yellow-500 rounded-md shadow-sm"></div>
+                    <span>Yellow Line</span>
+                </div>
+                <div class="flex items-center gap-3">
+                    <div class="w-4 h-4 bg-red-500 rounded-md shadow-sm"></div>
+                    <span>Red Line</span>
+                </div>
+                <div class="flex items-center gap-3">
+                    <div class="w-4 h-4 bg-blue-500 rounded-md shadow-sm"></div>
+                    <span>Blue Line</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

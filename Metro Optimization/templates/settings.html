@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+
+{% block content %}
+<header class="top-header">
+    <div class="header-title">
+        <h1>System Settings</h1>
+        <p>Configure optimization parameters and application preferences.</p>
+    </div>
+</header>
+<section class="kpi-cards">
+    <div class="card" style="grid-column: 1 / -1;">
+        <h2 style="margin-bottom: 1rem;">Optimization Parameters</h2>
+        <form id="settings-form" style="display: flex; flex-direction: column; gap: 1rem;">
+            <div>
+                <label style="display: block; margin-bottom: 0.5rem; color: var(--text-secondary);">Base Trains (Minimum)</label>
+                <input type="number" id="setting-base-trains" value="4" style="background: var(--bg-color); border: 1px solid var(--border-color); color: white; padding: 0.5rem; border-radius: 0.5rem;">
+            </div>
+            <div>
+                <label style="display: block; margin-bottom: 0.5rem; color: var(--text-secondary);">Train Maximum Capacity</label>
+                <input type="number" id="setting-max-capacity" value="200" style="background: var(--bg-color); border: 1px solid var(--border-color); color: white; padding: 0.5rem; border-radius: 0.5rem;">
+            </div>
+            <button class="btn-primary" id="save-settings-btn" style="width: fit-content; margin-top: 1rem;" type="button">Save Settings</button>
+            <div id="settings-message" style="color: #10b981; display: none; margin-top: 0.5rem;">Settings saved successfully!</div>
+        </form>
+    </div>
+</section>
+{% endblock %}

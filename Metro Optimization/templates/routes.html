@@ -1,0 +1,183 @@
+{% extends "base.html" %}
+
+{% block title %}Find Route - Metro Optimization{% endblock %}
+{% block page_title %}Find Your Route{% endblock %}
+{% block page_description %}Search for the fastest metro route with fares and schedule{% endblock %}
+
+{% block content %}
+<div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
+    <!-- Search Panel -->
+    <div class="lg:col-span-2 bg-white rounded-xl shadow-lg p-6">
+        <h3 class="text-2xl font-bold text-gray-800 mb-6">Plan Your Journey</h3>
+        
+        <div class="space-y-4">
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                <div>
+                    <label class="block text-sm font-semibold text-gray-700 mb-2 uppercase tracking-wider">From Station</label>
+                    <select id="fromStation" class="w-full px-4 py-3 rounded-lg bg-white text-gray-900 font-medium border-2 border-gray-300 hover:border-blue-400 focus:border-blue-500 transition">
+                        <option value="">Select station...</option>
+                        {% for station in stations %}
+                            <option value="{{ station.id }}">{{ station.name }} ({{ station.line.name }})</option>
+                        {% endfor %}
+                    </select>
+                </div>
+                <div>
+                    <label class="block text-sm font-semibold text-gray-700 mb-2 uppercase tracking-wider">To Station</label>
+                    <select id="toStation" class="w-full px-4 py-3 rounded-lg bg-white text-gray-900 font-medium border-2 border-gray-300 hover:border-blue-400 focus:border-blue-500 transition">
+                        <option value="">Select station...</option>
+                        {% for station in stations %}
+                            <option value="{{ station.id }}">{{ station.name }} ({{ station.line.name }})</option>
+                        {% endfor %}
+                    </select>
+                </div>
+            </div>
+            
+            <button onclick="findRoute()" class="w-full bg-gradient-to-r from-blue-600 to-purple-600 hover:shadow-lg text-white font-bold py-3 px-4 rounded-lg transition">
+                <i class="fas fa-search mr-2"></i> Find Route
+            </button>
+        </div>
+        
+        <!-- Results -->
+        <div id="results" class="mt-8 hidden">
+            <div id="routeInfo" class="bg-gradient-to-r from-blue-50 to-purple-50 rounded-lg p-6 border-l-4 border-blue-600 mb-6">
+                <h4 class="text-lg font-bold text-gray-800 mb-3">Route Details</h4>
+                <div class="grid grid-cols-2 gap-4">
+                    <div>
+                        <p class="text-sm text-gray-600">Distance</p>
+                        <p id="distance" class="text-2xl font-bold text-gray-800">0 km</p>
+                    </div>
+                    <div>
+                        <p class="text-sm text-gray-600">Estimated Time</p>
+                        <p id="duration" class="text-2xl font-bold text-gray-800">0 min</p>
+                    </div>
+                    <div>
+                        <p class="text-sm text-gray-600">Fare</p>
+                        <p id="fare" class="text-2xl font-bold text-green-600">₹0</p>
+                    </div>
+                    <div>
+                        <p class="text-sm text-gray-600">Route Type</p>
+                        <p id="routeType" class="text-2xl font-bold text-purple-600">Direct</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div id="stationsList" class="space-y-2"></div>
+            
+            <div id="schedules" class="mt-6">
+                <h4 class="text-lg font-bold text-gray-800 mb-4">Available Schedules</h4>
+                <div id="schedulesList" class="space-y-2"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Info Panel -->
+    <div class="space-y-6">
+        <div class="bg-white rounded-xl shadow-lg overflow-hidden">
+            <div class="bg-gradient-to-r from-green-500 to-emerald-600 text-white p-4">
+                <h4 class="font-bold">✨ Features</h4>
+            </div>
+            <div class="p-4 space-y-3">
+                <div class="flex gap-3">
+                    <i class="fas fa-clock text-blue-600 text-lg mt-1"></i>
+                    <div>
+                        <p class="font-semibold text-gray-800">Real-time Schedules</p>
+                        <p class="text-sm text-gray-600">Up-to-date train timings</p>
+                    </div>
+                </div>
+                <div class="flex gap-3">
+                    <i class="fas fa-route text-orange-600 text-lg mt-1"></i>
+                    <div>
+                        <p class="font-semibold text-gray-800">Optimal Routes</p>
+                        <p class="text-sm text-gray-600">Fastest & shortest paths</p>
+                    </div>
+                </div>
+                <div class="flex gap-3">
+                    <i class="fas fa-user-friends text-purple-600 text-lg mt-1"></i>
+                    <div>
+                        <p class="font-semibold text-gray-800">Crowd Levels</p>
+                        <p class="text-sm text-gray-600">Avoid peak hours</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="bg-gradient-to-br from-orange-50 to-yellow-50 rounded-xl shadow-lg p-6 border border-orange-200">
+            <h4 class="font-bold text-gray-800 mb-3">📌 Tips for Best Travel</h4>
+            <ul class="space-y-2 text-sm text-gray-700">
+                <li>🕐 Travel during off-peak hours</li>
+                <li>🎟️ Keep your card recharged</li>
+                <li>📱 Download metro app</li>
+                <li>🗺️ Check line status first</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<script>
+async function findRoute() {
+    const from = document.getElementById('fromStation').value;
+    const to = document.getElementById('toStation').value;
+    
+    if (!from || !to) {
+        alert('Please select both stations');
+        return;
+    }
+    
+    try {
+        const response = await fetch('/api/route/find', {
+            method: 'POST',
+            headers: {'Content-Type': 'application/json'},
+            body: JSON.stringify({from_station: from, to_station: to})
+        });
+        
+        const data = await response.json();
+        displayRoute(data);
+    } catch(error) {
+        alert('Error finding route');
+    }
+}
+
+function displayRoute(data) {
+    const resultsDiv = document.getElementById('results');
+    const routeType = data.route.type;
+    
+    document.getElementById('distance').textContent = data.route.distance.toFixed(1) + ' km';
+    document.getElementById('duration').textContent = data.route.duration_estimate + ' min';
+    document.getElementById('fare').textContent = '₹' + data.route.fare;
+    document.getElementById('routeType').textContent = routeType;
+    
+    // Stations list
+    let stationsHtml = '<div class="space-y-2">';
+    if (data.route.stations) {
+        data.route.stations.forEach((station, idx) => {
+            stationsHtml += `<div class="flex items-center gap-3 p-3 bg-gray-50 rounded-lg">
+                <div class="w-8 h-8 bg-blue-600 text-white rounded-full flex items-center justify-center text-sm font-bold">${idx + 1}</div>
+                <div>
+                    <p class="font-semibold text-gray-800">${station.name}</p>
+                    <p class="text-xs text-gray-500">${station.distance.toFixed(1)} km from start</p>
+                </div>
+            </div>`;
+        });
+    }
+    stationsHtml += '</div>';
+    document.getElementById('stationsList').innerHTML = stationsHtml;
+    
+    // Schedules
+    let schedulesHtml = '';
+    if (data.schedules) {
+        data.schedules.forEach(schedule => {
+            schedulesHtml += `<div class="flex justify-between items-center p-3 bg-gray-50 rounded-lg border border-gray-200 hover:border-blue-400 transition">
+                <div>
+                    <p class="font-semibold text-gray-800">${schedule.departure} - ${schedule.arrival}</p>
+                    <p class="text-xs text-gray-500">Capacity: ${schedule.capacity} | Available: ${schedule.available_seats}</p>
+                </div>
+                <span class="px-3 py-1 rounded-full text-xs font-bold ${schedule.crowding === 'Low' ? 'bg-green-100 text-green-800' : schedule.crowding === 'Medium' ? 'bg-yellow-100 text-yellow-800' : 'bg-red-100 text-red-800'}">${schedule.crowding}</span>
+            </div>`;
+        });
+    }
+    document.getElementById('schedulesList').innerHTML = schedulesHtml;
+    
+    resultsDiv.classList.remove('hidden');
+}
+</script>
+{% endblock %}

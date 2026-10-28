@@ -1,0 +1,690 @@
+2026-04-16 11:57:09,887 - __main__ - INFO - Validating environment...
+2026-04-16 11:57:09,889 - __main__ - INFO - Environment validation passed
+2026-04-16 11:57:09,889 - __main__ - INFO - Initializing Virtual Brain Assistant components...
+2026-04-16 11:57:09,889 - __main__ - INFO - Loading configuration...
+2026-04-16 11:57:09,895 - __main__ - INFO - [OK] Configuration loaded successfully
+2026-04-16 11:57:09,895 - __main__ - INFO - Initializing Memory System...
+2026-04-16 11:57:09,898 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2026-04-16 11:57:09,898 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-04-16 11:57:14,742 - __main__ - INFO - [OK] Memory System initialized with faiss backend
+2026-04-16 11:57:14,743 - __main__ - INFO - Initializing Task Executor...
+2026-04-16 11:57:14,743 - __main__ - INFO - [OK] Task Executor initialized
+2026-04-16 11:57:14,743 - __main__ - INFO - Initializing AI Core...
+2026-04-16 11:57:14,743 - __main__ - ERROR - Component initialization failed: Failed to initialize LLM: langchain-groq is not installed. Run: pip install langchain-groq
+Traceback (most recent call last):
+  File "C:\Users\purus\Desktop\virtual brain\src\ai_core\ai_core.py", line 80, in initialize_llm
+    self._initialize_groq()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\purus\Desktop\virtual brain\src\ai_core\ai_core.py", line 152, in _initialize_groq
+    raise RuntimeError(
+        "langchain-groq is not installed. Run: pip install langchain-groq"
+    )
+RuntimeError: langchain-groq is not installed. Run: pip install langchain-groq
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\purus\Desktop\virtual brain\main.py", line 108, in initialize_components
+    ai_core = AICore(
+        llm_config=llm_settings,
+        memory_system=memory_system,
+        task_executor=task_executor
+    )
+  File "C:\Users\purus\Desktop\virtual brain\src\ai_core\ai_core.py", line 47, in __init__
+    self.initialize_llm()
+    ~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\purus\Desktop\virtual brain\src\ai_core\ai_core.py", line 87, in initialize_llm
+    raise RuntimeError(f"Failed to initialize LLM: {str(e)}")
+RuntimeError: Failed to initialize LLM: langchain-groq is not installed. Run: pip install langchain-groq
+2026-04-16 11:57:14,746 - __main__ - ERROR - Runtime error: Failed to initialize components: Failed to initialize LLM: langchain-groq is not installed. Run: pip install langchain-groq
+2026-04-16 12:00:22,333 - __main__ - INFO - Validating environment...
+2026-04-16 12:00:22,334 - __main__ - INFO - Environment validation passed
+2026-04-16 12:00:22,334 - __main__ - INFO - Initializing Virtual Brain Assistant components...
+2026-04-16 12:00:22,335 - __main__ - INFO - Loading configuration...
+2026-04-16 12:00:22,347 - __main__ - INFO - [OK] Configuration loaded successfully
+2026-04-16 12:00:22,347 - __main__ - INFO - Initializing Memory System...
+2026-04-16 12:00:22,352 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2026-04-16 12:00:22,352 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-04-16 12:00:27,047 - __main__ - INFO - [OK] Memory System initialized with faiss backend
+2026-04-16 12:00:27,048 - __main__ - INFO - Initializing Task Executor...
+2026-04-16 12:00:27,048 - __main__ - INFO - [OK] Task Executor initialized
+2026-04-16 12:00:27,049 - __main__ - INFO - Initializing AI Core...
+2026-04-16 12:00:28,103 - __main__ - INFO - [OK] AI Core initialized
+2026-04-16 12:00:28,103 - __main__ - INFO - Initializing Input Module...
+2026-04-16 12:00:28,105 - __main__ - INFO - [OK] Input Module initialized (microphone available)
+2026-04-16 12:00:28,105 - __main__ - INFO - Initializing Output Module...
+2026-04-16 12:00:28,215 - comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\purus\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-04-16 12:00:28,215 - comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\Users\purus\AppData\Local\Programs\Python\Python313\Lib\site-packages\comtypes\gen'
+2026-04-16 12:00:28,307 - comtypes.client._generate - INFO - Could not import comtypes.gen._C866CA3A_32F7_11D2_9602_00C04F8EE628_0_5_4: Typelib different than module
+2026-04-16 12:00:28,311 - comtypes.client._generate - INFO - # Generating comtypes.gen._C866CA3A_32F7_11D2_9602_00C04F8EE628_0_5_4
+2026-04-16 12:00:28,389 - comtypes.client._generate - INFO - # Generating comtypes.gen.SpeechLib
+2026-04-16 12:00:28,904 - __main__ - INFO - [OK] Output Module initialized
+2026-04-16 12:00:28,904 - __main__ - INFO - All components initialized successfully!
+2026-04-16 12:00:28,905 - __main__ - INFO - Launching Streamlit UI...
+2026-04-24 11:16:55,518 - __main__ - INFO - Validating environment...
+2026-04-24 11:16:55,520 - __main__ - INFO - Environment validation passed
+2026-04-24 11:16:55,520 - __main__ - INFO - Initializing Virtual Brain Assistant components...
+2026-04-24 11:16:55,520 - __main__ - INFO - Loading configuration...
+2026-04-24 11:16:55,549 - __main__ - INFO - [OK] Configuration loaded successfully
+2026-04-24 11:16:55,549 - __main__ - INFO - Initializing Memory System...
+2026-04-24 11:16:55,553 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2026-04-24 11:16:55,553 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-04-24 11:17:03,463 - __main__ - INFO - [OK] Memory System initialized with faiss backend
+2026-04-24 11:17:03,463 - __main__ - INFO - Initializing Task Executor...
+2026-04-24 11:17:03,464 - __main__ - INFO - [OK] Task Executor initialized
+2026-04-24 11:17:03,464 - __main__ - INFO - Initializing AI Core...
+2026-04-24 11:17:04,707 - __main__ - INFO - [OK] AI Core initialized
+2026-04-24 11:17:04,708 - __main__ - INFO - Initializing Input Module...
+2026-04-24 11:17:04,719 - __main__ - INFO - [OK] Input Module initialized (microphone available)
+2026-04-24 11:17:04,719 - __main__ - INFO - Initializing Output Module...
+2026-04-24 11:17:04,846 - comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\purus\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-04-24 11:17:04,847 - comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\Users\purus\AppData\Local\Programs\Python\Python313\Lib\site-packages\comtypes\gen'
+2026-04-24 11:17:05,394 - __main__ - INFO - [OK] Output Module initialized
+2026-04-24 11:17:05,395 - __main__ - INFO - All components initialized successfully!
+2026-04-24 11:17:05,396 - __main__ - INFO - Launching Streamlit UI...
+2026-04-24 11:30:51,731 - __main__ - INFO - Validating environment...
+2026-04-24 11:30:51,732 - __main__ - INFO - Environment validation passed
+2026-04-24 11:30:51,732 - __main__ - INFO - Initializing Virtual Brain Assistant components...
+2026-04-24 11:30:51,733 - __main__ - INFO - Loading configuration...
+2026-04-24 11:30:51,741 - __main__ - INFO - [OK] Configuration loaded successfully
+2026-04-24 11:30:51,741 - __main__ - INFO - Initializing Memory System...
+2026-04-24 11:30:51,744 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2026-04-24 11:30:51,745 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-04-24 11:30:57,975 - __main__ - INFO - [OK] Memory System initialized with faiss backend
+2026-04-24 11:30:57,975 - __main__ - INFO - Initializing Task Executor...
+2026-04-24 11:30:57,976 - __main__ - INFO - [OK] Task Executor initialized
+2026-04-24 11:30:57,976 - __main__ - INFO - Initializing AI Core...
+2026-04-24 11:30:59,274 - __main__ - INFO - [OK] AI Core initialized
+2026-04-24 11:30:59,275 - __main__ - INFO - Initializing Input Module...
+2026-04-24 11:30:59,275 - __main__ - INFO - [OK] Input Module initialized (microphone available)
+2026-04-24 11:30:59,275 - __main__ - INFO - Initializing Output Module...
+2026-04-24 11:30:59,425 - comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\purus\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-04-24 11:30:59,426 - comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\Users\purus\AppData\Local\Programs\Python\Python313\Lib\site-packages\comtypes\gen'
+2026-04-24 11:30:59,710 - __main__ - INFO - [OK] Output Module initialized
+2026-04-24 11:30:59,711 - __main__ - INFO - All components initialized successfully!
+2026-04-24 11:30:59,712 - __main__ - INFO - Launching Streamlit UI...
+2026-04-24 11:55:30,510 - __main__ - INFO - Validating environment...
+2026-04-24 11:55:30,511 - __main__ - INFO - Environment validation passed
+2026-04-24 11:55:30,511 - __main__ - INFO - Initializing Virtual Brain Assistant components...
+2026-04-24 11:55:30,511 - __main__ - INFO - Loading configuration...
+2026-04-24 11:55:30,518 - __main__ - INFO - [OK] Configuration loaded successfully
+2026-04-24 11:55:30,518 - __main__ - INFO - Initializing Memory System...
+2026-04-24 11:55:30,521 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2026-04-24 11:55:30,521 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-04-24 11:55:54,823 - __main__ - INFO - [OK] Memory System initialized with faiss backend
+2026-04-24 11:55:54,824 - __main__ - INFO - Initializing Task Executor...
+2026-04-24 11:55:54,824 - __main__ - INFO - [OK] Task Executor initialized
+2026-04-24 11:55:54,825 - __main__ - INFO - Initializing AI Core...
+2026-04-24 11:55:55,844 - __main__ - INFO - [OK] AI Core initialized
+2026-04-24 11:55:55,844 - __main__ - INFO - Initializing Input Module...
+2026-04-24 11:55:55,845 - __main__ - INFO - [OK] Input Module initialized (microphone available)
+2026-04-24 11:55:55,845 - __main__ - INFO - Initializing Output Module...
+2026-04-24 11:55:55,970 - comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\purus\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-04-24 11:55:55,970 - comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\Users\purus\AppData\Local\Programs\Python\Python313\Lib\site-packages\comtypes\gen'
+2026-04-24 11:55:56,174 - __main__ - INFO - [OK] Output Module initialized
+2026-04-24 11:55:56,174 - __main__ - INFO - All components initialized successfully!
+2026-04-24 11:55:56,175 - __main__ - INFO - Launching Streamlit UI...
+2026-04-24 12:07:18,759 - __main__ - INFO - Validating environment...
+2026-04-24 12:07:18,761 - __main__ - INFO - Environment validation passed
+2026-04-24 12:07:18,761 - __main__ - INFO - Initializing Virtual Brain Assistant components...
+2026-04-24 12:07:18,761 - __main__ - INFO - Loading configuration...
+2026-04-24 12:07:18,767 - __main__ - INFO - [OK] Configuration loaded successfully
+2026-04-24 12:07:18,767 - __main__ - INFO - Initializing Memory System...
+2026-04-24 12:07:18,770 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2026-04-24 12:07:18,771 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-04-24 12:07:25,021 - __main__ - INFO - [OK] Memory System initialized with faiss backend
+2026-04-24 12:07:25,021 - __main__ - INFO - Initializing Task Executor...
+2026-04-24 12:07:25,022 - __main__ - INFO - [OK] Task Executor initialized
+2026-04-24 12:07:25,022 - __main__ - INFO - Initializing AI Core...
+2026-04-24 12:07:26,056 - __main__ - INFO - [OK] AI Core initialized
+2026-04-24 12:07:26,057 - __main__ - INFO - Initializing Input Module...
+2026-04-24 12:07:26,068 - __main__ - INFO - [OK] Input Module initialized (microphone available)
+2026-04-24 12:07:26,068 - __main__ - INFO - Initializing Output Module...
+2026-04-24 12:07:26,190 - comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\purus\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-04-24 12:07:26,191 - comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\Users\purus\AppData\Local\Programs\Python\Python313\Lib\site-packages\comtypes\gen'
+2026-04-24 12:07:26,458 - __main__ - INFO - [OK] Output Module initialized
+2026-04-24 12:07:26,459 - __main__ - INFO - All components initialized successfully!
+2026-04-24 12:07:26,460 - __main__ - INFO - Launching Streamlit UI...
+2026-04-24 12:08:38,401 - __main__ - INFO - Validating environment...
+2026-04-24 12:08:38,401 - __main__ - INFO - Environment validation passed
+2026-04-24 12:08:38,402 - __main__ - INFO - Initializing Virtual Brain Assistant components...
+2026-04-24 12:08:38,402 - __main__ - INFO - Loading configuration...
+2026-04-24 12:08:38,407 - __main__ - INFO - [OK] Configuration loaded successfully
+2026-04-24 12:08:38,407 - __main__ - INFO - Initializing Memory System...
+2026-04-24 12:08:38,410 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2026-04-24 12:08:38,410 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-04-24 12:08:48,365 - __main__ - INFO - [OK] Memory System initialized with faiss backend
+2026-04-24 12:08:48,366 - __main__ - INFO - Initializing Task Executor...
+2026-04-24 12:08:48,367 - __main__ - INFO - [OK] Task Executor initialized
+2026-04-24 12:08:48,367 - __main__ - INFO - Initializing AI Core...
+2026-04-24 12:08:49,264 - __main__ - INFO - [OK] AI Core initialized
+2026-04-24 12:08:49,265 - __main__ - INFO - Initializing Input Module...
+2026-04-24 12:08:49,266 - __main__ - INFO - [OK] Input Module initialized (microphone available)
+2026-04-24 12:08:49,266 - __main__ - INFO - Initializing Output Module...
+2026-04-24 12:08:49,341 - comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\purus\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-04-24 12:08:49,342 - comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\Users\purus\AppData\Local\Programs\Python\Python313\Lib\site-packages\comtypes\gen'
+2026-04-24 12:08:49,475 - __main__ - INFO - [OK] Output Module initialized
+2026-04-24 12:08:49,476 - __main__ - INFO - All components initialized successfully!
+2026-04-24 12:08:49,477 - __main__ - INFO - Launching Streamlit UI...
+2026-04-24 12:13:32,216 - __main__ - INFO - Validating environment...
+2026-04-24 12:13:32,217 - __main__ - INFO - Environment validation passed
+2026-04-24 12:13:32,218 - __main__ - INFO - Initializing Virtual Brain Assistant components...
+2026-04-24 12:13:32,218 - __main__ - INFO - Loading configuration...
+2026-04-24 12:13:32,225 - __main__ - INFO - [OK] Configuration loaded successfully
+2026-04-24 12:13:32,226 - __main__ - INFO - Initializing Memory System...
+2026-04-24 12:13:32,229 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2026-04-24 12:13:32,230 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-04-24 12:13:39,475 - __main__ - INFO - [OK] Memory System initialized with faiss backend
+2026-04-24 12:13:39,475 - __main__ - INFO - Initializing Task Executor...
+2026-04-24 12:13:39,475 - __main__ - INFO - [OK] Task Executor initialized
+2026-04-24 12:13:39,476 - __main__ - INFO - Initializing AI Core...
+2026-04-24 12:13:40,401 - __main__ - INFO - [OK] AI Core initialized
+2026-04-24 12:13:40,401 - __main__ - INFO - Initializing Input Module...
+2026-04-24 12:13:40,401 - __main__ - INFO - [OK] Input Module initialized (microphone available)
+2026-04-24 12:13:40,402 - __main__ - INFO - Initializing Output Module...
+2026-04-24 12:13:40,482 - comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\purus\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-04-24 12:13:40,483 - comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\Users\purus\AppData\Local\Programs\Python\Python313\Lib\site-packages\comtypes\gen'
+2026-04-24 12:13:40,635 - __main__ - INFO - [OK] Output Module initialized
+2026-04-24 12:13:40,635 - __main__ - INFO - All components initialized successfully!
+2026-04-24 12:13:40,637 - __main__ - INFO - Launching Streamlit UI...
+2026-04-28 14:56:15,731 - __main__ - INFO - Validating environment...
+2026-04-28 14:56:15,734 - __main__ - INFO - Environment validation passed
+2026-04-28 14:56:15,735 - __main__ - INFO - Initializing Virtual Brain Assistant components...
+2026-04-28 14:56:15,735 - __main__ - INFO - Loading configuration...
+2026-04-28 14:56:15,792 - __main__ - INFO - [OK] Configuration loaded successfully
+2026-04-28 14:56:15,793 - __main__ - INFO - Initializing Memory System...
+2026-04-28 14:56:15,802 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2026-04-28 14:56:15,803 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-04-28 14:56:23,358 - __main__ - INFO - [OK] Memory System initialized with faiss backend
+2026-04-28 14:56:23,359 - __main__ - INFO - Initializing Task Executor...
+2026-04-28 14:56:23,360 - __main__ - INFO - [OK] Task Executor initialized
+2026-04-28 14:56:23,361 - __main__ - INFO - Initializing AI Core...
+2026-04-28 14:56:27,518 - __main__ - INFO - [OK] AI Core initialized
+2026-04-28 14:56:27,519 - __main__ - INFO - Initializing Input Module...
+2026-04-28 14:56:27,520 - __main__ - INFO - [OK] Input Module initialized (microphone available)
+2026-04-28 14:56:27,521 - __main__ - INFO - Initializing Output Module...
+2026-04-28 14:56:27,875 - comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\purus\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-04-28 14:56:27,877 - comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\Users\purus\AppData\Local\Programs\Python\Python313\Lib\site-packages\comtypes\gen'
+2026-04-28 14:56:28,929 - __main__ - INFO - [OK] Output Module initialized
+2026-04-28 14:56:28,931 - __main__ - INFO - All components initialized successfully!
+2026-04-28 14:56:28,938 - __main__ - INFO - Launching Streamlit UI...
+2026-04-29 11:06:23,897 - __main__ - INFO - Validating environment...
+2026-04-29 11:06:23,898 - __main__ - INFO - Environment validation passed
+2026-04-29 11:06:23,898 - __main__ - INFO - Initializing Virtual Brain Assistant components...
+2026-04-29 11:06:23,898 - __main__ - INFO - Loading configuration...
+2026-04-29 11:06:23,912 - __main__ - INFO - [OK] Configuration loaded successfully
+2026-04-29 11:06:23,913 - __main__ - INFO - Initializing Memory System...
+2026-04-29 11:06:23,916 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2026-04-29 11:06:23,916 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-04-29 11:06:23,924 - huggingface_hub.utils._http - WARNING - '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001BCCD575940>: Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: a37c1fe3-47f5-4e74-9cf7-6397da409bb4)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./modules.json
+2026-04-29 11:06:23,925 - huggingface_hub.utils._http - WARNING - Retrying in 1s [Retry 1/5].
+2026-04-29 11:06:24,927 - huggingface_hub.utils._http - WARNING - '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001BCCD51E710>: Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: e6847cd7-b77f-4e6a-92c8-ce7e4f62e275)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./modules.json
+2026-04-29 11:06:24,928 - huggingface_hub.utils._http - WARNING - Retrying in 2s [Retry 2/5].
+2026-04-29 11:06:26,929 - huggingface_hub.utils._http - WARNING - '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001BCCD51ED50>: Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: 02101c6f-af06-4a2e-8db1-bcc57bc67c75)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./modules.json
+2026-04-29 11:06:26,930 - huggingface_hub.utils._http - WARNING - Retrying in 4s [Retry 3/5].
+2026-04-29 11:06:30,932 - huggingface_hub.utils._http - WARNING - '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001BCCD51F110>: Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: dac75c6a-4751-4b5f-92a7-7ff7e7381524)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./modules.json
+2026-04-29 11:06:30,933 - huggingface_hub.utils._http - WARNING - Retrying in 8s [Retry 4/5].
+2026-04-29 11:06:38,938 - huggingface_hub.utils._http - WARNING - '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001BCCD51F4D0>: Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: 161ba2ea-d960-4e4b-a06d-94508e83e045)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./modules.json
+2026-04-29 11:06:38,939 - huggingface_hub.utils._http - WARNING - Retrying in 8s [Retry 5/5].
+2026-04-29 11:06:50,971 - huggingface_hub.utils._http - WARNING - '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001BCCD51F890>: Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: 4d072c3b-ed7b-43ec-b690-3bc17450b5cc)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./modules.json
+2026-04-29 11:06:50,996 - huggingface_hub.utils._http - WARNING - '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001BCCD51DD10>: Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: 19c0cdbb-1bfd-439c-914f-27530d1a2900)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./config_sentence_transformers.json
+2026-04-29 11:06:50,997 - huggingface_hub.utils._http - WARNING - Retrying in 1s [Retry 1/5].
+2026-04-29 11:06:51,999 - huggingface_hub.utils._http - WARNING - '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001BCCD51F750>: Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: d68e1086-85e0-4f73-93b9-fd1ad6bd617f)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./config_sentence_transformers.json
+2026-04-29 11:06:51,999 - huggingface_hub.utils._http - WARNING - Retrying in 2s [Retry 2/5].
+2026-04-29 11:06:54,003 - huggingface_hub.utils._http - WARNING - '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001BCCD51F390>: Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: b7aa34d7-62d7-43fe-b5f3-f44e0c371b20)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./config_sentence_transformers.json
+2026-04-29 11:06:54,004 - huggingface_hub.utils._http - WARNING - Retrying in 4s [Retry 3/5].
+2026-04-29 11:06:58,011 - huggingface_hub.utils._http - WARNING - '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001BCCD51EFD0>: Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: 5914b3bd-fd3e-420d-8f4b-794384e6b535)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./config_sentence_transformers.json
+2026-04-29 11:06:58,012 - huggingface_hub.utils._http - WARNING - Retrying in 8s [Retry 4/5].
+2026-04-29 11:07:06,015 - huggingface_hub.utils._http - WARNING - '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001BCCD51ED50>: Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: 6226aa4a-3d25-4837-a336-9e22940018b1)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./config_sentence_transformers.json
+2026-04-29 11:07:06,016 - huggingface_hub.utils._http - WARNING - Retrying in 8s [Retry 5/5].
+2026-04-29 11:07:26,064 - huggingface_hub.utils._http - WARNING - '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001BCCD51E5D0>: Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: eb473af0-c5aa-46d2-8e19-2cfc2022f0fa)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./config_sentence_transformers.json
+2026-04-29 11:07:26,091 - huggingface_hub.utils._http - WARNING - '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001BCCD51E210>: Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: 18340f4f-2c21-4fef-a7c8-3aad08251574)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./config_sentence_transformers.json
+2026-04-29 11:07:26,092 - huggingface_hub.utils._http - WARNING - Retrying in 1s [Retry 1/5].
+2026-04-29 11:07:27,094 - huggingface_hub.utils._http - WARNING - '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001BCCD51E0D0>: Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: 486f020e-83bd-4a84-b66c-07ebaa7109e5)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./config_sentence_transformers.json
+2026-04-29 11:07:27,095 - huggingface_hub.utils._http - WARNING - Retrying in 2s [Retry 2/5].
+2026-04-29 11:07:29,097 - huggingface_hub.utils._http - WARNING - '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001BCCD5CC190>: Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: 4a19d130-5f34-4395-a11c-0673f4d33400)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./config_sentence_transformers.json
+2026-04-29 11:07:29,098 - huggingface_hub.utils._http - WARNING - Retrying in 4s [Retry 3/5].
+2026-04-29 11:07:45,144 - huggingface_hub.utils._http - WARNING - '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001BCCD5CC550>: Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: ac9f7fbe-d97e-4a8d-bc76-56516f41fcd5)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./config_sentence_transformers.json
+2026-04-29 11:07:45,146 - huggingface_hub.utils._http - WARNING - Retrying in 8s [Retry 4/5].
+2026-04-29 11:08:05,244 - huggingface_hub.utils._http - WARNING - '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001BCCD5CC910>: Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: 9d63e2f7-bcd9-435f-b60c-986496ea09dc)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./config_sentence_transformers.json
+2026-04-29 11:08:05,245 - huggingface_hub.utils._http - WARNING - Retrying in 8s [Retry 5/5].
+2026-04-29 11:08:13,248 - huggingface_hub.utils._http - WARNING - '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001BCCD5CCCD0>: Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: 2a0743df-fff0-4b01-a932-f3fbff1e569d)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./config_sentence_transformers.json
+2026-04-29 11:08:13,255 - huggingface_hub.utils._http - WARNING - '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001BCCD5CD090>: Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: 9123bb3f-f3c3-4ab0-ab76-f395eab37e32)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./README.md
+2026-04-29 11:08:13,256 - huggingface_hub.utils._http - WARNING - Retrying in 1s [Retry 1/5].
+2026-04-29 11:08:14,258 - huggingface_hub.utils._http - WARNING - '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001BCCD5CD450>: Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: 2560e6ee-2999-4b7d-8fe4-7cd2c237da7c)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./README.md
+2026-04-29 11:08:14,259 - huggingface_hub.utils._http - WARNING - Retrying in 2s [Retry 2/5].
+2026-04-29 11:08:16,262 - huggingface_hub.utils._http - WARNING - '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001BCCD5CD810>: Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: 34d519b3-f637-4b22-93d1-25eba65b0722)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./README.md
+2026-04-29 11:08:16,264 - huggingface_hub.utils._http - WARNING - Retrying in 4s [Retry 3/5].
+2026-04-29 11:08:20,267 - huggingface_hub.utils._http - WARNING - '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001BCCD5CDBD0>: Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: f3d893b6-57fa-48ca-abce-fabd80c3afa4)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./README.md
+2026-04-29 11:08:20,268 - huggingface_hub.utils._http - WARNING - Retrying in 8s [Retry 4/5].
+2026-04-29 11:08:28,271 - huggingface_hub.utils._http - WARNING - '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001BCCD5CDF90>: Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: 4628d7d1-61df-46bf-a676-e3b200593129)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./README.md
+2026-04-29 11:08:28,272 - huggingface_hub.utils._http - WARNING - Retrying in 8s [Retry 5/5].
+2026-04-29 11:08:36,276 - huggingface_hub.utils._http - WARNING - '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001BCCD5CE350>: Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: 4bda5bfc-1d49-44f0-ab5a-4a7beffe1c82)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./README.md
+2026-04-29 11:08:36,319 - huggingface_hub.utils._http - WARNING - '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001BCCD5CE710>: Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: 7662ad31-9878-43c5-a9a4-7dffbb27736d)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./modules.json
+2026-04-29 11:08:36,319 - huggingface_hub.utils._http - WARNING - Retrying in 1s [Retry 1/5].
+2026-04-29 11:08:37,321 - huggingface_hub.utils._http - WARNING - '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001BCCD5CEAD0>: Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: 9068eca3-2da8-4a94-a0b6-35ef9b89aec8)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./modules.json
+2026-04-29 11:08:37,322 - huggingface_hub.utils._http - WARNING - Retrying in 2s [Retry 2/5].
+2026-04-29 11:08:39,327 - huggingface_hub.utils._http - WARNING - '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001BCCD5CEE90>: Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: a88c6f16-a741-4cce-bec5-4dbf52002385)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./modules.json
+2026-04-29 11:08:39,328 - huggingface_hub.utils._http - WARNING - Retrying in 4s [Retry 3/5].
+2026-04-29 11:08:43,331 - huggingface_hub.utils._http - WARNING - '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001BCCD5CF250>: Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: e4bd047d-e501-414d-8a68-25330b42c7b1)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./modules.json
+2026-04-29 11:08:43,332 - huggingface_hub.utils._http - WARNING - Retrying in 8s [Retry 4/5].
+2026-04-29 11:08:51,336 - huggingface_hub.utils._http - WARNING - '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001BCCD5CF610>: Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: b146c0a2-398f-4071-80ab-9f0c1c485a40)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./modules.json
+2026-04-29 11:08:51,337 - huggingface_hub.utils._http - WARNING - Retrying in 8s [Retry 5/5].
+2026-04-29 11:09:11,384 - huggingface_hub.utils._http - WARNING - '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001BCCD5CF9D0>: Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: adf15767-1c2b-4ccd-81de-0b061b38ad9a)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./modules.json
+2026-04-29 11:09:11,406 - huggingface_hub.utils._http - WARNING - '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001BCCD5CFD90>: Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: d0848543-8049-45de-b60c-15168fb39e34)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./sentence_bert_config.json
+2026-04-29 11:09:11,407 - huggingface_hub.utils._http - WARNING - Retrying in 1s [Retry 1/5].
+2026-04-29 11:09:12,409 - huggingface_hub.utils._http - WARNING - '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001BCCD608190>: Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: 95704937-2527-44fb-b396-3f7b787200d5)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./sentence_bert_config.json
+2026-04-29 11:09:12,410 - huggingface_hub.utils._http - WARNING - Retrying in 2s [Retry 2/5].
+2026-04-29 11:09:14,414 - huggingface_hub.utils._http - WARNING - '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001BCCD51E850>: Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: b2a37f03-2418-4431-a0c1-7f45d0766356)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./sentence_bert_config.json
+2026-04-29 11:09:14,416 - huggingface_hub.utils._http - WARNING - Retrying in 4s [Retry 3/5].
+2026-04-29 11:09:18,419 - huggingface_hub.utils._http - WARNING - '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001BCCD51FD90>: Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: 398d64d5-edbe-4c87-ae9b-159e80524d46)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./sentence_bert_config.json
+2026-04-29 11:09:18,419 - huggingface_hub.utils._http - WARNING - Retrying in 8s [Retry 4/5].
+2026-04-29 11:09:26,421 - huggingface_hub.utils._http - WARNING - '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001BCCD51DF90>: Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: e9a1ef1e-a5e5-4ab0-9683-2f7275a90650)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./sentence_bert_config.json
+2026-04-29 11:09:26,422 - huggingface_hub.utils._http - WARNING - Retrying in 8s [Retry 5/5].
+2026-04-29 11:09:34,424 - huggingface_hub.utils._http - WARNING - '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001BCCD51FED0>: Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: 3aabc5c1-d2fe-40e3-a1f7-9aa72b421ac4)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./sentence_bert_config.json
+2026-04-29 11:09:34,442 - huggingface_hub.utils._http - WARNING - '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001BCCD51E490>: Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: b4491afe-7d1c-4687-b376-44be12be3a51)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json
+2026-04-29 11:09:34,443 - huggingface_hub.utils._http - WARNING - Retrying in 1s [Retry 1/5].
+2026-04-29 11:09:35,446 - huggingface_hub.utils._http - WARNING - '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001BCCD51EE90>: Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: 51530f95-fa4f-4923-96fd-6216661f10f1)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json
+2026-04-29 11:09:35,448 - huggingface_hub.utils._http - WARNING - Retrying in 2s [Retry 2/5].
+2026-04-29 11:09:37,450 - huggingface_hub.utils._http - WARNING - '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001BCCD51EC10>: Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: ec05606d-3c49-48d0-b930-338591791e21)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json
+2026-04-29 11:09:37,451 - huggingface_hub.utils._http - WARNING - Retrying in 4s [Retry 3/5].
+2026-04-29 11:09:41,454 - huggingface_hub.utils._http - WARNING - '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001BCCD51F110>: Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: 48d6fd28-e505-465c-a4c3-38e17c2a583b)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json
+2026-04-29 11:09:41,456 - huggingface_hub.utils._http - WARNING - Retrying in 8s [Retry 4/5].
+2026-04-29 11:10:01,497 - huggingface_hub.utils._http - WARNING - '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001BCCD51F4D0>: Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: 481f9638-c52a-437b-bd91-6d6ecdd4cde6)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json
+2026-04-29 11:10:01,497 - huggingface_hub.utils._http - WARNING - Retrying in 8s [Retry 5/5].
+2026-04-29 11:10:09,499 - huggingface_hub.utils._http - WARNING - '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001BCCD51F890>: Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: 6ba13c9d-32b6-430d-8e67-73380ac35073)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json
+2026-04-29 11:10:09,503 - huggingface_hub.utils._http - WARNING - '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001BCCD608550>: Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: 29c8a59c-a710-44af-a615-2c2cc7dd98a7)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json
+2026-04-29 11:10:09,504 - huggingface_hub.utils._http - WARNING - Retrying in 1s [Retry 1/5].
+2026-04-29 11:10:22,557 - huggingface_hub.utils._http - WARNING - '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001BCCD608910>: Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: b719011b-9720-4d65-b83e-62abcdf79093)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json
+2026-04-29 11:10:22,559 - huggingface_hub.utils._http - WARNING - Retrying in 2s [Retry 2/5].
+2026-04-29 11:10:24,563 - huggingface_hub.utils._http - WARNING - '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001BCCD608CD0>: Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: 0bcccf39-9929-4454-947c-150e07b85d20)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json
+2026-04-29 11:10:24,564 - huggingface_hub.utils._http - WARNING - Retrying in 4s [Retry 3/5].
+2026-04-29 11:10:40,607 - huggingface_hub.utils._http - WARNING - '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001BCCD609090>: Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: 8870623f-fd38-4972-b8a3-73b1cead9243)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json
+2026-04-29 11:10:40,609 - huggingface_hub.utils._http - WARNING - Retrying in 8s [Retry 4/5].
+2026-04-29 11:10:48,614 - huggingface_hub.utils._http - WARNING - '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001BCCD609450>: Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: eef4e6dc-1251-4a9e-bf38-bf626c414f5b)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json
+2026-04-29 11:10:48,615 - huggingface_hub.utils._http - WARNING - Retrying in 8s [Retry 5/5].
+2026-04-29 11:10:56,622 - huggingface_hub.utils._http - WARNING - '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001BCCD609810>: Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: 17926364-483b-414c-85f7-6ed59e5ae490)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json
+2026-04-29 11:10:56,799 - huggingface_hub.utils._http - WARNING - '(MaxRetryError('HTTPSConnectionPool(host=\'huggingface.co\', port=443): Max retries exceeded with url: /sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001BCCD60A710>: Failed to resolve \'huggingface.co\' ([Errno 11001] getaddrinfo failed)"))'), '(Request ID: 34c00ecf-eb17-40cb-94e0-5b67cb715ee0)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json
+2026-04-29 11:10:56,800 - huggingface_hub.utils._http - WARNING - Retrying in 1s [Retry 1/5].
+2026-04-29 11:11:00,625 - __main__ - INFO - [OK] Memory System initialized with faiss backend
+2026-04-29 11:11:00,625 - __main__ - INFO - Initializing Task Executor...
+2026-04-29 11:11:00,625 - __main__ - INFO - [OK] Task Executor initialized
+2026-04-29 11:11:00,625 - __main__ - INFO - Initializing AI Core...
+2026-04-29 11:11:01,859 - __main__ - INFO - [OK] AI Core initialized
+2026-04-29 11:11:01,859 - __main__ - INFO - Initializing Input Module...
+2026-04-29 11:11:01,860 - __main__ - INFO - [OK] Input Module initialized (microphone available)
+2026-04-29 11:11:01,860 - __main__ - INFO - Initializing Output Module...
+2026-04-29 11:11:01,987 - comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\purus\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-04-29 11:11:01,988 - comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\Users\purus\AppData\Local\Programs\Python\Python313\Lib\site-packages\comtypes\gen'
+2026-04-29 11:11:02,411 - __main__ - INFO - [OK] Output Module initialized
+2026-04-29 11:11:02,411 - __main__ - INFO - All components initialized successfully!
+2026-04-29 11:11:02,412 - __main__ - INFO - Launching Streamlit UI...
+2026-04-29 11:15:14,148 - __main__ - INFO - Validating environment...
+2026-04-29 11:15:14,149 - __main__ - INFO - Environment validation passed
+2026-04-29 11:15:14,149 - __main__ - INFO - Initializing Virtual Brain Assistant components...
+2026-04-29 11:15:14,149 - __main__ - INFO - Loading configuration...
+2026-04-29 11:15:14,154 - __main__ - INFO - [OK] Configuration loaded successfully
+2026-04-29 11:15:14,154 - __main__ - INFO - Initializing Memory System...
+2026-04-29 11:15:14,158 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2026-04-29 11:15:14,158 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-04-29 11:15:20,154 - __main__ - INFO - [OK] Memory System initialized with faiss backend
+2026-04-29 11:15:20,154 - __main__ - INFO - Initializing Task Executor...
+2026-04-29 11:15:20,155 - __main__ - INFO - [OK] Task Executor initialized
+2026-04-29 11:15:20,155 - __main__ - INFO - Initializing AI Core...
+2026-04-29 11:15:20,990 - __main__ - INFO - [OK] AI Core initialized
+2026-04-29 11:15:20,990 - __main__ - INFO - Initializing Input Module...
+2026-04-29 11:15:20,991 - __main__ - INFO - [OK] Input Module initialized (microphone available)
+2026-04-29 11:15:20,991 - __main__ - INFO - Initializing Output Module...
+2026-04-29 11:15:21,060 - comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\purus\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-04-29 11:15:21,061 - comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\Users\purus\AppData\Local\Programs\Python\Python313\Lib\site-packages\comtypes\gen'
+2026-04-29 11:15:21,188 - __main__ - INFO - [OK] Output Module initialized
+2026-04-29 11:15:21,189 - __main__ - INFO - All components initialized successfully!
+2026-04-29 11:15:21,190 - __main__ - INFO - Launching Streamlit UI...
+2026-04-29 11:23:00,948 - __main__ - INFO - Validating environment...
+2026-04-29 11:23:00,949 - __main__ - INFO - Environment validation passed
+2026-04-29 11:23:00,950 - __main__ - INFO - Initializing Virtual Brain Assistant components...
+2026-04-29 11:23:00,950 - __main__ - INFO - Loading configuration...
+2026-04-29 11:23:00,955 - __main__ - INFO - [OK] Configuration loaded successfully
+2026-04-29 11:23:00,955 - __main__ - INFO - Initializing Memory System...
+2026-04-29 11:23:00,959 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2026-04-29 11:23:00,960 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-04-29 11:23:06,553 - __main__ - INFO - [OK] Memory System initialized with faiss backend
+2026-04-29 11:23:06,554 - __main__ - INFO - Initializing Task Executor...
+2026-04-29 11:23:06,554 - __main__ - INFO - [OK] Task Executor initialized
+2026-04-29 11:23:06,554 - __main__ - INFO - Initializing AI Core...
+2026-04-29 11:23:08,023 - __main__ - INFO - [OK] AI Core initialized
+2026-04-29 11:23:08,024 - __main__ - INFO - Initializing Input Module...
+2026-04-29 11:23:08,024 - __main__ - INFO - [OK] Input Module initialized (microphone available)
+2026-04-29 11:23:08,024 - __main__ - INFO - Initializing Output Module...
+2026-04-29 11:23:08,126 - comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\purus\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-04-29 11:23:08,127 - comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\Users\purus\AppData\Local\Programs\Python\Python313\Lib\site-packages\comtypes\gen'
+2026-04-29 11:23:08,304 - __main__ - INFO - [OK] Output Module initialized
+2026-04-29 11:23:08,304 - __main__ - INFO - All components initialized successfully!
+2026-04-29 11:23:08,305 - __main__ - INFO - Launching Streamlit UI...
+2026-04-29 11:26:35,064 - __main__ - INFO - Validating environment...
+2026-04-29 11:26:35,064 - __main__ - INFO - Environment validation passed
+2026-04-29 11:26:35,065 - __main__ - INFO - Initializing Virtual Brain Assistant components...
+2026-04-29 11:26:35,065 - __main__ - INFO - Loading configuration...
+2026-04-29 11:26:35,073 - __main__ - INFO - [OK] Configuration loaded successfully
+2026-04-29 11:26:35,073 - __main__ - INFO - Initializing Memory System...
+2026-04-29 11:26:35,077 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2026-04-29 11:26:35,077 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-04-29 11:26:40,547 - __main__ - INFO - [OK] Memory System initialized with faiss backend
+2026-04-29 11:26:40,548 - __main__ - INFO - Initializing Task Executor...
+2026-04-29 11:26:40,548 - __main__ - INFO - [OK] Task Executor initialized
+2026-04-29 11:26:40,548 - __main__ - INFO - Initializing AI Core...
+2026-04-29 11:26:42,115 - __main__ - INFO - [OK] AI Core initialized
+2026-04-29 11:26:42,116 - __main__ - INFO - Initializing Input Module...
+2026-04-29 11:26:42,117 - __main__ - INFO - [OK] Input Module initialized (microphone available)
+2026-04-29 11:26:42,117 - __main__ - INFO - Initializing Output Module...
+2026-04-29 11:26:42,220 - comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\purus\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-04-29 11:26:42,222 - comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\Users\purus\AppData\Local\Programs\Python\Python313\Lib\site-packages\comtypes\gen'
+2026-04-29 11:26:42,417 - __main__ - INFO - [OK] Output Module initialized
+2026-04-29 11:26:42,417 - __main__ - INFO - All components initialized successfully!
+2026-04-29 11:26:42,419 - __main__ - INFO - Launching Streamlit UI...
+2026-04-29 11:30:02,086 - __main__ - INFO - Validating environment...
+2026-04-29 11:30:02,087 - __main__ - INFO - Environment validation passed
+2026-04-29 11:30:02,087 - __main__ - INFO - Initializing Virtual Brain Assistant components...
+2026-04-29 11:30:02,087 - __main__ - INFO - Loading configuration...
+2026-04-29 11:30:02,092 - __main__ - INFO - [OK] Configuration loaded successfully
+2026-04-29 11:30:02,093 - __main__ - INFO - Initializing Memory System...
+2026-04-29 11:30:02,097 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2026-04-29 11:30:02,098 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-04-29 11:30:07,699 - __main__ - INFO - [OK] Memory System initialized with faiss backend
+2026-04-29 11:30:07,699 - __main__ - INFO - Initializing Task Executor...
+2026-04-29 11:30:07,699 - __main__ - INFO - [OK] Task Executor initialized
+2026-04-29 11:30:07,700 - __main__ - INFO - Initializing AI Core...
+2026-04-29 11:30:08,551 - __main__ - INFO - [OK] AI Core initialized
+2026-04-29 11:30:08,551 - __main__ - INFO - Initializing Input Module...
+2026-04-29 11:30:08,552 - __main__ - INFO - [OK] Input Module initialized (microphone available)
+2026-04-29 11:30:08,552 - __main__ - INFO - Initializing Output Module...
+2026-04-29 11:30:08,618 - comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\purus\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-04-29 11:30:08,619 - comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\Users\purus\AppData\Local\Programs\Python\Python313\Lib\site-packages\comtypes\gen'
+2026-04-29 11:30:08,744 - __main__ - INFO - [OK] Output Module initialized
+2026-04-29 11:30:08,744 - __main__ - INFO - All components initialized successfully!
+2026-04-29 11:30:08,745 - __main__ - INFO - Launching Streamlit UI...
+2026-04-29 11:32:54,368 - __main__ - INFO - Validating environment...
+2026-04-29 11:32:54,368 - __main__ - INFO - Environment validation passed
+2026-04-29 11:32:54,369 - __main__ - INFO - Initializing Virtual Brain Assistant components...
+2026-04-29 11:32:54,369 - __main__ - INFO - Loading configuration...
+2026-04-29 11:32:54,381 - __main__ - INFO - [OK] Configuration loaded successfully
+2026-04-29 11:32:54,382 - __main__ - INFO - Initializing Memory System...
+2026-04-29 11:32:54,386 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2026-04-29 11:32:54,386 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-04-29 11:33:00,030 - __main__ - INFO - [OK] Memory System initialized with faiss backend
+2026-04-29 11:33:00,031 - __main__ - INFO - Initializing Task Executor...
+2026-04-29 11:33:00,031 - __main__ - INFO - [OK] Task Executor initialized
+2026-04-29 11:33:00,031 - __main__ - INFO - Initializing AI Core...
+2026-04-29 11:33:01,530 - __main__ - INFO - [OK] AI Core initialized
+2026-04-29 11:33:01,531 - __main__ - INFO - Initializing Input Module...
+2026-04-29 11:33:01,531 - __main__ - INFO - [OK] Input Module initialized (microphone available)
+2026-04-29 11:33:01,532 - __main__ - INFO - Initializing Output Module...
+2026-04-29 11:33:01,665 - comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\purus\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-04-29 11:33:01,666 - comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\Users\purus\AppData\Local\Programs\Python\Python313\Lib\site-packages\comtypes\gen'
+2026-04-29 11:33:01,852 - __main__ - INFO - [OK] Output Module initialized
+2026-04-29 11:33:01,853 - __main__ - INFO - All components initialized successfully!
+2026-04-29 11:33:01,854 - __main__ - INFO - Launching Streamlit UI...
+2026-04-29 11:34:40,162 - __main__ - INFO - Validating environment...
+2026-04-29 11:34:40,163 - __main__ - INFO - Environment validation passed
+2026-04-29 11:34:40,163 - __main__ - INFO - Initializing Virtual Brain Assistant components...
+2026-04-29 11:34:40,164 - __main__ - INFO - Loading configuration...
+2026-04-29 11:34:40,172 - __main__ - INFO - [OK] Configuration loaded successfully
+2026-04-29 11:34:40,173 - __main__ - INFO - Initializing Memory System...
+2026-04-29 11:34:40,179 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2026-04-29 11:34:40,179 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-04-29 11:34:45,651 - __main__ - INFO - [OK] Memory System initialized with faiss backend
+2026-04-29 11:34:45,651 - __main__ - INFO - Initializing Task Executor...
+2026-04-29 11:34:45,651 - __main__ - INFO - [OK] Task Executor initialized
+2026-04-29 11:34:45,652 - __main__ - INFO - Initializing AI Core...
+2026-04-29 11:34:47,142 - __main__ - INFO - [OK] AI Core initialized
+2026-04-29 11:34:47,142 - __main__ - INFO - Initializing Input Module...
+2026-04-29 11:34:47,142 - __main__ - INFO - [OK] Input Module initialized (microphone available)
+2026-04-29 11:34:47,143 - __main__ - INFO - Initializing Output Module...
+2026-04-29 11:34:47,287 - comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\purus\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-04-29 11:34:47,288 - comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\Users\purus\AppData\Local\Programs\Python\Python313\Lib\site-packages\comtypes\gen'
+2026-04-29 11:34:47,548 - __main__ - INFO - [OK] Output Module initialized
+2026-04-29 11:34:47,548 - __main__ - INFO - All components initialized successfully!
+2026-04-29 11:34:47,549 - __main__ - INFO - Launching Streamlit UI...
+2026-04-29 11:40:51,687 - __main__ - INFO - Validating environment...
+2026-04-29 11:40:51,688 - __main__ - INFO - Environment validation passed
+2026-04-29 11:40:51,688 - __main__ - INFO - Initializing Virtual Brain Assistant components...
+2026-04-29 11:40:51,688 - __main__ - INFO - Loading configuration...
+2026-04-29 11:40:51,694 - __main__ - INFO - [OK] Configuration loaded successfully
+2026-04-29 11:40:51,695 - __main__ - INFO - Initializing Memory System...
+2026-04-29 11:40:51,698 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2026-04-29 11:40:51,699 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-04-29 11:40:57,218 - __main__ - INFO - [OK] Memory System initialized with faiss backend
+2026-04-29 11:40:57,218 - __main__ - INFO - Initializing Task Executor...
+2026-04-29 11:40:57,218 - __main__ - INFO - [OK] Task Executor initialized
+2026-04-29 11:40:57,218 - __main__ - INFO - Initializing AI Core...
+2026-04-29 11:40:58,527 - __main__ - INFO - [OK] AI Core initialized
+2026-04-29 11:40:58,527 - __main__ - INFO - Initializing Input Module...
+2026-04-29 11:40:58,528 - __main__ - INFO - [OK] Input Module initialized (microphone available)
+2026-04-29 11:40:58,529 - __main__ - INFO - Initializing Output Module...
+2026-04-29 11:40:58,672 - comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\purus\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-04-29 11:40:58,673 - comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\Users\purus\AppData\Local\Programs\Python\Python313\Lib\site-packages\comtypes\gen'
+2026-04-29 11:40:58,856 - __main__ - INFO - [OK] Output Module initialized
+2026-04-29 11:40:58,856 - __main__ - INFO - All components initialized successfully!
+2026-04-29 11:40:58,857 - __main__ - INFO - Launching Streamlit UI...
+2026-04-29 14:50:41,702 - __main__ - INFO - Validating environment...
+2026-04-29 14:50:41,704 - __main__ - INFO - Environment validation passed
+2026-04-29 14:50:41,705 - __main__ - INFO - Initializing Virtual Brain Assistant components...
+2026-04-29 14:50:41,705 - __main__ - INFO - Loading configuration...
+2026-04-29 14:50:41,733 - __main__ - INFO - [OK] Configuration loaded successfully
+2026-04-29 14:50:41,733 - __main__ - INFO - Initializing Memory System...
+2026-04-29 14:50:41,737 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2026-04-29 14:50:41,738 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-04-29 14:50:55,063 - __main__ - INFO - [OK] Memory System initialized with faiss backend
+2026-04-29 14:50:55,063 - __main__ - INFO - Initializing Task Executor...
+2026-04-29 14:50:55,064 - __main__ - INFO - [OK] Task Executor initialized
+2026-04-29 14:50:55,064 - __main__ - INFO - Initializing AI Core...
+2026-04-29 14:50:56,728 - __main__ - INFO - [OK] AI Core initialized
+2026-04-29 14:50:56,729 - __main__ - INFO - Initializing Input Module...
+2026-04-29 14:50:56,740 - __main__ - INFO - [OK] Input Module initialized (microphone available)
+2026-04-29 14:50:56,741 - __main__ - INFO - Initializing Output Module...
+2026-04-29 14:50:56,874 - comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\purus\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-04-29 14:50:56,875 - comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\Users\purus\AppData\Local\Programs\Python\Python313\Lib\site-packages\comtypes\gen'
+2026-04-29 14:50:57,321 - __main__ - INFO - [OK] Output Module initialized
+2026-04-29 14:50:57,321 - __main__ - INFO - All components initialized successfully!
+2026-04-29 14:50:57,322 - __main__ - INFO - Launching Streamlit UI...
+2026-04-29 14:51:27,277 - __main__ - INFO - Validating environment...
+2026-04-29 14:51:27,278 - __main__ - INFO - Environment validation passed
+2026-04-29 14:51:27,278 - __main__ - INFO - Initializing Virtual Brain Assistant components...
+2026-04-29 14:51:27,278 - __main__ - INFO - Loading configuration...
+2026-04-29 14:51:27,284 - __main__ - INFO - [OK] Configuration loaded successfully
+2026-04-29 14:51:27,284 - __main__ - INFO - Initializing Memory System...
+2026-04-29 14:51:27,288 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2026-04-29 14:51:27,288 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-04-29 14:51:37,363 - huggingface_hub.utils._http - WARNING - '(ReadTimeoutError("HTTPSConnectionPool(host='huggingface.co', port=443): Read timed out. (read timeout=10)"), '(Request ID: a191d7e8-99e1-4987-b616-68072e699690)')' thrown while requesting HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/./modules.json
+2026-04-29 14:51:37,365 - huggingface_hub.utils._http - WARNING - Retrying in 1s [Retry 1/5].
+2026-04-29 14:52:04,735 - __main__ - INFO - [OK] Memory System initialized with faiss backend
+2026-04-29 14:52:04,735 - __main__ - INFO - Initializing Task Executor...
+2026-04-29 14:52:04,735 - __main__ - INFO - [OK] Task Executor initialized
+2026-04-29 14:52:04,736 - __main__ - INFO - Initializing AI Core...
+2026-04-29 14:52:06,007 - __main__ - INFO - [OK] AI Core initialized
+2026-04-29 14:52:06,007 - __main__ - INFO - Initializing Input Module...
+2026-04-29 14:52:06,008 - __main__ - INFO - [OK] Input Module initialized (microphone available)
+2026-04-29 14:52:06,008 - __main__ - INFO - Initializing Output Module...
+2026-04-29 14:52:06,094 - comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\purus\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-04-29 14:52:06,095 - comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\Users\purus\AppData\Local\Programs\Python\Python313\Lib\site-packages\comtypes\gen'
+2026-04-29 14:52:06,270 - __main__ - INFO - [OK] Output Module initialized
+2026-04-29 14:52:06,271 - __main__ - INFO - All components initialized successfully!
+2026-04-29 14:52:06,272 - __main__ - INFO - Launching Streamlit UI...
+2026-05-07 05:58:21,378 - __main__ - INFO - Validating environment...
+2026-05-07 05:58:21,379 - __main__ - INFO - Environment validation passed
+2026-05-07 05:58:21,380 - __main__ - INFO - Initializing Virtual Brain Assistant components...
+2026-05-07 05:58:21,380 - __main__ - INFO - Loading configuration...
+2026-05-07 05:58:21,395 - __main__ - INFO - [OK] Configuration loaded successfully
+2026-05-07 05:58:21,396 - __main__ - INFO - Initializing Memory System...
+2026-05-07 05:58:21,398 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2026-05-07 05:58:21,399 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-05-07 05:58:28,411 - __main__ - INFO - [OK] Memory System initialized with faiss backend
+2026-05-07 05:58:28,411 - __main__ - INFO - Initializing Task Executor...
+2026-05-07 05:58:28,412 - __main__ - INFO - [OK] Task Executor initialized
+2026-05-07 05:58:28,412 - __main__ - INFO - Initializing AI Core...
+2026-05-07 05:58:29,432 - __main__ - INFO - [OK] AI Core initialized
+2026-05-07 05:58:29,433 - __main__ - INFO - Initializing Input Module...
+2026-05-07 05:58:29,434 - __main__ - INFO - [OK] Input Module initialized (microphone available)
+2026-05-07 05:58:29,434 - __main__ - INFO - Initializing Output Module...
+2026-05-07 05:58:29,570 - comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\purus\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-05-07 05:58:29,571 - comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\Users\purus\AppData\Local\Programs\Python\Python313\Lib\site-packages\comtypes\gen'
+2026-05-07 05:58:29,887 - __main__ - INFO - [OK] Output Module initialized
+2026-05-07 05:58:29,887 - __main__ - INFO - All components initialized successfully!
+2026-05-07 05:58:29,888 - __main__ - INFO - Launching Streamlit UI...
+2026-05-07 06:03:34,211 - __main__ - INFO - Validating environment...
+2026-05-07 06:03:34,212 - __main__ - INFO - Environment validation passed
+2026-05-07 06:03:34,212 - __main__ - INFO - Initializing Virtual Brain Assistant components...
+2026-05-07 06:03:34,212 - __main__ - INFO - Loading configuration...
+2026-05-07 06:03:34,219 - __main__ - INFO - [OK] Configuration loaded successfully
+2026-05-07 06:03:34,220 - __main__ - INFO - Initializing Memory System...
+2026-05-07 06:03:34,222 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2026-05-07 06:03:34,222 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2026-05-07 06:03:39,786 - __main__ - INFO - [OK] Memory System initialized with faiss backend
+2026-05-07 06:03:39,786 - __main__ - INFO - Initializing Task Executor...
+2026-05-07 06:03:39,787 - __main__ - INFO - [OK] Task Executor initialized
+2026-05-07 06:03:39,787 - __main__ - INFO - Initializing AI Core...
+2026-05-07 06:03:40,766 - __main__ - INFO - [OK] AI Core initialized
+2026-05-07 06:03:40,767 - __main__ - INFO - Initializing Input Module...
+2026-05-07 06:03:40,767 - __main__ - INFO - [OK] Input Module initialized (microphone available)
+2026-05-07 06:03:40,767 - __main__ - INFO - Initializing Output Module...
+2026-05-07 06:03:40,840 - comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\purus\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-05-07 06:03:40,841 - comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\Users\purus\AppData\Local\Programs\Python\Python313\Lib\site-packages\comtypes\gen'
+2026-05-07 06:03:40,968 - __main__ - INFO - [OK] Output Module initialized
+2026-05-07 06:03:40,969 - __main__ - INFO - All components initialized successfully!
+2026-05-07 06:03:40,970 - __main__ - INFO - Launching Streamlit UI...
+2026-07-10 15:47:07,598 - __main__ - INFO - Validating environment...
+2026-07-10 15:47:07,600 - __main__ - INFO - Environment validation passed
+2026-07-10 15:47:07,600 - __main__ - INFO - Initializing Virtual Brain Assistant components...
+2026-07-10 15:47:07,600 - __main__ - INFO - Loading configuration...
+2026-07-10 15:47:07,645 - __main__ - INFO - [OK] Configuration loaded successfully
+2026-07-10 15:47:07,645 - __main__ - INFO - Initializing Memory System...
+2026-07-10 15:47:07,647 - sentence_transformers.base.model - INFO - No device provided, using cpu
+2026-07-10 15:47:08,936 - httpx - INFO - HTTP Request: GET https://huggingface.co/api/agent-harnesses "HTTP/1.1 200 OK"
+2026-07-10 15:47:09,369 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-10 15:47:09,479 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/modules.json "HTTP/1.1 200 OK"
+2026-07-10 15:47:09,583 - httpx - INFO - HTTP Request: GET https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/modules.json "HTTP/1.1 200 OK"
+2026-07-10 15:47:09,898 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-10 15:47:09,924 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-07-10 15:47:09,968 - httpx - INFO - HTTP Request: GET https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-07-10 15:47:09,992 - sentence_transformers.base.model - INFO - Loading SentenceTransformer model from sentence-transformers/all-MiniLM-L6-v2.
+2026-07-10 15:47:10,234 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-10 15:47:10,513 - huggingface_hub.utils._http - WARNING - Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-07-10 15:47:10,539 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-07-10 15:47:10,811 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-07-10 15:47:10,866 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/README.md "HTTP/1.1 200 OK"
+2026-07-10 15:47:10,912 - httpx - INFO - HTTP Request: GET https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/README.md "HTTP/1.1 200 OK"
+2026-07-10 15:47:11,207 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-10 15:47:11,239 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/modules.json "HTTP/1.1 200 OK"
+2026-07-10 15:47:11,547 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-10 15:47:11,604 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/sentence_bert_config.json "HTTP/1.1 200 OK"
+2026-07-10 15:47:11,649 - httpx - INFO - HTTP Request: GET https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/sentence_bert_config.json "HTTP/1.1 200 OK"
+2026-07-10 15:47:11,931 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json "HTTP/1.1 404 Not Found"
+2026-07-10 15:47:12,254 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-10 15:47:12,292 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config.json "HTTP/1.1 200 OK"
+2026-07-10 15:47:12,349 - httpx - INFO - HTTP Request: GET https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config.json "HTTP/1.1 200 OK"
+2026-07-10 15:47:13,018 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/model.safetensors "HTTP/1.1 302 Found"
+2026-07-10 15:50:57,423 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/processor_config.json "HTTP/1.1 404 Not Found"
+2026-07-10 15:50:57,677 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-07-10 15:50:57,928 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/video_preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-07-10 15:50:58,194 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-07-10 15:50:58,458 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-10 15:50:58,487 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-07-10 15:50:58,527 - httpx - INFO - HTTP Request: GET https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-07-10 15:50:58,795 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-10 15:50:58,825 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config.json "HTTP/1.1 200 OK"
+2026-07-10 15:50:59,085 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-10 15:50:59,118 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config.json "HTTP/1.1 200 OK"
+2026-07-10 15:50:59,373 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-10 15:50:59,403 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-07-10 15:50:59,693 - httpx - INFO - HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-07-10 15:50:59,994 - httpx - INFO - HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-07-10 15:51:00,277 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/vocab.txt "HTTP/1.1 307 Temporary Redirect"
+2026-07-10 15:51:00,306 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/vocab.txt "HTTP/1.1 200 OK"
+2026-07-10 15:51:00,724 - httpx - INFO - HTTP Request: GET https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/vocab.txt "HTTP/1.1 200 OK"
+2026-07-10 15:51:02,112 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-10 15:51:02,156 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/tokenizer.json "HTTP/1.1 200 OK"
+2026-07-10 15:51:02,221 - httpx - INFO - HTTP Request: GET https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/tokenizer.json "HTTP/1.1 200 OK"
+2026-07-10 15:51:02,834 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/added_tokens.json "HTTP/1.1 404 Not Found"
+2026-07-10 15:51:03,101 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/special_tokens_map.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-10 15:51:03,132 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/special_tokens_map.json "HTTP/1.1 200 OK"
+2026-07-10 15:51:03,175 - httpx - INFO - HTTP Request: GET https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/special_tokens_map.json "HTTP/1.1 200 OK"
+2026-07-10 15:51:03,441 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/chat_template.jinja "HTTP/1.1 404 Not Found"
+2026-07-10 15:51:03,866 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/1_Pooling/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-10 15:51:03,892 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/1_Pooling%2Fconfig.json "HTTP/1.1 200 OK"
+2026-07-10 15:51:03,930 - httpx - INFO - HTTP Request: GET https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/1_Pooling%2Fconfig.json "HTTP/1.1 200 OK"
+2026-07-10 15:51:04,218 - httpx - INFO - HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2 "HTTP/1.1 200 OK"
+2026-07-10 15:51:04,238 - __main__ - INFO - [OK] Memory System initialized with faiss backend
+2026-07-10 15:51:04,239 - __main__ - INFO - Initializing Task Executor...
+2026-07-10 15:51:04,240 - __main__ - INFO - [OK] Task Executor initialized
+2026-07-10 15:51:04,242 - __main__ - INFO - Initializing AI Core...
+2026-07-10 15:51:04,960 - __main__ - INFO - [OK] AI Core initialized
+2026-07-10 15:51:04,960 - __main__ - INFO - Initializing Input Module...
+2026-07-10 15:51:04,966 - __main__ - INFO - [OK] Input Module initialized (microphone available)
+2026-07-10 15:51:04,967 - __main__ - INFO - Initializing Output Module...
+2026-07-10 15:51:05,088 - comtypes.client._code_cache - INFO - Could not import comtypes.gen, trying to create it.
+2026-07-10 15:51:05,089 - comtypes.client._code_cache - INFO - Created comtypes.gen directory: 'C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\comtypes\gen'
+2026-07-10 15:51:05,091 - comtypes.client._code_cache - INFO - Writing __init__.py file: 'C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\comtypes\gen\__init__.py'
+2026-07-10 15:51:05,108 - comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\comtypes\gen'
+2026-07-10 15:51:05,145 - comtypes.client._generate - INFO - Could not import comtypes.gen._C866CA3A_32F7_11D2_9602_00C04F8EE628_0_5_4: No module named 'comtypes.gen._C866CA3A_32F7_11D2_9602_00C04F8EE628_0_5_4'
+2026-07-10 15:51:05,151 - comtypes.client._generate - INFO - # Generating comtypes.gen._C866CA3A_32F7_11D2_9602_00C04F8EE628_0_5_4
+2026-07-10 15:51:05,298 - comtypes.client._generate - INFO - # Generating comtypes.gen.SpeechLib
+2026-07-10 15:51:05,308 - comtypes.client._generate - INFO - Could not import comtypes.gen._00020430_0000_0000_C000_000000000046_0_2_0: No module named 'comtypes.gen._00020430_0000_0000_C000_000000000046_0_2_0'
+2026-07-10 15:51:05,310 - comtypes.client._generate - INFO - # Generating comtypes.gen._00020430_0000_0000_C000_000000000046_0_2_0
+2026-07-10 15:51:05,328 - comtypes.client._generate - INFO - # Generating comtypes.gen.stdole
+2026-07-10 15:51:06,424 - __main__ - INFO - [OK] Output Module initialized
+2026-07-10 15:51:06,425 - __main__ - INFO - All components initialized successfully!
+2026-07-10 15:51:06,426 - __main__ - INFO - Launching Streamlit UI...
+2026-07-10 15:53:56,551 - __main__ - INFO - Validating environment...
+2026-07-10 15:53:56,551 - __main__ - INFO - Environment validation passed
+2026-07-10 15:53:56,552 - __main__ - INFO - Initializing Virtual Brain Assistant components...
+2026-07-10 15:53:56,552 - __main__ - INFO - Loading configuration...
+2026-07-10 15:53:56,563 - __main__ - INFO - [OK] Configuration loaded successfully
+2026-07-10 15:53:56,564 - __main__ - INFO - Initializing Memory System...
+2026-07-10 15:53:56,566 - sentence_transformers.base.model - INFO - No device provided, using cpu
+2026-07-10 15:53:57,484 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-10 15:53:57,485 - huggingface_hub.utils._http - WARNING - Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-07-10 15:53:57,514 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/modules.json "HTTP/1.1 200 OK"
+2026-07-10 15:53:57,811 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-10 15:53:57,844 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-07-10 15:53:57,846 - sentence_transformers.base.model - INFO - Loading SentenceTransformer model from sentence-transformers/all-MiniLM-L6-v2.
+2026-07-10 15:53:58,092 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-10 15:53:58,127 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-07-10 15:53:58,400 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-07-10 15:53:58,440 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/README.md "HTTP/1.1 200 OK"
+2026-07-10 15:53:58,727 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-10 15:53:58,753 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/modules.json "HTTP/1.1 200 OK"
+2026-07-10 15:53:59,051 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-10 15:53:59,092 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/sentence_bert_config.json "HTTP/1.1 200 OK"
+2026-07-10 15:53:59,478 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json "HTTP/1.1 404 Not Found"
+2026-07-10 15:53:59,731 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-10 15:53:59,760 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config.json "HTTP/1.1 200 OK"
+2026-07-10 15:54:00,214 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/processor_config.json "HTTP/1.1 404 Not Found"
+2026-07-10 15:54:00,454 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-07-10 15:54:00,696 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/video_preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-07-10 15:54:00,979 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-07-10 15:54:01,365 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-10 15:54:01,396 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-07-10 15:54:01,675 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-10 15:54:01,702 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config.json "HTTP/1.1 200 OK"
+2026-07-10 15:54:01,958 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-10 15:54:02,007 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/config.json "HTTP/1.1 200 OK"
+2026-07-10 15:54:02,253 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-10 15:54:02,279 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-07-10 15:54:02,554 - httpx - INFO - HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-07-10 15:54:02,834 - httpx - INFO - HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-07-10 15:54:03,397 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/1_Pooling/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-07-10 15:54:03,594 - httpx - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/1110a243fdf4706b3f48f1d95db1a4f5529b4d41/1_Pooling%2Fconfig.json "HTTP/1.1 200 OK"
+2026-07-10 15:54:03,928 - httpx - INFO - HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2 "HTTP/1.1 200 OK"
+2026-07-10 15:54:03,940 - __main__ - INFO - [OK] Memory System initialized with faiss backend
+2026-07-10 15:54:03,940 - __main__ - INFO - Initializing Task Executor...
+2026-07-10 15:54:03,940 - __main__ - INFO - [OK] Task Executor initialized
+2026-07-10 15:54:03,941 - __main__ - INFO - Initializing AI Core...
+2026-07-10 15:54:04,811 - __main__ - INFO - [OK] AI Core initialized
+2026-07-10 15:54:04,811 - __main__ - INFO - Initializing Input Module...
+2026-07-10 15:54:04,812 - __main__ - INFO - [OK] Input Module initialized (microphone available)
+2026-07-10 15:54:04,812 - __main__ - INFO - Initializing Output Module...
+2026-07-10 15:54:04,899 - comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'C:\\Users\\Admin\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2026-07-10 15:54:04,912 - comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'C:\Users\Admin\AppData\Local\Programs\Python\Python313\Lib\site-packages\comtypes\gen'
+2026-07-10 15:54:05,133 - __main__ - INFO - [OK] Output Module initialized
+2026-07-10 15:54:05,134 - __main__ - INFO - All components initialized successfully!
+2026-07-10 15:54:05,134 - __main__ - INFO - Launching Streamlit UI...

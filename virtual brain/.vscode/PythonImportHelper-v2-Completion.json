@@ -1,0 +1,1025 @@
+[
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Tuple",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "ChatPromptTemplate",
+        "importPath": "langchain_core.prompts",
+        "description": "langchain_core.prompts",
+        "isExtraImport": true,
+        "detail": "langchain_core.prompts",
+        "documentation": {}
+    },
+    {
+        "label": "MessagesPlaceholder",
+        "importPath": "langchain_core.prompts",
+        "description": "langchain_core.prompts",
+        "isExtraImport": true,
+        "detail": "langchain_core.prompts",
+        "documentation": {}
+    },
+    {
+        "label": "HumanMessage",
+        "importPath": "langchain_core.messages",
+        "description": "langchain_core.messages",
+        "isExtraImport": true,
+        "detail": "langchain_core.messages",
+        "documentation": {}
+    },
+    {
+        "label": "AIMessage",
+        "importPath": "langchain_core.messages",
+        "description": "langchain_core.messages",
+        "isExtraImport": true,
+        "detail": "langchain_core.messages",
+        "documentation": {}
+    },
+    {
+        "label": "SystemMessage",
+        "importPath": "langchain_core.messages",
+        "description": "langchain_core.messages",
+        "isExtraImport": true,
+        "detail": "langchain_core.messages",
+        "documentation": {}
+    },
+    {
+        "label": "ChatOpenAI",
+        "importPath": "langchain_openai",
+        "description": "langchain_openai",
+        "isExtraImport": true,
+        "detail": "langchain_openai",
+        "documentation": {}
+    },
+    {
+        "label": "re",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "re",
+        "description": "re",
+        "detail": "re",
+        "documentation": {}
+    },
+    {
+        "label": "io",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "io",
+        "description": "io",
+        "detail": "io",
+        "documentation": {}
+    },
+    {
+        "label": "wave",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "wave",
+        "description": "wave",
+        "detail": "wave",
+        "documentation": {}
+    },
+    {
+        "label": "numpy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "numpy",
+        "description": "numpy",
+        "detail": "numpy",
+        "documentation": {}
+    },
+    {
+        "label": "sounddevice",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sounddevice",
+        "description": "sounddevice",
+        "detail": "sounddevice",
+        "documentation": {}
+    },
+    {
+        "label": "speech_recognition",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "speech_recognition",
+        "description": "speech_recognition",
+        "detail": "speech_recognition",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "shutil",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "shutil",
+        "description": "shutil",
+        "detail": "shutil",
+        "documentation": {}
+    },
+    {
+        "label": "glob",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "glob",
+        "description": "glob",
+        "detail": "glob",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "mimetypes",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "mimetypes",
+        "description": "mimetypes",
+        "detail": "mimetypes",
+        "documentation": {}
+    },
+    {
+        "label": "hashlib",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "hashlib",
+        "description": "hashlib",
+        "detail": "hashlib",
+        "documentation": {}
+    },
+    {
+        "label": "subprocess",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "subprocess",
+        "description": "subprocess",
+        "detail": "subprocess",
+        "documentation": {}
+    },
+    {
+        "label": "winreg",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "winreg",
+        "description": "winreg",
+        "detail": "winreg",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "urllib.request",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "urllib.request",
+        "description": "urllib.request",
+        "detail": "urllib.request",
+        "documentation": {}
+    },
+    {
+        "label": "urllib.parse",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "urllib.parse",
+        "description": "urllib.parse",
+        "detail": "urllib.parse",
+        "documentation": {}
+    },
+    {
+        "label": "psutil",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "psutil",
+        "description": "psutil",
+        "detail": "psutil",
+        "documentation": {}
+    },
+    {
+        "label": "socket",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "socket",
+        "description": "socket",
+        "detail": "socket",
+        "documentation": {}
+    },
+    {
+        "label": "platform",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "platform",
+        "description": "platform",
+        "detail": "platform",
+        "documentation": {}
+    },
+    {
+        "label": "time",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "time",
+        "description": "time",
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "uuid",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "uuid",
+        "description": "uuid",
+        "detail": "uuid",
+        "documentation": {}
+    },
+    {
+        "label": "dataclass",
+        "importPath": "dataclasses",
+        "description": "dataclasses",
+        "isExtraImport": true,
+        "detail": "dataclasses",
+        "documentation": {}
+    },
+    {
+        "label": "asdict",
+        "importPath": "dataclasses",
+        "description": "dataclasses",
+        "isExtraImport": true,
+        "detail": "dataclasses",
+        "documentation": {}
+    },
+    {
+        "label": "SentenceTransformer",
+        "importPath": "sentence_transformers",
+        "description": "sentence_transformers",
+        "isExtraImport": true,
+        "detail": "sentence_transformers",
+        "documentation": {}
+    },
+    {
+        "label": "faiss",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "faiss",
+        "description": "faiss",
+        "detail": "faiss",
+        "documentation": {}
+    },
+    {
+        "label": "logging",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "logging",
+        "description": "logging",
+        "detail": "logging",
+        "documentation": {}
+    },
+    {
+        "label": "streamlit",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "streamlit",
+        "description": "streamlit",
+        "detail": "streamlit",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "ConfigurationManager",
+        "importPath": "src.config_manager",
+        "description": "src.config_manager",
+        "isExtraImport": true,
+        "detail": "src.config_manager",
+        "documentation": {}
+    },
+    {
+        "label": "ConfigurationManager",
+        "importPath": "src.config_manager",
+        "description": "src.config_manager",
+        "isExtraImport": true,
+        "detail": "src.config_manager",
+        "documentation": {}
+    },
+    {
+        "label": "ConfigurationError",
+        "importPath": "src.config_manager",
+        "description": "src.config_manager",
+        "isExtraImport": true,
+        "detail": "src.config_manager",
+        "documentation": {}
+    },
+    {
+        "label": "InputModule",
+        "importPath": "src.input.input_module",
+        "description": "src.input.input_module",
+        "isExtraImport": true,
+        "detail": "src.input.input_module",
+        "documentation": {}
+    },
+    {
+        "label": "InputModule",
+        "importPath": "src.input.input_module",
+        "description": "src.input.input_module",
+        "isExtraImport": true,
+        "detail": "src.input.input_module",
+        "documentation": {}
+    },
+    {
+        "label": "AICore",
+        "importPath": "src.ai_core.ai_core",
+        "description": "src.ai_core.ai_core",
+        "isExtraImport": true,
+        "detail": "src.ai_core.ai_core",
+        "documentation": {}
+    },
+    {
+        "label": "AICore",
+        "importPath": "src.ai_core.ai_core",
+        "description": "src.ai_core.ai_core",
+        "isExtraImport": true,
+        "detail": "src.ai_core.ai_core",
+        "documentation": {}
+    },
+    {
+        "label": "MemorySystem",
+        "importPath": "src.memory.memory_system",
+        "description": "src.memory.memory_system",
+        "isExtraImport": true,
+        "detail": "src.memory.memory_system",
+        "documentation": {}
+    },
+    {
+        "label": "MemorySystem",
+        "importPath": "src.memory.memory_system",
+        "description": "src.memory.memory_system",
+        "isExtraImport": true,
+        "detail": "src.memory.memory_system",
+        "documentation": {}
+    },
+    {
+        "label": "TaskExecutor",
+        "importPath": "src.tasks.task_executor",
+        "description": "src.tasks.task_executor",
+        "isExtraImport": true,
+        "detail": "src.tasks.task_executor",
+        "documentation": {}
+    },
+    {
+        "label": "TaskExecutor",
+        "importPath": "src.tasks.task_executor",
+        "description": "src.tasks.task_executor",
+        "isExtraImport": true,
+        "detail": "src.tasks.task_executor",
+        "documentation": {}
+    },
+    {
+        "label": "OutputModule",
+        "importPath": "src.output.output_module",
+        "description": "src.output.output_module",
+        "isExtraImport": true,
+        "detail": "src.output.output_module",
+        "documentation": {}
+    },
+    {
+        "label": "OutputModule",
+        "importPath": "src.output.output_module",
+        "description": "src.output.output_module",
+        "isExtraImport": true,
+        "detail": "src.output.output_module",
+        "documentation": {}
+    },
+    {
+        "label": "JARVISCore",
+        "importPath": "src.jarvis.jarvis_core",
+        "description": "src.jarvis.jarvis_core",
+        "isExtraImport": true,
+        "detail": "src.jarvis.jarvis_core",
+        "documentation": {}
+    },
+    {
+        "label": "yaml",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "yaml",
+        "description": "yaml",
+        "detail": "yaml",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "AICore",
+        "kind": 6,
+        "importPath": "src.ai_core.ai_core",
+        "description": "src.ai_core.ai_core",
+        "peekOfCode": "class AICore:\n    \"\"\"\n    AI Core processing engine that uses LangChain to interpret commands,\n    manage conversation context, and generate intelligent responses.\n    \"\"\"\n    def __init__(\n        self,\n        llm_config: Dict[str, Any],\n        memory_system: Any,\n        task_executor: Any",
+        "detail": "src.ai_core.ai_core",
+        "documentation": {}
+    },
+    {
+        "label": "InputModule",
+        "kind": 6,
+        "importPath": "src.input.input_module",
+        "description": "src.input.input_module",
+        "peekOfCode": "class InputModule:\n    \"\"\"\n    Handles voice and text input.\n    Uses sounddevice for audio capture (works on Python 3.14 without pyaudio).\n    Stops recording automatically after silence — no fixed wait time.\n    \"\"\"\n    def __init__(self):\n        self.recognizer = sr.Recognizer()\n        self.recognizer.energy_threshold = 300\n        self.recognizer.dynamic_energy_threshold = True",
+        "detail": "src.input.input_module",
+        "documentation": {}
+    },
+    {
+        "label": "DEFAULT_MIC_INDEX",
+        "kind": 5,
+        "importPath": "src.input.input_module",
+        "description": "src.input.input_module",
+        "peekOfCode": "DEFAULT_MIC_INDEX = 1\nSAMPLE_RATE = 16000\nCHANNELS = 1\n# Silence detection tuning\nSILENCE_THRESHOLD = 500      # RMS below this = silence\nSILENCE_DURATION  = 1.0      # seconds of silence before stopping\nMAX_RECORD_SECS   = 10       # hard cap\nclass InputModule:\n    \"\"\"\n    Handles voice and text input.",
+        "detail": "src.input.input_module",
+        "documentation": {}
+    },
+    {
+        "label": "SAMPLE_RATE",
+        "kind": 5,
+        "importPath": "src.input.input_module",
+        "description": "src.input.input_module",
+        "peekOfCode": "SAMPLE_RATE = 16000\nCHANNELS = 1\n# Silence detection tuning\nSILENCE_THRESHOLD = 500      # RMS below this = silence\nSILENCE_DURATION  = 1.0      # seconds of silence before stopping\nMAX_RECORD_SECS   = 10       # hard cap\nclass InputModule:\n    \"\"\"\n    Handles voice and text input.\n    Uses sounddevice for audio capture (works on Python 3.14 without pyaudio).",
+        "detail": "src.input.input_module",
+        "documentation": {}
+    },
+    {
+        "label": "CHANNELS",
+        "kind": 5,
+        "importPath": "src.input.input_module",
+        "description": "src.input.input_module",
+        "peekOfCode": "CHANNELS = 1\n# Silence detection tuning\nSILENCE_THRESHOLD = 500      # RMS below this = silence\nSILENCE_DURATION  = 1.0      # seconds of silence before stopping\nMAX_RECORD_SECS   = 10       # hard cap\nclass InputModule:\n    \"\"\"\n    Handles voice and text input.\n    Uses sounddevice for audio capture (works on Python 3.14 without pyaudio).\n    Stops recording automatically after silence — no fixed wait time.",
+        "detail": "src.input.input_module",
+        "documentation": {}
+    },
+    {
+        "label": "SILENCE_THRESHOLD",
+        "kind": 5,
+        "importPath": "src.input.input_module",
+        "description": "src.input.input_module",
+        "peekOfCode": "SILENCE_THRESHOLD = 500      # RMS below this = silence\nSILENCE_DURATION  = 1.0      # seconds of silence before stopping\nMAX_RECORD_SECS   = 10       # hard cap\nclass InputModule:\n    \"\"\"\n    Handles voice and text input.\n    Uses sounddevice for audio capture (works on Python 3.14 without pyaudio).\n    Stops recording automatically after silence — no fixed wait time.\n    \"\"\"\n    def __init__(self):",
+        "detail": "src.input.input_module",
+        "documentation": {}
+    },
+    {
+        "label": "FileManager",
+        "kind": 6,
+        "importPath": "src.jarvis.file_manager",
+        "description": "src.jarvis.file_manager",
+        "peekOfCode": "class FileManager:\n    \"\"\"Advanced file management system like JARVIS\"\"\"\n    def __init__(self):\n        self.home_dir = Path.home()\n        self.desktop_dir = self.home_dir / \"Desktop\"\n        self.documents_dir = self.home_dir / \"Documents\"\n        self.downloads_dir = self.home_dir / \"Downloads\"\n    def organize_desktop(self) -> Dict[str, Any]:\n        \"\"\"Organize desktop files into folders by type\"\"\"\n        try:",
+        "detail": "src.jarvis.file_manager",
+        "documentation": {}
+    },
+    {
+        "label": "JARVISCore",
+        "kind": 6,
+        "importPath": "src.jarvis.jarvis_core",
+        "description": "src.jarvis.jarvis_core",
+        "peekOfCode": "class JARVISCore:\n    \"\"\"Complete RAJIV AI System - Every System Task Possible\"\"\"\n    def __init__(self):\n        self.system_controller = SystemController()\n        self.file_manager = FileManager()\n        self.personality = \"professional\"\n        self.wake_words = [\"rajiv\", \"computer\", \"hey rajiv\"]\n    def process_jarvis_command(self, command: str) -> Dict[str, Any]:\n        \"\"\"Process ANY system command - Complete System Control\"\"\"\n        command_lower = command.lower().strip()",
+        "detail": "src.jarvis.jarvis_core",
+        "documentation": {}
+    },
+    {
+        "label": "SystemController",
+        "kind": 6,
+        "importPath": "src.jarvis.system_control",
+        "description": "src.jarvis.system_control",
+        "peekOfCode": "class SystemController:\n    \"\"\"Advanced system control and monitoring like JARVIS\"\"\"\n    def __init__(self):\n        self.system_info = self._get_system_info()\n    def _get_system_info(self) -> Dict[str, Any]:\n        \"\"\"Get comprehensive system information\"\"\"\n        return {\n            'os': platform.system(),\n            'os_version': platform.version(),\n            'architecture': platform.architecture()[0],",
+        "detail": "src.jarvis.system_control",
+        "documentation": {}
+    },
+    {
+        "label": "ConversationEntry",
+        "kind": 6,
+        "importPath": "src.memory.memory_system",
+        "description": "src.memory.memory_system",
+        "peekOfCode": "class ConversationEntry:\n    \"\"\"Represents a single conversation exchange\"\"\"\n    id: str\n    timestamp: datetime\n    user_input: str\n    assistant_response: str\n    metadata: Dict[str, Any]\n    embedding: Optional[List[float]] = None\n@dataclass\nclass MemoryFact:",
+        "detail": "src.memory.memory_system",
+        "documentation": {}
+    },
+    {
+        "label": "MemoryFact",
+        "kind": 6,
+        "importPath": "src.memory.memory_system",
+        "description": "src.memory.memory_system",
+        "peekOfCode": "class MemoryFact:\n    \"\"\"Represents a stored fact or piece of information\"\"\"\n    id: str\n    content: str\n    category: str\n    timestamp: datetime\n    metadata: Dict[str, Any]\n    embedding: List[float]\nclass MemorySystem:\n    \"\"\"",
+        "detail": "src.memory.memory_system",
+        "documentation": {}
+    },
+    {
+        "label": "MemorySystem",
+        "kind": 6,
+        "importPath": "src.memory.memory_system",
+        "description": "src.memory.memory_system",
+        "peekOfCode": "class MemorySystem:\n    \"\"\"\n    Manages conversation history and fact storage using FAISS or ChromaDB vector store\n    with sentence-transformers embeddings for semantic search.\n    \"\"\"\n    def __init__(\n        self,\n        vector_store_type: str = \"faiss\",\n        embedding_model: str = \"sentence-transformers/all-MiniLM-L6-v2\",\n        dimension: int = 384,",
+        "detail": "src.memory.memory_system",
+        "documentation": {}
+    },
+    {
+        "label": "OutputModule",
+        "kind": 6,
+        "importPath": "src.output.output_module",
+        "description": "src.output.output_module",
+        "peekOfCode": "class OutputModule:\n    \"\"\"Manages text display and voice synthesis output.\"\"\"\n    def __init__(self, voice_enabled: bool = True):\n        self.voice_enabled = voice_enabled\n        self.last_displayed_text: Optional[str] = None\n        self._tts_available = self._test_tts()\n    def _test_tts(self) -> bool:\n        try:\n            import pyttsx3\n            e = pyttsx3.init()",
+        "detail": "src.output.output_module",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "src.output.output_module",
+        "description": "src.output.output_module",
+        "peekOfCode": "logger = logging.getLogger(__name__)\nclass OutputModule:\n    \"\"\"Manages text display and voice synthesis output.\"\"\"\n    def __init__(self, voice_enabled: bool = True):\n        self.voice_enabled = voice_enabled\n        self.last_displayed_text: Optional[str] = None\n        self._tts_available = self._test_tts()\n    def _test_tts(self) -> bool:\n        try:\n            import pyttsx3",
+        "detail": "src.output.output_module",
+        "documentation": {}
+    },
+    {
+        "label": "TaskExecutor",
+        "kind": 6,
+        "importPath": "src.tasks.task_executor",
+        "description": "src.tasks.task_executor",
+        "peekOfCode": "class TaskExecutor:\n    \"\"\"Executes various system-level tasks for the Virtual Brain Assistant\"\"\"\n    def get_current_time(self) -> str:\n        \"\"\"\n        Get the current system time in HH:MM format.\n        Returns:\n            str: Current time formatted as HH:MM (24-hour format)\n        \"\"\"\n        try:\n            now = datetime.now()",
+        "detail": "src.tasks.task_executor",
+        "documentation": {}
+    },
+    {
+        "label": "initialize_components",
+        "kind": 2,
+        "importPath": "src.ui.app",
+        "description": "src.ui.app",
+        "peekOfCode": "def initialize_components():\n    config_manager = ConfigurationManager()\n    memory_system = MemorySystem(\n        embedding_model=config_manager.get('memory.embedding_model'),\n        dimension=384\n    )\n    task_executor = TaskExecutor()\n    jarvis_core = JARVISCore()\n    llm_settings = config_manager.get_llm_settings()\n    ai_core = AICore(",
+        "detail": "src.ui.app",
+        "documentation": {}
+    },
+    {
+        "label": "initialize_session_state",
+        "kind": 2,
+        "importPath": "src.ui.app",
+        "description": "src.ui.app",
+        "peekOfCode": "def initialize_session_state():\n    if 'conversation_history' not in st.session_state:\n        st.session_state.conversation_history = []\n    if 'components_initialized' not in st.session_state:\n        st.session_state.components_initialized = False\n    if 'voice_output_enabled' not in st.session_state:\n        st.session_state.voice_output_enabled = True\n    if 'processing' not in st.session_state:\n        st.session_state.processing = False\n    if 'show_recent' not in st.session_state:",
+        "detail": "src.ui.app",
+        "documentation": {}
+    },
+    {
+        "label": "apply_styles",
+        "kind": 2,
+        "importPath": "src.ui.app",
+        "description": "src.ui.app",
+        "peekOfCode": "def apply_styles():\n    st.markdown(\"\"\"\n    <style>\n    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');\n    /* ═══════════════════════════════════════════════════════════\n       GLOBAL STYLES - Modern Dark Theme with Gradient\n    ═══════════════════════════════════════════════════════════ */\n    html, body, [data-testid=\"stAppViewContainer\"], [data-testid=\"stApp\"] {\n        background: linear-gradient(135deg, #0f0c29 0%, #302b63 50%, #24243e 100%) !important;\n        color: #ffffff !important;",
+        "detail": "src.ui.app",
+        "documentation": {}
+    },
+    {
+        "label": "render_chat_bubble",
+        "kind": 2,
+        "importPath": "src.ui.app",
+        "description": "src.ui.app",
+        "peekOfCode": "def render_chat_bubble(role: str, text: str, timestamp: str = \"\"):\n    if role == \"user\":\n        st.markdown(f\"\"\"\n        <div class=\"msg-row-user\">\n            <div>\n                <div class=\"bubble-user\">{text}</div>\n                <div class=\"msg-time\">{timestamp}</div>\n            </div>\n        </div>\"\"\", unsafe_allow_html=True)\n    else:",
+        "detail": "src.ui.app",
+        "documentation": {}
+    },
+    {
+        "label": "process_user_input",
+        "kind": 2,
+        "importPath": "src.ui.app",
+        "description": "src.ui.app",
+        "peekOfCode": "def process_user_input(user_input: str, ai_core: AICore, output_module: OutputModule):\n    if not user_input or not user_input.strip():\n        return\n    try:\n        st.session_state.processing = True\n        jarvis_core = st.session_state.jarvis_core\n        jarvis_result = jarvis_core.process_jarvis_command(user_input)\n        if jarvis_result['success']:\n            response = jarvis_result['message']\n        else:",
+        "detail": "src.ui.app",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "src.ui.app",
+        "description": "src.ui.app",
+        "peekOfCode": "def main():\n    st.set_page_config(\n        page_title=\"St.Philomenaa Assistant\",\n        page_icon=\"🤖\",\n        layout=\"wide\",\n        initial_sidebar_state=\"collapsed\"\n    )\n    initialize_session_state()\n    apply_styles()\n    # ── Sidebar ──────────────────────────────────────────────",
+        "detail": "src.ui.app",
+        "documentation": {}
+    },
+    {
+        "label": "ConfigurationError",
+        "kind": 6,
+        "importPath": "src.config_manager",
+        "description": "src.config_manager",
+        "peekOfCode": "class ConfigurationError(Exception):\n    \"\"\"Raised when configuration is invalid or missing required fields.\"\"\"\n    pass\nclass ConfigurationManager:\n    \"\"\"\n    Manages configuration loading and validation for the Virtual Brain Assistant.\n    Loads configuration from:\n    1. config.yaml file for general settings\n    2. Environment variables for sensitive data (API keys)\n    Validates required fields and provides typed access to configuration values.",
+        "detail": "src.config_manager",
+        "documentation": {}
+    },
+    {
+        "label": "ConfigurationManager",
+        "kind": 6,
+        "importPath": "src.config_manager",
+        "description": "src.config_manager",
+        "peekOfCode": "class ConfigurationManager:\n    \"\"\"\n    Manages configuration loading and validation for the Virtual Brain Assistant.\n    Loads configuration from:\n    1. config.yaml file for general settings\n    2. Environment variables for sensitive data (API keys)\n    Validates required fields and provides typed access to configuration values.\n    \"\"\"\n    def __init__(self, config_path: str = \"config.yaml\", env_path: Optional[str] = \".env\"):\n        \"\"\"",
+        "detail": "src.config_manager",
+        "documentation": {}
+    },
+    {
+        "label": "validate_environment",
+        "kind": 2,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "def validate_environment():\n    \"\"\"\n    Validate the environment and dependencies before starting.\n    Raises:\n        RuntimeError: If critical dependencies are missing or environment is invalid\n    \"\"\"\n    logger.info(\"Validating environment...\")\n    # Check if config file exists\n    if not Path('config.yaml').exists():\n        raise RuntimeError(",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "initialize_components",
+        "kind": 2,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "def initialize_components():\n    \"\"\"\n    Initialize all system components with proper error handling.\n    Returns:\n        tuple: (config_manager, memory_system, task_executor, ai_core, \n                input_module, output_module)\n    Raises:\n        RuntimeError: If component initialization fails\n    \"\"\"\n    logger.info(\"Initializing Virtual Brain Assistant components...\")",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "print_startup_banner",
+        "kind": 2,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "def print_startup_banner(config_manager):\n    \"\"\"\n    Print a startup banner with system information.\n    Args:\n        config_manager: ConfigurationManager instance\n    \"\"\"\n    banner = \"\"\"\n    ==============================================================\n              VIRTUAL BRAIN ASSISTANT                  \n              Your AI-Powered Assistant                    ",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "launch_streamlit_ui",
+        "kind": 2,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "def launch_streamlit_ui():\n    \"\"\"\n    Launch the Streamlit UI application.\n    This function uses os.system to run streamlit, which will start\n    the web interface for the Virtual Brain Assistant.\n    \"\"\"\n    logger.info(\"Launching Streamlit UI...\")\n    # Get the path to the Streamlit app\n    app_path = Path(__file__).parent / \"src\" / \"ui\" / \"app.py\"\n    if not app_path.exists():",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "def main():\n    \"\"\"\n    Main entry point for the Virtual Brain Assistant.\n    This function:\n    1. Validates the environment\n    2. Initializes all components\n    3. Launches the Streamlit UI\n    Returns:\n        int: Exit code (0 for success, 1 for error)\n    \"\"\"",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "logger",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "logger = logging.getLogger(__name__)\ndef validate_environment():\n    \"\"\"\n    Validate the environment and dependencies before starting.\n    Raises:\n        RuntimeError: If critical dependencies are missing or environment is invalid\n    \"\"\"\n    logger.info(\"Validating environment...\")\n    # Check if config file exists\n    if not Path('config.yaml').exists():",
+        "detail": "main",
+        "documentation": {}
+    }
+]

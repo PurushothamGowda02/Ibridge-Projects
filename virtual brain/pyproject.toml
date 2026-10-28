@@ -1,0 +1,145 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "virtual-brain-assistant"
+version = "0.1.0"
+description = "An AI-powered personal assistant with voice input, conversational memory, and task execution"
+readme = "README.md"
+requires-python = ">=3.8"
+license = {text = "MIT"}
+authors = [
+    {name = "Your Name", email = "your.email@example.com"}
+]
+maintainers = [
+    {name = "Your Name", email = "your.email@example.com"}
+]
+keywords = [
+    "ai",
+    "assistant",
+    "voice",
+    "langchain",
+    "llm",
+    "chatbot",
+    "virtual-assistant",
+    "speech-recognition",
+    "text-to-speech",
+    "memory",
+    "vector-store"
+]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "Intended Audience :: End Users/Desktop",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+dependencies = [
+    "langchain==0.1.0",
+    "langchain-openai==0.0.2",
+    "langchain-community==0.0.10",
+    "langchain-huggingface==0.0.1",
+    "openai==1.6.1",
+    "transformers==4.36.2",
+    "speech_recognition==3.10.1",
+    "pyttsx3==2.90",
+    "pyaudio==0.2.14",
+    "faiss-cpu==1.7.4",
+    "chromadb==0.4.22",
+    "sentence-transformers==2.2.2",
+    "streamlit==1.29.0",
+    "python-dotenv==1.0.0",
+    "pyyaml==6.0.1",
+    "hypothesis==6.92.1",
+    "pytest==7.4.3",
+]
+
+[project.optional-dependencies]
+dev = [
+    "black>=23.0.0",
+    "flake8>=6.0.0",
+    "mypy>=1.0.0",
+    "pytest-cov>=4.0.0",
+]
+chromadb = [
+    "chromadb>=0.4.22",
+]
+local-llm = [
+    "llama-cpp-python>=0.2.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/yourusername/virtual-brain-assistant"
+Documentation = "https://github.com/yourusername/virtual-brain-assistant/blob/main/README.md"
+Repository = "https://github.com/yourusername/virtual-brain-assistant"
+"Bug Reports" = "https://github.com/yourusername/virtual-brain-assistant/issues"
+
+[project.scripts]
+vba = "main:main"
+virtual-brain-assistant = "main:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+"*" = ["*.yaml", "*.yml", "*.json"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+python_classes = ["Test*"]
+python_functions = ["test_*"]
+addopts = "-v --tb=short"
+markers = [
+    "property: property-based tests using Hypothesis",
+    "unit: unit tests",
+    "integration: integration tests",
+]
+
+[tool.black]
+line-length = 100
+target-version = ['py38', 'py39', 'py310', 'py311']
+include = '\.pyi?$'
+exclude = '''
+/(
+    \.git
+  | \.hypothesis
+  | \.pytest_cache
+  | __pycache__
+  | build
+  | dist
+)/
+'''
+
+[tool.mypy]
+python_version = "3.8"
+warn_return_any = true
+warn_unused_configs = true
+disallow_untyped_defs = false
+ignore_missing_imports = true
+
+[tool.coverage.run]
+source = ["src"]
+omit = ["tests/*", "**/__pycache__/*"]
+
+[tool.coverage.report]
+exclude_lines = [
+    "pragma: no cover",
+    "def __repr__",
+    "raise AssertionError",
+    "raise NotImplementedError",
+    "if __name__ == .__main__.:",
+    "if TYPE_CHECKING:",
+]
